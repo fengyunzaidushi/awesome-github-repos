@@ -2,905 +2,3544 @@
 
 ## Table of Contents
 
-*   [TypeScript](#typescript)
-*   [miscellaneous](#miscellaneous)
-*   [JavaScript](#javascript)
 *   [Python](#python)
-*   [SCSS](#scss)
-*   [HTML](#html)
-*   [C](#c)
-*   [Shell](#shell)
+*   [JavaScript](#javascript)
+*   [TypeScript](#typescript)
 *   [Go](#go)
-*   [Java](#java)
-*   [CSS](#css)
+*   [miscellaneous](#miscellaneous)
 *   [Rust](#rust)
 *   [Jupyter Notebook](#jupyter-notebook)
-*   [Swift](#swift)
-*   [MDX](#mdx)
-*   [Vue](#vue)
-*   [Assembly](#assembly)
-*   [Lua](#lua)
-*   [Ruby](#ruby)
-*   [Kotlin](#kotlin)
-*   [Vim Script](#vim-script)
-*   [C++](#c-1)
-*   [TeX](#tex)
-*   [Vim script](#vim-script-1)
-*   [Objective-C](#objective-c)
-*   [Astro](#astro)
-*   [Tree-sitter Query](#tree-sitter-query)
-*   [VimL](#viml)
-*   [Markdown](#markdown)
-*   [Svelte](#svelte)
 *   [PHP](#php)
-*   [C#](#c-2)
+*   [C++](#c)
+*   [Java](#java)
+*   [C#](#c-1)
+*   [Dart](#dart)
+*   [MDX](#mdx)
+*   [HTML](#html)
+*   [Batchfile](#batchfile)
+*   [CSS](#css)
+*   [Vue](#vue)
+*   [C](#c-2)
+*   [Ruby](#ruby)
+*   [EJS](#ejs)
+*   [Svelte](#svelte)
+*   [Fluent](#fluent)
+*   [Common Lisp](#common-lisp)
+*   [Kotlin](#kotlin)
+*   [Bicep](#bicep)
+*   [Shell](#shell)
+*   [TeX](#tex)
+*   [Rich Text Format](#rich-text-format)
+*   [Mojo](#mojo)
+*   [PowerShell](#powershell)
+*   [Scala](#scala)
+*   [Clojure](#clojure)
+*   [Swift](#swift)
+*   [Objective-C](#objective-c)
+*   [PostScript](#postscript)
 *   [Dockerfile](#dockerfile)
-*   [Roff](#roff)
-
-## TypeScript
-
-*   [zimplexing/OrionTV](https://github.com/zimplexing/OrionTV) - 一个基于 React Native TVOS 和 Expo 构建的播放器，旨在提供流畅的视频观看体验。
-
-*   [theodorusclarence/ts-nextjs-tailwind-starter](https://github.com/theodorusclarence/ts-nextjs-tailwind-starter) - 🔋 Next.js + Tailwind CSS + TypeScript starter and boilerplate packed with useful development features
-
-*   [AsyncFuncAI/deepwiki-open](https://github.com/AsyncFuncAI/deepwiki-open) - Open Source DeepWiki: AI-Powered Wiki Generator for GitHub/Gitlab/Bitbucket Repositories. Join the discord: https://discord.gg/gMwThUMeme
-
-*   [RSSNext/Folo](https://github.com/RSSNext/Folo) - 🧡 Follow everything in one place
-
-*   [senshinya/MoonTV](https://github.com/senshinya/MoonTV) - 一个开箱即用的、跨平台的影视聚合播放站。交流群：https://t.me/+K8GaaVx-xrc0YmVk
-
-*   [executeautomation/mcp-playwright](https://github.com/executeautomation/mcp-playwright) - Playwright Model Context Protocol Server - Tool to automate Browsers and APIs in Claude Desktop, Cline, Cursor IDE and More 🔌
-
-*   [cline/cline](https://github.com/cline/cline) - Autonomous coding agent right in your IDE, capable of creating/editing files, executing commands, using the browser, and more with your permission every step of the way.
-
-*   [modelcontextprotocol/modelcontextprotocol](https://github.com/modelcontextprotocol/modelcontextprotocol) - Specification and documentation for the Model Context Protocol
-
-*   [shadcn-ui/ui](https://github.com/shadcn-ui/ui) - A set of beautifully-designed, accessible components and a code distribution platform. Works with your favorite frameworks. Open Source. Open Code.
-
-*   [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio) - 🍒 Cherry Studio is a desktop client that supports for multiple LLM providers.
-
-*   [carloscuesta/carloscuesta.me](https://github.com/carloscuesta/carloscuesta.me) - The source of my website 🌍
-
-*   [carloscuesta/gitmoji](https://github.com/carloscuesta/gitmoji) - An emoji guide for your commit messages. 😜
-
-*   [maurodesouza/profile-readme-generator](https://github.com/maurodesouza/profile-readme-generator) - 🎨 Enhance your GitHub profile with this amazing tool, which allows you to create a personalized README quickly and easily. This profile README generator is the best you'll find 🚀
-
-*   [remvze/moodist](https://github.com/remvze/moodist) - 🌲 Ambient sounds for focus and calm.
-
-*   [pontusab/directories](https://github.com/pontusab/directories) - The Cursor & Windsurf community, find rules and MCPs
-
-*   [DIYgod/RSSHub](https://github.com/DIYgod/RSSHub) - 🧡 Everything is RSSible
-
-*   [richards199999/Thinking-Claude](https://github.com/richards199999/Thinking-Claude) - Let your Claude able to think
-
-*   [labring/FastGPT](https://github.com/labring/FastGPT) - FastGPT is a knowledge-based platform built on the LLMs, offers a comprehensive suite of out-of-the-box capabilities such as data processing, RAG retrieval, and visual AI workflow orchestration, letting you easily develop and deploy complex question-answering systems without the need for extensive setup or configuration.
-
-*   [ygh3279799773/streamer-card](https://github.com/ygh3279799773/streamer-card) - 流光卡片API
-
-*   [tailwindlabs/tailwindcss](https://github.com/tailwindlabs/tailwindcss) - A utility-first CSS framework for rapid UI development.
-
-*   [element-plus/element-plus](https://github.com/element-plus/element-plus) - 🎉 A Vue.js 3 UI Library made by Element team
-
-*   [tonngw/raycast-extensions](https://github.com/tonngw/raycast-extensions) - Everything you need to extend Raycast.
-
-*   [raycast/ray-so](https://github.com/raycast/ray-so) - Create code snippets, browse AI prompts, create extension icons and more.
-
-*   [sql-formatter-org/sql-formatter](https://github.com/sql-formatter-org/sql-formatter) - A whitespace formatter for different query languages
-
-*   [cronhub/crontab](https://github.com/cronhub/crontab) - ⏰   Cron expression generator
-
-*   [latentcat/latentbox](https://github.com/latentcat/latentbox) - A collection of awesome-lists for AI, creativity and art. AI、创意和艺术领域的精选合集。https://latentbox.com
-
-*   [withastro/astro](https://github.com/withastro/astro) - The web framework for content-driven websites. ⭐️ Star to support our work!
-
-*   [wandb/openui](https://github.com/wandb/openui) - OpenUI let's you describe UI using your imagination, then see it rendered live.
-
-*   [Yuyz0112/dewhale](https://github.com/Yuyz0112/dewhale) - GitHub-Powered AI for effortless development. Start as an open-source alternative to v0.dev.
-
-*   [extension-js/extension.js](https://github.com/extension-js/extension.js) - 🧩 The cross-browser extension framework.
-
-*   [raycast/extensions](https://github.com/raycast/extensions) - Everything you need to extend Raycast.
-
-*   [tisfeng/Raycast-Easydict](https://github.com/tisfeng/Raycast-Easydict) - A Raycast Extension for looking up words or translating text in an easy way. Support 48+ languages, support Linguee and Youdao dictionary, support OpenAI, DeepL, Google, Bing, Apple, Baidu, Tencent, Volcano, Youdao and Caiyun translation.
-
-*   [roojay/bobplugin-google-translate](https://github.com/roojay/bobplugin-google-translate) -  Bob 的一个Google 翻译插件
-
-*   [liaoliao666/v2ex](https://github.com/liaoliao666/v2ex) - V2EX 好看的第三方客户端，原生 App，支持夜间模式。
-
-*   [star-history/star-history](https://github.com/star-history/star-history) - The missing star history graph of GitHub repos - https://star-history.com
-
-*   [cuixueshe/earthworm](https://github.com/cuixueshe/earthworm) - Learning English through the method of constructing sentences with conjunctions
-
-*   [freeCodeCamp/freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp) - freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.
-
-*   [AmruthPillai/ResumeOnTheWeb](https://github.com/AmruthPillai/ResumeOnTheWeb) - Everyone needs their own little spot on the interwebs, and this is mine. Welcome to my resume, on the web!
-
-*   [AmruthPillai/Reactive-Resume](https://github.com/AmruthPillai/Reactive-Resume) - A one-of-a-kind resume builder that keeps your privacy in mind. Completely secure, customizable, portable, open-source and free forever. Try it out today!
-
-*   [neurosnap/neovimcraft](https://github.com/neurosnap/neovimcraft) - website that makes it easy to find neovim plugins
-
-*   [langgenius/dify](https://github.com/langgenius/dify) - Production-ready platform for agentic workflow development.
-
-*   [xitanggg/open-resume](https://github.com/xitanggg/open-resume) - OpenResume is a powerful open-source resume builder and resume parser. https://open-resume.com/
-
-*   [chatboxai/chatbox](https://github.com/chatboxai/chatbox) - User-friendly Desktop Client App for AI Models/LLMs (GPT, Claude, Gemini, Ollama...)
-
-*   [vn7n24fzkq/github-profile-summary-cards](https://github.com/vn7n24fzkq/github-profile-summary-cards) - A tool to generate your GitHub summary card for profile README
-
-*   [vuepress-theme-hope/vuepress-theme-hope](https://github.com/vuepress-theme-hope/vuepress-theme-hope) - A vuepress theme with tons of features✨
-
-*   [VSCodeVim/Vim](https://github.com/VSCodeVim/Vim) - :star: Vim for Visual Studio Code
-
-*   [vuejs/vitepress](https://github.com/vuejs/vitepress) - Vite & Vue powered static site generator.
-
-*   [zooltd/leetcode2acwing](https://github.com/zooltd/leetcode2acwing) - a Violentmonkey script that redirects you to AcWing solution site from LeetCode problem site
-
-*   [lidangzzz/How-to-run](https://github.com/lidangzzz/How-to-run) - 立党零基础转码笔记
-
-*   [ChatGPTNextWeb/NextChat](https://github.com/ChatGPTNextWeb/NextChat) - ✨ Light and Fast AI Assistant. Support: Web | iOS | MacOS | Android |  Linux | Windows
-
-*   [wong2/chatgpt-google-extension](https://github.com/wong2/chatgpt-google-extension) - This project is deprecated. Check my new project ChatHub:
-
-*   [excalidraw/excalidraw](https://github.com/excalidraw/excalidraw) - Virtual whiteboard for sketching hand-drawn like diagrams
-
-*   [Qsnh/meedu](https://github.com/Qsnh/meedu) - Meedu是一款功能强大的开源在线教育系统，适用于个人、企业或机构搭建自己的在线学习平台。它提供了完整的解决方案，满足网校搭建、在线教学、企业培训和知识付费等多种需求。
-
-## miscellaneous
-
-*   [sdras/awesome-actions](https://github.com/sdras/awesome-actions) - A curated list of awesome actions to use on GitHub
-
-*   [Envoy-VC/awesome-badges](https://github.com/Envoy-VC/awesome-badges) - 😎 A curated list of GitHub badges for your next  project
-
-*   [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) - A collection of MCP servers.
-
-*   [sindresorhus/awesome](https://github.com/sindresorhus/awesome) - 😎 Awesome lists about all kinds of interesting topics
-
-*   [xingshaocheng/architect-awesome](https://github.com/xingshaocheng/architect-awesome) - 后端架构师技术图谱
-
-*   [tech-shrimp/docker\_installer](https://github.com/tech-shrimp/docker_installer) - Docker官方安装包，用来解决因国内网络无法安装使用Docker的问题
-
-*   [miss-mumu/developer2gwy](https://github.com/miss-mumu/developer2gwy) - 公务员从入门到上岸，最佳程序员公考实践教程
-
-*   [ByteByteGoHq/system-design-101](https://github.com/ByteByteGoHq/system-design-101) - Explain complex systems using visuals and simple terms. Help you prepare for system design interviews.
-
-*   [uyez/TikTok](https://github.com/uyez/TikTok) - tiktok下载，安卓版抖音国际版下载2025
-
-*   [aalansehaiyang/technology-talk](https://github.com/aalansehaiyang/technology-talk) - 【大厂面试专栏】一份Java程序员需要的技术指南，这里有面试题、系统架构、职场锦囊、主流中间件等，让你成为更牛的自己！
-
-*   [huihongxiao/MIT6.S081](https://github.com/huihongxiao/MIT6.S081) -
-
-*   [eryisan/zh\_CN-Computer-Science-Curriculum-Front-End-Curriculum](https://github.com/eryisan/zh_CN-Computer-Science-Curriculum-Front-End-Curriculum) - CS计算机课程自学资源、教程、路线;Front-End前端工程师-全栈工程师课程自学资源、教程、路线;A Computer Science Curriculum;Front-End Curriculum;免费与付费的计算机科学编程类中英文教程资源
-
-*   [alebcay/awesome-shell](https://github.com/alebcay/awesome-shell) - A curated list of awesome command-line frameworks, toolkits, guides and gizmos. Inspired by awesome-php.
-
-*   [summerjava/system-design-interview](https://github.com/summerjava/system-design-interview) - 系统设计面试必读（awesome system design）
-
-*   [trimstray/the-book-of-secret-knowledge](https://github.com/trimstray/the-book-of-secret-knowledge) - A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more.
-
-*   [tonngw/macman](https://github.com/tonngw/macman) - 🚀 本项目是一个教你从 0 到 1 配置 Mac 的保姆级教程，包括终端环境、开发环境、效率工具和使用技巧等，持续更新中...
-
-*   [zakirullin/cognitive-load](https://github.com/zakirullin/cognitive-load) - 🧠 Cognitive Load is what matters
-
-*   [zhuima/awesome-cloudflare](https://github.com/zhuima/awesome-cloudflare) - ⛅️ 精选的 Cloudflare 工具、开源项目、指南、博客和其他资源列表。/ ⛅️ A curated list of Cloudflare tools, open source projects, guides, blogs and other resources.
-
-*   [xiaolincoder/CS-Base](https://github.com/xiaolincoder/CS-Base) - 图解计算机网络、操作系统、计算机组成、数据库，共 1000 张图 + 50 万字，破除晦涩难懂的计算机基础知识，让天下没有难懂的八股文！🚀 在线阅读：https://xiaolincoding.com
-
-*   [phmullins/awesome-macos-commandline](https://github.com/phmullins/awesome-macos-commandline) - A curated list of awesome command-line software for macOS.
-
-*   [phmullins/awesome-macos](https://github.com/phmullins/awesome-macos) - A curated list of awesome software for Apple's macOS.
-
-*   [lijigang/prompts](https://github.com/lijigang/prompts) - 结构化的Prompts, 用于各种大语言模型
-
-*   [Aoriseth/mock-LocalDate-now-java](https://github.com/Aoriseth/mock-LocalDate-now-java) - How to mock the static LocalDate.now() call in java.
-
-*   [RawChat/RawChat](https://github.com/RawChat/RawChat) -
-
-*   [poperigby/gruvbox-dark-yazi](https://github.com/poperigby/gruvbox-dark-yazi) - A Gruvbox Dark theme for Yazi
-
-*   [spring2go/cs\_study\_plan](https://github.com/spring2go/cs_study_plan) - 一份硬核(hardcore)计算机科学CS自学计划，偏向软件工程和系统架构方向
-
-*   [weijunext/indie-hacker-tools](https://github.com/weijunext/indie-hacker-tools) - 收录独立开发者出海技术栈和工具
-
-*   [ivmm/Student-resources](https://github.com/ivmm/Student-resources) - 本文介绍的是利用学生、教职工身份可以享受到的相关学生优惠、教育优惠或教师优惠的权益，但也希望各位享受权利的同时不要忘记自己的义务，不要售卖、转手自己的学生优惠、教育优惠的资格，使得其他同学无法受益。
-
-*   [it-ebooks-0/geektime-books](https://github.com/it-ebooks-0/geektime-books) - :books: 极客时间电子书
-
-*   [yujiangshui/A-Programmers-Guide-to-English](https://github.com/yujiangshui/A-Programmers-Guide-to-English) - 专为程序员编写的英语学习指南 v1.2。在线版本请点 ->
-
-*   [geekan/HowToLiveLonger](https://github.com/geekan/HowToLiveLonger) - 程序员延寿指南 | A programmer's guide to live longer
-
-*   [withfig/fig](https://github.com/withfig/fig) - Public issue tracker for Fig.
-
-*   [cassidoo/getting-a-gig](https://github.com/cassidoo/getting-a-gig) - Guide for getting a gig as a tech student.
-
-*   [mtdvio/every-programmer-should-know](https://github.com/mtdvio/every-programmer-should-know) - A collection of (mostly) technical things every software developer should know about
-
-*   [baochuquan/Books](https://github.com/baochuquan/Books) - 自己收集的一些电子书籍
-
-*   [ArchLinuxStudio/ArchLinuxTutorial](https://github.com/ArchLinuxStudio/ArchLinuxTutorial) - ✨Arch Linux安装使用教程 每日实时更新！ | 包含ArchLinux从安装到日常使用、娱乐、编程、媒体制作的各个方面，让Arch成为你的常用系统吧！ | 提供在线网页文档 ✨
-
-*   [zq99299/repository-summary](https://github.com/zq99299/repository-summary) - 仓库/笔记 越来越多，本人一些质量还不错的项目/笔记汇总
-
-*   [iggredible/Learn-Vim](https://github.com/iggredible/Learn-Vim) - Learning Vim and Vimscript doesn't have to be hard. This is the guide that you're looking for 📖
-
-*   [zq99299/note-architect](https://github.com/zq99299/note-architect) - 架构师学习笔记仓库
-
-*   [ripperhe/Bob](https://github.com/ripperhe/Bob) - Bob 是一款 macOS 平台的翻译和 OCR 软件。
-
-*   [JushBJJ/Mr.-Ranedeer-AI-Tutor](https://github.com/JushBJJ/Mr.-Ranedeer-AI-Tutor) - A GPT-4 AI Tutor Prompt for customizable personalized learning experiences.
-
-*   [viraptor/reverse-interview](https://github.com/viraptor/reverse-interview) - Questions to ask the company during your interview
-
-*   [perkfly/reverse-interview-zh](https://github.com/perkfly/reverse-interview-zh) - 技术面试最后反问面试官的话
-
-*   [braydie/HowToBeAProgrammer](https://github.com/braydie/HowToBeAProgrammer) - A guide on how to be a Programmer - originally published by Robert L Read
-
-*   [steven2358/awesome-generative-ai](https://github.com/steven2358/awesome-generative-ai) - A curated list of modern Generative Artificial Intelligence projects and services
-
-*   [aphyr/distsys-class](https://github.com/aphyr/distsys-class) - Class materials for a distributed systems lecture series
-
-*   [shengcaishizhan/kkndme\_tianya](https://github.com/shengcaishizhan/kkndme_tianya) - 天涯 kkndme 神贴聊房价
-
-*   [liangjingkanji/liangjingkanji](https://github.com/liangjingkanji/liangjingkanji) - 个人主页
-
-*   [practical-tutorials/project-based-learning](https://github.com/practical-tutorials/project-based-learning) - Curated list of project-based tutorials
-
-*   [CompetitiveLin/LeetcodeToMarkdown](https://github.com/CompetitiveLin/LeetcodeToMarkdown) - 一个可将Leetcode的题目和代码打包生成Markdown文件的油猴脚本
-
-*   [LearningOS/rust-based-os-comp2023](https://github.com/LearningOS/rust-based-os-comp2023) - 2023秋冬季开源操作系统训练营
-
-*   [megaease/Remembering-Haoel](https://github.com/megaease/Remembering-Haoel) - 记录您对左耳朵耗子（陈皓）的点滴回忆
-
-*   [fangzesheng/free-api](https://github.com/fangzesheng/free-api) - 收集免费的接口服务,做一个api的搬运工
-
-*   [xiaoxiunique/awesome-IntelliJ-IDEA](https://github.com/xiaoxiunique/awesome-IntelliJ-IDEA) - 收集一些 Intellij IDEA 的一些技巧
-
-*   [jwasham/coding-interview-university](https://github.com/jwasham/coding-interview-university) - A complete computer science study plan to become a software engineer.
-
-*   [mqyqingfeng/Blog](https://github.com/mqyqingfeng/Blog) - 冴羽写博客的地方，预计写四个系列：JavaScript深入系列、JavaScript专题系列、ES6系列、React系列。
-
-*   [Developer-Y/cs-video-courses](https://github.com/Developer-Y/cs-video-courses) - List of Computer Science courses with video lectures.
-
-*   [bradtraversy/design-resources-for-developers](https://github.com/bradtraversy/design-resources-for-developers) - Curated list of design and UI resources from stock photos, web templates, CSS frameworks, UI libraries, tools and much more
-
-*   [antfu/vscode-settings](https://github.com/antfu/vscode-settings) - My VS Code settings and extensions
-
-*   [97-things/97-things-every-programmer-should-know](https://github.com/97-things/97-things-every-programmer-should-know) - Pearls of wisdom for programmers collected from leading practitioners.
-
-*   [runningcheese/Awesome-AI](https://github.com/runningcheese/Awesome-AI) - Awesome AI，你的《人工智能指南》！
-
-*   [LucasChi/FaceDetectAttendanceSystem](https://github.com/LucasChi/FaceDetectAttendanceSystem) - An Intelligent Attendance System Based on Raspberry Pi
-
-*   [iyukiyama/leetcode-posts](https://github.com/iyukiyama/leetcode-posts) - yukiyama 创作的算法文章，目前共二十余万字，持续新增中。发表数月内，在力扣中国收获20w+阅读量，1w+收藏量，近5k点赞量。
-
-*   [macdao/ocds-guide-to-setting-up-mac](https://github.com/macdao/ocds-guide-to-setting-up-mac) - OCD's Guide to Setting up Mac
-
-*   [tonngw/tonngw](https://github.com/tonngw/tonngw) - 🤡 About Me.
-
-*   [ABSphreak/ABSphreak](https://github.com/ABSphreak/ABSphreak) - :octocat: Hello there! This repository is for the welcome message on my Github Profile.
-
-*   [tonngw/leetcode-helper](https://github.com/tonngw/leetcode-helper) - LeetCode 题解助手 | 复制 LeetCode 题目描述 | 生成当前题目题解模板
-
-*   [CodingDocs/awesome-idea](https://github.com/CodingDocs/awesome-idea) - IntelliJ IDEA 使用指南 | 必备插件推荐 | 插件开发入门 | 重构小技巧 | 源码阅读技巧。
-
-*   [tonngw/LeetCode021](https://github.com/tonngw/LeetCode021) - 🚀 LeetCode From Zero To One & 题单整理 & 题解分享 & 算法模板 & 刷题路线，持续更新中...
-
-*   [sdmg15/Best-websites-a-programmer-should-visit](https://github.com/sdmg15/Best-websites-a-programmer-should-visit) - :link: Some useful websites for programmers.
-
-*   [rartv/EmbyPublic](https://github.com/rartv/EmbyPublic) - Emby 公益服
-
-*   [CarpenterLee/JCFInternals](https://github.com/CarpenterLee/JCFInternals) - 深入理解Java集合框架
-
-*   [hello-java-maker/JavaInterview](https://github.com/hello-java-maker/JavaInterview) - 【Java面试+Java后端技术学习指南】：一份通向理想互联网公司的面试指南，包括 Java，技术面试必备基础知识、Leetcode、计算机操作系统、计算机网络、系统设计、分布式、数据库（MySQL、Redis）、Java 项目实战等
-
-*   [murufeng/CVPR\_2021\_Papers](https://github.com/murufeng/CVPR_2021_Papers) - CVPR2021最新论文汇总，主要包括：Transformer, NAS，模型压缩，模型评估，图像分类，检测，分割，跟踪，GAN，超分辨率，图像恢复，去雨，去雾，去模糊，去噪，重建等等
-
-*   [ChanChiChoi/awesome-Face\_Recognition](https://github.com/ChanChiChoi/awesome-Face_Recognition) - papers about Face Detection; Face Alignment; Face Recognition && Face Identification && Face Verification && Face Representation; Face Reconstruction; Face Tracking; Face Super-Resolution && Face Deblurring; Face Generation && Face Synthesis; Face Transfer; Face Anti-Spoofing; Face Retrieval;
-
-*   [pengMaster/BestNote](https://github.com/pengMaster/BestNote) - :punch: 持续更新，Java Android 近几年最全面的技术点以及面试题 供自己学习使用
-
-*   [cosen1024/Java-Interview](https://github.com/cosen1024/Java-Interview) - 「Java面试小抄」一份通向理想互联网公司的面试汇总，包括 Java基础、Java并发、JVM、MySQL、Redis、Spring、MyBatis、Kafka、计算机操作系统、计算机网络、系统设计、分布式、Java 项目实战等
-
-*   [CodingDocs/programmer-sideline](https://github.com/CodingDocs/programmer-sideline) - 程序员副业赚钱之路。
-
-*   [Seazean/JavaNote](https://github.com/Seazean/JavaNote) - 📁我不是的知识的生产者，我只是知识的搬运工
-
-*   [tangyudi/Ai-Learn](https://github.com/tangyudi/Ai-Learn) - 人工智能学习路线图，整理近200个实战案例与项目，免费提供配套教材，零基础入门，就业实战！包括：Python，数学，机器学习，数据分析，深度学习，计算机视觉，自然语言处理，PyTorch tensorflow machine-learning,deep-learning data-analysis data-mining mathematics data-science artificial-intelligence python tensorflow tensorflow2 caffe keras pytorch algorithm numpy pandas matplotlib seaborn nlp cv等热门领域
-
-*   [Tyson0314/Java-learning](https://github.com/Tyson0314/Java-learning) - Java相关知识总结，包括Java基础、MySQL、Springboot、mybatis、Redis、rabbitMQ等等，面试必备！
-
-## JavaScript
-
-*   [zhw2590582/ArtPlayer](https://github.com/zhw2590582/ArtPlayer) - :art: ArtPlayer.js is a modern and full featured HTML5 video player
-
-*   [LibreSpark/LibreTV](https://github.com/LibreSpark/LibreTV) - 一分钟搭建影视站，支持Vercel/Docker等部署方式
-
-*   [PublicAffairs/openai-gemini](https://github.com/PublicAffairs/openai-gemini) - Gemini ➜ OpenAI API proxy. Serverless!
-
-*   [simonecorsi/mawesome](https://github.com/simonecorsi/mawesome) - 😎 Github action to generate your own awesome list from project you've starred ordered by languages!
-
-*   [tonngw/awesome-github-repos](https://github.com/tonngw/awesome-github-repos) - 🚀 A curated collection of awesome GitHub repositories, organized by language and topic from my starred projects. Modern, elegant platform for showcasing your starred GitHub repositories.
-
-*   [carloscuesta/gitmoji-cli](https://github.com/carloscuesta/gitmoji-cli) - A gitmoji interactive cli tool for using emojis on commits. 💻
-
-*   [XInTheDark/raycast-g4f](https://github.com/XInTheDark/raycast-g4f) - Raycast extension to use GPT, Claude, Llama, and more... all for FREE! + Full support for custom APIs.
-
-*   [0xffff-one/0xffff-wiki](https://github.com/0xffff-one/0xffff-wiki) - 📖 0xFFFF CS Wiki 独立站点（施工中...）
-
-*   [maomao1996/vitepress-nav-template](https://github.com/maomao1996/vitepress-nav-template) - 基于 VitePress 的个人前端导航页面模板
-
-*   [wechatsync/Wechatsync](https://github.com/wechatsync/Wechatsync) - 一键同步文章到多个内容平台，支持今日头条、WordPress、知乎、简书、掘金、CSDN、typecho各大平台，一次发布，多平台同步发布。解放个人生产力
-
-*   [sindresorhus/create-dmg](https://github.com/sindresorhus/create-dmg) - Create a good-looking DMG for your macOS app in seconds
-
-*   [tangly1024/NotionNext](https://github.com/tangly1024/NotionNext) - 使用 NextJS + Notion API 实现的，支持多种部署方案的静态博客，无需服务器、零门槛搭建网站，为Notion和所有创作者设计。 (A static blog built with NextJS and Notion API, supporting multiple deployment options. No server required, zero threshold to set up a website. Designed for Notion and all creators.)
-
-*   [nordtheme/tmux](https://github.com/nordtheme/tmux) - An arctic, north-bluish clean and elegant tmux color theme.
-
-*   [yazi-rs/flavors](https://github.com/yazi-rs/flavors) - Some Yazi flavors maintained by community.
-
-*   [zhblue/hustoj](https://github.com/zhblue/hustoj) - Popular Simple Open Source Online Judge based on PHP/C++/MySQL/Linux  for ACM/ICPC and NOIP training, with easy installation. 简单实用的开源OJ系统
-
-*   [qishibo/AnotherRedisDesktopManager](https://github.com/qishibo/AnotherRedisDesktopManager) - 🚀🚀🚀A faster, better and more stable Redis desktop manager \[GUI client], compatible with Linux, Windows, Mac.
-
-*   [ruanyf/es6tutorial](https://github.com/ruanyf/es6tutorial) - 《ECMAScript 6入门》是一本开源的 JavaScript 语言教程，全面介绍 ECMAScript 6 新增的语法特性。
-
-*   [joshmedeski/dotfiles](https://github.com/joshmedeski/dotfiles) - Josh's dotfiles for his developer environment
-
-*   [iamcco/markdown-preview.nvim](https://github.com/iamcco/markdown-preview.nvim) - markdown preview plugin for (neo)vim
-
-*   [fengstats/config](https://github.com/fengstats/config) - 💻 系统配置文件和乱七八遭的东西
-
-*   [txstc55/ugly-avatar](https://github.com/txstc55/ugly-avatar) -
-
-*   [jaywcjlove/awesome-mac](https://github.com/jaywcjlove/awesome-mac) -  Now we have become very big, Different from the original idea. Collect premium software in various categories.
-
-*   [showdownjs/showdown](https://github.com/showdownjs/showdown) - A bidirectional Markdown to HTML to Markdown converter written in Javascript
-
-*   [ryanhanwu/How-To-Ask-Questions-The-Smart-Way](https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way) - 本文原文由知名 Hacker Eric S. Raymond 所撰寫，教你如何正確的提出技術問題並獲得你滿意的答案。
-
-*   [dillonzq/LoveIt](https://github.com/dillonzq/LoveIt) - ❤️A clean, elegant but advanced blog theme for Hugo 一个简洁、优雅且高效的 Hugo 主题
-
-*   [microsoft/Web-Dev-For-Beginners](https://github.com/microsoft/Web-Dev-For-Beginners) - 24 Lessons, 12 Weeks, Get Started as a Web Developer
-
-*   [neetcode-gh/leetcode](https://github.com/neetcode-gh/leetcode) - Leetcode solutions
-
-*   [dirk1983/deepseek](https://github.com/dirk1983/deepseek) - 演示站可以免费使用deepseek-r1满血模型进行AI对话，并支持使用stablediffusion模型画图。本项目是PHP版调用DeepSeek第三方接口进行问答和画图，采用Stream流模式通信，一边生成一边输出。前端采用EventSource，支持Markdown格式解析，支持公式显示，代码有着色处理，支持画图。页面UI简洁，支持上下文连续会话。源码只有几个文件，没用任何框架，支持所有PHP版本，全部开源，极易二开，适合PHP初学者。保姆级教程，账号等周边资源，欢迎进群交流，一切全免费。
-
-*   [BlueSky-07/Shuang](https://github.com/BlueSky-07/Shuang) - :pencil2: 双拼练习
-
-*   [markdown-it/markdown-it](https://github.com/markdown-it/markdown-it) - Markdown parser, done right. 100% CommonMark support, extensions, syntax plugins & high speed
-
-*   [vuejs/vuepress](https://github.com/vuejs/vuepress) - 📝 Minimalistic Vue-powered static site generator
-
-*   [f/awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts) - This repo includes ChatGPT prompt curation to use ChatGPT and other LLM tools better.
-
-*   [tonngw/github-star-reminder](https://github.com/tonngw/github-star-reminder) - Use GitHub Action to Send Email to Me with My GitHub Top 10 Repos' Stars Per Day
-
-*   [Molunerfinn/github-stars-reminder](https://github.com/Molunerfinn/github-stars-reminder) - Use GitHub Action to Send Email to Me with My GitHub Top 20 Repos' Stars Per Day
-
-*   [zimo0o0omiz/leetcode-helper](https://github.com/zimo0o0omiz/leetcode-helper) - 基于油猴的力扣题目转换工具 html转markdown 便于写题解
-
-*   [stonehank/html-to-md](https://github.com/stonehank/html-to-md) - A JS library for convert HTML\<String> to markdown\<String>, gzip 10kb
-
-*   [fuzhengwei/NaiveChat](https://github.com/fuzhengwei/NaiveChat) - :performing\_arts:  本IM通信项目是作者小傅哥使用JavaFx、Netty4.x、SpringBoot、Mysql等技术栈和偏向于DDD领域驱动设计方式，搭建的仿桌面版微信实现通信核心功能。课程文章已发布到GitChat专栏，欢迎购买。如果本项目能为您提供帮助，请给予支持(关注、:star:Star、分享)！
+*   [Jinja](#jinja)
+*   [Markdown](#markdown)
+*   [LLVM](#llvm)
+*   [HCL](#hcl)
+*   [Crystal](#crystal)
+*   [Solidity](#solidity)
+*   [Perl](#perl)
+*   [Lua](#lua)
+*   [Macaulay2](#macaulay2)
+*   [Haskell](#haskell)
+*   [Matlab](#matlab)
 
 ## Python
 
-*   [fastapi/fastapi](https://github.com/fastapi/fastapi) - FastAPI framework, high performance, easy to learn, fast to code, ready for production
+*   [lfnovo/open-notebook](https://github.com/lfnovo/open-notebook) - An Open Source implementation of Notebook LM with more flexibility and features
 
-*   [sayyid5416/pyinstaller](https://github.com/sayyid5416/pyinstaller) - Customisable GitHub Action to package python scripts into executables for different OS's
+*   [yefeng2renxing/AIxiezuo](https://github.com/yefeng2renxing/AIxiezuo) - AIWriting AI写作 AI写小说 自动批量生成章节，设定更新，记忆上下文等。
 
-*   [xtekky/gpt4free](https://github.com/xtekky/gpt4free) - The official gpt4free repository | various collection of powerful language models | o4, o3 and deepseek r1, gpt-4.1, gemini 2.5
+*   [d60/twikit](https://github.com/d60/twikit) - Twitter API Scraper | Without an API key | Twitter Internal API | Free | Twitter scraper | Twitter Bot
 
-*   [NanmiCoder/MediaCrawler](https://github.com/NanmiCoder/MediaCrawler) - 小红书笔记 | 评论爬虫、抖音视频 | 评论爬虫、快手视频 | 评论爬虫、B 站视频 ｜ 评论爬虫、微博帖子 ｜ 评论爬虫、百度贴吧帖子 ｜ 百度贴吧评论回复爬虫  | 知乎问答文章｜评论爬虫
+*   [kyutai-labs/delayed-streams-modeling](https://github.com/kyutai-labs/delayed-streams-modeling) - Kyutai's Speech-To-Text and Text-To-Speech models based on the Delayed Streams Modeling framework.
 
-*   [spiside/pdb-tutorial](https://github.com/spiside/pdb-tutorial) - A simple tutorial about effectively using pdb
+*   [joelgrus/snowmeth](https://github.com/joelgrus/snowmeth) - use AI to write a novel using the snowflake method
 
-*   [wolverinn/stable-diffusion-multi-user](https://github.com/wolverinn/stable-diffusion-multi-user) - stable diffusion multi-user django server code with multi-GPU load balancing
+*   [adamwlarson/ai-book-writer](https://github.com/adamwlarson/ai-book-writer) - Experimenting with AutoGen to see if an entire book can be written with AI agents
 
-*   [anishathalye/dotbot](https://github.com/anishathalye/dotbot) - A tool that bootstraps your dotfiles ⚡️
+*   [comet-ml/opik](https://github.com/comet-ml/opik) - Debug, evaluate, and monitor your LLM applications, RAG systems, and agentic workflows with comprehensive tracing, automated evaluations, and production-ready dashboards.
 
-*   [EbookFoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books) - :books: Freely available programming books
+*   [Duccioo/GitHubTrendingRSS](https://github.com/Duccioo/GitHubTrendingRSS) - Unofficial RSS feed generator for GitHub Trending (Python implementation)
 
-*   [ultrasev/cursor-reset](https://github.com/ultrasev/cursor-reset) - A script to reset Cursor editor's device identification system. Helps resolve account restrictions and trial-related issues.
+*   [coleam00/context-engineering-intro](https://github.com/coleam00/context-engineering-intro) - Context engineering is the new vibe coding - it's the way to actually make AI coding assistants work. Claude Code is the best for this so that's what this repo is centered around, but you can apply this strategy with any AI coding assistant!
 
-*   [yeongpin/cursor-free-vip](https://github.com/yeongpin/cursor-free-vip) - \[Support 0.49.x]（Reset Cursor AI MachineID & Bypass Higher Token Limit） Cursor Ai ，自动重置机器ID ， 免费升级使用Pro功能: You've reached your trial request limit. / Too many free trial accounts used on this machine. Please upgrade to pro. We have this limit in place to prevent abuse. Please let us know if you believe this is a mistake.
+*   [fengyunzaidushi/website2md](https://github.com/fengyunzaidushi/website2md) -
 
-*   [lm-sys/FastChat](https://github.com/lm-sys/FastChat) - An open platform for training, serving, and evaluating large language models. Release repo for Vicuna and Chatbot Arena.
+*   [landing-ai/agentic-doc](https://github.com/landing-ai/agentic-doc) - Python library for Agentic Document Extraction from LandingAI
 
-*   [Vonng/ddia](https://github.com/Vonng/ddia) - 《Designing Data-Intensive Application》DDIA中文翻译
+*   [datawhalechina/mcp-lite-dev](https://github.com/datawhalechina/mcp-lite-dev) - 共学《MCP极简开发》项目代码
 
-*   [LiLittleCat/awesome-free-chatgpt](https://github.com/LiLittleCat/awesome-free-chatgpt) - 🆓免费的 ChatGPT 镜像网站列表，持续更新。List of free ChatGPT mirror sites, continuously updated.
+*   [BeehiveInnovations/zen-mcp-server](https://github.com/BeehiveInnovations/zen-mcp-server) - The power of Claude Code + \[Gemini / OpenAI / Grok / OpenRouter / Ollama / Custom Model / All Of The Above] working as one.
 
-*   [Z4nzu/hackingtool](https://github.com/Z4nzu/hackingtool) - ALL IN ONE Hacking Tool For Hackers
+*   [mozilla-ai/any-agent](https://github.com/mozilla-ai/any-agent) - A single interface to use and evaluate different agent frameworks
 
-*   [chatanywhere/GPT\_API\_free](https://github.com/chatanywhere/GPT_API_free) - Free ChatGPT\&DeepSeek API Key，免费ChatGPT\&DeepSeek API。免费接入DeepSeek API和GPT4 API，支持 gpt | deepseek | claude | gemini | grok 等排名靠前的常用大模型。
+*   [cnych/seo-mcp](https://github.com/cnych/seo-mcp) - A free SEO tool MCP (Model Control Protocol) service based on Ahrefs data. Includes features such as backlinks, keyword ideas, and more.
 
-*   [Huanshere/VideoLingo](https://github.com/Huanshere/VideoLingo) - Netflix-level subtitle cutting, translation, alignment, and even dubbing - one-click fully automated AI video subtitle team | Netflix级字幕切割、翻译、对齐、甚至加上配音，一键全自动视频搬运AI字幕组
+*   [Fantasy-AMAP/fantasy-talking](https://github.com/Fantasy-AMAP/fantasy-talking) - \[ACM MM 2025] FantasyTalking: Realistic Talking Portrait Generation via Coherent Motion Synthesis
 
-*   [Asabeneh/30-Days-Of-Python](https://github.com/Asabeneh/30-Days-Of-Python) - 30 days of Python programming challenge is a step-by-step guide to learn the Python programming language in 30 days. This challenge may take more than100 days, follow your own pace.  These videos may help too: https://www.youtube.com/channel/UC7PNRuno1rzYPb1xLa4yktw
+*   [HiDream-ai/HiDream-E1](https://github.com/HiDream-ai/HiDream-E1) -
 
-*   [Meekdai/Gmeek](https://github.com/Meekdai/Gmeek) - Gmeek is a Blog All in Github
+*   [funstory-ai/BabelDOC](https://github.com/funstory-ai/BabelDOC) - Yet Another Document Translator
 
-*   [mkdocs/mkdocs](https://github.com/mkdocs/mkdocs) - Project documentation with Markdown.
+*   [Byaidu/PDFMathTranslate](https://github.com/Byaidu/PDFMathTranslate) - PDF scientific paper translation with preserved formats - 基于 AI 完整保留排版的 PDF 文档全文双语翻译，支持 Google/DeepL/Ollama/OpenAI 等服务，提供 CLI/GUI/MCP/Docker/Zotero
 
-*   [wkaisertexas/tiktok-uploader](https://github.com/wkaisertexas/tiktok-uploader) - Automatically ⬆️ upload TikTok videos
+*   [lllyasviel/FramePack](https://github.com/lllyasviel/FramePack) - Lets make video diffusion practical!
 
-*   [Zulko/moviepy](https://github.com/Zulko/moviepy) - Video editing with Python
+*   [coderamp-labs/gitingest](https://github.com/coderamp-labs/gitingest) - Replace 'hub' with 'ingest' in any GitHub URL to get a prompt-friendly extract of a codebase
 
-*   [Superheroff/douyin\_uplod](https://github.com/Superheroff/douyin_uplod) - 抖音自动上传发布视频
+*   [jimmc414/onefilellm](https://github.com/jimmc414/onefilellm) - Specify a github or local repo, github pull request,  arXiv or Sci-Hub paper, Youtube transcript or documentation URL on the web and scrape into a text file and clipboard  for easier LLM ingestion
+
+*   [The-Pocket/PocketFlow-Tutorial-Codebase-Knowledge](https://github.com/The-Pocket/PocketFlow-Tutorial-Codebase-Knowledge) - Pocket Flow: Codebase to Tutorial
+
+*   [mcp-use/mcp-use](https://github.com/mcp-use/mcp-use) - mcp-use is the easiest way to interact with mcp servers with custom agents
+
+*   [dreammis/social-auto-upload](https://github.com/dreammis/social-auto-upload) - 自动化上传视频到社交媒体：抖音、小红书、视频号、tiktok、youtube、bilibili
+
+*   [jiji262/douyin-downloader](https://github.com/jiji262/douyin-downloader) - 抖音批量下载工具，去水印，支持视频、图集、合集、音乐(原声)。免费！免费！免费！
+
+*   [lastmile-ai/mcp-agent](https://github.com/lastmile-ai/mcp-agent) - Build effective agents using Model Context Protocol and simple workflow patterns
+
+*   [hacksider/Deep-Live-Cam](https://github.com/hacksider/Deep-Live-Cam) - real time face swap and one-click video deepfake with only a single image
+
+*   [aigc-apps/VideoX-Fun](https://github.com/aigc-apps/VideoX-Fun) - 📹 A more flexible framework that can generate videos at any resolution and creates videos from images.
+
+*   [getzep/graphiti](https://github.com/getzep/graphiti) - Build Real-Time Knowledge Graphs for AI Agents
+
+*   [grapeot/devin.cursorrules](https://github.com/grapeot/devin.cursorrules) - Magic to turn Cursor/Windsurf as 90% of Devin
+
+*   [mindverse/Second-Me](https://github.com/mindverse/Second-Me) - Train your AI self, amplify you, bridge the world
+
+*   [FoundationAgents/OpenManus](https://github.com/FoundationAgents/OpenManus) - No fortress, purely open ground.  OpenManus is Coming.
+
+*   [zilliztech/deep-searcher](https://github.com/zilliztech/deep-searcher) - Open Source Deep Research Alternative to Reason and Search on Private Data. Written in Python.
+
+*   [virattt/ai-hedge-fund](https://github.com/virattt/ai-hedge-fund) - An AI Hedge Fund Team
+
+*   [Plachtaa/seed-vc](https://github.com/Plachtaa/seed-vc) - zero-shot voice conversion & singing voice conversion, with real-time support
+
+*   [index-tts/index-tts](https://github.com/index-tts/index-tts) - An Industrial-Level Controllable and Efficient Zero-Shot Text-To-Speech System
+
+*   [Kiln-AI/Kiln](https://github.com/Kiln-AI/Kiln) - The easiest tool for fine-tuning LLM models, synthetic data generation, and collaborating on datasets.
+
+*   [KelvinQiu802/cursor-mcp-demo](https://github.com/KelvinQiu802/cursor-mcp-demo) - Cursor MCP
+
+*   [hkust-nlp/simpleRL-reason](https://github.com/hkust-nlp/simpleRL-reason) - Simple RL training for reasoning
+
+*   [hkust-nlp/CodeIO](https://github.com/hkust-nlp/CodeIO) - \[ICML 2025 Oral] CodeI/O: Condensing Reasoning Patterns via Code Input-Output Prediction
+
+*   [browser-use/browser-use](https://github.com/browser-use/browser-use) - 🌐 Make websites accessible for AI agents. Automate tasks online with ease.
+
+*   [chengyou-jia/AgentStore](https://github.com/chengyou-jia/AgentStore) - \[ACL 2025] AgentStore: Scalable Integration of Heterogeneous Agents As Specialized Generalist Computer Assistant
+
+*   [fengin/search-server](https://github.com/fengin/search-server) - 一个基于MCP协议的搜索服务实现，提供网络搜索和本地搜索功能，Cursor和Claude Desktop能与之无缝集成。
+
+*   [ababdotai/awesome-agent-quickstart](https://github.com/ababdotai/awesome-agent-quickstart) - Helloworld for agentic frameworks, minimial but runnable! LangGraph, Agno, AutoGen, Smolagents, OpenAI Agents, etc.
+
+*   [jlowin/fastmcp](https://github.com/jlowin/fastmcp) - 🚀 The fast, Pythonic way to build MCP servers and clients
+
+*   [mekanixms/sqlite-mcp-server](https://github.com/mekanixms/sqlite-mcp-server) - my mcp server to handle sqlite, generated with cursor/claude
+
+*   [bytedance/LatentSync](https://github.com/bytedance/LatentSync) - Taming Stable Diffusion for Lip Sync!
+
+*   [character-ai/prompt-poet](https://github.com/character-ai/prompt-poet) - Streamlines and simplifies prompt design for both developers and non-technical users with a low code approach.
+
+*   [soxoj/maigret](https://github.com/soxoj/maigret) - 🕵️‍♂️ Collect a dossier on a person by username from thousands of sites
+
+*   [chatchat-space/LangGraph-Chatchat](https://github.com/chatchat-space/LangGraph-Chatchat) -
+
+*   [black-forest-labs/flux](https://github.com/black-forest-labs/flux) - Official inference repo for FLUX.1 models
+
+*   [HKUDS/LightRAG](https://github.com/HKUDS/LightRAG) - "LightRAG: Simple and Fast Retrieval-Augmented Generation"
+
+*   [awslabs/agent-squad](https://github.com/awslabs/agent-squad) - Flexible and powerful framework for managing multiple AI agents and handling complex conversations
+
+*   [aio-libs/aiohttp](https://github.com/aio-libs/aiohttp) - Asynchronous HTTP client/server framework for asyncio and Python
+
+*   [BrainBlend-AI/atomic-agents](https://github.com/BrainBlend-AI/atomic-agents) - Building AI agents, atomically
+
+*   [EniasCailliau/GirlfriendGPT](https://github.com/EniasCailliau/GirlfriendGPT) - OSS AI Companion Chatbot - Build your own AI companion in Python using ChatGPT.
+
+*   [docling-project/docling](https://github.com/docling-project/docling) - Get your documents ready for gen AI
+
+*   [Lesterpaintstheworld/terminal-velocity](https://github.com/Lesterpaintstheworld/terminal-velocity) - A novel created autonomously by a team of 10 AI agents
+
+*   [datalab-to/surya](https://github.com/datalab-to/surya) - OCR, layout analysis, reading order, table recognition in 90+ languages
+
+*   [openai/swarm](https://github.com/openai/swarm) - Educational framework exploring ergonomic, lightweight multi-agent orchestration. Managed by OpenAI Solution team.
+
+*   [yokonsan/midjourney-api](https://github.com/yokonsan/midjourney-api) - midjourney in discord api.
+
+*   [searxng/searxng](https://github.com/searxng/searxng) - SearXNG is a free internet metasearch engine which aggregates results from various search services and databases. Users are neither tracked nor profiled.
+
+*   [meta-llama/llama-stack](https://github.com/meta-llama/llama-stack) - Composable building blocks to build Llama Apps
+
+*   [microsoft/RD-Agent](https://github.com/microsoft/RD-Agent) - Research and development (R\&D) is crucial for the enhancement of industrial productivity, especially in the AI era, where the core aspects of R\&D are mainly focused on data and models. We are committed to automating these high-value generic R\&D processes through R\&D-Agent, which lets AI drive data-driven AI. 🔗https://aka.ms/RD-Agent-Tech-Report
+
+*   [karpathy/build-nanogpt](https://github.com/karpathy/build-nanogpt) - Video+code lecture on building nanoGPT from scratch
+
+*   [Mikubill/sd-webui-controlnet](https://github.com/Mikubill/sd-webui-controlnet) - WebUI extension for ControlNet
+
+*   [livekit/agents](https://github.com/livekit/agents) - A powerful framework for building realtime voice AI agents 🤖🎙️📹
+
+*   [exo-explore/exo](https://github.com/exo-explore/exo) - Run your own AI cluster at home with everyday devices 📱💻 🖥️⌚
+
+*   [unclecode/crawl4ai](https://github.com/unclecode/crawl4ai) - 🚀🤖 Crawl4AI: Open-source LLM Friendly Web Crawler & Scraper. Don't be shy, join here: https://discord.gg/jP8KfhDhyN
+
+*   [larsbijl/trending\_archive](https://github.com/larsbijl/trending_archive) - An archive of the GitHub daily trending information
+
+*   [kwsy/FictionAnalysis](https://github.com/kwsy/FictionAnalysis) - 对小说文本进行分析，提炼小说剧情内容和人物关系
+
+*   [Zipstack/unstract](https://github.com/Zipstack/unstract) - No-code LLM Platform to launch APIs and ETL Pipelines to structure unstructured documents
+
+*   [AgentEra/Agently](https://github.com/AgentEra/Agently) - \[GenAI Application Development Framework]  🚀 Build GenAI application quick and easy 💬 Easy to interact with GenAI agent in code using structure data and chained-calls syntax 🧩 Use Agently Workflow to manage complex GenAI working logic 🔀 Switch to any model without rewrite application code
+
+*   [MLSysOps/MLE-agent](https://github.com/MLSysOps/MLE-agent) - 🤖 MLE-Agent: Your intelligent companion for seamless AI engineering and research. 🔍 Integrate with arxiv and paper with code to provide better code/research plans 🧰 OpenAI, Anthropic, Gemini, Ollama, etc supported. :fireworks: Code RAG
+
+*   [Cinnamon/kotaemon](https://github.com/Cinnamon/kotaemon) - An open-source RAG-based tool for chatting with your documents.
+
+*   [Lightning-AI/LitServe](https://github.com/Lightning-AI/LitServe) - The easiest way to deploy agents, MCP servers, models, RAG, pipelines and more. No MLOps. No YAML.
+
+*   [jod35/fastapi-beyond-CRUD](https://github.com/jod35/fastapi-beyond-CRUD) - This is source code for a series where we talk about the concepts of FastAPI API development beyond the CRUD stuff
+
+*   [goauthentik/authentik](https://github.com/goauthentik/authentik) - The authentication glue you need.
+
+*   [HRI-EU/tulip\_agent](https://github.com/HRI-EU/tulip_agent) - autonomous agent with access to a tool library
+
+*   [IntelLabs/RAG-FiT](https://github.com/IntelLabs/RAG-FiT) - Framework for enhancing LLMs for RAG tasks using fine-tuning.
+
+*   [THUDM/LongWriter](https://github.com/THUDM/LongWriter) - \[ICLR 2025] LongWriter: Unleashing 10,000+ Word Generation from Long Context LLMs
+
+*   [dyabel/AnyTool](https://github.com/dyabel/AnyTool) -
+
+*   [OpenBMB/IoA](https://github.com/OpenBMB/IoA) - An open-source framework for collaborative AI agents, enabling diverse, distributed agents to team up and tackle complex tasks through internet-like connectivity.
+
+*   [Yusuke710/nanoPerplexityAI](https://github.com/Yusuke710/nanoPerplexityAI) - The simplest open-source implementation of perplexity.ai
+
+*   [lipku/LiveTalking](https://github.com/lipku/LiveTalking) - Real time interactive streaming digital human
+
+*   [ollama/ollama-python](https://github.com/ollama/ollama-python) - Ollama Python library
+
+*   [hesic73/webnovel](https://github.com/hesic73/webnovel) - 网络小说阅读网站，前端模仿笔趣阁
+
+*   [modelscope/agentscope](https://github.com/modelscope/agentscope) - Start building LLM-empowered multi-agent applications in an easier way.
+
+*   [2noise/ChatTTS](https://github.com/2noise/ChatTTS) - A generative speech model for daily dialogue.
+
+*   [kyegomez/swarms](https://github.com/kyegomez/swarms) - The Enterprise-Grade Production-Ready Multi-Agent Orchestration Framework. Website: https://swarms.ai
+
+*   [bhancockio/crewai-rag-deep-dive](https://github.com/bhancockio/crewai-rag-deep-dive) -
+
+*   [open-mmlab/StyleShot](https://github.com/open-mmlab/StyleShot) - StyleShot: A SnapShot on Any Style. 一款可以迁移任意风格到任意内容的模型，无需针对图片微调，即能生成高质量的个性风格化图片!
+
+*   [Ag2S1/Sibyl-System](https://github.com/Ag2S1/Sibyl-System) -
+
+*   [Doriandarko/claude-engineer](https://github.com/Doriandarko/claude-engineer) - Claude Engineer is an interactive command-line interface (CLI) that leverages the power of Anthropic's Claude-3.5-Sonnet model to assist with software development tasks.This framework enables Claude to generate and manage its own tools, continuously expanding its capabilities through conversation. Available both as a CLI and a modern web interface
+
+*   [lm-sys/RouteLLM](https://github.com/lm-sys/RouteLLM) - A framework for serving and evaluating LLM routers - save LLM costs without compromising quality
+
+*   [Shubhamsaboo/awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) - Collection of awesome LLM apps with AI Agents and RAG using OpenAI, Anthropic, Gemini and opensource models.
+
+*   [muzishen/IMAGDressing](https://github.com/muzishen/IMAGDressing) - \[AAAI 2025]👔IMAGDressing👔: Interactive Modular Apparel Generation for Virtual Dressing. It enables customizable human image generation with flexible garment, pose, and scene control, ensuring high fidelity and garment consistency for virtual dressing.
+
+*   [togethercomputer/MoA](https://github.com/togethercomputer/MoA) - Together Mixture-Of-Agents (MoA) –  65.1% on AlpacaEval with OSS models
+
+*   [AstraBert/everything-ai](https://github.com/AstraBert/everything-ai) - Your fully proficient, AI-powered and local chatbot assistant🤖
+
+*   [dmuth/fastapi-httpbin](https://github.com/dmuth/fastapi-httpbin) - HTTP Endpoints for easy testing of your app.
+
+*   [s3rius/FastAPI-template](https://github.com/s3rius/FastAPI-template) - Feature rich robust FastAPI template.
+
+*   [sarthaksavvy/sarthaksavvy](https://github.com/sarthaksavvy/sarthaksavvy) -
+
+*   [andfanilo/social-media-tutorials](https://github.com/andfanilo/social-media-tutorials) - Code dumps of Youtube/Twitter tutorials
+
+*   [qodo-ai/qodo-cover](https://github.com/qodo-ai/qodo-cover) - Qodo-Cover: An AI-Powered Tool for Automated Test Generation and Code Coverage Enhancement! 💻🤖🧪🐞
+
+*   [fschuhi/yt-transcript-summarizer](https://github.com/fschuhi/yt-transcript-summarizer) - A FastAPI application that generates summaries of YouTube video transcripts using GPT models.
+
+*   [Aeternalis-Ingenium/FastAPI-Backend-Template](https://github.com/Aeternalis-Ingenium/FastAPI-Backend-Template) - A backend project template with FastAPI, PostgreSQL with asynchronous SQLAlchemy 2.0, Alembic for asynchronous database migration, and Docker.
+
+*   [barsikus007/fastapi-react-boilerplate](https://github.com/barsikus007/fastapi-react-boilerplate) - My standard KISS template for fullstack projects
+
+*   [ArielMAJ/fullstack-vue-fastapi-template](https://github.com/ArielMAJ/fullstack-vue-fastapi-template) - A template for fullstack projects with Vue and FastAPI.
+
+*   [fetchai/uAgents](https://github.com/fetchai/uAgents) - A fast and lightweight framework for creating decentralized agents with ease.
+
+*   [agiresearch/AIOS](https://github.com/agiresearch/AIOS) - AIOS: AI Agent Operating System
+
+*   [fiatrete/OpenDAN-Personal-AI-OS](https://github.com/fiatrete/OpenDAN-Personal-AI-OS) - OpenDAN is an open source Personal AI OS , which consolidates various AI modules in one place for your personal use.
+
+*   [mealie-recipes/mealie](https://github.com/mealie-recipes/mealie) - Mealie is a self hosted recipe manager and meal planner with a RestAPI backend and a reactive frontend application built in Vue for a pleasant user experience for the whole family. Easily add recipes into your database by providing the url and mealie will automatically import the relevant data or add a family recipe with the UI editor
+
+*   [opendatalab/MinerU](https://github.com/opendatalab/MinerU) - A high-quality tool for convert PDF to Markdown and JSON.一站式开源高质量数据提取工具，将PDF转换成Markdown和JSON格式。
+
+*   [g1879/DrissionPage](https://github.com/g1879/DrissionPage) - Python based web automation tool. Powerful and elegant.
+
+*   [ChangAnYX/chat\_GLM\_act](https://github.com/ChangAnYX/chat_GLM_act) - 利用prompt，让chatGLM进行模拟各种人物与用户对话。
+
+*   [morettt/Chatbot-Trainer](https://github.com/morettt/Chatbot-Trainer) - 专为新手设计！Chatbot Trainer 是一个基于开源语言模型（GLM4）的聊天机器人训练项目。你可以轻松训练出一个拥有你自己语气性格的聊天机器人，或训练任何你感兴趣的人物，包括名人、历史人物、动漫角色或电影小说中的虚拟人物。  通过项目内置的数据集问答对制作指导，你可以快速训练出一个拥有高度仿真对话能力的聊天机器人。采用先进的机器学习算法，确保训练过程简单、高效，并生成自然流畅的对话。
+
+*   [Chain-Mao/Chat-Style-Bot](https://github.com/Chain-Mao/Chat-Style-Bot) - Chat-Style-Bot是一个聊天风格模仿大语言模型，通过分析和学习微信聊天记录，可模仿你的说话风格（口头禅等），并可接入微信和你的朋友们自动聊天。Chat-Style-Bot is a chat style imitating llm. By analyzing and learning WeChat chat records, it can imitate your speaking style (mantra, etc.), and can connect to WeChat to automatically chat with your friends.
+
+*   [apify/crawlee-python](https://github.com/apify/crawlee-python) - Crawlee—A web scraping and browser automation library for Python to build reliable crawlers. Extract data for AI, LLMs, RAG, or GPTs. Download HTML, PDF, JPG, PNG, and other files from websites. Works with BeautifulSoup, Playwright, and raw HTTP. Both headful and headless mode. With proxy rotation.
+
+*   [ManimCommunity/manim](https://github.com/ManimCommunity/manim) - A community-maintained Python framework for creating mathematical animations.
+
+*   [stanford-oval/storm](https://github.com/stanford-oval/storm) - An LLM-powered knowledge curation system that researches a topic and generates a full-length report with citations.
+
+*   [yuntianhe2014/Easy-RAG](https://github.com/yuntianhe2014/Easy-RAG) - 一个适合学习、使用、自主扩展的RAG【检索增强生成】系统！可联网做AI搜索
+
+*   [anthropics/anthropic-sdk-python](https://github.com/anthropics/anthropic-sdk-python) -
+
+*   [moshstudio/TAICHI-flet](https://github.com/moshstudio/TAICHI-flet) - 基于flet的一款windows桌面应用，实现了浏览图片、音乐、小说、漫画、各种资源的功能。
+
+*   [rany2/edge-tts](https://github.com/rany2/edge-tts) - Use Microsoft Edge's online text-to-speech service from Python WITHOUT needing Microsoft Edge or Windows or an API key
+
+*   [Azure-Samples/graphrag-accelerator](https://github.com/Azure-Samples/graphrag-accelerator) - One-click deploy of a Knowledge Graph powered RAG (GraphRAG) in Azure
+
+*   [microsoft/graphrag](https://github.com/microsoft/graphrag) - A modular graph-based Retrieval-Augmented Generation (RAG) system
+
+*   [urchade/GLiNER](https://github.com/urchade/GLiNER) - Generalist and Lightweight Model for Named Entity Recognition (Extract any entity types from texts) @ NAACL 2024
+
+*   [lllyasviel/Paints-UNDO](https://github.com/lllyasviel/Paints-UNDO) - Understand Human Behavior to Align True Needs
+
+*   [fishaudio/fish-speech](https://github.com/fishaudio/fish-speech) - SOTA Open Source TTS
+
+*   [AJaySi/AI-Writer](https://github.com/AJaySi/AI-Writer) - 🚀 ALwrity - AI-Powered Content Creation & SEO Platform. Generate blogs, social media content, and marketing copy with 60+ AI tools. Features web research, SEO optimization, and multi-language support. Generate Text, Image, Audio. Content planning & Brainstorming. Open Source AI writer. (WIP)
+
+*   [cjyyx/AI\_Gen\_Novel](https://github.com/cjyyx/AI_Gen_Novel) - 基于大语言模型(LLM)和多智能体(Multi-Agent)，探究AI写小说能力的边界
+
+*   [Stability-AI/stable-audio-tools](https://github.com/Stability-AI/stable-audio-tools) - Generative models for conditional audio generation
+
+*   [mesop-dev/mesop](https://github.com/mesop-dev/mesop) - Rapidly build AI apps in Python
+
+*   [pydantic/logfire](https://github.com/pydantic/logfire) - Uncomplicated Observability for Python and beyond! 🪵🔥
+
+*   [essamamdani/search-result-scraper-markdown](https://github.com/essamamdani/search-result-scraper-markdown) - This project provides a powerful web scraping tool that fetches search results and converts them into Markdown format using FastAPI, SearXNG, and Browserless. It includes the capability to use proxies for web scraping and handles HTML content conversion to Markdown efficiently.
+
+*   [paulocoutinhox/fastapi-app](https://github.com/paulocoutinhox/fastapi-app) - A FastAPI complete application with nice features and tests
+
+*   [pdm-project/pdm](https://github.com/pdm-project/pdm) - A modern Python package and dependency manager supporting the latest PEP standards
+
+*   [hpcaitech/Open-Sora](https://github.com/hpcaitech/Open-Sora) - Open-Sora: Democratizing Efficient Video Production for All
+
+*   [ansible/awx](https://github.com/ansible/awx) - AWX provides a web-based user interface, REST API, and task engine built on top of Ansible. It is one of the upstream projects for Red Hat Ansible Automation Platform.
+
+*   [pydantic/pydantic](https://github.com/pydantic/pydantic) - Data validation using Python type hints
+
+*   [MervinPraison/PraisonAI](https://github.com/MervinPraison/PraisonAI) - PraisonAI is a production-ready Multi AI Agents framework, designed to create AI Agents to automate and solve problems ranging from simple tasks to complex challenges. It provides a low-code solution to streamline the building and management of multi-agent LLM systems, emphasising simplicity, customisation, and effective human-agent collaboration.
+
+*   [ag2ai/faststream](https://github.com/ag2ai/faststream) - FastStream is a powerful and easy-to-use Python framework for building asynchronous services interacting with event streams such as Apache Kafka, RabbitMQ, NATS and Redis.
+
+*   [argilla-io/argilla](https://github.com/argilla-io/argilla) - Argilla is a collaboration tool for AI engineers and domain experts to build high-quality datasets
+
+*   [vanna-ai/vanna](https://github.com/vanna-ai/vanna) - 🤖 Chat with your SQL database 📊. Accurate Text-to-SQL Generation via LLMs using RAG 🔄.
+
+*   [vocodedev/vocode-core](https://github.com/vocodedev/vocode-core) - 🤖 Build voice-based LLM agents. Modular + open source.
+
+*   [ammirsm/llamaindex-omakase-rag](https://github.com/ammirsm/llamaindex-omakase-rag) - This project enhances the construction of RAG applications by addressing challenges, improving accessibility, scalability, and managing data and user access. It uses Django, Llamaindex, and Google Drive for effective database management.
+
+*   [uriyyo/fastapi-pagination](https://github.com/uriyyo/fastapi-pagination) - FastAPI pagination 📖
+
+*   [hiifong/starList](https://github.com/hiifong/starList) - Export your star's repository list
+
+*   [liuzhao1225/YouDub-webui](https://github.com/liuzhao1225/YouDub-webui) -
+
+*   [swirlai/swirl-search](https://github.com/swirlai/swirl-search) - AI Search & RAG Without Moving Your Data. Get instant answers from your company's knowledge across 100+ apps while keeping data secure. Deploy in minutes, not months.
+
+*   [shamspias/customizable-gpt-chatbot](https://github.com/shamspias/customizable-gpt-chatbot) - A dynamic, scalable AI chatbot built with Django REST framework, supporting custom training from PDFs, documents, websites, and YouTube videos. Leveraging OpenAI's GPT-3.5, Pinecone, FAISS, and Celery for seamless integration and performance.
+
+*   [huge-dream/django-vue3-admin](https://github.com/huge-dream/django-vue3-admin) - Django-Vue3-Admin is a comprehensive basic development platform based on the RBAC (Role-Based Access Control) model for permission control, with column-level granularity. It follows a frontend-backend separation architecture, with
+
+*   [truefoundry/cognita](https://github.com/truefoundry/cognita) - RAG (Retrieval Augmented Generation) Framework for building modular, open source applications for production by TrueFoundry
+
+*   [Baiyuetribe/kamiFaka](https://github.com/Baiyuetribe/kamiFaka) - 一款基于VUE3.0的高颜值卡密发卡系统，特别适合虚拟商品、知识付费等。
+
+*   [chriskiehl/Gooey](https://github.com/chriskiehl/Gooey) - Turn (almost) any Python command line program into a full GUI application with one line
+
+*   [kivy/python-for-android](https://github.com/kivy/python-for-android) - Turn your Python application into an Android APK
+
+*   [zhayujie/bot-on-anything](https://github.com/zhayujie/bot-on-anything) - A large model-based chatbot builder that can quickly integrate AI models (including ChatGPT, Claude, Gemini) into various software applications (such as Telegram, Gmail, Slack, and websites).
+
+*   [Jack-Cherish/PythonPark](https://github.com/Jack-Cherish/PythonPark) - Python 开源项目之「自学编程之路」，保姆级教程：AI实验室、宝藏视频、数据结构、学习指南、机器学习实战、深度学习实战、网络爬虫、大厂面经、程序人生、资源分享。
+
+*   [YaoFANGUK/video-subtitle-remover](https://github.com/YaoFANGUK/video-subtitle-remover) - 基于AI的图片/视频硬字幕去除、文本水印去除，无损分辨率生成去字幕、去水印后的图片/视频文件。无需申请第三方API，本地实现。AI-based tool for removing hard-coded subtitles and text-like watermarks from videos or Pictures.
+
+*   [zyddnys/manga-image-translator](https://github.com/zyddnys/manga-image-translator) - Translate manga/image 一键翻译各类图片内文字 https://cotrans.touhou.ai/
+
+*   [plasma-umass/scalene](https://github.com/plasma-umass/scalene) - Scalene: a high-performance, high-precision CPU, GPU, and memory profiler for Python with AI-powered optimization proposals
+
+*   [marqo-ai/marqo](https://github.com/marqo-ai/marqo) - Unified embedding generation and search engine. Also available on cloud - cloud.marqo.ai
+
+*   [TaskingAI/TaskingAI](https://github.com/TaskingAI/TaskingAI) - The open source platform for AI-native application development.
+
+*   [georgia-tech-db/evadb](https://github.com/georgia-tech-db/evadb) - Database system for AI-powered apps
+
+*   [SWE-agent/SWE-agent](https://github.com/SWE-agent/SWE-agent) - SWE-agent takes a GitHub issue and tries to automatically fix it, using your LM of choice. It can also be employed for offensive cybersecurity or competitive coding challenges. \[NeurIPS 2024]
+
+*   [SCTY-Inc/agentcy](https://github.com/SCTY-Inc/agentcy) - Multi-Agent Creative Collaboration with AutoGen
+
+*   [reflex-dev/reflex](https://github.com/reflex-dev/reflex) - 🕸️ Web apps in pure Python 🐍
+
+*   [vkbo/novelWriter](https://github.com/vkbo/novelWriter) - novelWriter is an open source plain text editor designed for writing novels.
+
+*   [vintasoftware/django-react-boilerplate](https://github.com/vintasoftware/django-react-boilerplate) - Django 5, React, Bootstrap 5 with Python 3 and Webpack project boilerplate
+
+*   [yuruotong1/autoMate](https://github.com/yuruotong1/autoMate) - Like Manus, Computer Use Agent(CUA) and Omniparser, we are computer-using agents.AI-driven local automation assistant that uses natural language to make computers work by themselves
+
+*   [logan-markewich/llama\_index\_starter\_pack](https://github.com/logan-markewich/llama_index_starter_pack) - This repository provides very basic flask, streamlit, and docker examples for the llama\_index (fka gpt\_index) package
+
+*   [entropy-research/Devon](https://github.com/entropy-research/Devon) - Devon: An open-source pair programmer
+
+*   [TomSchimansky/CustomTkinter](https://github.com/TomSchimansky/CustomTkinter) - A modern and customizable python UI-library based on Tkinter
+
+*   [binsync/varbert\_api](https://github.com/binsync/varbert_api) - A Python API to VarBERT, a BERT based model for suggesting variable names in decompiled code.
+
+*   [LLMLab/auto\_anno](https://github.com/LLMLab/auto_anno) -
+
+*   [shroominic/codebox-api](https://github.com/shroominic/codebox-api) - 👾📦 CodeBoxAPI is the simplest sandboxing infrastructure for your LLM Apps and Services.
+
+*   [shizhl/CoAgents](https://github.com/shizhl/CoAgents) - Official code for paper "Learning to Use Tools via Cooperative and Interactive Agents"
+
+*   [codefuse-ai/codefuse-chatbot](https://github.com/codefuse-ai/codefuse-chatbot) - An intelligent assistant serving the entire software development lifecycle, powered by a Multi-Agent Framework, working with DevOps Toolkits, Code\&Doc Repo RAG,  etc.
+
+*   [MikeGu721/CS\_arxiv\_everyweek](https://github.com/MikeGu721/CS_arxiv_everyweek) - Weekly update the Computer Science Paper upload to arxiv.
+
+*   [MikeGu721/AgentGroup](https://github.com/MikeGu721/AgentGroup) -
+
+*   [ScrapeGraphAI/Scrapegraph-ai](https://github.com/ScrapeGraphAI/Scrapegraph-ai) - Python scraper based on AI
+
+*   [serfend/pydumpck](https://github.com/serfend/pydumpck) - a multi-threads tool for decompile exe,elf,pyz,pyc packed by python which is base on pycdc and uncompyle6.
+
+*   [rocky/python-uncompyle6](https://github.com/rocky/python-uncompyle6) - A cross-version Python bytecode decompiler
+
+*   [X-T-E-R/GPT-SoVITS-Inference](https://github.com/X-T-E-R/GPT-SoVITS-Inference) - Inference Specialization
+
+*   [infiniflow/ragflow](https://github.com/infiniflow/ragflow) - RAGFlow is an open-source RAG (Retrieval-Augmented Generation) engine based on deep document understanding.
+
+*   [lancedb/lancedb](https://github.com/lancedb/lancedb) - Developer-friendly, embedded retrieval engine for multimodal AI. Search More; Manage Less.
+
+*   [dnhkng/GLaDOS](https://github.com/dnhkng/GLaDOS) - This is the Personality Core for GLaDOS, the first steps towards a real-life implementation of the AI from the Portal series by Valve.
+
+*   [Doriandarko/maestro](https://github.com/Doriandarko/maestro) - A framework for Claude Opus to intelligently orchestrate subagents.
+
+*   [agno-agi/agno](https://github.com/agno-agi/agno) - Full-stack framework for building Multi-Agent Systems with memory, knowledge and reasoning.
+
+*   [SWE-bench/SWE-bench](https://github.com/SWE-bench/SWE-bench) - SWE-bench \[Multimodal]: Can Language Models Resolve Real-world Github Issues?
+
+*   [1Panel-dev/MaxKB](https://github.com/1Panel-dev/MaxKB) - 🔥 MaxKB is an open-source platform for building enterprise-grade agents.  MaxKB 是强大易用的开源企业级智能体平台。
+
+*   [pytorch/torchtune](https://github.com/pytorch/torchtune) - PyTorch native post-training library
+
+*   [All-Hands-AI/OpenHands](https://github.com/All-Hands-AI/OpenHands) - 🙌 OpenHands: Code Less, Make More
+
+*   [Evil0ctal/Douyin\_TikTok\_Download\_API](https://github.com/Evil0ctal/Douyin_TikTok_Download_API) - 🚀「Douyin\_TikTok\_Download\_API」是一个开箱即用的高性能异步抖音、快手、TikTok、Bilibili数据爬取工具，支持API调用，在线批量解析及下载。
+
+*   [jw782cn/RepoChat-200k](https://github.com/jw782cn/RepoChat-200k) - ⚡Chat with GitHub Repo Using 200k context window of Claude instead of RAG!⚡
+
+*   [emcf/thepipe](https://github.com/emcf/thepipe) - Get clean data from tricky documents, powered by vision-language models ⚡
+
+*   [JoeanAmier/TikTokDownloader](https://github.com/JoeanAmier/TikTokDownloader) - TikTok 发布/喜欢/合辑/直播/视频/图集/音乐；抖音发布/喜欢/收藏/收藏夹/视频/图集/实况/直播/音乐/合集/评论/账号/搜索/热榜数据采集工具/下载工具
+
+*   [stitionai/devika](https://github.com/stitionai/devika) - Devika is an Agentic AI Software Engineer that can understand high-level human instructions, break them down into steps, research relevant information, and write code to achieve the given objective. Devika aims to be a competitive open-source alternative to Devin by Cognition AI. \[⚠️ DEVIKA DOES NOT HAVE AN OFFICIAL WEBSITE ⚠️]
 
 *   [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) - 利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.
 
-*   [Pythagora-io/gpt-pilot](https://github.com/Pythagora-io/gpt-pilot) - The first real AI developer
+*   [NanmiCoder/MediaCrawler](https://github.com/NanmiCoder/MediaCrawler) - 小红书笔记 | 评论爬虫、抖音视频 | 评论爬虫、快手视频 | 评论爬虫、B 站视频 ｜ 评论爬虫、微博帖子 ｜ 评论爬虫、百度贴吧帖子 ｜ 百度贴吧评论回复爬虫  | 知乎问答文章｜评论爬虫
+
+*   [icdev2dev/betaassi](https://github.com/icdev2dev/betaassi) - "betaassi: An innovative Python package for seamless integration and management of OpenAI sessions, designed to enhance developer experience with asynchronous server support and extendable classes
+
+*   [pantsbuild/pants](https://github.com/pantsbuild/pants) - The Pants Build System
+
+*   [encode/django-rest-framework](https://github.com/encode/django-rest-framework) - Web APIs for Django. 🎸
+
+*   [Buuntu/fastapi-react](https://github.com/Buuntu/fastapi-react) - 🚀   Cookiecutter Template for FastAPI + React Projects.  Using PostgreSQL, SQLAlchemy, and Docker
+
+*   [DefenderJohn/SubtitleTranslator](https://github.com/DefenderJohn/SubtitleTranslator) -
+
+*   [2DIPW/gpt\_sovits\_infer\_with\_emotion](https://github.com/2DIPW/gpt_sovits_infer_with_emotion) - 基于中文文本情绪分析自动切换参考音频的 GPT-SoVITS 推理 Demo
+
+*   [smacke/ffsubsync](https://github.com/smacke/ffsubsync) - Automagically synchronize subtitles with video.
+
+*   [SciPhi-AI/R2R](https://github.com/SciPhi-AI/R2R) - SoTA production-ready AI retrieval system. Agentic Retrieval-Augmented Generation (RAG) with a RESTful API.
+
+*   [pydantic/FastUI](https://github.com/pydantic/FastUI) - Build better UIs faster.
+
+*   [mistralai/client-python](https://github.com/mistralai/client-python) - Python client library for Mistral AI platform
+
+*   [Anjok07/ultimatevocalremovergui](https://github.com/Anjok07/ultimatevocalremovergui) -  GUI for a Vocal Remover that uses Deep Neural Networks.
+
+*   [netbox-community/netbox](https://github.com/netbox-community/netbox) - The premier source of truth powering network automation. Open source under Apache 2. Try NetBox Cloud free: https://netboxlabs.com/products/free-netbox-cloud/
+
+*   [OS-Copilot/OS-Copilot](https://github.com/OS-Copilot/OS-Copilot) - An self-improving embodied conversational agent seamlessly integrated into the operating system to automate our daily tasks.
+
+*   [facefusion/facefusion](https://github.com/facefusion/facefusion) - Industry leading face manipulation platform
+
+*   [RVC-Boss/GPT-SoVITS](https://github.com/RVC-Boss/GPT-SoVITS) - 1 min voice data can also be used to train a good TTS model! (few shot voice cloning)
+
+*   [halfzm/v2vt](https://github.com/halfzm/v2vt) - video to video translation with voice clone and lip synchronization|带有语音克隆和口型同步的视频翻译，支持中英互换
+
+*   [EanYang7/Python-Full-Stack](https://github.com/EanYang7/Python-Full-Stack) - 30天入门Python全栈开发（更新中）
+
+*   [FujiwaraChoki/MoneyPrinterV2](https://github.com/FujiwaraChoki/MoneyPrinterV2) - Automate the process of making money online.
+
+*   [IncomeStreamSurfer/chatgptassistantautoblogger](https://github.com/IncomeStreamSurfer/chatgptassistantautoblogger) - This autoblogger uses the GPT assistant's API to autoblog on ecommerce websites
+
+*   [langchain-ai/langgraph](https://github.com/langchain-ai/langgraph) - Build resilient language agents as graphs.
+
+*   [rotemweiss57/gpt-newspaper](https://github.com/rotemweiss57/gpt-newspaper) - GPT based autonomous agent designed to create personalized newspapers tailored to user preferences.
+
+*   [wxywb/history\_rag](https://github.com/wxywb/history_rag) -
+
+*   [pytest-dev/pytest](https://github.com/pytest-dev/pytest) - The pytest framework makes it easy to write small tests, yet scales to support complex functional testing
+
+*   [pre-commit/pre-commit-hooks](https://github.com/pre-commit/pre-commit-hooks) - Some out-of-the-box hooks for pre-commit
+
+*   [bentoml/BentoML](https://github.com/bentoml/BentoML) - The easiest way to serve AI apps and models - Build Model Inference APIs, Job queues, LLM apps, Multi-model pipelines, and more!
+
+*   [katanaml/sparrow](https://github.com/katanaml/sparrow) - Structured data extraction and instruction calling with ML, LLM and Vision LLM
+
+*   [836304831/langchain-anal](https://github.com/836304831/langchain-anal) -
+
+*   [twintproject/twint](https://github.com/twintproject/twint) - An advanced Twitter scraping & OSINT tool written in Python that doesn't use Twitter's API, allowing you to scrape a user's followers, following, Tweets and more while evading most API limitations.
+
+*   [stanfordnlp/dspy](https://github.com/stanfordnlp/dspy) - DSPy: The framework for programming—not prompting—language models
+
+*   [protectai/llm-guard](https://github.com/protectai/llm-guard) - The Security Toolkit for LLM Interactions
+
+*   [khive-ai/lionagi](https://github.com/khive-ai/lionagi) - AGI SDK
+
+*   [microsoft/promptbase](https://github.com/microsoft/promptbase) - All things prompt engineering
+
+*   [myshell-ai/OpenVoice](https://github.com/myshell-ai/OpenVoice) - Instant voice cloning by MIT and MyShell. Audio foundation model.
+
+*   [Apil120/Extras](https://github.com/Apil120/Extras) - This repo contains extra files used my blogs.
+
+*   [kimtth/awesome-azure-openai-llm](https://github.com/kimtth/awesome-azure-openai-llm) - A curated list of 🌌 Azure OpenAI, 🦙 Large Language Models (incl. RAG, Agent), and references. \[code] https://github.com/kimtth/azure-openai-llm-cookbook
+
+*   [ThioJoe/Auto-Synced-Translated-Dubs](https://github.com/ThioJoe/Auto-Synced-Translated-Dubs) - Automatically translates the text of a video based on a subtitle file, and then uses AI voice services to create a new dubbed & translated audio track where the speech is synced using the subtitle's timings.
+
+*   [Softcatala/whisper-ctranslate2](https://github.com/Softcatala/whisper-ctranslate2) - Whisper command line client compatible with original OpenAI client based on CTranslate2.
+
+*   [Coframe/coffee](https://github.com/Coframe/coffee) - Build and iterate on your UI 10x faster with AI - right from your own IDE ☕️
+
+*   [kadirnar/whisper-plus](https://github.com/kadirnar/whisper-plus) - WhisperPlus: Faster, Smarter, and More Capable 🚀
+
+*   [shidahuilang/shuyuan](https://github.com/shidahuilang/shuyuan) - 阅读书源-香色闺阁+阅读3.0书源+源阅读+爱阅书香+千阅+花火阅读+读不舍手+番茄+喜马拉雅+漫画+听书+书源+IPTV源+IPA巨魔应用=自动更新
+
+*   [skypilot-org/skypilot](https://github.com/skypilot-org/skypilot) - SkyPilot: Run AI and batch jobs on any infra (Kubernetes or 16+ clouds). Get unified execution, cost savings, and high GPU availability via a simple interface.
+
+*   [linyiLYi/voice-assistant](https://github.com/linyiLYi/voice-assistant) - A simple toy demo of a local voice assistant with whisper and large language model.
+
+*   [llmware-ai/llmware](https://github.com/llmware-ai/llmware) - Unified framework for building enterprise RAG pipelines with small, specialized models
+
+*   [guoqincode/Open-AnimateAnyone](https://github.com/guoqincode/Open-AnimateAnyone) - Unofficial Implementation of Animate Anyone
+
+*   [superduper-io/superduper](https://github.com/superduper-io/superduper) - Superduper: End-to-end framework for building custom AI applications and agents.
+
+*   [ise-uiuc/magicoder](https://github.com/ise-uiuc/magicoder) - \[ICML'24] Magicoder: Empowering Code Generation with OSS-Instruct
+
+*   [google/style-aligned](https://github.com/google/style-aligned) - Official code for "Style Aligned Image Generation via Shared Attention"
+
+*   [n3d1117/chatgpt-telegram-bot](https://github.com/n3d1117/chatgpt-telegram-bot) - 🤖 A Telegram bot that integrates with OpenAI's official ChatGPT APIs to provide answers, written in Python
+
+*   [sherlock-project/sherlock](https://github.com/sherlock-project/sherlock) - Hunt down social media accounts by username across social networks
+
+*   [state-spaces/mamba](https://github.com/state-spaces/mamba) - Mamba SSM architecture
+
+*   [pinecone-io/canopy](https://github.com/pinecone-io/canopy) - Retrieval Augmented Generation (RAG) framework and context engine powered by Pinecone
+
+*   [python/mypy](https://github.com/python/mypy) - Optional static typing for Python
+
+*   [xaoyaoo/PyWxDump](https://github.com/xaoyaoo/PyWxDump) - 获取微信信息；读取数据库，本地查看聊天记录并导出为csv、html等格式用于AI训练，自动回复等。支持多账户信息获取，支持所有微信版本。
+
+*   [magic-research/magic-animate](https://github.com/magic-research/magic-animate) - \[CVPR 2024] Official repository for "MagicAnimate: Temporally Consistent Human Image Animation using Diffusion Model"
+
+*   [microsoft/TaskWeaver](https://github.com/microsoft/TaskWeaver) - A code-first agent framework for seamlessly planning and executing data analytics tasks.
+
+*   [TencentCloud/tencentcloud-sdk-python](https://github.com/TencentCloud/tencentcloud-sdk-python) - Tencent Cloud API 3.0 SDK for Python
+
+*   [crewAIInc/crewAI](https://github.com/crewAIInc/crewAI) - Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.
+
+*   [Avaiga/taipy](https://github.com/Avaiga/taipy) - Turns Data and AI algorithms into production-ready web applications in no time.
+
+*   [datalab-to/marker](https://github.com/datalab-to/marker) - Convert PDF to markdown + JSON quickly with high accuracy
+
+*   [cheshire-cat-ai/core](https://github.com/cheshire-cat-ai/core) - AI agent microservice
+
+*   [SALT-NLP/DyLAN](https://github.com/SALT-NLP/DyLAN) - Official Implementation of Dynamic LLM-Agent Network: An LLM-agent Collaboration Framework with Agent Team Optimization
+
+*   [cooelf/Auto-GUI](https://github.com/cooelf/Auto-GUI) - Official implementation for "You Only Look at Screens: Multimodal Chain-of-Action Agents" (Findings of ACL 2024)
+
+*   [lifan-yuan/CRAFT](https://github.com/lifan-yuan/CRAFT) - Code for ICLR 2024 paper "CRAFT: Customizing LLMs by Creating and Retrieving from Specialized Toolsets"
+
+*   [HowieHwong/MetaTool](https://github.com/HowieHwong/MetaTool) - \[ICLR 2024] MetaTool Benchmark for Large Language Models: Deciding Whether to Use Tools and Which to Use
+
+*   [CR-Gjx/Suspicion-Agent](https://github.com/CR-Gjx/Suspicion-Agent) - The implementation of "Suspicion-Agent: Playing Imperfect Information Games with Theory of Mind Aware GPT-4"
+
+*   [QiushiSun/Corex](https://github.com/QiushiSun/Corex) - \[COLM'24] Corex: Pushing the Boundaries of Complex Reasoning through Multi-Model Collaboration
+
+*   [pytorch-labs/gpt-fast](https://github.com/pytorch-labs/gpt-fast) - Simple and efficient pytorch-native transformer text generation in <1000 LOC of python.
+
+*   [open-mmlab/Amphion](https://github.com/open-mmlab/Amphion) - Amphion (/æmˈfaɪən/) is a toolkit for Audio, Music, and Speech Generation. Its purpose is to support reproducible research and help junior researchers and engineers get started in the field of audio, music, and speech generation research and development.
+
+*   [OthersideAI/self-operating-computer](https://github.com/OthersideAI/self-operating-computer) - A framework to enable multimodal models to operate a computer.
+
+*   [secdev/scapy](https://github.com/secdev/scapy) - Scapy: the Python-based interactive packet manipulation program & library.
+
+*   [modelscope/FunASR](https://github.com/modelscope/FunASR) - A Fundamental End-to-End Speech Recognition Toolkit and Open Source SOTA Pretrained Models, Supporting Speech Recognition, Voice Activity Detection, Text Post-processing etc.
+
+*   [roboflow/maestro](https://github.com/roboflow/maestro) - streamline the fine-tuning process for multimodal models: PaliGemma 2, Florence-2, and Qwen2.5-VL
+
+*   [epfLLM/meditron](https://github.com/epfLLM/meditron) - Meditron is a suite of open-source medical Large Language Models (LLMs).
+
+*   [mkshing/ziplora-pytorch](https://github.com/mkshing/ziplora-pytorch) - Implementation of "ZipLoRA: Any Subject in Any Style by Effectively Merging LoRAs"
+
+*   [facebookresearch/mae](https://github.com/facebookresearch/mae) - PyTorch implementation of MAE https//arxiv.org/abs/2111.06377
+
+*   [Ma-Lab-Berkeley/CRATE](https://github.com/Ma-Lab-Berkeley/CRATE) - Code for CRATE (Coding RAte reduction TransformEr).
+
+*   [kagisearch/vectordb](https://github.com/kagisearch/vectordb) - A minimal Python package for storing and retrieving text using chunking, embeddings, and vector search.
+
+*   [pennersr/django-allauth](https://github.com/pennersr/django-allauth) - Integrated set of Django applications addressing authentication, registration, account management as well as 3rd party (social) account authentication. 🔁 Mirror of https://codeberg.org/allauth/django-allauth/
+
+*   [adidas/lakehouse-engine](https://github.com/adidas/lakehouse-engine) - The Lakehouse Engine is a configuration driven Spark framework, written in Python, serving as a scalable and distributed engine for several lakehouse algorithms, data flows and utilities for Data Products.
+
+*   [jianchang512/clone-voice](https://github.com/jianchang512/clone-voice) - A sound cloning tool with a web interface, using your voice or any sound to record audio / 一个带web界面的声音克隆工具，使用你的音色或任意声音来录制音频
+
+*   [sh-lee-prml/HierSpeechpp](https://github.com/sh-lee-prml/HierSpeechpp) - The official implementation of HierSpeech++
 
 *   [abi/screenshot-to-code](https://github.com/abi/screenshot-to-code) - Drop in a screenshot and convert it to clean code (HTML/Tailwind/React/Vue)
 
-*   [yihong0618/gitblog](https://github.com/yihong0618/gitblog) - People Die, but Long Live GitHub
+*   [PKU-YuanGroup/Video-LLaVA](https://github.com/PKU-YuanGroup/Video-LLaVA) - 【EMNLP 2024🔥】Video-LLaVA: Learning United Visual Representation by Alignment Before Projection
 
-*   [frostming/resume](https://github.com/frostming/resume) - Personal resume with a handwritten SSG
+*   [S-LoRA/S-LoRA](https://github.com/S-LoRA/S-LoRA) - S-LoRA: Serving Thousands of Concurrent LoRA Adapters
 
-*   [ctf-wiki/ctf-wiki](https://github.com/ctf-wiki/ctf-wiki) - Come and join us, we need you!
+*   [run-llama/rags](https://github.com/run-llama/rags) - Build ChatGPT over your data, all with natural language
 
-*   [zai-org/CodeGeeX2](https://github.com/zai-org/CodeGeeX2) - CodeGeeX2: A More Powerful Multilingual Code Generation Model
+*   [flowtyone/flowty-realtime-lcm-canvas](https://github.com/flowtyone/flowty-realtime-lcm-canvas) - A realtime sketch to image demo using LCM and the gradio library.
 
-*   [public-apis/public-apis](https://github.com/public-apis/public-apis) - A collective list of free APIs
+*   [pytorch-labs/segment-anything-fast](https://github.com/pytorch-labs/segment-anything-fast) - A batched offline inference oriented version of segment-anything
 
-*   [xiaolai/regular-investing-in-box](https://github.com/xiaolai/regular-investing-in-box) - 定投改变命运 —— 让时间陪你慢慢变富 https://onregularinvesting.com
+*   [Lightning-AI/pytorch-lightning](https://github.com/Lightning-AI/pytorch-lightning) - Pretrain, finetune ANY AI model of ANY size on multiple GPUs, TPUs with zero code changes.
 
-*   [gsoc-cn/gsoc-cn](https://github.com/gsoc-cn/gsoc-cn) - Google Summer of Code 中文相关资料
+*   [NeumTry/NeumAI](https://github.com/NeumTry/NeumAI) - Neum AI is a best-in-class framework to manage the creation and synchronization of vector embeddings at large scale.
 
-*   [squidfunk/mkdocs-material](https://github.com/squidfunk/mkdocs-material) - Documentation that simply works
+*   [KoljaB/RealtimeTTS](https://github.com/KoljaB/RealtimeTTS) - Converts text to speech in realtime
 
-*   [zylon-ai/private-gpt](https://github.com/zylon-ai/private-gpt) - Interact with your documents using the power of GPT, 100% privately, no data leaks
+*   [yl4579/StyleTTS2](https://github.com/yl4579/StyleTTS2) - StyleTTS 2: Towards Human-Level Text-to-Speech through Style Diffusion and Adversarial Training with Large Speech Language Models
 
-*   [tonngw/daily-news-bot](https://github.com/tonngw/daily-news-bot) - 每日新闻推送到微信使用 GitHub Action 和 pushplus 实现 | This is a daily news bot use github action and pushplus.
+*   [OpenBMB/ProAgent](https://github.com/OpenBMB/ProAgent) - An LLM-based Agent for the New Automation Paradigm - Agentic Process Automation
 
-*   [bookfere/Ebook-Translator-Calibre-Plugin](https://github.com/bookfere/Ebook-Translator-Calibre-Plugin) - A Calibre plugin to translate ebook into a specified language.
+*   [TheR1D/shell\_gpt](https://github.com/TheR1D/shell_gpt) - A command-line productivity tool powered by AI large language models like GPT-4, will help you accomplish your tasks faster and more efficiently.
 
-*   [songweige/rich-text-to-image](https://github.com/songweige/rich-text-to-image) - Rich-Text-to-Image Generation
+*   [huggingface/distil-whisper](https://github.com/huggingface/distil-whisper) - Distilled variant of Whisper for speech recognition. 6x faster, 50% smaller, within 1% word error rate.
 
-*   [EwingYangs/awesome-open-gpt](https://github.com/EwingYangs/awesome-open-gpt) - Collection of Open Source Projects Related to GPT，GPT相关开源项目合集🚀、精选🔥🔥
+*   [GreyDGL/PentestGPT](https://github.com/GreyDGL/PentestGPT) - A GPT-empowered penetration testing tool
 
-*   [donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer) - Learn how to design large-scale systems. Prep for the system design interview.  Includes Anki flashcards.
+*   [Alb-310/Geogramint](https://github.com/Alb-310/Geogramint) - An OSINT Geolocalization tool for Telegram that find nearby users and groups 📡🌍🔍
+
+*   [weaviate/Verba](https://github.com/weaviate/Verba) - Retrieval Augmented Generation (RAG) chatbot powered by Weaviate
+
+*   [CVHub520/X-AnyLabeling](https://github.com/CVHub520/X-AnyLabeling) - Effortless data labeling with AI support from Segment Anything and other awesome models.
+
+*   [dadapera/labeling\_with\_GPT](https://github.com/dadapera/labeling_with_GPT) - Labeling with GPT!
+
+*   [google-deepmind/graphcast](https://github.com/google-deepmind/graphcast) -
+
+*   [cbh123/narrator](https://github.com/cbh123/narrator) - David Attenborough narrates your life
+
+*   [cloud804d/mirrors-pengzhile-pandora](https://github.com/cloud804d/mirrors-pengzhile-pandora) - 潘多拉，一个让你呼吸顺畅的ChatGPT。Pandora, a ChatGPT that helps you breathe smoothly.
+
+*   [python/cpython](https://github.com/python/cpython) - The Python programming language
+
+*   [luosiallen/latent-consistency-model](https://github.com/luosiallen/latent-consistency-model) - Latent Consistency Models: Synthesizing High-Resolution Images with Few-Step Inference
+
+*   [daveshap/ACE\_Framework](https://github.com/daveshap/ACE_Framework) - ACE (Autonomous Cognitive Entities) - 100% local and open source autonomous agents
+
+*   [libraryofcelsus/Aetherius\_AI\_Assistant](https://github.com/libraryofcelsus/Aetherius_AI_Assistant) - A completely private, locally-operated Ai Assistant/Chatbot/Sub-Agent Framework with realistic Long Term Memory and thought formation using Open Source LLMs. Qdrant is used for the Vector DB.
+
+*   [langroid/langroid-examples](https://github.com/langroid/langroid-examples) - Using Langroid's Multi-Agent Framework to Build LLM Apps
+
+*   [lilakk/BooookScore](https://github.com/lilakk/BooookScore) - A package to generate summaries of long-form text and evaluate the coherence of these summaries. Official package for our ICLR 2024 paper, "BooookScore: A systematic exploration of book-length summarization in the era of LLMs".
+
+*   [HITsz-TMG/Multi-agent-peer-review](https://github.com/HITsz-TMG/Multi-agent-peer-review) - Official implementation of our paper "Towards Reasoning in Large Language Models via Multi-Agent Peer Review Collaboration".
+
+*   [qodo-ai/pr-agent](https://github.com/qodo-ai/pr-agent) - 🚀 PR-Agent (Qodo Merge open-source): An AI-Powered 🤖 Tool for Automated Pull Request Analysis, Feedback, Suggestions and More! 💻🔍
+
+*   [docker/genai-stack](https://github.com/docker/genai-stack) - Langchain + Docker + Neo4j + Ollama
+
+*   [disler/multi-agent-postgres-data-analytics](https://github.com/disler/multi-agent-postgres-data-analytics) - The way we interact with our data is changing.
+
+*   [lyz1810/edge-tts](https://github.com/lyz1810/edge-tts) - 调用微软TTS 在线语音合成，实现文字转语音功能，包含晓晓、云扬、云希等“网红主播”，通过python flask启动服务，快速访问使用
+
+*   [roboflow/awesome-openai-vision-api-experiments](https://github.com/roboflow/awesome-openai-vision-api-experiments) - Must-have resource for anyone who wants to experiment with and build on the OpenAI vision API 🔥
+
+*   [yihong0618/Kindle\_download\_helper](https://github.com/yihong0618/Kindle_download_helper) - Download all your kindle books script.
+
+*   [FlareSolverr/FlareSolverr](https://github.com/FlareSolverr/FlareSolverr) - Proxy server to bypass Cloudflare protection
+
+*   [netease-youdao/EmotiVoice](https://github.com/netease-youdao/EmotiVoice) - EmotiVoice 😊: a Multi-Voice and Prompt-Controlled TTS Engine
+
+*   [microsoft/autogen](https://github.com/microsoft/autogen) - A programming framework for agentic AI 🤖 PyPi: autogen-agentchat Discord: https://aka.ms/autogen-discord Office Hour: https://aka.ms/autogen-officehour
+
+*   [ishan0102/vimGPT](https://github.com/ishan0102/vimGPT) - Browse the web with GPT-4V and Vimium
+
+*   [OpenBMB/XAgent](https://github.com/OpenBMB/XAgent) - An Autonomous LLM Agent for Complex Task Solving
+
+*   [daveshap/OpenAI\_Agent\_Swarm](https://github.com/daveshap/OpenAI_Agent_Swarm) - HAAS = Hierarchical Autonomous Agent Swarm - "Resistance is futile!"
+
+*   [roboflow/webcamGPT](https://github.com/roboflow/webcamGPT) - webcamGPT - chat with video stream 💬 + 📸
+
+*   [chtmp223/topicGPT](https://github.com/chtmp223/topicGPT) - TopicGPT: A Prompt-Based Framework for Topic Modeling (NAACL'24)
+
+*   [Genesis-Embodied-AI/RoboGen](https://github.com/Genesis-Embodied-AI/RoboGen) - A generative and self-guided robotic agent that endlessly propose and master new skills.
+
+*   [microsoft/playwright-python](https://github.com/microsoft/playwright-python) - Python version of the Playwright testing and automation library.
+
+*   [PyGithub/PyGithub](https://github.com/PyGithub/PyGithub) - Typed interactions with the GitHub API v3
+
+*   [fortra/impacket](https://github.com/fortra/impacket) - Impacket is a collection of Python classes for working with network protocols.
+
+*   [OpenTalker/video-retalking](https://github.com/OpenTalker/video-retalking) - \[SIGGRAPH Asia 2022] VideoReTalking: Audio-based Lip Synchronization for Talking Head Video Editing In the Wild
+
+*   [yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp) - A feature-rich command-line audio/video downloader
+
+*   [jax-ml/jax](https://github.com/jax-ml/jax) - Composable transformations of Python+NumPy programs: differentiate, vectorize, JIT to GPU/TPU, and more
+
+*   [deepspeedai/DeepSpeed-MII](https://github.com/deepspeedai/DeepSpeed-MII) - MII makes low-latency and high-throughput inference possible, powered by DeepSpeed.
+
+*   [aladdinpersson/Machine-Learning-Collection](https://github.com/aladdinpersson/Machine-Learning-Collection) - A resource for learning about Machine learning & Deep Learning
+
+*   [drivendataorg/cookiecutter-data-science](https://github.com/drivendataorg/cookiecutter-data-science) - A logical, reasonably standardized, but flexible project structure for doing and sharing data science work.
+
+*   [reactive-python/reactpy](https://github.com/reactive-python/reactpy) - It's React, but in Python
+
+*   [pdfminer/pdfminer.six](https://github.com/pdfminer/pdfminer.six) - Community maintained fork of pdfminer - we fathom PDF
+
+*   [PromptEngineer48/MemGPT-AutoGEN-LLM](https://github.com/PromptEngineer48/MemGPT-AutoGEN-LLM) - Run MemGPT-AutoGEN-Local LLM Together
+
+*   [lukas-blecher/LaTeX-OCR](https://github.com/lukas-blecher/LaTeX-OCR) - pix2tex: Using a ViT to convert images of equations into LaTeX code.
+
+*   [microsoft/CodeT](https://github.com/microsoft/CodeT) -
+
+*   [PrefectHQ/marvin](https://github.com/PrefectHQ/marvin) - an ambient intelligence library
+
+*   [567-labs/instructor](https://github.com/567-labs/instructor) - structured outputs for llms
+
+*   [jianchang512/pyvideotrans](https://github.com/jianchang512/pyvideotrans) - Translate the video from one language to another and add dubbing.         将视频从一种语言翻译为另一种语言，同时支持语音识别转录、语音合成、字幕翻译。
+
+*   [shadowsocks/shadowsocks](https://github.com/shadowsocks/shadowsocks) -
+
+*   [microsoft/pyright](https://github.com/microsoft/pyright) - Static Type Checker for Python
+
+*   [fastapi/sqlmodel](https://github.com/fastapi/sqlmodel) - SQL databases in Python, designed for simplicity, compatibility, and robustness.
+
+*   [pytube/pytube](https://github.com/pytube/pytube) - A lightweight, dependency-free Python library (and command-line utility) for downloading YouTube Videos.
+
+*   [deepseek-ai/DeepSeek-Coder](https://github.com/deepseek-ai/DeepSeek-Coder) - DeepSeek Coder: Let the Code Write Itself
+
+*   [Azure-Samples/chat-with-your-data-solution-accelerator](https://github.com/Azure-Samples/chat-with-your-data-solution-accelerator) - A Solution Accelerator for the RAG pattern running in Azure, using Azure AI Search for retrieval and Azure OpenAI large language models to power ChatGPT-style and Q\&A experiences. This includes most common requirements and best practices.
+
+*   [gto76/python-cheatsheet](https://github.com/gto76/python-cheatsheet) - Comprehensive Python Cheatsheet
+
+*   [AILab-CVC/VideoCrafter](https://github.com/AILab-CVC/VideoCrafter) - VideoCrafter2: Overcoming Data Limitations for High-Quality Video Diffusion Models
+
+*   [yunjey/pytorch-tutorial](https://github.com/yunjey/pytorch-tutorial) - PyTorch Tutorial for Deep Learning Researchers
+
+*   [Dachkovski/influencer-gpt](https://github.com/Dachkovski/influencer-gpt) - A Streamlit app leveraging OpenAI's GPT-3.5 Turbo for trend discovery and video script generation, integrated with D-ID and HeyGen for video production. A one-stop solution for modern content creators.
+
+*   [BrasD99/HeyGenClone](https://github.com/BrasD99/HeyGenClone) - A simple and open-source analogue of the HeyGen system
+
+*   [huggingface/autotrain-advanced](https://github.com/huggingface/autotrain-advanced) - 🤗 AutoTrain Advanced
+
+*   [xxlong0/Wonder3D](https://github.com/xxlong0/Wonder3D) - Single Image to 3D using Cross-Domain Diffusion for 3D Generation
+
+*   [PacktPublishing/Building-Python-Microservices-with-FastAPI](https://github.com/PacktPublishing/Building-Python-Microservices-with-FastAPI) - Building Python Microservices with FastAPI, published by Packt
+
+*   [SkyworkAI/Skywork](https://github.com/SkyworkAI/Skywork) - Skywork series models are pre-trained on 3.2TB of high-quality multilingual (mainly Chinese and English) and code data. We have open-sourced the model, training data, evaluation data, evaluation methods, etc.
+
+*   [AkariAsai/self-rag](https://github.com/AkariAsai/self-rag) - This includes the original implementation of SELF-RAG: Learning to Retrieve, Generate and Critique through self-reflection by Akari Asai, Zeqiu Wu, Yizhong Wang, Avirup Sil, and Hannaneh Hajishirzi.
+
+*   [huggingface/alignment-handbook](https://github.com/huggingface/alignment-handbook) - Robust recipes to align language models with human and AI preferences
+
+*   [zai-org/ChatGLM3](https://github.com/zai-org/ChatGLM3) - ChatGLM3 series: Open Bilingual Chat LLMs | 开源双语对话语言模型
+
+*   [mckinsey/vizro](https://github.com/mckinsey/vizro) - Vizro is a low-code toolkit for building high-quality data visualization apps.
+
+*   [THUDM/AgentTuning](https://github.com/THUDM/AgentTuning) - AgentTuning: Enabling Generalized Agent Abilities for LLMs
+
+*   [pyg-team/pytorch\_geometric](https://github.com/pyg-team/pytorch_geometric) - Graph Neural Network Library for PyTorch
+
+*   [AI-Citizen/SolidGPT](https://github.com/AI-Citizen/SolidGPT) - Developer AI Persona Search Agent
+
+*   [SUDO-AI-3D/zero123plus](https://github.com/SUDO-AI-3D/zero123plus) - Code repository for Zero123++: a Single Image to Consistent Multi-view Diffusion Base Model.
+
+*   [suqingdong/sparkapi](https://github.com/suqingdong/sparkapi) - 讯飞星火认知大模型API - Python SDK
+
+*   [psf/black](https://github.com/psf/black) - The uncompromising Python code formatter
+
+*   [stas00/ml-engineering](https://github.com/stas00/ml-engineering) - Machine Learning Engineering Open Book
+
+*   [iam-veeramalla/python-for-devops](https://github.com/iam-veeramalla/python-for-devops) - Learn Python from DevOps Engineer point of you.
+
+*   [danielgross/localpilot](https://github.com/danielgross/localpilot) -
+
+*   [letta-ai/letta](https://github.com/letta-ai/letta) - Letta (formerly MemGPT) is the stateful agents framework with memory, reasoning, and context management.
+
+*   [JoeanAmier/XHS-Downloader](https://github.com/JoeanAmier/XHS-Downloader) - 小红书（XiaoHongShu、RedNote）链接提取/作品采集工具：提取账号发布、收藏、点赞、专辑作品链接；提取搜索结果作品、用户链接；采集小红书作品信息；提取小红书作品下载地址；下载小红书无水印作品文件
+
+*   [xlang-ai/OpenAgents](https://github.com/xlang-ai/OpenAgents) - \[COLM 2024] OpenAgents: An Open Platform for Language Agents in the Wild
+
+*   [Azure/azure-sdk-for-python](https://github.com/Azure/azure-sdk-for-python) - This repository is for active development of the Azure SDK for Python. For consumers of the SDK we recommend visiting our public developer docs at https://learn.microsoft.com/python/azure/ or our versioned developer docs at https://azure.github.io/azure-sdk-for-python.
+
+*   [dvlab-research/LongLoRA](https://github.com/dvlab-research/LongLoRA) - Code and documents of LongLoRA and LongAlpaca (ICLR 2024 Oral)
+
+*   [leptonai/leptonai](https://github.com/leptonai/leptonai) - A Pythonic framework to simplify AI service building
+
+*   [mit-han-lab/streaming-llm](https://github.com/mit-han-lab/streaming-llm) - \[ICLR 2024] Efficient Streaming Language Models with Attention Sinks
+
+*   [openai/openai-python](https://github.com/openai/openai-python) - The official Python library for the OpenAI API
+
+*   [zero-to-mastery/start-here-guidelines](https://github.com/zero-to-mastery/start-here-guidelines) - Lets Git started in the world of opensource, starting in the Zero To Mastery's opensource playground. Especially designed for education and practical experience purposes.
+
+*   [ansible/ansible](https://github.com/ansible/ansible) - Ansible is a radically simple IT automation platform that makes your applications and systems easier to deploy and maintain. Automate everything from code deployment to network configuration to cloud management, in a language that approaches plain English, using SSH, with no agents to install on remote systems. https://docs.ansible.com.
+
+*   [facebookresearch/MetaCLIP](https://github.com/facebookresearch/MetaCLIP) - ICLR2024 Spotlight: curation/training code, metadata, distribution and pre-trained models for MetaCLIP; CVPR 2024: MoDE: CLIP Data Experts via Clustering
+
+*   [scrapy/scrapy](https://github.com/scrapy/scrapy) - Scrapy, a fast high-level web crawling & scraping framework for Python.
+
+*   [mlfoundations/open\_lm](https://github.com/mlfoundations/open_lm) - A repository for research on medium sized language models.
+
+*   [ray-project/ray](https://github.com/ray-project/ray) - Ray is an AI compute engine. Ray consists of a core distributed runtime and a set of AI Libraries for accelerating ML workloads.
+
+*   [jackmpcollins/magentic](https://github.com/jackmpcollins/magentic) - Seamlessly integrate LLMs as Python functions
+
+*   [localstack/localstack](https://github.com/localstack/localstack) - 💻 A fully functional local AWS cloud stack. Develop and test your cloud & Serverless apps offline
+
+*   [mirawara/transcriber](https://github.com/mirawara/transcriber) - Transcription of any large audio/video files.
+
+*   [feller2021/bili\_dynamic\_wechat\_push](https://github.com/feller2021/bili_dynamic_wechat_push) -
+
+*   [jdepoix/youtube-transcript-api](https://github.com/jdepoix/youtube-transcript-api) - This is a python API which allows you to get the transcript/subtitles for a given YouTube video. It also works for automatically generated subtitles and it does not require an API key nor a headless browser, like other selenium based solutions do!
+
+*   [NExT-GPT/NExT-GPT](https://github.com/NExT-GPT/NExT-GPT) - Code and models for ICML 2024 paper, NExT-GPT: Any-to-Any Multimodal Large Language Model
+
+*   [junruxiong/IncarnaMind](https://github.com/junruxiong/IncarnaMind) - Connect and chat with your multiple documents (pdf and txt) through GPT 3.5, GPT-4 Turbo, Claude and Local Open-Source LLMs
+
+*   [firerpa/lamda](https://github.com/firerpa/lamda) -  The most powerful Android RPA agent framework, next generation of mobile automation robots.
+
+*   [lllyasviel/ControlNet](https://github.com/lllyasviel/ControlNet) - Let us control diffusion models!
+
+*   [fishaudio/Bert-VITS2](https://github.com/fishaudio/Bert-VITS2) - vits2 backbone with multilingual-bert
+
+*   [aiwaves-cn/agents](https://github.com/aiwaves-cn/agents) - An Open-source Framework for Data-centric, Self-evolving Autonomous Language Agents
+
+*   [yoheinakajima/instagraph](https://github.com/yoheinakajima/instagraph) - Converts text input or URL into knowledge graph and displays
+
+*   [openinterpreter/open-interpreter](https://github.com/openinterpreter/open-interpreter) - A natural language interface for computers
+
+*   [EmbraceAGI/awesome-chatgpt-zh](https://github.com/EmbraceAGI/awesome-chatgpt-zh) - ChatGPT 中文指南🔥，ChatGPT 中文调教指南，指令指南，应用开发指南，精选资源清单，更好的使用 chatGPT 让你的生产力 up up up! 🚀
+
+*   [mlflow/mlflow](https://github.com/mlflow/mlflow) - The open source developer platform to build AI/LLM applications and models with confidence. Enhance your AI applications with end-to-end tracking, observability, and evaluations, all in one integrated platform.
+
+*   [wagtail/wagtail](https://github.com/wagtail/wagtail) - A Django content management system focused on flexibility and user experience
+
+*   [testerSunshine/12306](https://github.com/testerSunshine/12306) - 12306智能刷票，订票
+
+*   [turboderp-org/exllamav2](https://github.com/turboderp-org/exllamav2) - A fast inference library for running LLMs locally on modern consumer-class GPUs
+
+*   [home-assistant/core](https://github.com/home-assistant/core) - :house\_with\_garden: Open source home automation that puts local control and privacy first.
+
+*   [OpenGVLab/LLaMA-Adapter](https://github.com/OpenGVLab/LLaMA-Adapter) - \[ICLR 2024] Fine-tuning LLaMA to follow Instructions within 1 Hour and 1.2M Parameters
+
+*   [lss233/kirara-ai](https://github.com/lss233/kirara-ai) - 🤖 可 DIY 的 多模态 AI 聊天机器人 | 🚀 快速接入 微信、 QQ、Telegram、等聊天平台 | 🦈支持DeepSeek、Grok、Claude、Ollama、Gemini、OpenAI | 工作流系统、网页搜索、AI画图、人设调教、虚拟女仆、语音对话 |
+
+*   [BerriAI/litellm](https://github.com/BerriAI/litellm) - Python SDK, Proxy Server (LLM Gateway) to call 100+ LLM APIs in OpenAI format - \[Bedrock, Azure, OpenAI, VertexAI, Cohere, Anthropic, Sagemaker, HuggingFace, Replicate, Groq]
+
+*   [microsoft/promptflow](https://github.com/microsoft/promptflow) - Build high-quality LLM apps - from prototyping, testing to production deployment and monitoring.
+
+*   [thebjorn/pydeps](https://github.com/thebjorn/pydeps) - Python Module Dependency graphs
+
+*   [keras-team/keras](https://github.com/keras-team/keras) - Deep Learning for humans
+
+*   [Textualize/rich](https://github.com/Textualize/rich) - Rich is a Python library for rich text and beautiful formatting in the terminal.
+
+*   [modelscope/ms-agent](https://github.com/modelscope/ms-agent) - MS-Agent: Lightweight Framework for Empowering Agents with Autonomous Exploration
+
+*   [jzhang38/TinyLlama](https://github.com/jzhang38/TinyLlama) - The TinyLlama project is an open endeavor to pretrain a 1.1B Llama model on 3 trillion tokens.
+
+*   [streamlit/component-template](https://github.com/streamlit/component-template) - Templates and example code for creating Streamlit Components
+
+*   [streamlit/streamlit](https://github.com/streamlit/streamlit) - Streamlit — A faster way to build and share data apps.
+
+*   [3b1b/manim](https://github.com/3b1b/manim) - Animation engine for explanatory math videos
+
+*   [OpenBMB/ChatDev](https://github.com/OpenBMB/ChatDev) - Create Customized Software using Natural Language Idea (through LLM-powered Multi-Agent Collaboration)
+
+*   [ymcui/Chinese-LLaMA-Alpaca-2](https://github.com/ymcui/Chinese-LLaMA-Alpaca-2) - 中文LLaMA-2 & Alpaca-2大模型二期项目 + 64K超长上下文模型 (Chinese LLaMA-2 & Alpaca-2 LLMs with 64K long context models)
+
+*   [rese1f/StableVideo](https://github.com/rese1f/StableVideo) - \[ICCV 2023] StableVideo: Text-driven Consistency-aware Diffusion Video Editing
+
+*   [DLLXW/baby-llama2-chinese](https://github.com/DLLXW/baby-llama2-chinese) - 用于从头预训练+SFT一个小参数量的中文LLaMa2的仓库；24G单卡即可运行得到一个具备简单中文问答能力的chat-llama2.
+
+*   [spotDL/spotify-downloader](https://github.com/spotDL/spotify-downloader) - Download your Spotify playlists and songs along with album art and metadata (from YouTube if a match is found).
+
+*   [zhayujie/chatgpt-on-wechat](https://github.com/zhayujie/chatgpt-on-wechat) - 基于大模型搭建的聊天机器人，同时支持 微信公众号、企业微信应用、飞书、钉钉 等接入，可选择ChatGPT/Claude/DeepSeek/文心一言/讯飞星火/通义千问/ Gemini/GLM-4/Kimi/LinkAI，能处理文本、语音和图片，访问操作系统和互联网，支持基于自有知识库进行定制企业智能客服。
+
+*   [kovidgoyal/calibre](https://github.com/kovidgoyal/calibre) - The official source code repository for the calibre ebook manager
 
 *   [SkalskiP/courses](https://github.com/SkalskiP/courses) - This repository is a curated collection of links to various courses and resources about Artificial Intelligence (AI)
 
-*   [listen1/listen1](https://github.com/listen1/listen1) - one for all free music in china (origin edition)
+*   [subzeroid/instagrapi](https://github.com/subzeroid/instagrapi) - 🔥 The fastest and powerful Python library for Instagram Private API 2025 with HikerAPI SaaS
 
-*   [bubbliiiing/facenet-tf2](https://github.com/bubbliiiing/facenet-tf2) - 这是一个facenet-tf2的库，可以用于训练自己的人脸识别模型
+*   [facebookresearch/nougat](https://github.com/facebookresearch/nougat) - Implementation of Nougat Neural Optical Understanding for Academic Documents
 
-*   [conanhujinming/comments-for-awesome-courses](https://github.com/conanhujinming/comments-for-awesome-courses) - 名校公开课程评价网
+*   [LemonQu-GIT/ChatGLM-6B-Engineering](https://github.com/LemonQu-GIT/ChatGLM-6B-Engineering) - ChatGLM-6B Prompt Engineering Project
 
-*   [jiantenggei/face\_recognization](https://github.com/jiantenggei/face_recognization) - mtcnn+facenet+svm 实现人脸识别
+*   [jesselau76/ebook-GPT-translator](https://github.com/jesselau76/ebook-GPT-translator) - Enjoy reading with your favorite style.
 
-*   [vipstone/faceai](https://github.com/vipstone/faceai) - 一款入门级的人脸、视频、文字检测以及识别的项目.
+*   [ludwig-ai/ludwig](https://github.com/ludwig-ai/ludwig) - Low-code framework for building custom LLMs, neural networks, and other AI models
 
-*   [WuJie1010/Facial-Expression-Recognition.Pytorch](https://github.com/WuJie1010/Facial-Expression-Recognition.Pytorch) - A CNN based pytorch implementation on facial expression recognition (FER2013 and CK+), achieving 73.112% (state-of-the-art) in FER2013 and 94.64% in CK+ dataset
+*   [BeastByteAI/scikit-llm](https://github.com/BeastByteAI/scikit-llm) - Seamlessly integrate LLMs into scikit-learn.
 
-*   [oarriaga/face\_classification](https://github.com/oarriaga/face_classification) - Real-time face detection and emotion/gender classification using fer2013/imdb datasets with a keras CNN model and openCV.
+*   [miloyip/game-programmer](https://github.com/miloyip/game-programmer) - A Study Path for Game Programmer
 
-*   [datamagic2020/Emotion\_detection\_with\_CNN](https://github.com/datamagic2020/Emotion_detection_with_CNN) -
+*   [pytorch/pytorch](https://github.com/pytorch/pytorch) - Tensors and Dynamic neural networks in Python with strong GPU acceleration
 
-*   [ageitgey/face\_recognition](https://github.com/ageitgey/face_recognition) - The world's simplest facial recognition api for Python and the command line
+*   [mouredev/Hello-Python](https://github.com/mouredev/Hello-Python) - Curso para aprender el lenguaje de programación Python desde cero y para principiantes. 100 clases, 44 horas en vídeo, código, proyectos y grupo de chat. Fundamentos, frontend, backend, testing, IA...
 
-*   [younero/face\_swap\_for\_graduate](https://github.com/younero/face_swap_for_graduate) - 为今年受疫情影响无法穿学士服拍照留念的学长学姐们做的一个学士服换脸网站
+*   [mdalvi/langchain-with-milind](https://github.com/mdalvi/langchain-with-milind) - Codebase of course "LangChain - Develop LLM powered applications with LangChain" (Udemy)
 
-*   [chenqianhe/swap\_face\_for\_graduate](https://github.com/chenqianhe/swap_face_for_graduate) - 换脸制作学士服毕业照
+*   [toluaina/pgsync](https://github.com/toluaina/pgsync) - Postgres to Elasticsearch/OpenSearch sync
 
-*   [wangzheng0822/algo](https://github.com/wangzheng0822/algo) - 数据结构和算法必知必会的50个代码实现
+*   [elastic/elasticsearch-dsl-py](https://github.com/elastic/elasticsearch-dsl-py) - High level Python client for Elasticsearch
 
-## SCSS
+*   [satwikkansal/wtfpython](https://github.com/satwikkansal/wtfpython) - What the f\*ck Python? 😱
 
-*   [Ileriayo/markdown-badges](https://github.com/Ileriayo/markdown-badges) - Badges for your personal developer branding, profile, and projects.
+*   [Pythagora-io/gpt-pilot](https://github.com/Pythagora-io/gpt-pilot) - The first real AI developer
 
-*   [conventional-commits/conventionalcommits.org](https://github.com/conventional-commits/conventionalcommits.org) - The conventional commits specification
+*   [meta-llama/codellama](https://github.com/meta-llama/codellama) - Inference code for CodeLlama models
 
-## HTML
+*   [NVIDIA/NeMo](https://github.com/NVIDIA/NeMo) - A scalable generative AI framework built for researchers and developers working on Large Language Models, Multimodal, and Speech AI (Automatic Speech Recognition and Text-to-Speech)
 
-*   [github/opensource.guide](https://github.com/github/opensource.guide) - 📚 Community guides for open source creators
+*   [neulab/prompt2model](https://github.com/neulab/prompt2model) - prompt2model - Generate Deployable Models from Natural Language Instructions
 
-*   [qiangmzsx/Software-Engineering-at-Google](https://github.com/qiangmzsx/Software-Engineering-at-Google) - 《Software Engineering at Google》的中英文对译版本
+*   [zauberzeug/nicegui](https://github.com/zauberzeug/nicegui) - Create web-based user interfaces with Python. The nice way.
 
-*   [MingLLuo/CS-Plan](https://github.com/MingLLuo/CS-Plan) -
+*   [spcl/graph-of-thoughts](https://github.com/spcl/graph-of-thoughts) - Official Implementation of "Graph of Thoughts: Solving Elaborate Problems with Large Language Models"
 
-*   [Gioni06/terminal.css](https://github.com/Gioni06/terminal.css) - Modern and minimalistic CSS framework for terminal enthusiasts
+*   [QwenLM/Qwen-VL](https://github.com/QwenLM/Qwen-VL) - The official repo of Qwen-VL (通义千问-VL) chat & pretrained large vision language model proposed by Alibaba Cloud.
 
-*   [byoungd/English-level-up-tips](https://github.com/byoungd/English-level-up-tips) - An advanced guide to learn English which might benefit you a lot 🎉 .  离谱的英语学习指南/英语学习教程。
+*   [khoj-ai/khoj](https://github.com/khoj-ai/khoj) - Your AI second brain. Self-hostable. Get answers from the web or your docs. Build custom agents, schedule automations, do deep research. Turn any online or local LLM into your personal, autonomous AI (gpt, claude, gemini, llama, qwen, mistral). Get started - free.
 
-*   [mixmark-io/turndown](https://github.com/mixmark-io/turndown) - 🛏 An HTML to Markdown converter written in JavaScript
+*   [modelscope/modelscope](https://github.com/modelscope/modelscope) - ModelScope: bring the notion of Model-as-a-Service to life.
 
-*   [xiaolai/apple-computer-literacy](https://github.com/xiaolai/apple-computer-literacy) - 个人电脑使用（以苹果产品为例）
+*   [Spico197/Humpback](https://github.com/Spico197/Humpback) - 🐋 An unofficial implementation of Self-Alignment with Instruction Backtranslation.
 
-*   [javascript-tutorial/zh.javascript.info](https://github.com/javascript-tutorial/zh.javascript.info) - 现代 JavaScript 教程（The Modern JavaScript Tutorial），以最新的 ECMAScript 规范为基准，通过简单但足够详细的内容，为你讲解从基础到高阶的 JavaScript 相关知识。
+*   [MiuLab/Taiwan-LLM](https://github.com/MiuLab/Taiwan-LLM) - Traditional Mandarin LLMs for Taiwan
 
-*   [erdengk/gsoc-analyse](https://github.com/erdengk/gsoc-analyse) - 帮助新手参与开源
+*   [FlagOpen/FlagEmbedding](https://github.com/FlagOpen/FlagEmbedding) - Retrieval and Retrieval-augmented LLMs
 
-*   [github/training-kit](https://github.com/github/training-kit) - Open source courseware for Git and GitHub
+*   [lllyasviel/Fooocus](https://github.com/lllyasviel/Fooocus) - Focus on prompting and generating
 
-*   [soulteary/forever-coolshell](https://github.com/soulteary/forever-coolshell) - 酷壳 - CoolShell 电子存档，🕯️ 谨纪念和保存陈皓先生的公开的技术分享内容，感恩皓叔对中文互联网，尤其是技术领域无私的分享。
+*   [IDEA-Research/DWPose](https://github.com/IDEA-Research/DWPose) - "Effective Whole-body Pose Estimation with Two-stages Distillation" (ICCV 2023, CV4Metaverse Workshop)
 
-*   [gjtorikian/markdowntutorial.com](https://github.com/gjtorikian/markdowntutorial.com) - Lessons to help guide new writers into Markdown!
+*   [facebookresearch/AnimatedDrawings](https://github.com/facebookresearch/AnimatedDrawings) - Code to accompany "A Method for Animating Children's Drawings of the Human Figure"
 
-*   [Rishit-dagli/Rishit-dagli](https://github.com/Rishit-dagli/Rishit-dagli) - My GitHub profile README
+*   [ant-research/CoDeF](https://github.com/ant-research/CoDeF) - \[CVPR'24 Highlight] Official PyTorch implementation of CoDeF: Content Deformation Fields for Temporally Consistent Video Processing
 
-*   [mixmark-io/turndown-plugin-gfm](https://github.com/mixmark-io/turndown-plugin-gfm) - :octocat: Turndown plugin to add GitHub Flavored Markdown extensions
+*   [Textualize/textual](https://github.com/Textualize/textual) - The lean application framework for Python.  Build sophisticated user interfaces with a simple Python API. Run your apps in the terminal and a web browser.
 
-*   [PKUFlyingPig/cs-self-learning](https://github.com/PKUFlyingPig/cs-self-learning) - 计算机自学指南
+*   [internetarchive/openlibrary](https://github.com/internetarchive/openlibrary) - One webpage for every book ever published!
 
-*   [Huxpro/huxpro.github.io](https://github.com/Huxpro/huxpro.github.io) - My Blog / Jekyll Themes / PWA
+*   [networkx/networkx](https://github.com/networkx/networkx) - Network Analysis in Python
 
-*   [mzlogin/mzlogin.github.io](https://github.com/mzlogin/mzlogin.github.io) - Jekyll Themes / GitHub Pages 博客模板 / A template repository for Jekyll based blog
+*   [silvanmelchior/IncognitoPilot](https://github.com/silvanmelchior/IncognitoPilot) - An AI code interpreter for sensitive data, powered by GPT-4 or Code Llama / Llama 2.
 
-*   [durgeshsamariya/awesome-github-profile-readme-templates](https://github.com/durgeshsamariya/awesome-github-profile-readme-templates) - This repository contains best profile readme's for your reference.
+*   [openai/whisper](https://github.com/openai/whisper) - Robust Speech Recognition via Large-Scale Weak Supervision
 
-*   [dibingfa/flash-linux0.11-talk](https://github.com/dibingfa/flash-linux0.11-talk) - 你管这破玩意叫操作系统源码 — 像小说一样品读 Linux 0.11 核心代码
+*   [roboflow/supervision](https://github.com/roboflow/supervision) - We write your reusable computer vision tools. 💜
 
-*   [liyupi/free-programming-resources](https://github.com/liyupi/free-programming-resources) - 💎 免费的编程资源大全，持续更新！🔥 覆盖各种语言和方向（Java \ Python \ C++ \ JavaScript \ Golang \ 前端 \ 后端等）的学习路线、贴心教程、项目实战、编程书籍、面试合集、实用资源等，对程序员非常有帮助！
+*   [jiran214/GPT-vup](https://github.com/jiran214/GPT-vup) - GPT-vup BIliBili | 抖音 | AI | 虚拟主播
 
-## C
+*   [google/sycophancy-intervention](https://github.com/google/sycophancy-intervention) - Scripts for generating synthetic finetuning data for reducing sycophancy.
 
-*   [htop-dev/htop](https://github.com/htop-dev/htop) - htop - an interactive process viewer
+*   [sybrenjansen/mpire](https://github.com/sybrenjansen/mpire) - A Python package for easy multiprocessing, but faster than multiprocessing
 
-*   [ggreer/the\_silver\_searcher](https://github.com/ggreer/the_silver_searcher) - A code-searching tool similar to ack, but faster.
+*   [dvlab-research/LISA](https://github.com/dvlab-research/LISA) - Project Page for "LISA: Reasoning Segmentation via Large Language Model"
 
-*   [koekeishiya/skhd](https://github.com/koekeishiya/skhd) -  Simple hotkey daemon for macOS
+*   [ytdl-org/youtube-dl](https://github.com/ytdl-org/youtube-dl) - Command-line program to download videos from YouTube.com and other video sites
 
-*   [koekeishiya/yabai](https://github.com/koekeishiya/yabai) - A tiling window manager for macOS based on binary space partitioning
+*   [srbhr/Resume-Matcher](https://github.com/srbhr/Resume-Matcher) - Improve your resumes with Resume Matcher. Get insights, keyword suggestions and tune your resumes to job descriptions.
 
-*   [karottc/linux-0.11](https://github.com/karottc/linux-0.11) - the source code of linux-0.11 for study linux kernel
+*   [Azure-Samples/azure-search-openai-demo](https://github.com/Azure-Samples/azure-search-openai-demo) - A sample app for the Retrieval-Augmented Generation pattern running in Azure, using Azure AI Search for retrieval and Azure OpenAI large language models  to power ChatGPT-style and Q\&A experiences.
 
-*   [eunomia-bpf/bpf-developer-tutorial](https://github.com/eunomia-bpf/bpf-developer-tutorial) - eBPF Developer Tutorial: Learning eBPF Step by Step with Examples
+*   [haoheliu/AudioLDM2](https://github.com/haoheliu/AudioLDM2) - Text-to-Audio/Music Generation
 
-*   [torvalds/linux](https://github.com/torvalds/linux) - Linux kernel source tree
+*   [charlesbel/Microsoft-Rewards-Farmer](https://github.com/charlesbel/Microsoft-Rewards-Farmer) - A simple bot that uses selenium to farm Microsoft Rewards written in Python
 
-*   [hoverwinter/HIT-OSLab](https://github.com/hoverwinter/HIT-OSLab) - S - 哈工大《操作系统》实验
+*   [henry-richard7/Browser-password-stealer](https://github.com/henry-richard7/Browser-password-stealer) - This python program gets all the saved passwords, credit cards and bookmarks from chromium based browsers supports chromium 80 and above!
 
-## Shell
+*   [theodo-group/GenossGPT](https://github.com/theodo-group/GenossGPT) - One API for all LLMs either Private or Public (Anthropic, Llama V2, GPT 3.5/4, Vertex, GPT4ALL, HuggingFace ...) 🌈🐂  Replace OpenAI GPT with any LLMs in your app with one line.
 
-*   [sb2nov/mac-setup](https://github.com/sb2nov/mac-setup) - Installing Development environment on macOS
+*   [feast-dev/feast](https://github.com/feast-dev/feast) - The Open Source Feature Store for AI/ML
 
-*   [junegunn/fzf-git.sh](https://github.com/junegunn/fzf-git.sh) - bash and zsh key bindings for Git objects, powered by fzf
+*   [xorbitsai/inference](https://github.com/xorbitsai/inference) - Replace OpenAI GPT with another LLM in your app by changing a single line of code. Xinference gives you the freedom to use any LLM you need. With Xinference, you're empowered to run inference with any open-source language models, speech recognition models, and multimodal models, whether in the cloud, on-premises, or even on your laptop.
 
-*   [jeffreytse/zsh-vi-mode](https://github.com/jeffreytse/zsh-vi-mode) - 💻 A better and friendly vi(vim) mode plugin for ZSH.
+*   [xusenlinzy/api-for-open-llm](https://github.com/xusenlinzy/api-for-open-llm) - Openai style api for open large language models, using LLMs just as chatgpt! Support for LLaMA, LLaMA-2, BLOOM, Falcon, Baichuan, Qwen, Xverse, SqlCoder, CodeLLaMA, ChatGLM, ChatGLM2, ChatGLM3 etc. 开源大模型的统一后端接口
 
-*   [zhangchenchen/self-consistent-coder](https://github.com/zhangchenchen/self-consistent-coder) - 如何成为一名自洽的程序员
+*   [frappe/frappe](https://github.com/frappe/frappe) - Low code web framework for real world applications, in Python and Javascript
 
-*   [dylanaraps/neofetch](https://github.com/dylanaraps/neofetch) - 🖼️  A command-line system information tool written in bash 3.2+
+*   [jupyterlab/jupyter-ai](https://github.com/jupyterlab/jupyter-ai) - A generative AI extension for JupyterLab
 
-*   [Dhghomon/easy\_rust](https://github.com/Dhghomon/easy_rust) - Rust explained using easy English
+*   [QwenLM/Qwen](https://github.com/QwenLM/Qwen) - The official repo of Qwen (通义千问) chat & pretrained large language model proposed by Alibaba Cloud.
 
-*   [wfxr/tmux-power](https://github.com/wfxr/tmux-power) - 🎨 Tmux powerline theme
+*   [OpenBMB/ToolBench](https://github.com/OpenBMB/ToolBench) - \[ICLR'24 spotlight] An open platform for training, serving, and evaluating large language model for tool learning.
 
-*   [gpakosz/.tmux](https://github.com/gpakosz/.tmux) - Oh my tmux! My self-contained, pretty & versatile tmux configuration made with 💛🩷💙🖤❤️🤍
+*   [yvann-ba/Robby-chatbot](https://github.com/yvann-ba/Robby-chatbot) - AI chatbot 🤖 for chat with CSV, PDF, TXT files 📄 and YTB videos 🎥 | using Langchain🦜 | OpenAI | Streamlit ⚡
 
-*   [romkatv/powerlevel10k](https://github.com/romkatv/powerlevel10k) - A Zsh theme
+*   [noobdawn/langchain\_ChatGPT](https://github.com/noobdawn/langchain_ChatGPT) -
 
-*   [marlonrichert/zsh-autocomplete](https://github.com/marlonrichert/zsh-autocomplete) - 🤖 Real-time type-ahead completion for Zsh. Asynchronous find-as-you-type autocompletion.
+*   [bregman-arie/devops-exercises](https://github.com/bregman-arie/devops-exercises) - Linux, Jenkins, AWS, SRE, Prometheus, Docker, Python, Ansible, Git, Kubernetes, Terraform, OpenStack, SQL, NoSQL, Azure, GCP, DNS, Elastic, Network, Virtualization. DevOps Interview Questions
 
-*   [rockerBOO/awesome-neovim](https://github.com/rockerBOO/awesome-neovim) - Collections of awesome neovim plugins.
+*   [sinaptik-ai/pandas-ai](https://github.com/sinaptik-ai/pandas-ai) - Chat with your database or your datalake (SQL, CSV, parquet). PandasAI makes data analysis conversational using LLMs and RAG.
 
-*   [dunwu/linux-tutorial](https://github.com/dunwu/linux-tutorial) - :penguin: Linux教程，主要内容：Linux 命令、Linux 系统运维、软件运维、精选常用Shell脚本
+*   [hiyouga/FastEdit](https://github.com/hiyouga/FastEdit) - 🩹Editing large language models within 10 seconds⚡
 
-*   [tmux-plugins/tpm](https://github.com/tmux-plugins/tpm) - Tmux Plugin Manager
+*   [OpenBMB/BMTools](https://github.com/OpenBMB/BMTools) - Tool Learning for Big Models, Open-Source Solutions of ChatGPT-Plugins
 
-*   [wangdoc/javascript-tutorial](https://github.com/wangdoc/javascript-tutorial) - JavaScript 教程 https://wangdoc.com/javascript
+*   [InteractiveNLP-Team/awesome-InteractiveNLP-papers](https://github.com/InteractiveNLP-Team/awesome-InteractiveNLP-papers) - Paper List for a new paradigm of NLP: Interactive NLP (https://arxiv.org/abs/2305.13246) :fire:
 
-*   [oh-my-fish/oh-my-fish](https://github.com/oh-my-fish/oh-my-fish) - The Fish Shell Framework
+*   [KenyonY/openai-forward](https://github.com/KenyonY/openai-forward) - 🚀  大语言模型高效转发服务  · An efficient forwarding service designed for LLMs. ·  OpenAI API Reverse Proxy
 
-*   [tonngw/acwing-helper](https://github.com/tonngw/acwing-helper) - 🚀AcWing 助手，学算法就上 AcWing！| 题目复制 | 生成题解模板 | 切换页面风格 (AcWing <-> LeetCode) | 复制代码 | 题目直接跳转 | 一键填写样例 | LeetCode 题目一键跳转 AcWing LeetCode 究极班题目资源页面（支持中文版和国际版）| 添加功能开关（是否记住页面风格、题目页面隐藏桌面文件夹）| 生成页面内容导航 TOC | 首页题目搜索和随机一题
+*   [Stability-AI/generative-models](https://github.com/Stability-AI/generative-models) - Generative Models by Stability AI
 
-*   [Java-Edge/Java-Interview-Tutorial](https://github.com/Java-Edge/Java-Interview-Tutorial) - 请star，勿fork，因为爱force push！涵盖国际大厂Java/数据库/DDD/设计模式/微服务/中间件/AI大模型应用/区块链开发最佳实践。关注公众号【JavaEdge】，一起交流学习！
+*   [haotian-liu/LLaVA](https://github.com/haotian-liu/LLaVA) - \[NeurIPS'23 Oral] Visual Instruction Tuning (LLaVA) built towards GPT-4V level capabilities and beyond.
+
+*   [zai-org/CodeGeeX2](https://github.com/zai-org/CodeGeeX2) - CodeGeeX2: A More Powerful Multilingual Code Generation Model
+
+*   [AbanteAI/archive-old-cli-mentat](https://github.com/AbanteAI/archive-old-cli-mentat) -
+
+*   [invictus717/MetaTransformer](https://github.com/invictus717/MetaTransformer) - Meta-Transformer for Unified Multimodal Learning
+
+*   [Jamie-Stirling/RetNet](https://github.com/Jamie-Stirling/RetNet) - An implementation of "Retentive Network: A Successor to Transformer for Large Language Models"
+
+*   [LinkSoul-AI/Chinese-Llama-2-7b](https://github.com/LinkSoul-AI/Chinese-Llama-2-7b) - 开源社区第一个能下载、能运行的中文 LLaMA2 模型！
+
+*   [omerbt/TokenFlow](https://github.com/omerbt/TokenFlow) - Official Pytorch Implementation for "TokenFlow: Consistent Diffusion Features for Consistent Video Editing" presenting "TokenFlow" (ICLR 2024)
+
+*   [mpaepper/llm\_agents](https://github.com/mpaepper/llm_agents) - Build agents which are controlled by LLMs
+
+*   [TheAlgorithms/Python](https://github.com/TheAlgorithms/Python) - All Algorithms implemented in Python
+
+*   [pypi/warehouse](https://github.com/pypi/warehouse) - The Python Package Index
+
+*   [d2l-ai/d2l-zh](https://github.com/d2l-ai/d2l-zh) - 《动手学深度学习》：面向中文读者、能运行、可讨论。中英文版被70多个国家的500多所大学用于教学。
+
+*   [jxxghp/MoviePilot](https://github.com/jxxghp/MoviePilot) - NAS媒体库自动化管理工具
+
+*   [kennethleungty/Llama-2-Open-Source-LLM-CPU-Inference](https://github.com/kennethleungty/Llama-2-Open-Source-LLM-CPU-Inference) - Running Llama 2 and other Open-Source LLMs on CPU Inference Locally for Document Q\&A
+
+*   [JayZeeDesign/researcher-gpt](https://github.com/JayZeeDesign/researcher-gpt) -
+
+*   [SYSTRAN/faster-whisper](https://github.com/SYSTRAN/faster-whisper) - Faster Whisper transcription with CTranslate2
+
+*   [LlamaFamily/Llama-Chinese](https://github.com/LlamaFamily/Llama-Chinese) - Llama中文社区，实时汇总最新Llama学习资料，构建最好的中文Llama大模型开源生态，完全开源可商用
+
+*   [scaleapi/llm-engine](https://github.com/scaleapi/llm-engine) - Scale LLM Engine public repository
+
+*   [a16z-infra/llama2-chatbot](https://github.com/a16z-infra/llama2-chatbot) - LLaMA v2 Chatbot
+
+*   [openai/evals](https://github.com/openai/evals) - Evals is a framework for evaluating LLMs and LLM systems, and an open-source registry of benchmarks.
+
+*   [dabeaz-course/python-mastery](https://github.com/dabeaz-course/python-mastery) - Advanced Python Mastery (course by @dabeaz)
+
+*   [salesforce/booksum](https://github.com/salesforce/booksum) -
+
+*   [Alsace08/SumCoT](https://github.com/Alsace08/SumCoT) - \[ACL 2023] Code and Data Repo for Paper "Element-aware Summary and Summary Chain-of-Thought (SumCoT)"
+
+*   [wangyuxinwhy/uniem](https://github.com/wangyuxinwhy/uniem) - unified embedding model
+
+*   [abertsch72/unlimiformer](https://github.com/abertsch72/unlimiformer) - Public repo for the NeurIPS 2023 paper "Unlimiformer: Long-Range Transformers with Unlimited Length Input"
+
+*   [meta-llama/llama](https://github.com/meta-llama/llama) - Inference code for Llama models
+
+*   [Jittor/JittorLLMs](https://github.com/Jittor/JittorLLMs) - 计图大模型推理库，具有高性能、配置要求低、中文支持好、可移植等特点
+
+*   [minimaxir/simpleaichat](https://github.com/minimaxir/simpleaichat) - Python package for easily interfacing with chat apps, with robust features and minimal code complexity.
+
+*   [wandb/wandb](https://github.com/wandb/wandb) - The AI developer platform. Use Weights & Biases to train and fine-tune models, and manage models from experimentation to production.
+
+*   [InternLM/InternLM](https://github.com/InternLM/InternLM) - Official release of InternLM series (InternLM, InternLM2, InternLM2.5, InternLM3).
+
+*   [databricks-academy/large-language-models](https://github.com/databricks-academy/large-language-models) - Notebooks for Large Language Models (LLMs) Specialization
+
+*   [UX-Decoder/Semantic-SAM](https://github.com/UX-Decoder/Semantic-SAM) - \[ECCV 2024] Official implementation of the paper "Semantic-SAM: Segment and Recognize Anything at Any Granularity"
+
+*   [bigscience-workshop/petals](https://github.com/bigscience-workshop/petals) - 🌸 Run LLMs at home, BitTorrent-style. Fine-tuning and inference up to 10x faster than offloading
+
+*   [RayVentura/ShortGPT](https://github.com/RayVentura/ShortGPT) - 🚀🎬 ShortGPT - Experimental AI framework for youtube shorts / tiktok channel automation
+
+*   [shroominic/codeinterpreter-api](https://github.com/shroominic/codeinterpreter-api) - 👾 Open source implementation of the ChatGPT Code Interpreter
+
+*   [KevinWang676/ChatGLM2-Voice-Cloning](https://github.com/KevinWang676/ChatGLM2-Voice-Cloning) - Chat with any character you like: ChatGLM2+SadTalker+Voice Cloning | 和喜欢的角色沉浸式对话吧：ChatGLM2+声音克隆+视频对话
+
+*   [davendw49/k2](https://github.com/davendw49/k2) - Code and datasets for paper "K2: A Foundation Language Model for Geoscience Knowledge Understanding and Utilization" in WSDM-2024
+
+*   [CarperAI/trlx](https://github.com/CarperAI/trlx) - A repo for distributed training of language models with Reinforcement Learning via Human Feedback (RLHF)
+
+*   [yeyupiaoling/AudioClassification-PaddlePaddle](https://github.com/yeyupiaoling/AudioClassification-PaddlePaddle) - 基于PaddlePaddle实现的音频分类，支持EcapaTdnn、PANNS、TDNN、Res2Net、ResNetSE等各种模型，还有多种预处理方法
+
+*   [deepset-ai/haystack](https://github.com/deepset-ai/haystack) - AI orchestration framework to build customizable, production-ready LLM applications. Connect components (models, vector DBs, file converters) to pipelines or agents that can interact with your data. With advanced retrieval methods, it's best suited for building RAG, question answering, semantic search or conversational agent chatbots.
+
+*   [bazingagin/npc\_gzip](https://github.com/bazingagin/npc_gzip) - Code for Paper: “Low-Resource” Text Classification: A Parameter-Free Classification Method with Compressors
+
+*   [OpenLMLab/MOSS-RLHF](https://github.com/OpenLMLab/MOSS-RLHF) - Secrets of RLHF in Large Language Models Part I: PPO
+
+*   [guoyww/AnimateDiff](https://github.com/guoyww/AnimateDiff) - Official implementation of AnimateDiff.
+
+*   [assafelovic/gpt-researcher](https://github.com/assafelovic/gpt-researcher) - LLM based autonomous agent that conducts deep local and web research on any topic and generates a long report with citations.
+
+*   [baichuan-inc/Baichuan-13B](https://github.com/baichuan-inc/Baichuan-13B) - A 13B large language model developed by Baichuan Intelligent Technology
+
+*   [onyx-dot-app/onyx](https://github.com/onyx-dot-app/onyx) - Gen-AI Chat for Teams - Think ChatGPT if it had access to your team's unique knowledge.
+
+*   [cookiecutter/cookiecutter](https://github.com/cookiecutter/cookiecutter) - A cross-platform command-line utility that creates projects from cookiecutters (project templates), e.g. Python package projects, C projects.
+
+*   [viyiviyi/ChatGLM-6B\_Api\_kaggle](https://github.com/viyiviyi/ChatGLM-6B_Api_kaggle) - 在kaggle部署ChatGLM API，和ChatGPT api使用相同的调用方式
+
+*   [CrazyMayfly/Free-Markdown-Translator](https://github.com/CrazyMayfly/Free-Markdown-Translator) - Free Markdown Translator是一款基于 Translators 的免费、开源的Markdown文档翻译器，能够将你的Markdown文档翻译成任意种语言。Free Markdown Translator is a free, open source Markdown document translator based on Translators that can translate your Markdown documents into any language.
+
+*   [imoneoi/openchat](https://github.com/imoneoi/openchat) - OpenChat: Advancing Open-source Language Models with Imperfect Data
+
+*   [RVC-Project/Retrieval-based-Voice-Conversion-WebUI](https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI) - Easily train a good VC model with voice data <= 10 mins!
+
+*   [donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer) - Learn how to design large-scale systems. Prep for the system design interview.  Includes Anki flashcards.
+
+*   [pyspark-ai/pyspark-ai](https://github.com/pyspark-ai/pyspark-ai) - English SDK for Apache Spark
+
+*   [comfyanonymous/ComfyUI](https://github.com/comfyanonymous/ComfyUI) - The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.
+
+*   [techwithtim/Price-Tracking-Web-Scraper](https://github.com/techwithtim/Price-Tracking-Web-Scraper) - An automated price tracker that uses bright data, playwright, react and flask.
+
+*   [ohyicong/decrypt-chrome-passwords](https://github.com/ohyicong/decrypt-chrome-passwords) -
+
+*   [RUCAIBox/LLMSurvey](https://github.com/RUCAIBox/LLMSurvey) - The official GitHub page for the survey paper "A Survey of Large Language Models".
+
+*   [dmytrostriletskyi/threads-net](https://github.com/dmytrostriletskyi/threads-net) - Unofficial and reverse-engineered Threads (threads.net) Python API wrapper. Created for academic purposes and is not intended to be used in real software.
+
+*   [fastapi/fastapi](https://github.com/fastapi/fastapi) - FastAPI framework, high performance, easy to learn, fast to code, ready for production
+
+*   [yangjianxin1/Firefly](https://github.com/yangjianxin1/Firefly) - Firefly: 大模型训练工具，支持训练Qwen2.5、Qwen2、Yi1.5、Phi-3、Llama3、Gemma、MiniCPM、Yi、Deepseek、Orion、Xverse、Mixtral-8x7B、Zephyr、Mistral、Baichuan2、Llma2、Llama、Qwen、Baichuan、ChatGLM2、InternLM、Ziya2、Vicuna、Bloom等大模型
+
+*   [huang1332/finetune\_dataset\_maker](https://github.com/huang1332/finetune_dataset_maker) - 为ChatGLM设计的微调数据集生成工具，速来制作自己的猫娘。
+
+*   [IDEA-CCNL/Fengshenbang-LM](https://github.com/IDEA-CCNL/Fengshenbang-LM) - Fengshenbang-LM(封神榜大模型)是IDEA研究院认知计算与自然语言研究中心主导的大模型开源体系，成为中文AIGC和认知智能的基础设施。
+
+*   [Aider-AI/aider](https://github.com/Aider-AI/aider) - aider is AI pair programming in your terminal
+
+*   [FoundationAgents/MetaGPT](https://github.com/FoundationAgents/MetaGPT) - 🌟 The Multi-Agent Framework: First AI Software Company, Towards Natural Language Programming
+
+*   [langflow-ai/langflow](https://github.com/langflow-ai/langflow) - Langflow is a powerful tool for building and deploying AI-powered agents and workflows.
+
+*   [joshpxyne/gpt-migrate](https://github.com/joshpxyne/gpt-migrate) - Easily migrate your codebase from one framework or language to another.
+
+*   [BalianWang/OSLUI](https://github.com/BalianWang/OSLUI) - Natural Language User Interface for Operating Systems
+
+*   [521xueweihan/GitHub520](https://github.com/521xueweihan/GitHub520) - :kissing\_heart: 让你“爱”上 GitHub，解决访问时图裂、加载慢的问题。（无需安装）
+
+*   [hiroi-sora/Umi-OCR](https://github.com/hiroi-sora/Umi-OCR) - OCR software, free and offline. 开源、免费的离线OCR软件。支持截屏/批量导入图片，PDF文档识别，排除水印/页眉页脚，扫描/生成二维码。内置多国语言库。
+
+*   [521xueweihan/HelloGitHub](https://github.com/521xueweihan/HelloGitHub) - :octocat: 分享 GitHub 上有趣、入门级的开源项目。Share interesting, entry-level open source projects on GitHub.
+
+*   [shibing624/text2vec](https://github.com/shibing624/text2vec) - text2vec, text to vector. 文本向量表征工具，把文本转化为向量矩阵，实现了Word2Vec、RankBM25、Sentence-BERT、CoSENT等文本表征、文本相似度计算模型，开箱即用。
+
+*   [donnemartin/gitsome](https://github.com/donnemartin/gitsome) - A supercharged Git/GitHub command line interface (CLI).  An official integration for GitHub and GitHub Enterprise: https://github.com/works-with/category/desktop-tools
+
+*   [labmlai/labml](https://github.com/labmlai/labml) - 🔎 Monitor deep learning model training and hardware usage from your mobile phone 📱
+
+*   [geerlingguy/ansible-for-devops](https://github.com/geerlingguy/ansible-for-devops) - Ansible for DevOps examples.
+
+*   [LiLittleCat/awesome-free-chatgpt](https://github.com/LiLittleCat/awesome-free-chatgpt) - 🆓免费的 ChatGPT 镜像网站列表，持续更新。List of free ChatGPT mirror sites, continuously updated.
+
+*   [huggingface/transformers](https://github.com/huggingface/transformers) - 🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training.
+
+*   [TransformerOptimus/SuperAGI](https://github.com/TransformerOptimus/SuperAGI) - <⚡️> SuperAGI - A dev-first open source autonomous AI agent framework. Enabling developers to build, manage & run useful autonomous agents quickly and reliably.
+
+*   [ParthJadhav/Tkinter-Designer](https://github.com/ParthJadhav/Tkinter-Designer) - An easy and fast way to create a Python GUI 🐍
+
+*   [abacaj/mpt-30B-inference](https://github.com/abacaj/mpt-30B-inference) - Run inference on MPT-30B using CPU
+
+*   [yeyupiaoling/VoiceprintRecognition-Pytorch](https://github.com/yeyupiaoling/VoiceprintRecognition-Pytorch) - This project uses a variety of advanced voiceprint recognition models such as EcapaTdnn, ResNetSE, ERes2Net, CAM++, etc. It is not excluded that more models will be supported in the future. At the same time, this project also supports MelSpectrogram, Spectrogram data preprocessing methods
+
+*   [speechbrain/speechbrain](https://github.com/speechbrain/speechbrain) - A PyTorch-based Speech Toolkit
+
+*   [bmaltais/kohya\_ss](https://github.com/bmaltais/kohya_ss) -
+
+*   [THUDM/WebGLM](https://github.com/THUDM/WebGLM) - WebGLM: An Efficient Web-enhanced Question Answering System (KDD 2023)
+
+*   [cvg/LightGlue](https://github.com/cvg/LightGlue) - LightGlue: Local Feature Matching at Light Speed (ICCV 2023)
+
+*   [Alvin9999/new-pac](https://github.com/Alvin9999/new-pac) - 翻墙-科学上网、自由上网、免费科学上网、免费翻墙、fanqiang、油管youtube/视频下载、软件、VPN、一键翻墙浏览器，vps一键搭建翻墙服务器脚本/教程，免费shadowsocks/ss/ssr/v2ray/goflyway账号/节点，翻墙梯子，电脑、手机、iOS、安卓、windows、Mac、Linux、路由器翻墙、科学上网、youtube视频下载、youtube油管镜像/免翻墙网站、美区apple id共享账号、翻墙-科学上网-梯子
+
+*   [google/google-ctf](https://github.com/google/google-ctf) - Google CTF
+
+*   [mosaicml/composer](https://github.com/mosaicml/composer) - Supercharge Your Model Training
+
+*   [EbookFoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books) - :books: Freely available programming books
+
+*   [jackhawks/rectg](https://github.com/jackhawks/rectg) - 从全网搜集超 10000+ 个 Telegram 群组、频道和机器人，并筛选出优质且持续更新的资源，为 数据分析、研究与学习 提供支持。所有数据均来源于互联网，仅用于研究分析，不涉及商业或违法用途，使用者需自行承担风险。
+
+*   [turboderp/exllama](https://github.com/turboderp/exllama) - A more memory-efficient rewrite of the HF transformers implementation of Llama for use with quantized weights.
+
+*   [zai-org/ChatGLM2-6B](https://github.com/zai-org/ChatGLM2-6B) - ChatGLM2-6B: An Open Bilingual Chat LLM | 开源双语对话语言模型
+
+*   [SkyTNT/anime-segmentation](https://github.com/SkyTNT/anime-segmentation) - high-accuracy segmentation for anime character
+
+*   [Inupedia/anime-character-image-preprocessing](https://github.com/Inupedia/anime-character-image-preprocessing) - Image preprocessing, including character cropping, background removal, image enlargement and restoration, PIXIV image downloading, etc. 图片预处理，包括人物裁剪，背景去除，图片放大修复，PIXIV图片下载等
+
+*   [sjvasquez/handwriting-synthesis](https://github.com/sjvasquez/handwriting-synthesis) - Handwriting Synthesis with RNNs ✏️
+
+*   [SizheAn/PanoHead](https://github.com/SizheAn/PanoHead) - Code Repository for CVPR 2023 Paper "PanoHead: Geometry-Aware 3D Full-Head Synthesis in 360 degree"
+
+*   [XingangPan/DragGAN](https://github.com/XingangPan/DragGAN) - Official Code for DragGAN (SIGGRAPH 2023)
+
+*   [Stability-AI/stablediffusion](https://github.com/Stability-AI/stablediffusion) - High-Resolution Image Synthesis with Latent Diffusion Models
+
+*   [Vision-CAIR/MiniGPT-4](https://github.com/Vision-CAIR/MiniGPT-4) - Open-sourced codes for MiniGPT-4 and MiniGPT-v2 (https://minigpt-4.github.io, https://minigpt-v2.github.io/)
+
+*   [Rapptz/discord.py](https://github.com/Rapptz/discord.py) - An API wrapper for Discord written in Python.
+
+*   [ramon-victor/freegpt-webui](https://github.com/ramon-victor/freegpt-webui) - GPT 3.5/4 with a Chat Web UI. No API key required.
+
+*   [mem0ai/mem0](https://github.com/mem0ai/mem0) - Universal memory layer for AI Agents; Announcing OpenMemory MCP - local and secure memory management.
+
+*   [babysor/MockingBird](https://github.com/babysor/MockingBird) - 🚀AI拟声: 5秒内克隆您的声音并生成任意语音内容 Clone a voice in 5 seconds to generate arbitrary speech in real-time
+
+*   [voicepaw/so-vits-svc-fork](https://github.com/voicepaw/so-vits-svc-fork) - so-vits-svc fork with realtime support, improved interface and more features.
+
+*   [airbytehq/airbyte](https://github.com/airbytehq/airbyte) - The leading data integration platform for ETL / ELT data pipelines from APIs, databases & files to data warehouses, data lakes & data lakehouses. Both self-hosted and Cloud-hosted.
+
+*   [MustardChef/WSABuilds](https://github.com/MustardChef/WSABuilds) - Run Windows Subsystem For Android on your Windows 10 and Windows 11 PC using prebuilt binaries with Google Play Store (MindTheGapps) and/or Magisk or KernelSU (root solutions) built in.
+
+*   [ivy-llc/ivy](https://github.com/ivy-llc/ivy) - Convert Machine Learning Code Between Frameworks
+
+*   [CASIA-IVA-Lab/FastSAM](https://github.com/CASIA-IVA-Lab/FastSAM) - Fast Segment Anything
+
+*   [OpenGVLab/InternGPT](https://github.com/OpenGVLab/InternGPT) - InternGPT (iGPT) is an open source demo platform where you can easily showcase your AI models. Now it supports DragGAN, ChatGPT, ImageBind, multimodal chat like GPT-4, SAM, interactive image editing, etc. Try it at igpt.opengvlab.com (支持DragGAN、ChatGPT、ImageBind、SAM的在线Demo系统)
+
+*   [SevaSk/ecoute](https://github.com/SevaSk/ecoute) - Ecoute is a live transcription tool that provides real-time transcripts for both the user's microphone input (You) and the user's speakers output (Speaker) in a textbox.
+
+*   [OpenDriveLab/UniAD](https://github.com/OpenDriveLab/UniAD) - \[CVPR 2023 Best Paper Award] Planning-oriented Autonomous Driving
+
+*   [SkalskiP/top-cvpr-2023-papers](https://github.com/SkalskiP/top-cvpr-2023-papers) - This repository is a curated collection of the most exciting and influential CVPR 2023 papers. 🔥 \[Paper + Code]
+
+*   [scikit-learn/scikit-learn](https://github.com/scikit-learn/scikit-learn) - scikit-learn: machine learning in Python
+
+*   [edtechre/pybroker](https://github.com/edtechre/pybroker) - Algorithmic Trading in Python with Machine Learning
+
+*   [kyegomez/tree-of-thoughts](https://github.com/kyegomez/tree-of-thoughts) - Plug in and Play Implementation of Tree of Thoughts: Deliberate Problem Solving with Large Language Models that Elevates Model Reasoning by atleast 70%
+
+*   [OpenGVLab/DragGAN](https://github.com/OpenGVLab/DragGAN) - Unofficial Implementation of DragGAN - "Drag Your GAN: Interactive Point-based Manipulation on the Generative Image Manifold" （DragGAN 全功能实现，在线Demo，本地部署试用，代码、模型已全部开源，支持Windows, macOS, Linux）
+
+*   [alejandro-ao/ask-multiple-pdfs](https://github.com/alejandro-ao/ask-multiple-pdfs) - A Langchain app that allows you to chat with multiple PDFs
+
+*   [h2oai/h2o-llmstudio](https://github.com/h2oai/h2o-llmstudio) - H2O LLM Studio - a framework and no-code GUI for fine-tuning LLMs. Documentation: https://docs.h2o.ai/h2o-llmstudio/
+
+*   [facebookresearch/ijepa](https://github.com/facebookresearch/ijepa) - Official codebase for I-JEPA, the Image-based Joint-Embedding Predictive Architecture. First outlined in the CVPR paper, "Self-supervised learning from images with a joint-embedding predictive architecture."
+
+*   [microsoft/sample-app-aoai-chatGPT](https://github.com/microsoft/sample-app-aoai-chatGPT) - Sample code for a simple web chat experience through Azure OpenAI, including Azure OpenAI On Your Data.
+
+*   [s0md3v/sd-webui-roop](https://github.com/s0md3v/sd-webui-roop) - roop extension for StableDiffusion web-ui
+
+*   [refuel-ai/autolabel](https://github.com/refuel-ai/autolabel) - Label, clean and enrich text datasets with LLMs.
+
+*   [techleadhd/chatgpt-retrieval](https://github.com/techleadhd/chatgpt-retrieval) -
+
+*   [tinygrad/tinygrad](https://github.com/tinygrad/tinygrad) - You like pytorch? You like micrograd? You love tinygrad! ❤️
+
+*   [voxel51/fiftyone-docs-search](https://github.com/voxel51/fiftyone-docs-search) - Search docs.voxel51.com with an LLM!
+
+*   [vllm-project/vllm](https://github.com/vllm-project/vllm) - A high-throughput and memory-efficient inference and serving engine for LLMs
+
+*   [EvolvingLMMs-Lab/Otter](https://github.com/EvolvingLMMs-Lab/Otter) - 🦦 Otter, a multi-modal model based on OpenFlamingo (open-sourced version of DeepMind's Flamingo), trained on MIMIC-IT and showcasing improved instruction-following and in-context learning ability.
+
+*   [FlagAI-Open/FlagAI](https://github.com/FlagAI-Open/FlagAI) - FlagAI (Fast LArge-scale General AI models) is a fast, easy-to-use and extensible toolkit for large-scale model.
+
+*   [iperov/DeepFaceLive](https://github.com/iperov/DeepFaceLive) - Real-time face swap for PC streaming or video calls
+
+*   [clovaai/donut](https://github.com/clovaai/donut) - Official Implementation of OCR-free Document Understanding Transformer (Donut) and Synthetic Document Generator (SynthDoG), ECCV 2022
+
+*   [pengxiao-song/LaWGPT](https://github.com/pengxiao-song/LaWGPT) -  🎉 Repo for LaWGPT, Chinese-Llama tuned with Chinese Legal knowledge. 基于中文法律知识的大语言模型
+
+*   [eosphoros-ai/DB-GPT](https://github.com/eosphoros-ai/DB-GPT) - AI Native Data App Development framework with AWEL(Agentic Workflow Expression Language) and Agents
+
+*   [princeton-vl/infinigen](https://github.com/princeton-vl/infinigen) - Infinite Photorealistic Worlds using Procedural Generation
+
+*   [bentoml/OpenLLM](https://github.com/bentoml/OpenLLM) - Run any open-source LLMs, such as DeepSeek and Llama, as OpenAI compatible API endpoint in the cloud.
+
+*   [s0md3v/roop](https://github.com/s0md3v/roop) - one-click face swap
+
+*   [mattduck/gh2md](https://github.com/mattduck/gh2md) - Export Github repository issues, pull requests and comments to markdown.
+
+*   [hiyouga/LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory) - Unified Efficient Fine-Tuning of 100+ LLMs & VLMs (ACL 2024)
+
+*   [baichuan-inc/Baichuan-7B](https://github.com/baichuan-inc/Baichuan-7B) - A large-scale 7B pretraining language model developed by BaiChuan-Inc.
+
+*   [AntonOsika/gpt-engineer](https://github.com/AntonOsika/gpt-engineer) - CLI platform to experiment with codegen. Precursor to: https://lovable.dev
+
+*   [w-okada/voice-changer](https://github.com/w-okada/voice-changer) - リアルタイムボイスチェンジャー Realtime Voice Changer
+
+*   [huggingface/text-generation-inference](https://github.com/huggingface/text-generation-inference) - Large Language Model Text Generation Inference
+
+*   [Lightning-AI/litgpt](https://github.com/Lightning-AI/litgpt) - 20+ high-performance LLMs with recipes to pretrain, finetune and deploy at scale.
+
+*   [facebookresearch/xformers](https://github.com/facebookresearch/xformers) - Hackable and optimized Transformers building blocks, supporting a composable construction.
+
+*   [jayli/langchain-GLM\_Agent](https://github.com/jayli/langchain-GLM_Agent) - 本地知识库 + chatGLM6B + CustomAgent
+
+*   [wuaman/You-Only-Click-Once](https://github.com/wuaman/You-Only-Click-Once) - 基于SAM的半自动图像标注工具（可制作目标检测和语义分割数据集）
+
+*   [xiaoyou-bilibili/anime\_recognize](https://github.com/xiaoyou-bilibili/anime_recognize) - 动漫人脸识别
+
+*   [ShishirPatil/gorilla](https://github.com/ShishirPatil/gorilla) - Gorilla: Training and Evaluating LLMs for Function Calls (Tool Calls)
+
+*   [THUDM/SwissArmyTransformer](https://github.com/THUDM/SwissArmyTransformer) - SwissArmyTransformer is a flexible and powerful library to develop your own Transformer variants.
+
+*   [bigcode-project/starcoder](https://github.com/bigcode-project/starcoder) - Home of StarCoder: fine-tuning & inference!
+
+*   [salesforce/CodeTF](https://github.com/salesforce/CodeTF) - CodeTF: One-stop Transformer Library for State-of-the-art Code LLM
+
+*   [purnasai/CLIP\_Image\_Retrieval](https://github.com/purnasai/CLIP_Image_Retrieval) - Image/Instance Retrieval using CLIP, A self supervised Learning Model
+
+*   [zilliztech/GPTCache](https://github.com/zilliztech/GPTCache) - Semantic cache for LLMs. Fully integrated with LangChain and llama\_index.
+
+*   [PromtEngineer/localGPT](https://github.com/PromtEngineer/localGPT) - Chat with your documents on your local device using GPT models. No data leaves your device and 100% private.
+
+*   [nekoconer/Transformer\_Japanese-Chinese-pytorch-translation](https://github.com/nekoconer/Transformer_Japanese-Chinese-pytorch-translation) - 基于Transformer的日中翻译深度学习代码，有参考B站视频：bilibili.com/video/BV1vf4y1n7k2/?spm\_id\_from=333.999.0.0\&vd\_source=01d40bab61c0d75811863a7e8365848d
+
+*   [WangRongsheng/XrayGLM](https://github.com/WangRongsheng/XrayGLM) - 🩺 首个会看胸部X光片的中文多模态医学大模型 | The first Chinese Medical Multimodal Model that Chest Radiographs Summarization.
+
+*   [mymusise/ChatGLM-Tuning](https://github.com/mymusise/ChatGLM-Tuning) - 基于ChatGLM-6B + LoRA的Fintune方案
+
+*   [UKPLab/sentence-transformers](https://github.com/UKPLab/sentence-transformers) - State-of-the-Art Text Embeddings
+
+*   [Achuan2015/finetune-chinese-bert-with-sentence-transformers](https://github.com/Achuan2015/finetune-chinese-bert-with-sentence-transformers) - finetune  chinese bert with sentence-transformers
+
+*   [svjack/Sbert-ChineseExample](https://github.com/svjack/Sbert-ChineseExample) - Sentence-Transformers Information Retrieval example on Chinese
+
+*   [akhinageorge/recommendation-SentenceTransformers](https://github.com/akhinageorge/recommendation-SentenceTransformers) - A basic recommendation system using Sentence Transformers and cosine similarity
+
+*   [adiekaye/sentence-transformer-demo](https://github.com/adiekaye/sentence-transformer-demo) - A Very Simple Demo of Sentence Transformers using Pinecone
+
+*   [navneeeth/live-subtitle-generator](https://github.com/navneeeth/live-subtitle-generator) - The Video Subtitle Generator is a project that combines the capabilities of PyAudio, opencv-python, OpenAI's Whisper API, and Deepgram API to generate subtitles for videos both uploaded and live.
+
+*   [facebookresearch/fairseq](https://github.com/facebookresearch/fairseq) - Facebook AI Research Sequence-to-Sequence Toolkit written in Python.
+
+*   [Zulko/moviepy](https://github.com/Zulko/moviepy) - Video editing with Python
+
+*   [openai/plugins-quickstart](https://github.com/openai/plugins-quickstart) - Get a ChatGPT plugin up and running in under 5 minutes!
+
+*   [ricklamers/gpt-code-ui](https://github.com/ricklamers/gpt-code-ui) - An open source implementation of OpenAI's ChatGPT Code interpreter
+
+*   [smol-ai/developer](https://github.com/smol-ai/developer) - the first library to let you embed a developer agent in your own app!
+
+*   [QuivrHQ/quivr](https://github.com/QuivrHQ/quivr) - Opiniated RAG for integrating GenAI in your apps 🧠   Focus on your product rather than the RAG. Easy integration in existing products with customisation!  Any LLM: GPT4, Groq, Llama. Any Vectorstore: PGVector, Faiss. Any Files. Anyway you want.
+
+*   [WangRongsheng/MedQA-ChatGLM](https://github.com/WangRongsheng/MedQA-ChatGLM) - 🛰️ 基于真实医疗对话数据在ChatGLM上进行LoRA、P-Tuning V2、Freeze、RLHF等微调，我们的眼光不止于医疗问答
+
+*   [zejunwang1/chatglm\_tuning](https://github.com/zejunwang1/chatglm_tuning) - 基于 LoRA 和 P-Tuning v2 的 ChatGLM-6B 高效参数微调
+
+*   [cirediatpl/FigmaChain](https://github.com/cirediatpl/FigmaChain) - FigmaChain is a set of Python scripts that generate HTML/CSS code based on Figma designs. Using OpenAI's GPT-3 model, FigmaChain enables developers to quickly generate HTML/CSS code from a Figma design input. It also includes a Streamlit-based chatbot interface for interactive code generation.
+
+*   [Significant-Gravitas/Auto-GPT-Plugins](https://github.com/Significant-Gravitas/Auto-GPT-Plugins) - Plugins for Auto-GPT
+
+*   [zylon-ai/private-gpt](https://github.com/zylon-ai/private-gpt) - Interact with your documents using the power of GPT, 100% privately, no data leaks
+
+*   [facebookresearch/ImageBind](https://github.com/facebookresearch/ImageBind) - ImageBind One Embedding Space to Bind Them All
+
+*   [pinecone-io/pinecone-python-client](https://github.com/pinecone-io/pinecone-python-client) - The Pinecone Python client
+
+*   [nlpxucan/WizardLM](https://github.com/nlpxucan/WizardLM) - LLMs build upon Evol Insturct: WizardLM, WizardCoder, WizardMath
+
+*   [bhaskatripathi/pdfGPT](https://github.com/bhaskatripathi/pdfGPT) - PDF GPT allows you to chat with the contents of your PDF file by using GPT capabilities. The most effective open source solution to turn your pdf files in a chatbot!
+
+*   [mlc-ai/mlc-llm](https://github.com/mlc-ai/mlc-llm) - Universal LLM Deployment Engine with ML Compilation
+
+*   [SCIR-HI/Huatuo-Llama-Med-Chinese](https://github.com/SCIR-HI/Huatuo-Llama-Med-Chinese) - Repo for BenTsao \[original name: HuaTuo (华驼)], Instruction-tuning Large Language Models with Chinese Medical Knowledge. 本草（原名：华驼）模型仓库，基于中文医学知识的大语言模型指令微调
+
+*   [gradio-app/gradio](https://github.com/gradio-app/gradio) - Build and share delightful machine learning apps, all in Python. 🌟 Star to support our work!
+
+*   [daugaard47/ChatGPT\_Conversations\_To\_Markdown](https://github.com/daugaard47/ChatGPT_Conversations_To_Markdown) - ChatGPT Conversations to Markdown is a Python script that converts your exported ChatGPT conversations into readable and well-formatted Markdown files.
+
+*   [openai/shap-e](https://github.com/openai/shap-e) - Generate 3D objects conditioned on text or images
+
+*   [mosaicml/llm-foundry](https://github.com/mosaicml/llm-foundry) - LLM training code for Databricks foundation models
+
+*   [xtekky/gpt4free](https://github.com/xtekky/gpt4free) - The official gpt4free repository | various collection of powerful language models | o4, o3 and deepseek r1, gpt-4.1, gemini 2.5
+
+*   [AIGC-Audio/AudioGPT](https://github.com/AIGC-Audio/AudioGPT) - AudioGPT: Understanding and Generating Speech, Music, Sound, and Talking Head
+
+*   [h2oai/h2ogpt](https://github.com/h2oai/h2ogpt) - Private chat with local GPT with document, images, video, etc. 100% private, Apache 2.0. Supports oLLaMa, Mixtral, llama.cpp, and more. Demo: https://gpt.h2o.ai/ https://gpt-docs.h2o.ai/
+
+*   [hiyouga/ChatGLM-Efficient-Tuning](https://github.com/hiyouga/ChatGLM-Efficient-Tuning) - Fine-tuning ChatGLM-6B with PEFT | 基于 PEFT 的高效 ChatGLM 微调
+
+*   [liucongg/ChatGLM-Finetuning](https://github.com/liucongg/ChatGLM-Finetuning) - 基于ChatGLM-6B、ChatGLM2-6B、ChatGLM3-6B模型，进行下游具体任务微调，涉及Freeze、Lora、P-tuning、全参微调等
+
+*   [OpenGVLab/Ask-Anything](https://github.com/OpenGVLab/Ask-Anything) - \[CVPR2024 Highlight]\[VideoChatGPT] ChatGPT with video understanding! And many more supported LMs such as miniGPT4, StableLM, and MOSS.
+
+*   [Picsart-AI-Research/Text2Video-Zero](https://github.com/Picsart-AI-Research/Text2Video-Zero) - \[ICCV 2023 Oral] Text-to-Image Diffusion Models are Zero-Shot Video Generators
+
+*   [yoheinakajima/babyagi](https://github.com/yoheinakajima/babyagi) -
+
+*   [X-D-Lab/LangChain-ChatGLM-Webui](https://github.com/X-D-Lab/LangChain-ChatGLM-Webui) - 基于LangChain和ChatGLM-6B等系列LLM的针对本地知识库的自动问答
+
+*   [microsoft/JARVIS](https://github.com/microsoft/JARVIS) - JARVIS, a system to connect LLMs with ML community. Paper: https://arxiv.org/pdf/2303.17580.pdf
+
+*   [biobootloader/wolverine](https://github.com/biobootloader/wolverine) -
+
+*   [deepspeedai/DeepSpeed](https://github.com/deepspeedai/DeepSpeed) - DeepSpeed is a deep learning optimization library that makes distributed training and inference easy, efficient, and effective.
+
+*   [GanymedeNil/document.ai](https://github.com/GanymedeNil/document.ai) - 基于向量数据库与GPT3.5的通用本地知识库方案(A universal local knowledge base solution based on vector database and GPT3.5)
+
+*   [microsoft/LoRA](https://github.com/microsoft/LoRA) - Code for loralib, an implementation of "LoRA: Low-Rank Adaptation of Large Language Models"
+
+*   [karpathy/minGPT](https://github.com/karpathy/minGPT) - A minimal PyTorch re-implementation of the OpenAI GPT (Generative Pretrained Transformer) training
+
+*   [deepspeedai/DeepSpeedExamples](https://github.com/deepspeedai/DeepSpeedExamples) - Example models using DeepSpeed
+
+*   [huggingface/peft](https://github.com/huggingface/peft) - 🤗 PEFT: State-of-the-art Parameter-Efficient Fine-Tuning.
+
+*   [GaiZhenbiao/ChuanhuChatGPT](https://github.com/GaiZhenbiao/ChuanhuChatGPT) - GUI for ChatGPT API and many LLMs. Supports agents, file-based QA, GPT finetuning and query with web search. All with a neat UI.
+
+*   [oobabooga/text-generation-webui](https://github.com/oobabooga/text-generation-webui) - LLM UI with advanced features, easy setup, and multiple backend support.
+
+*   [MikeGu721/EasyLLM](https://github.com/MikeGu721/EasyLLM) - make LLM easier to use
+
+*   [camel-ai/camel](https://github.com/camel-ai/camel) - 🐫 CAMEL: The first and the best multi-agent framework. Finding the Scaling Law of Agents. https://www.camel-ai.org
+
+*   [datadance/book3-kg](https://github.com/datadance/book3-kg) -
+
+*   [wxjiao/ParroT](https://github.com/wxjiao/ParroT) - The ParroT framework to enhance and regulate the Translation Abilities during Chat based on open-sourced LLMs (e.g., LLaMA-7b, Bloomz-7b1-mt) and human written translation and evaluation data.
+
+*   [ViperX7/Alpaca-Turbo](https://github.com/ViperX7/Alpaca-Turbo) - Web UI to run alpaca model locally
+
+*   [ShannonAI/mrc-for-flat-nested-ner](https://github.com/ShannonAI/mrc-for-flat-nested-ner) - Code for ACL 2020 paper `A Unified MRC Framework for Named Entity Recognition`
+
+*   [yanqiangmiffy/LLaMA-Instruct-Learning](https://github.com/yanqiangmiffy/LLaMA-Instruct-Learning) -
+
+*   [loujie0822/DeepIE](https://github.com/loujie0822/DeepIE) - DeepIE: Deep Learning for Information Extraction
+
+*   [Torantulino/AI-Functions](https://github.com/Torantulino/AI-Functions) - AI-Powered Function Magic: Never code again with GPT models!
+
+*   [terrier-org/pyterrier](https://github.com/terrier-org/pyterrier) - A Python framework for performing information retrieval experiments, building on http://terrier.org/
+
+*   [allenai/dont-stop-pretraining](https://github.com/allenai/dont-stop-pretraining) - Code associated with the Don't Stop Pretraining ACL 2020 paper
+
+*   [yizhongw/Tk-Instruct](https://github.com/yizhongw/Tk-Instruct) - Tk-Instruct is a Transformer model that is tuned to solve many NLP tasks by following instructions.
+
+*   [ssbuild/llm\_finetuning](https://github.com/ssbuild/llm_finetuning) - Large language Model fintuning  bloom , opt , gpt, gpt2 ,llama,llama-2,cpmant and so on
+
+*   [project-baize/baize-chatbot](https://github.com/project-baize/baize-chatbot) - Let ChatGPT teach your own chatbot in hours with a single GPU!
+
+*   [teknium1/GPTeacher](https://github.com/teknium1/GPTeacher) - A collection of modular datasets generated by GPT-4, General-Instruct - Roleplay-Instruct - Code-Instruct - and Toolformer
+
+*   [public-apis/public-apis](https://github.com/public-apis/public-apis) - A collective list of free APIs
+
+*   [ymcui/Chinese-LLaMA-Alpaca](https://github.com/ymcui/Chinese-LLaMA-Alpaca) - 中文LLaMA\&Alpaca大语言模型+本地CPU/GPU训练部署 (Chinese LLaMA & Alpaca LLMs)
+
+*   [lm-sys/FastChat](https://github.com/lm-sys/FastChat) - An open platform for training, serving, and evaluating large language models. Release repo for Vicuna and Chatbot Arena.
+
+*   [OptimalScale/LMFlow](https://github.com/OptimalScale/LMFlow) - An Extensible Toolkit for Finetuning and Inference of Large Foundation Models. Large Models for All.
+
+*   [Significant-Gravitas/AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) - AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.
+
+*   [zai-org/ChatGLM-6B](https://github.com/zai-org/ChatGLM-6B) - ChatGLM-6B: An Open Bilingual Dialogue Language Model | 开源双语对话语言模型
+
+*   [namuan/dr-doc-search](https://github.com/namuan/dr-doc-search) - Converse with book - Built with GPT-3
+
+*   [binary-husky/gpt\_academic](https://github.com/binary-husky/gpt_academic) - 为GPT/GLM等LLM大语言模型提供实用化交互接口，特别优化论文阅读/润色/写作体验，模块化设计，支持自定义快捷按钮&函数插件，支持Python和C++等项目剖析&自译解功能，PDF/LaTex论文翻译&总结功能，支持并行问询多种LLM模型，支持chatglm3等本地模型。接入通义千问, deepseekcoder, 讯飞星火, 文心一言, llama2, rwkv, claude2, moss等。
+
+*   [openai/chatgpt-retrieval-plugin](https://github.com/openai/chatgpt-retrieval-plugin) - The ChatGPT Retrieval Plugin lets you easily find personal or work documents by asking questions in natural language.
+
+*   [pass-lin/misaka-writer-V2](https://github.com/pass-lin/misaka-writer-V2) -
+
+*   [pass-lin/misaka-writer](https://github.com/pass-lin/misaka-writer) -
+
+*   [kaixindelele/ChatPaper](https://github.com/kaixindelele/ChatPaper) - Use ChatGPT to summarize the arXiv papers. 全流程加速科研，利用chatgpt进行论文全文总结+专业翻译+润色+审稿+审稿回复
+
+*   [yihong0618/xiaogpt](https://github.com/yihong0618/xiaogpt) - Play ChatGPT and other LLM with Xiaomi AI Speaker
+
+*   [chenfei-wu/TaskMatrix](https://github.com/chenfei-wu/TaskMatrix) -
+
+*   [exaloop/codon](https://github.com/exaloop/codon) - A high-performance, zero-overhead, extensible Python compiler with built-in NumPy support
+
+*   [yizhongw/self-instruct](https://github.com/yizhongw/self-instruct) - Aligning pretrained language models with instruction data generated by themselves.
+
+*   [tatsu-lab/stanford\_alpaca](https://github.com/tatsu-lab/stanford_alpaca) - Code and documentation to train Stanford's Alpaca models, and generate the data.
+
+*   [mmhzheng/Tex2text](https://github.com/mmhzheng/Tex2text) - Convert a tex file to pure readable text.
+
+*   [mikavehns/BookGPT](https://github.com/mikavehns/BookGPT) - Writes complete books with given paramters, using GPT-3.
+
+*   [yihong0618/bilingual\_book\_maker](https://github.com/yihong0618/bilingual_book_maker) - Make bilingual epub books Using AI translate
+
+*   [Tongjilibo/bert4torch](https://github.com/Tongjilibo/bert4torch) - An elegent pytorch implement of transformers
+
+*   [huggingface/diffusers](https://github.com/huggingface/diffusers) - 🤗 Diffusers: State-of-the-art diffusion models for image, video, and audio generation in PyTorch and FLAX.
+
+*   [sympy/sympy](https://github.com/sympy/sympy) - A computer algebra system written in pure Python
+
+*   [FMInference/FlexLLMGen](https://github.com/FMInference/FlexLLMGen) - Running large language models on a single GPU for throughput-oriented scenarios.
+
+*   [THUDM/GLM](https://github.com/THUDM/GLM) - GLM (General Language Model)
+
+*   [openai/baselines](https://github.com/openai/baselines) - OpenAI Baselines: high-quality implementations of reinforcement learning algorithms
+
+*   [lucidrains/PaLM-rlhf-pytorch](https://github.com/lucidrains/PaLM-rlhf-pytorch) - Implementation of RLHF (Reinforcement Learning with Human Feedback) on top of the PaLM architecture. Basically ChatGPT but with PaLM
+
+*   [AUTOMATIC1111/stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui) - Stable Diffusion web UI
+
+*   [cleanlab/cleanlab](https://github.com/cleanlab/cleanlab) - Cleanlab's open-source library is the standard data-centric AI package for data quality and machine learning with messy, real-world data and labels.
+
+*   [amazon-science/mm-cot](https://github.com/amazon-science/mm-cot) - Official implementation for "Multimodal Chain-of-Thought Reasoning in Language Models" (stay tuned and more will be updated)
+
+*   [Blealtan/RWKV-LM-LoRA](https://github.com/Blealtan/RWKV-LM-LoRA) - RWKV is a RNN with transformer-level LLM performance. It can be directly trained like a GPT (parallelizable). So it's combining the best of RNN and transformer - great performance, fast inference, saves VRAM, fast training, "infinite" ctx\_len, and free sentence embedding.
+
+*   [acheong08/EdgeGPT](https://github.com/acheong08/EdgeGPT) - Reverse engineered API of Microsoft's Bing Chat AI
+
+*   [PaddlePaddle/PaddleFormers](https://github.com/PaddlePaddle/PaddleFormers) - PaddleFormers is an easy-to-use library of pre-trained large language model zoo based on PaddlePaddle.
+
+*   [BlinkDL/ChatRWKV](https://github.com/BlinkDL/ChatRWKV) - ChatRWKV is like ChatGPT but powered by RWKV (100% RNN) language model, and open source.
+
+*   [allenai/vila](https://github.com/allenai/vila) - Incorporating VIsual LAyout Structures for Scientific Text Classification
+
+*   [Belval/pdf2image](https://github.com/Belval/pdf2image) - A python module that wraps the pdftoppm utility to convert PDF to PIL Image object
+
+*   [Layout-Parser/layout-parser](https://github.com/Layout-Parser/layout-parser) - A Unified Toolkit for Deep Learning Based Document Image Analysis
+
+*   [PaddlePaddle/PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR) - Awesome multilingual OCR and Document Parsing toolkits based on PaddlePaddle (practical ultra lightweight OCR system, support 80+ languages recognition, provide data annotation and synthesis tools, support training and deployment among server, mobile, embedded and IoT devices)
+
+*   [jsvine/pdfplumber](https://github.com/jsvine/pdfplumber) - Plumb a PDF for detailed information about each char, rectangle, line, et cetera — and easily extract text and tables.
+
+*   [idstcv/Dash](https://github.com/idstcv/Dash) - Tensorflow implementation for Dash
+
+*   [brycedrennan/imaginAIry](https://github.com/brycedrennan/imaginAIry) - Pythonic AI generation of images and videos
+
+*   [RasaHQ/rasa](https://github.com/RasaHQ/rasa) - 💬   Open source machine learning framework to automate text- and voice-based conversations: NLU, dialogue management, connect to Slack, Facebook, and more - Create chatbots and voice assistants
+
+*   [LAION-AI/Open-Assistant](https://github.com/LAION-AI/Open-Assistant) - OpenAssistant is a chat-based assistant that understands tasks, can interact with third-party systems, and retrieve information dynamically to do so.
+
+*   [mindsdb/mindsdb](https://github.com/mindsdb/mindsdb) - AI's query engine - Platform for building AI that can answer questions over large scale federated data. - The only MCP Server you'll ever need
+
+*   [mlfoundations/open\_clip](https://github.com/mlfoundations/open_clip) - An open source implementation of CLIP.
+
+*   [karpathy/nanoGPT](https://github.com/karpathy/nanoGPT) - The simplest, fastest repository for training/finetuning medium-sized GPTs.
+
+*   [jina-ai/serve](https://github.com/jina-ai/serve) - ☁️ Build multimodal AI applications with cloud-native stack
+
+*   [BlinkDL/RWKV-LM](https://github.com/BlinkDL/RWKV-LM) - RWKV (pronounced RwaKuv) is an RNN with great LLM performance, which can also be directly trained like a GPT transformer (parallelizable). We are at RWKV-7 "Goose". So it's combining the best of RNN and transformer - great performance, linear time, constant space (no kv-cache), fast training, infinite ctx\_len, and free sentence embedding.
+
+*   [google-deepmind/alphafold](https://github.com/google-deepmind/alphafold) - Open source code for AlphaFold 2.
+
+*   [lucidrains/imagen-pytorch](https://github.com/lucidrains/imagen-pytorch) - Implementation of Imagen, Google's Text-to-Image Neural Network, in Pytorch
+
+*   [terry3041/pyChatGPT](https://github.com/terry3041/pyChatGPT) - An unofficial Python wrapper for OpenAI's ChatGPT API
+
+*   [josephmisiti/awesome-machine-learning](https://github.com/josephmisiti/awesome-machine-learning) - A curated list of awesome Machine Learning frameworks, libraries and software.
+
+*   [ibis-project/ibis](https://github.com/ibis-project/ibis) - the portable Python dataframe library
+
+*   [patrickloeber/python-docker-tutorial](https://github.com/patrickloeber/python-docker-tutorial) - Learn how to dockerize Python scripts and a Python web app
+
+*   [sugdove/github-trending](https://github.com/sugdove/github-trending) - github趋势
+
+*   [open-mmlab/mmpose](https://github.com/open-mmlab/mmpose) - OpenMMLab Pose Estimation Toolbox and Benchmark.
+
+*   [datawhalechina/vced](https://github.com/datawhalechina/vced) - VCED 可以通过你的文字描述来自动识别视频中相符合的片段进行视频剪辑。该项目基于跨模态搜索与向量检索技术搭建，通过前后端分离的模式，帮助你快速的接触新一代搜索技术。
+
+*   [takluyver/pynsist](https://github.com/takluyver/pynsist) - Build Windows installers for Python applications
+
+*   [dpgaspar/Flask-AppBuilder](https://github.com/dpgaspar/Flask-AppBuilder) - Simple and rapid application development framework, built on top of Flask. includes detailed security, auto CRUD generation for your models, google charts and much more. Demo (login with guest/welcome) - http://flaskappbuilder.pythonanywhere.com/
+
+*   [vwxyzjn/cleanrl](https://github.com/vwxyzjn/cleanrl) - High-quality single file implementation of Deep Reinforcement Learning algorithms with research-friendly features (PPO, DQN, C51, DDPG, TD3, SAC, PPG)
+
+*   [nateraw/stable-diffusion-videos](https://github.com/nateraw/stable-diffusion-videos) - Create 🔥 videos with Stable Diffusion by exploring the latent space and morphing between text prompts
+
+*   [hauntsaninja/pyp](https://github.com/hauntsaninja/pyp) - Easily run Python at the shell! Magical, but never mysterious.
+
+*   [alexmojaki/futurecoder](https://github.com/alexmojaki/futurecoder) - 100% free and interactive Python course for beginners
+
+*   [ashleve/lightning-hydra-template](https://github.com/ashleve/lightning-hydra-template) - PyTorch Lightning + Hydra. A very user-friendly template for ML experimentation.  ⚡🔥⚡
+
+*   [max-sixty/aoc-gpt](https://github.com/max-sixty/aoc-gpt) - Solve Advent of Code puzzles with GPT-3
+
+*   [acheong08/ChatGPT](https://github.com/acheong08/ChatGPT) - Reverse engineered ChatGPT API
+
+*   [labteral/chatgpt-python](https://github.com/labteral/chatgpt-python) - Unofficial Python SDK for OpenAI's ChatGPT
+
+*   [paperless-ngx/paperless-ngx](https://github.com/paperless-ngx/paperless-ngx) - A community-supported supercharged document management system: scan, index and archive all your documents
+
+*   [Dao-AILab/flash-attention](https://github.com/Dao-AILab/flash-attention) - Fast and memory-efficient exact attention
+
+*   [EleutherAI/gpt-neox](https://github.com/EleutherAI/gpt-neox) - An implementation of model parallel autoregressive transformers on GPUs, based on the Megatron and DeepSpeed libraries
+
+*   [Zero6992/chatGPT-discord-bot](https://github.com/Zero6992/chatGPT-discord-bot) - Integrate ChatGPT into your own discord bot
+
+*   [zai-org/CodeGeeX](https://github.com/zai-org/CodeGeeX) - CodeGeeX: An Open Multilingual Code Generation Model (KDD 2023)
+
+*   [vinta/awesome-python](https://github.com/vinta/awesome-python) - An opinionated list of awesome Python frameworks, libraries, software and resources.
+
+*   [run-llama/llama\_index](https://github.com/run-llama/llama_index) - LlamaIndex is the leading framework for building LLM-powered agents over your data.
+
+*   [Z4nzu/hackingtool](https://github.com/Z4nzu/hackingtool) - ALL IN ONE Hacking Tool For Hackers
+
+*   [facebookresearch/hydra](https://github.com/facebookresearch/hydra) - Hydra is a framework for elegantly configuring complex applications
+
+*   [adap/flower](https://github.com/adap/flower) - Flower: A Friendly Federated AI Framework
+
+*   [coqui-ai/TTS](https://github.com/coqui-ai/TTS) - 🐸💬 - a deep learning toolkit for Text-to-Speech, battle-tested in research and production
+
+*   [llm-workflow-engine/llm-workflow-engine](https://github.com/llm-workflow-engine/llm-workflow-engine) - Power CLI and Workflow manager for LLMs (core package)
+
+*   [huggingface/pytorch-image-models](https://github.com/huggingface/pytorch-image-models) - The largest collection of PyTorch image encoders / backbones. Including train, eval, inference, export scripts, and pretrained weights -- ResNet, ResNeXT, EfficientNet, NFNet, Vision Transformer (ViT), MobileNetV4, MobileNet-V3 & V2, RegNet, DPN, CSPNet, Swin Transformer, MaxViT, CoAtNet, ConvNeXt, and more
+
+*   [open-mmlab/mmdeploy](https://github.com/open-mmlab/mmdeploy) - OpenMMLab Model Deployment Framework
+
+*   [open-mmlab/mmengine](https://github.com/open-mmlab/mmengine) - OpenMMLab Foundational Library for Training Deep Learning Models
+
+*   [mpezeshki/pytorch\_forward\_forward](https://github.com/mpezeshki/pytorch_forward_forward) - Implementation of Hinton's forward-forward (FF) algorithm - an alternative to back-propagation
+
+*   [OpenBMB/CPM-Live](https://github.com/OpenBMB/CPM-Live) - Live Training for Open-source Big Models
+
+*   [NetEase-FuXi/EET](https://github.com/NetEase-FuXi/EET) - Easy and Efficient Transformer : Scalable Inference Solution For Large NLP model
+
+*   [hpcaitech/ColossalAI](https://github.com/hpcaitech/ColossalAI) - Making large AI models cheaper, faster and more accessible
+
+*   [Oneflow-Inc/libai](https://github.com/Oneflow-Inc/libai) - LiBai(李白): A Toolbox for Large-Scale Distributed Parallel Training
+
+*   [kingyiusuen/image-to-latex](https://github.com/kingyiusuen/image-to-latex) - Convert images of LaTex math equations into LaTex code.
+
+*   [google/latexify\_py](https://github.com/google/latexify_py) - A library to generate LaTeX expression from Python code.
+
+*   [tom-doerr/codex-readme](https://github.com/tom-doerr/codex-readme) - Revolutionize your project documentation with the Codex-README generator, utilizing OpenAI's Codex for intelligent README creation.
+
+*   [stanfordnlp/stanza](https://github.com/stanfordnlp/stanza) - Stanford NLP Python library for tokenization, sentence segmentation, NER, and parsing of many human languages
+
+*   [tcmyxc/FocalLoss](https://github.com/tcmyxc/FocalLoss) - 分类任务的 Focal Loss，PyTorch 实现
+
+*   [Lisennlp/chinese\_extraction\_mrc](https://github.com/Lisennlp/chinese_extraction_mrc) - 基于Pytorch + BERT的抽取式机器阅读理解
+
+*   [zcgzcgzcg1/MRC\_book](https://github.com/zcgzcgzcg1/MRC_book) - 《机器阅读理解：算法与实践》代码
+
+*   [luhua-rain/MRC\_Competition\_Dureader](https://github.com/luhua-rain/MRC_Competition_Dureader) - 机器阅读理解 冠军/亚军代码及中文预训练MRC模型
+
+*   [ymcui/expmrc](https://github.com/ymcui/expmrc) - ExpMRC: Explainability Evaluation for Machine Reading Comprehension
+
+*   [ZhuiyiTechnology/t5-pegasus](https://github.com/ZhuiyiTechnology/t5-pegasus) - 中文生成式预训练模型
+
+*   [THUNLP-MT/THUMT](https://github.com/THUNLP-MT/THUMT) - An open-source neural machine translation toolkit developed by Tsinghua Natural Language Processing Group
+
+*   [649453932/Chinese-Text-Classification-Pytorch](https://github.com/649453932/Chinese-Text-Classification-Pytorch) - 中文文本分类，TextCNN，TextRNN，FastText，TextRCNN，BiLSTM\_Attention，DPCNN，Transformer，基于pytorch，开箱即用。
+
+*   [CLUEbenchmark/CLUEDatasetSearch](https://github.com/CLUEbenchmark/CLUEDatasetSearch) - 搜索所有中文NLP数据集，附常用英文NLP数据集
+
+*   [xiaofei05/Distant-Supervised-Chinese-Relation-Extraction](https://github.com/xiaofei05/Distant-Supervised-Chinese-Relation-Extraction) - 基于远监督的中文关系抽取
+
+*   [onehaitao/distant-supervised-relation-extraction](https://github.com/onehaitao/distant-supervised-relation-extraction) - Implementation of Neural Relation Extraction with Selective Attention over Instances.
+
+*   [Jacen789/relation-extraction](https://github.com/Jacen789/relation-extraction) - 中文关系抽取
+
+*   [labmlai/annotated\_deep\_learning\_paper\_implementations](https://github.com/labmlai/annotated_deep_learning_paper_implementations) - 🧑‍🏫 60+ Implementations/tutorials of deep learning papers with side-by-side notes 📝; including transformers (original, xl, switch, feedback, vit, ...), optimizers (adam, adabelief, sophia, ...), gans(cyclegan, stylegan2, ...), 🎮 reinforcement learning (ppo, dqn), capsnet, distillation, ... 🧠
+
+*   [davidsbatista/BREDS](https://github.com/davidsbatista/BREDS) - "Bootstrapping Relationship Extractors with Distributional Semantics" (Batista et al., 2015) in EMNLP'15 - Python implementation
+
+*   [zjunlp/DeepKE](https://github.com/zjunlp/DeepKE) - \[EMNLP 2022] An Open Toolkit for Knowledge Graph Extraction and Construction
+
+*   [xyjigsaw/Knowledge-Graph-And-Visualization-Demo](https://github.com/xyjigsaw/Knowledge-Graph-And-Visualization-Demo) - There are 2D-Search and 3D-Graph-View for knowledge graph visualization.
+
+*   [wb14123/seq2seq-couplet](https://github.com/wb14123/seq2seq-couplet) - Play couplet with seq2seq model. 用深度学习对对联。
+
+*   [CorentinJ/Real-Time-Voice-Cloning](https://github.com/CorentinJ/Real-Time-Voice-Cloning) - Clone a voice in 5 seconds to generate arbitrary speech in real-time
+
+*   [Alibaba-NLP/ACE](https://github.com/Alibaba-NLP/ACE) - \[ACL-IJCNLP 2021] Automated Concatenation of Embeddings for Structured Prediction
+
+*   [huggingface/datasets](https://github.com/huggingface/datasets) - 🤗 The largest hub of ready-to-use datasets for AI models with fast, easy-to-use and efficient data manipulation tools
+
+*   [huggingface/trl](https://github.com/huggingface/trl) - Train transformer language models with reinforcement learning.
+
+*   [Embedding/Chinese-Word-Vectors](https://github.com/Embedding/Chinese-Word-Vectors) - 100+ Chinese Word Vectors 上百种预训练中文词向量
+
+*   [flairNLP/flair](https://github.com/flairNLP/flair) - A very simple framework for state-of-the-art Natural Language Processing (NLP)
+
+*   [xugaoxiang/FlaskTutorial](https://github.com/xugaoxiang/FlaskTutorial) - Flask Tutorial
+
+*   [CLUEbenchmark/CLUE](https://github.com/CLUEbenchmark/CLUE) - 中文语言理解测评基准 Chinese Language Understanding Evaluation Benchmark: datasets, baselines, pre-trained models, corpus and leaderboard
+
+*   [chenlian-zhou/nlp](https://github.com/chenlian-zhou/nlp) -
+
+*   [Onion12138/CasRelPyTorch](https://github.com/Onion12138/CasRelPyTorch) - Reimplement CasRel model in PyTorch.使用PyTorch对吉林大学CasRel模型进行复现，并在百度关系抽取数据集上训练测试。
+
+*   [wangle1218/keras-SlotGated-SLU](https://github.com/wangle1218/keras-SlotGated-SLU) - implementation SlotGated SLU model for keras
+
+*   [Garvit244/Leetcode](https://github.com/Garvit244/Leetcode) - 🎓Leetcode solutions in Python 📚
+
+*   [chenxiaoyouyou/Bert-BiLSTM-CRF-pytorch](https://github.com/chenxiaoyouyou/Bert-BiLSTM-CRF-pytorch) - 使用谷歌预训练bert做字嵌入的BiLSTM-CRF序列标注模型
+
+*   [jiesutd/NCRFpp](https://github.com/jiesutd/NCRFpp) - NCRF++, a Neural Sequence Labeling Toolkit. Easy use to any sequence labeling tasks (e.g. NER, POS, Segmentation). It includes character LSTM/CNN, word LSTM/CNN and softmax/CRF components.
+
+*   [microsoft/unilm](https://github.com/microsoft/unilm) - Large-scale Self-supervised Pre-training Across Tasks, Languages, and Modalities
+
+*   [kshitij98/vita](https://github.com/kshitij98/vita) - ViTA: Visual-Linguistic Translation by Aligning Object Tags
+
+*   [dropreg/R-Drop](https://github.com/dropreg/R-Drop) -
+
+*   [rjk-git/bert2transformer\_on\_NMT](https://github.com/rjk-git/bert2transformer_on_NMT) - BERT微调在机器翻译上的应用，哎哟，效果贼好。
+
+*   [rsennrich/subword-nmt](https://github.com/rsennrich/subword-nmt) - Unsupervised Word Segmentation for Neural Machine Translation and Text Generation
+
+*   [DengBoCong/nlp-paper](https://github.com/DengBoCong/nlp-paper) - 自然语言处理领域下的相关论文（附阅读笔记），复现模型以及数据处理等（代码含TensorFlow和PyTorch两版本）
+
+*   [lancopku/SGM](https://github.com/lancopku/SGM) - Sequence Generation Model for Multi-label Classification (COLING 2018)
+
+*   [Anery/transE](https://github.com/Anery/transE) - transE算法 简单python实现 FB15k
+
+*   [shouxieai/seq2seq\_translation](https://github.com/shouxieai/seq2seq_translation) - seq2seq\_translation
+
+*   [wangle1218/KBQA-for-Diagnosis](https://github.com/wangle1218/KBQA-for-Diagnosis) - Knowledge Graph,Question Answering System，基于知识图谱和向量检索的医疗诊断问答系统
+
+*   [sebastianruder/NLP-progress](https://github.com/sebastianruder/NLP-progress) - Repository to track the progress in Natural Language Processing (NLP), including the datasets and the current state-of-the-art for the most common NLP tasks.
+
+*   [PaddlePaddle/PaddleNLP](https://github.com/PaddlePaddle/PaddleNLP) - Easy-to-use and powerful LLM and SLM library with awesome model zoo.
+
+*   [fuxuelinwudi/ccks2021\_track3\_baseline](https://github.com/fuxuelinwudi/ccks2021_track3_baseline) - a baseline to practice
+
+*   [FuzuoZhang/aha-algorithm-python](https://github.com/FuzuoZhang/aha-algorithm-python) - 啊哈！算法 代码实现：Python版本
+
+## JavaScript
+
+*   [tonngw/awesome-github-repos](https://github.com/tonngw/awesome-github-repos) - 🚀 A curated collection of awesome GitHub repositories, organized by language and topic from my starred projects. Modern, elegant platform for showcasing your starred GitHub repositories.
+
+*   [vasanthv/ahey](https://github.com/vasanthv/ahey) - Free group video call for the web. No signups. No downloads.
+
+*   [TavernAI/TavernAI](https://github.com/TavernAI/TavernAI) - Atmospheric adventure chat for AI language models (KoboldAI, NovelAI, Pygmalion, OpenAI chatgpt, gpt-4)
+
+*   [liujuntao123/fuclaude-switcher](https://github.com/liujuntao123/fuclaude-switcher) - 简洁优雅的fuclaude工具
+
+*   [f14XuanLv/fuclaude-pool-manager](https://github.com/f14XuanLv/fuclaude-pool-manager) -
+
+*   [Wei-Shaw/claude-relay-service](https://github.com/Wei-Shaw/claude-relay-service) - 自建Claude code镜像服务，支持多账户切换、自定义API密钥、Claude API、OPENAI兼容格式、能有效规避封号，OAuth集成可快捷添加账号池。
+
+*   [Yuyz0112/claude-code-reverse](https://github.com/Yuyz0112/claude-code-reverse) - A Tool to Visualize Claude Code's LLM Interactions
+
+*   [MHSanaei/3x-ui](https://github.com/MHSanaei/3x-ui) - Xray panel supporting multi-protocol multi-user expire day & traffic & IP limit (Vmess & Vless & Trojan &  ShadowSocks & Wireguard)
+
+*   [jessekorzan/duelin-agents](https://github.com/jessekorzan/duelin-agents) - A machine to pit two n8n AI Agents against each other... Bot Battle.
+
+*   [Minidoracat/mcp-feedback-enhanced](https://github.com/Minidoracat/mcp-feedback-enhanced) - Enhanced MCP server for interactive user feedback and command execution in AI-assisted development, featuring dual interface support (Web UI and Desktop Application) with intelligent environment detection and cross-platform compatibility.
+
+*   [TheNorthMemory/wechatpay-axios-plugin](https://github.com/TheNorthMemory/wechatpay-axios-plugin) - 微信支付 WeChatPay OpenAPI v2\&v3' SDK，以命令行方式与接口交互，play the openapi requests over command line
+
+*   [Coding-Solo/godot-mcp](https://github.com/Coding-Solo/godot-mcp) - MCP server for interfacing with Godot game engine. Provides tools for launching the editor, running projects, and capturing debug output.
+
+*   [wonderwhy-er/DesktopCommanderMCP](https://github.com/wonderwhy-er/DesktopCommanderMCP) - This is MCP server for Claude that gives it terminal control, file system search and diff file editing capabilities
+
+*   [xszyou/Fay](https://github.com/xszyou/Fay) - fay是一个帮助数字人（2.5d、3d、移动、pc、网页）或大语言模型（openai兼容、deepseek）连通业务系统的mcp框架。
+
+*   [gradio-app/fastrtc](https://github.com/gradio-app/fastrtc) - The python library for real-time communication
+
+*   [justinjaeger/Awards-Predictions-App](https://github.com/justinjaeger/Awards-Predictions-App) - A Next.js (React + Node) application built with secure authentication, session persistence and follower/following relationships between users. Includes ability to set / upload profile photos
+
+*   [yukiarimo/yuna-ai](https://github.com/yukiarimo/yuna-ai) - Your Private Companion. The future AGI takeover starts here!
+
+*   [AgentDeskAI/browser-tools-mcp](https://github.com/AgentDeskAI/browser-tools-mcp) - Monitor browser logs directly from Cursor and other MCP compatible IDEs.
+
+*   [KudoAI/chatgpt.js-chrome-starter](https://github.com/KudoAI/chatgpt.js-chrome-starter) - 🤖 A starting point for developing your own Chrome extension using chatgpt.js (including pop-up menu + settings management)
+
+*   [huglemon/inwind-landing-page](https://github.com/huglemon/inwind-landing-page) - a free, open-source, powerful landing page template.
+
+*   [FortAwesome/Font-Awesome](https://github.com/FortAwesome/Font-Awesome) - The iconic SVG, font, and CSS toolkit
+
+*   [GautierArcin/i18n-tailwind-nextjs-starter-blog](https://github.com/GautierArcin/i18n-tailwind-nextjs-starter-blog) - This is a Next.js, Tailwind CSS blogging starter template. Comes out of the box configured with the latest technologies to make technical writing a breeze. Easily configurable and customizable. Perfect as a replacement to existing Jekyll and Hugo individual blogs.
+
+*   [jerryc127/hexo-theme-butterfly](https://github.com/jerryc127/hexo-theme-butterfly) -  🦋 A Hexo Theme: Butterfly
+
+*   [leonardomso/33-js-concepts](https://github.com/leonardomso/33-js-concepts) - 📜 33 JavaScript concepts every developer should know.
+
+*   [TryGhost/Ghost](https://github.com/TryGhost/Ghost) - Independent technology for modern publishing, memberships, subscriptions and newsletters.
+
+*   [ToolJet/ToolJet](https://github.com/ToolJet/ToolJet) - Low-code platform for building business applications. Connect to databases, cloud storages, GraphQL, API endpoints, Airtable, Google sheets, OpenAI, etc and build apps using drag and drop application builder. Built using JavaScript/TypeScript. 🚀
+
+*   [rupinderdevs/nextJS-static-blog](https://github.com/rupinderdevs/nextJS-static-blog) - This Next.js static blog website, powered by MDX, offers 13+ pre-designed pages including Home, About, Contact, Author, Categories, Tags, and more. With Google Page Speed Score 100 and custom logo support, it ensures optimal performance and branding flexibility for seamless user experience and content organization.
+
+*   [sanyeEX/nodel-api-v2](https://github.com/sanyeEX/nodel-api-v2) - 小说Api
+
+*   [react-dropzone/react-dropzone](https://github.com/react-dropzone/react-dropzone) - Simple HTML5 drag-drop zone with React.js.
+
+*   [axios/axios](https://github.com/axios/axios) - Promise based HTTP client for the browser and node.js
+
+*   [drawdb-io/drawdb](https://github.com/drawdb-io/drawdb) - Free, simple, and intuitive online database diagram editor and SQL generator.
+
+*   [InternLM/MindSearch](https://github.com/InternLM/MindSearch) - 🔍 An LLM-based Multi-agent Framework of Web Search Engine (like Perplexity.ai Pro and SearchGPT)
+
+*   [Asabeneh/30-Days-Of-React](https://github.com/Asabeneh/30-Days-Of-React) - 30 Days of  React challenge is a step by step guide to learn React in 30 days.  These videos may help too: https://www.youtube.com/channel/UC7PNRuno1rzYPb1xLa4yktw
+
+*   [h5bp/html5-boilerplate](https://github.com/h5bp/html5-boilerplate) - A professional front-end template for building fast, robust, and adaptable web apps or sites.
+
+*   [SillyTavern/SillyTavern](https://github.com/SillyTavern/SillyTavern) - LLM Frontend for Power Users.
+
+*   [jgraph/drawio-desktop](https://github.com/jgraph/drawio-desktop) - Official electron build of draw.io
+
+*   [koodo-reader/koodo-reader](https://github.com/koodo-reader/koodo-reader) - A modern ebook manager and reader with sync and backup capacities for Windows, macOS, Linux, Android, iOS and Web
+
+*   [Dooy/chatgpt-web-midjourney-proxy](https://github.com/Dooy/chatgpt-web-midjourney-proxy) - One UI is all done with chatgpt web, midjourney, gpts,suno,luma,runway,viggle,flux,ideogram,realtime,pika,udio; Simultaneous support  Web / PWA / Linux / Win / MacOS platform
+
+*   [anc95/ChatGPT-CodeReview](https://github.com/anc95/ChatGPT-CodeReview) - 🐥 A code review bot powered by ChatGPT
+
+*   [sasmazonur/react-vite-electron-fastapi-fullstack-template](https://github.com/sasmazonur/react-vite-electron-fastapi-fullstack-template) - Full-stack application built using React, Vite, Electron, and FastAPI. The application integrates modern front-end and back-end technologies to provide a seamless user experience.
+
+*   [johnfactotum/foliate](https://github.com/johnfactotum/foliate) - Read e-books in style
+
+*   [wanglin2/mind-map](https://github.com/wanglin2/mind-map) - SimpleMindMap（思绪思维导图）：一个强大的Web思维导图。A powerful web mind map.
+
+*   [wangrongding/wechat-bot](https://github.com/wangrongding/wechat-bot) - 🤖一个基于 WeChaty 结合 DeepSeek / ChatGPT / Kimi / 讯飞等Ai服务实现的微信机器人 ，可以用来帮助你自动回复微信消息，或者管理微信群/好友，检测僵尸粉等...
+
+*   [susirial/Mojuan](https://github.com/susirial/Mojuan) - Mojuan: Write your own AI application.
+
+*   [Avdpro/StoryWriter](https://github.com/Avdpro/StoryWriter) - AI agent for short story writing
+
+*   [huggingface/transformers.js](https://github.com/huggingface/transformers.js) - State-of-the-art Machine Learning for the web. Run 🤗 Transformers directly in your browser, with no need for a server!
+
+*   [open-webui/open-webui](https://github.com/open-webui/open-webui) - User-friendly AI Interface (Supports Ollama, OpenAI API, ...)
+
+*   [reorproject/reor](https://github.com/reorproject/reor) - Private & local AI personal knowledge management app for high entropy people.
+
+*   [wechatsync/Wechatsync](https://github.com/wechatsync/Wechatsync) - 一键同步文章到多个内容平台，支持今日头条、WordPress、知乎、简书、掘金、CSDN、typecho各大平台，一次发布，多平台同步发布。解放个人生产力
+
+*   [amandakelake/blog](https://github.com/amandakelake/blog) - think more！learn more!
+
+*   [Avdpro/ai2apps](https://github.com/Avdpro/ai2apps) - Setup AI2Apps at local system so you can use your own OpenAI key or make more back-end features.
+
+*   [safak/react-firebase-chat](https://github.com/safak/react-firebase-chat) -
+
+*   [ascoders/weekly](https://github.com/ascoders/weekly) - 前端精读周刊。帮你理解最前沿、实用的技术。
+
+*   [danielmiessler/Fabric](https://github.com/danielmiessler/Fabric) - Fabric is an open-source framework for augmenting humans using AI. It provides a modular system for solving specific problems using a crowdsourced set of AI prompts that can be used anywhere.
+
+*   [discountry/react](https://github.com/discountry/react) - React docs in Chinese | React 中文文档翻译
+
+*   [facebook/react](https://github.com/facebook/react) - The library for web and native user interfaces.
+
+*   [luminati-io/luminati-proxy](https://github.com/luminati-io/luminati-proxy) - Luminati HTTP/HTTPS Proxy manager
+
+*   [OpenBMB/AgentVerse](https://github.com/OpenBMB/AgentVerse) - 🤖 AgentVerse 🪐 is designed to facilitate the deployment of multiple LLM-based agents in various applications, which primarily provides two frameworks: task-solving and simulation
+
+*   [spdustin/ChatGPT-AutoExpert](https://github.com/spdustin/ChatGPT-AutoExpert) - 🚀🧠💬 Supercharged Custom Instructions for ChatGPT (non-coding) and ChatGPT Advanced Data Analysis (coding).
+
+*   [kinfey/VSCodeEnterpriseCopilotWorkshop](https://github.com/kinfey/VSCodeEnterpriseCopilotWorkshop) - This is Visual Studio Code Enterprise Copilot Extensions
+
+*   [pot-app/pot-desktop](https://github.com/pot-app/pot-desktop) - 🌈一个跨平台的划词翻译和OCR软件 | A cross-platform software for text translation and recognition.
+
+*   [SocialSisterYi/bilibili-API-collect](https://github.com/SocialSisterYi/bilibili-API-collect) - 哔哩哔哩-API收集整理【不断更新中....】
+
+*   [ryanhanwu/How-To-Ask-Questions-The-Smart-Way](https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way) - 本文原文由知名 Hacker Eric S. Raymond 所撰寫，教你如何正確的提出技術問題並獲得你滿意的答案。
+
+*   [waylaidwanderer/node-chatgpt-api](https://github.com/waylaidwanderer/node-chatgpt-api) - A client implementation for ChatGPT and Bing AI. Available as a Node.js module, REST API server, and CLI app.
+
+*   [midudev/curso-node-js](https://github.com/midudev/curso-node-js) - Curso de Node.js desde cero
+
+*   [hiteshchoudhary/apihub](https://github.com/hiteshchoudhary/apihub) - Your own API Hub to learn and master API interaction. Ideal for frontend, mobile dev and backend developers.
+
+*   [Shaunwei/RealChar](https://github.com/Shaunwei/RealChar) - 🎙️🤖Create, Customize and Talk to your AI Character/Companion in Realtime (All in One Codebase!). Have a natural seamless conversation with AI everywhere (mobile, web and terminal) using LLM OpenAI GPT3.5/4, Anthropic Claude2, Chroma Vector DB, Whisper Speech2Text, ElevenLabs Text2Speech🎙️🤖
+
+*   [KudoAI/chatgpt.js](https://github.com/KudoAI/chatgpt.js) - 🤖 A powerful, open source client-side JavaScript library for ChatGPT
+
+*   [bigskysoftware/htmx](https://github.com/bigskysoftware/htmx) - \</> htmx - high power tools for HTML
+
+*   [jonasschmedtmann/ultimate-react-course](https://github.com/jonasschmedtmann/ultimate-react-course) - Starter files, final projects, and FAQ for my Ultimate React course
+
+*   [brave/brave-browser](https://github.com/brave/brave-browser) - Brave browser for Android, iOS, Linux, macOS, Windows.
+
+*   [surprisetalk/blogs.hn](https://github.com/surprisetalk/blogs.hn) - tiny directory of tech blogs
+
+*   [adrianhajdin/project\_threejs\_ai](https://github.com/adrianhajdin/project_threejs_ai) -
+
+*   [threadsjs/threads.js](https://github.com/threadsjs/threads.js) - A Node.js library for the Threads API
+
+*   [git-tips/tips](https://github.com/git-tips/tips) - Most commonly used git tips and tricks.
+
+*   [Chalarangelo/30-seconds-of-code](https://github.com/Chalarangelo/30-seconds-of-code) - Coding articles to level up your development skills
+
+*   [mengjian-github/copilot-analysis](https://github.com/mengjian-github/copilot-analysis) - 本文详细分析了 Github Copilot 这个基于机器学习的代码自动补全工具的实现原理。作者通过逆向工程的方式,深入探索了 Copilot 的核心逻辑,包括代码提示的入口、获取提示的核心方法、以及相关的缓存策略、实验特性等。
+
+*   [slarkvan/Block-Pornographic-Replies](https://github.com/slarkvan/Block-Pornographic-Replies) - 屏蔽推特回复下的黄推。Block pornographic replies below the tweet.
+
+*   [tangly1024/NotionNext](https://github.com/tangly1024/NotionNext) - 使用 NextJS + Notion API 实现的，支持多种部署方案的静态博客，无需服务器、零门槛搭建网站，为Notion和所有创作者设计。 (A static blog built with NextJS and Notion API, supporting multiple deployment options. No server required, zero threshold to set up a website. Designed for Notion and all creators.)
+
+*   [SamurAIGPT/EmbedAI](https://github.com/SamurAIGPT/EmbedAI) - An app to interact privately with your documents using the power of GPT, 100% privately, no data leaks
+
+*   [microsoft/Web-Dev-For-Beginners](https://github.com/microsoft/Web-Dev-For-Beginners) - 24 Lessons, 12 Weeks, Get Started as a Web Developer
+
+*   [MineDojo/Voyager](https://github.com/MineDojo/Voyager) - An Open-Ended Embodied Agent with Large Language Models
+
+*   [songquanpeng/one-api](https://github.com/songquanpeng/one-api) - LLM API 管理 & 分发系统，支持 OpenAI、Azure、Anthropic Claude、Google Gemini、DeepSeek、字节豆包、ChatGLM、文心一言、讯飞星火、通义千问、360 智脑、腾讯混元等主流模型，统一 API 适配，可用于 key 管理与二次分发。单可执行文件，提供 Docker 镜像，一键部署，开箱即用。LLM API management & key redistribution system, unifying multiple providers under a single API. Single binary, Docker-ready, with an English UI.
+
+*   [sveltejs/kit](https://github.com/sveltejs/kit) - web development, streamlined
+
+*   [sveltejs/svelte](https://github.com/sveltejs/svelte) - web development for the rest of us
+
+*   [eslint/eslint](https://github.com/eslint/eslint) - Find and fix problems in your JavaScript code.
+
+*   [nodejs/node](https://github.com/nodejs/node) - Node.js JavaScript runtime ✨🐢🚀✨
+
+*   [chinese-poetry/chinese-poetry](https://github.com/chinese-poetry/chinese-poetry) - The most comprehensive database of Chinese poetry 🧶最全中华古诗词数据库,  唐宋两朝近一万四千古诗人,  接近5.5万首唐诗加26万宋诗.  两宋时期1564位词人，21050首词。
+
+*   [iamvucms/x-gram](https://github.com/iamvucms/x-gram) -
+
+*   [openchatai/OpenChat](https://github.com/openchatai/OpenChat) - LLMs custom-chatbots console ⚡
+
+*   [ykdojo/kaguya](https://github.com/ykdojo/kaguya) - A ChatGPT plugin that allows you to load and edit your local files in a controlled way, as well as run any Python, JavaScript, and bash script.
+
+*   [Mintplex-Labs/anything-llm](https://github.com/Mintplex-Labs/anything-llm) - The all-in-one Desktop & Docker AI application with built-in RAG, AI agents, No-code agent builder, MCP compatibility,  and more.
+
+*   [fanmingming/live](https://github.com/fanmingming/live) - ✯ 可直连访问的电视/广播图标库与相关工具项目 ✯ 🔕 永久免费 直连访问 完整开源 不断完善的台标 支持IPv4/IPv6双栈访问 🔕
+
+*   [NaiboWang/EasySpider](https://github.com/NaiboWang/EasySpider) - A visual no-code/code-free web crawler/spider易采集：一个可视化浏览器自动化测试/数据采集/爬虫软件，可以无代码图形化的设计和执行爬虫任务。别名：ServiceWrapper面向Web应用的智能化服务封装系统。
+
+*   [2951121599/Bili-Insight](https://github.com/2951121599/Bili-Insight) - Bili Insight，借助GPT洞察B站视频内容Chrome插件。它可以让你不用点开视频，以可视化的方式更快地了解视频的基本信息和总结内容。
+
+*   [ai-shifu/ChatALL](https://github.com/ai-shifu/ChatALL) -  Concurrently chat with ChatGPT, Bing Chat, Bard, Alpaca, Vicuna, Claude, ChatGLM, MOSS, 讯飞星火, 文心一言 and more, discover the best answers
+
+*   [lllyasviel/style2paints](https://github.com/lllyasviel/style2paints) - sketch + style = paints :art: (TOG2018/SIGGRAPH2018ASIA)
+
+*   [wenda-LLM/wenda](https://github.com/wenda-LLM/wenda) - 闻达：一个LLM调用平台。目标为针对特定环境的高效内容生成，同时考虑个人和中小企业的计算资源局限性，以及知识安全和私密性问题
+
+*   [f/awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts) - This repo includes ChatGPT prompt curation to use ChatGPT and other LLM tools better.
+
+*   [gragland/chatgpt-chrome-extension](https://github.com/gragland/chatgpt-chrome-extension) - A ChatGPT Chrome extension. Integrates ChatGPT into every text box on the internet.
+
+*   [lutzroeder/netron](https://github.com/lutzroeder/netron) - Visualizer for neural network, deep learning and machine learning models
+
+*   [azl397985856/leetcode](https://github.com/azl397985856/leetcode) - LeetCode Solutions: A Record of My Problem Solving Journey.( leetcode题解，记录自己的leetcode解题之路。)
+
+## TypeScript
+
+*   [blinkospace/blinko](https://github.com/blinkospace/blinko) - An open-source, self-hosted personal AI note tool prioritizing privacy, built using TypeScript .
+
+*   [Narratium/Narratium.ai](https://github.com/Narratium/Narratium.ai) - Open-source platform for AI-driven storytelling, worldbuilding, and immersive roleplay
+
+*   [shreyashsng/MewMoji](https://github.com/shreyashsng/MewMoji) - Modern uncensored AI character chat platform. A free alternative to character.ai
+
+*   [bobcoi03/opencharacter](https://github.com/bobcoi03/opencharacter) - Open Source Alternative to Character.AI - Create your own characters uncensored no filters
+
+*   [semperai/amica](https://github.com/semperai/amica) - Amica is an open source interface for interactive communication with 3D characters with voice synthesis and speech recognition.
+
+*   [p-e-w/waidrin](https://github.com/p-e-w/waidrin) - Next-generation AI roleplay system
+
+*   [MODSetter/SurfSense](https://github.com/MODSetter/SurfSense) - Open Source Alternative to NotebookLM / Perplexity, connected to external sources such as Search Engines, Slack, Linear, Jira, Confluence, Notion, YouTube, GitHub, Discord and more. Join our discord: https://discord.gg/ejRNvftDp9
+
+*   [simstudioai/sim](https://github.com/simstudioai/sim) - Sim is an open-source AI agent workflow builder. Sim Studio's interface is a lightweight, intuitive way to quickly build and deploy LLMs that connect with your favorite tools.
+
+*   [superdesigndev/superdesign](https://github.com/superdesigndev/superdesign) - Cursor for design - Open Source
+
+*   [nearmetips/DailiCode](https://github.com/nearmetips/DailiCode) - AI agent that is compatible with multiple LLM models
+
+*   [Kilo-Org/kilocode](https://github.com/Kilo-Org/kilocode) - Open Source AI coding assistant for planning, building, and fixing code. We're a superset of Roo, Cline, and our own features. Follow us: kilocode.ai/social
+
+*   [humanlayer/12-factor-agents](https://github.com/humanlayer/12-factor-agents) - What are the principles we can use to build LLM-powered software that is actually good enough to put in the hands of production customers?
+
+*   [browser-use/desktop](https://github.com/browser-use/desktop) - Browser-Use Desktop app, control your local Chrome browser with AI agents!
+
+*   [DIYgod/RSSHub](https://github.com/DIYgod/RSSHub) - 🧡 Everything is RSSible
+
+*   [CharlieLZ/flux-kontext-template](https://github.com/CharlieLZ/flux-kontext-template) - 生财有术特供，flux-kontext开源仓库，套壳模板
+
+*   [RSSNext/Folo](https://github.com/RSSNext/Folo) - 🧡 Follow everything in one place
+
+*   [AsyncFuncAI/deepwiki-open](https://github.com/AsyncFuncAI/deepwiki-open) - Open Source DeepWiki: AI-Powered Wiki Generator for GitHub/Gitlab/Bitbucket Repositories. Join the discord: https://discord.gg/gMwThUMeme
+
+*   [Mail-0/Zero](https://github.com/Mail-0/Zero) - Experience email the way you want with Mail0 – the first open source email app that puts your privacy and safety first. Join the discord: https://mail0.link/discord
+
+*   [onlook-dev/onlook](https://github.com/onlook-dev/onlook) - The Cursor for Designers • An Open-Source Visual Vibecoding Editor • Visually build, style, and edit your React App with AI
+
+*   [Neo-Ciber94/next-server-task](https://github.com/Neo-Ciber94/next-server-task) - Provides a mechanism for executing long running tasks on NextJS edge api-handlers
+
+*   [nbonamy/witsy](https://github.com/nbonamy/witsy) - Witsy: desktop AI assistant / universal MCP client
+
+*   [directus/directus](https://github.com/directus/directus) - The flexible backend for all your projects 🐰 Turn your DB into a headless CMS, admin panels, or apps with a custom UI, instant APIs, auth & more.
+
+*   [cloudflare/agents](https://github.com/cloudflare/agents) - Build and deploy AI Agents on Cloudflare
+
+*   [kortix-ai/suna](https://github.com/kortix-ai/suna) - Suna - Open Source Generalist AI Agent
+
+*   [klover2/wechatpay-node-v3-ts](https://github.com/klover2/wechatpay-node-v3-ts) - 微信支付v3
+
+*   [cyberagiinc/DevDocs](https://github.com/cyberagiinc/DevDocs) - Completely free, private, UI based Tech Documentation MCP server. Designed for coders and software developers in mind. Easily integrate into Cursor, Windsurf, Cline, Roo Code, Claude Desktop App
+
+*   [refly-ai/refly](https://github.com/refly-ai/refly) - The world’s first open-source agentic workspace for Human-AI collaboration.
+
+*   [a2aproject/A2A](https://github.com/a2aproject/A2A) - An open protocol enabling communication and interoperability between opaque agentic applications.
+
+*   [luohy15/y-gui](https://github.com/luohy15/y-gui) - A Tiny Web Chat App for AI Models with MCP Client Support
+
+*   [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio) - 🍒 Cherry Studio is a desktop client that supports for multiple LLM providers.
+
+*   [idosal/git-mcp](https://github.com/idosal/git-mcp) - Put an end to code hallucinations! GitMCP is a free, open-source, remote MCP server for any GitHub project
+
+*   [microsoft/playwright-mcp](https://github.com/microsoft/playwright-mcp) - Playwright MCP server
+
+*   [piotrkulpinski/openalternative](https://github.com/piotrkulpinski/openalternative) - A community driven list of open source alternatives to proprietary software and applications.
+
+*   [satnaing/shadcn-admin](https://github.com/satnaing/shadcn-admin) - Admin Dashboard UI built with Shadcn and Vite.
+
+*   [ahmedkhaleel2004/gitdiagram](https://github.com/ahmedkhaleel2004/gitdiagram) - Free, simple, fast interactive diagrams for any GitHub repository
+
+*   [nickscamara/open-deep-research](https://github.com/nickscamara/open-deep-research) - An open source deep research clone. AI Agent that reasons large amounts of web data extracted with Firecrawl
+
+*   [dzhng/deep-research](https://github.com/dzhng/deep-research) - An AI-powered research assistant that performs iterative, deep research on any topic by combining search engines, web scraping, and large language models.  The goal of this repo is to provide the simplest implementation of a deep research agent - e.g. an agent that can refine its research direction overtime and deep dive into a topic.
+
+*   [CopilotKit/open-mcp-client](https://github.com/CopilotKit/open-mcp-client) -
+
+*   [21st-dev/magic-mcp](https://github.com/21st-dev/magic-mcp) - It's like v0 but in your Cursor/WindSurf/Cline. 21st dev Magic MCP server for working with your frontend like Magic
+
+*   [nanobrowser/nanobrowser](https://github.com/nanobrowser/nanobrowser) - Open-Source Chrome extension for AI-powered web automation. Run multi-agent workflows using your own LLM API key. Alternative to OpenAI Operator.
+
+*   [pages-cms/pages-cms](https://github.com/pages-cms/pages-cms) - The No-Hassle CMS for Static Sites Generators
+
+*   [browserbase/stagehand](https://github.com/browserbase/stagehand) - The AI Browser Automation Framework
+
+*   [Dokploy/dokploy](https://github.com/Dokploy/dokploy) - Open Source Alternative to Vercel, Netlify and Heroku.
+
+*   [PaulBratslavsky/freecodecamp-surfcamp-final](https://github.com/PaulBratslavsky/freecodecamp-surfcamp-final) -
+
+*   [strapi/LaunchPad](https://github.com/strapi/LaunchPad) - Official Strapi Demo application
+
+*   [lacymorrow/hitchhikersgalaxy.guide](https://github.com/lacymorrow/hitchhikersgalaxy.guide) - A fully generative Hitchhiker's Guide to the Galaxy, built with AI and JavaScript sorcery. Ask it anything. It’ll make something up. Probably inaccurately.
+
+*   [cobuildwithus/flows.wtf](https://github.com/cobuildwithus/flows.wtf) -
+
+*   [midday-ai/midday](https://github.com/midday-ai/midday) - Invoicing, Time tracking, File reconciliation, Storage, Financial Overview & your own Assistant made for Freelancers
+
+*   [languine-ai/languine](https://github.com/languine-ai/languine) - Translate your application with Languine CLI powered by AI.
+
+*   [xynehq/xyne](https://github.com/xynehq/xyne) - AI-first Search & Answer Engine for work. Open-source alternative to Glean.
+
+*   [mastra-ai/mastra](https://github.com/mastra-ai/mastra) - The TypeScript AI agent framework. ⚡ Assistants, RAG, observability. Supports any LLM: GPT-4, Claude, Gemini, Llama.
+
+*   [clash-verge-rev/clash-verge-rev](https://github.com/clash-verge-rev/clash-verge-rev) - A modern GUI client based on Tauri, designed to run in Windows, macOS and Linux for tailored proxy experience
+
+*   [Nutlope/logocreator](https://github.com/Nutlope/logocreator) - A free + OSS logo generator powered by Flux on Together AI
+
+*   [openai/openai-node](https://github.com/openai/openai-node) - Official JavaScript / TypeScript library for the OpenAI API
+
+*   [n8n-io/n8n](https://github.com/n8n-io/n8n) - Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.
+
+*   [bracesproul/site-rag](https://github.com/bracesproul/site-rag) - A Chrome extension for asking questions over websites
+
+*   [eastlondoner/vibe-tools](https://github.com/eastlondoner/vibe-tools) - Give Cursor Agent an AI Team and Advanced Skills
+
+*   [beilunyang/vscode-cursor-rules](https://github.com/beilunyang/vscode-cursor-rules) - An extension for Cursor and VSCode that lets you pull .cursorrules files from the https://github.com/PatrickJS/awesome-cursorrules repository
+
+*   [cline/cline](https://github.com/cline/cline) - Autonomous coding agent right in your IDE, capable of creating/editing files, executing commands, using the browser, and more with your permission every step of the way.
+
+*   [pdovhomilja/nextcrm-app](https://github.com/pdovhomilja/nextcrm-app) - NextCRM is a CRM build on top of the latest Next.JS 15. using TypeScript,  great UI library shadcn, Prisma and MongoDB as a database.  Uploadthings as a S3 blob for document storage.
+
+*   [BioInfo/resume-refiner](https://github.com/BioInfo/resume-refiner) - Resume Refiner is an innovative AI-powered platform that transforms the way job seekers optimize their resumes. By leveraging advanced natural language processing and GPT-4 technology, it analyzes both resumes and job descriptions to create perfectly tailored applications that stand out to hiring managers and ATS systems.
+
+*   [serafimcloud/21st](https://github.com/serafimcloud/21st) - npm for design engineers: largest marketplace of shadcn/ui-based React Tailwind components, blocks and hooks
+
+*   [idootop/MagicMirror](https://github.com/idootop/MagicMirror) - 🪞 Instant AI Face Swap 一键 AI 换脸，发现更美的你
+
+*   [langchain-ai/open-canvas](https://github.com/langchain-ai/open-canvas) - 📃 A better UX for chat, writing content, and coding with LLMs.
+
+*   [cyanff/anime.gf](https://github.com/cyanff/anime.gf) - Local & Open Source Alternative to CharacterAI
+
+*   [daltonmenezes/opendocs](https://github.com/daltonmenezes/opendocs) - 🎉 Next.js beautifully designed template that you can use for your projects for free with site, blog and docs support. Accessible. Customizable. Open Source with i18n support.
+
+*   [blefnk/relivator-nextjs-template](https://github.com/blefnk/relivator-nextjs-template) - 🏬 relivator: next.js 15 react 19 ecommerce template ▲ better-auth polar shadcn/ui tailwind drizzle orm typescript ts radix, postgres neon, app router saas commerce ecommerce shop pricing payments dark mode full stack free ⭐ more stars 👉 more features
+
+*   [nisabmohd/Aria-Docs](https://github.com/nisabmohd/Aria-Docs) - This open-source template offers a clean design for comprehensive documentation and engaging blog content.
+
+*   [rubixvi/rubix-documents](https://github.com/rubixvi/rubix-documents) - Documents is a powerful and flexible Next.js documentation starter kit designed to simplify the process of creating high-quality, comprehensive product documentation, technical manuals and business guides.
+
+*   [fengyunzaidushi/ship-saas-one-click](https://github.com/fengyunzaidushi/ship-saas-one-click) - One-click AI SaaS startup template with built-in landing page/blog generator and i18n support for quick global market entry. Integrated with complete user system and payment flow, built with Next.js + Supabase for modern SaaS solutions.
+
+*   [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers) - Model Context Protocol Servers
+
+*   [LeonZeng919/semantic-bookmark-search](https://github.com/LeonZeng919/semantic-bookmark-search) -
+
+*   [volume988/flux-ai-image-webui](https://github.com/volume988/flux-ai-image-webui) - flux ai image generator web ui
+
+*   [virgoone/next-money](https://github.com/virgoone/next-money) - Flux AI Image generator
+
+*   [atinux/flux-ai-image-generator](https://github.com/atinux/flux-ai-image-generator) - Generate images with AI using Flux-1 Schnell running on your Cloudflare account.
+
+*   [horizon-ui/shadcn-nextjs-boilerplate](https://github.com/horizon-ui/shadcn-nextjs-boilerplate) - Shadcn UI NextJS Boilerplate ⚡️ Free Open-source ChatGPT UI Admin Dashboard Template - Horizon AI Boilerplate
+
+*   [oramasearch/orama](https://github.com/oramasearch/orama) - 🌌  A complete search engine and RAG pipeline in your browser, server or edge network with support for full-text, vector, and hybrid search in less than 2kb.
+
+*   [cohere-ai/cohere-toolkit](https://github.com/cohere-ai/cohere-toolkit) - Cohere Toolkit is a collection of prebuilt components enabling users to quickly build and deploy RAG applications.
+
+*   [OvidijusParsiunas/deep-chat](https://github.com/OvidijusParsiunas/deep-chat) - Fully customizable AI chatbot component for your website
+
+*   [coaidev/coai](https://github.com/coaidev/coai) - 🚀 Next Generation AI One-Stop Internationalization Solution. 🚀 下一代 AI 一站式 B/C 端解决方案，支持 OpenAI，Midjourney，Claude，讯飞星火，Stable Diffusion，DALL·E，ChatGLM，通义千问，腾讯混元，360 智脑，百川 AI，火山方舟，新必应，Gemini，Moonshot 等模型，支持对话分享，自定义预设，云端同步，模型市场，支持弹性计费和订阅计划模式，支持图片解析，支持联网搜索，支持模型缓存，丰富美观的后台管理与仪表盘数据统计。
+
+*   [antvis/GPT-Vis](https://github.com/antvis/GPT-Vis) - 🤖 GPT Vision, Open Source Vision components for GPTs, generative AI, and LLM projects. Not only UI Components.
+
+*   [TheOrcDev/orcish-ai-nextjs-framework](https://github.com/TheOrcDev/orcish-ai-nextjs-framework) - Run OpenAI API inside the Next.js project
+
+*   [lobehub/lobe-chat-agents](https://github.com/lobehub/lobe-chat-agents) - 🤖 / 🏪 Agent Index - This is the agent index for LobeChat. It accesses index.json from this repository to display a list of available agents for LobeChat to the agent market.
+
+*   [lobehub/lobe-vidol](https://github.com/lobehub/lobe-vidol) - 🧸 Lobe Vidol - Making Virtual Idols Accessible for EveryOne
+
+*   [agnaistic/agnai](https://github.com/agnaistic/agnai) - AI Agnostic (Multi-user and Multi-bot) Chat with Fictional Characters. Designed with scale in mind.
+
+*   [DracoR22/vermilionAI](https://github.com/DracoR22/vermilionAI) - Saas platform similar to charater.ai, to create and chat with custom AI characters. Built with Nextjs, MongoDB and Prisma
+
+*   [ViggoZ/json-translate](https://github.com/ViggoZ/json-translate) -
+
+*   [vercel/next-forge](https://github.com/vercel/next-forge) - Production-grade Turborepo template for Next.js apps.
+
+*   [jiweiyeah/nextjs-saas-template](https://github.com/jiweiyeah/nextjs-saas-template) - A simple and user-friendly, SEO-friendly Next.js template designed for quick setup of landing pages, SaaS websites, and more, without complex configurations.
+
+*   [payloadcms/payload](https://github.com/payloadcms/payload) - Payload is the open-source, fullstack Next.js framework, giving you instant backend superpowers. Get a full TypeScript backend and admin panel instantly. Use Payload as a headless CMS or for building powerful applications.
+
+*   [ixartz/SaaS-Boilerplate](https://github.com/ixartz/SaaS-Boilerplate) - 🚀🎉📚 SaaS Boilerplate built with Next.js + Tailwind CSS + Shadcn UI + TypeScript. ⚡️ Full-stack React application with Auth, Multi-tenancy, Roles & Permissions, i18n, Landing Page, DB, Logging, Testing
+
+*   [e2b-dev/fragments](https://github.com/e2b-dev/fragments) - Open-source Next.js template for building apps that are fully generated by AI. By E2B.
+
+*   [arthureberledev/qriginals](https://github.com/arthureberledev/qriginals) - Qriginals is a platform for creating and sharing QR code designs. See what others have used as prompt and parameters and use it to create your own unique art!
+
+*   [UllrAI/HeadShots.fun](https://github.com/UllrAI/HeadShots.fun) - 📸 https://HeadShots.fun is an open-source SaaS platform that uses Replicate AI models and Stripe for payment processing.
+
+*   [sohomofficial/imaginify](https://github.com/sohomofficial/imaginify) - A Software-as-a-Service app with AI features and payments & credits system built using Next.js 14, Clerk, MongoDB, Cloudinary AI, and Stripe.
+
+*   [boxyhq/saas-starter-kit](https://github.com/boxyhq/saas-starter-kit) - 🔥 Enterprise SaaS Starter Kit - Kickstart your enterprise app development with the Next.js SaaS boilerplate 🚀
+
+*   [hcengineering/platform](https://github.com/hcengineering/platform) - Huly — All-in-One Project Management Platform (alternative to Linear, Jira, Slack, Notion, Motion)
+
+*   [wincatcher/indiehacker-bio](https://github.com/wincatcher/indiehacker-bio) - 专为独立开发者和互联网创业者设计的现代感、多语言个人社媒、项目展示开源网站模板
+
+*   [iAmCorey/chrome-extension-plasmo-template](https://github.com/iAmCorey/chrome-extension-plasmo-template) - A chrome extension template using plasmo, tailwind css, shadcn/ui
+
+*   [yaakua/ai-outpainting-com](https://github.com/yaakua/ai-outpainting-com) - AI Outpainting (AI扩图)网站源码
+
+*   [workos/authkit](https://github.com/workos/authkit) - The world's best login box powered by WorkOS and Radix.
+
+*   [Elliott-Chong/chatpdf-yt](https://github.com/Elliott-Chong/chatpdf-yt) -
+
+*   [didi/LogicFlow](https://github.com/didi/LogicFlow) - A flow chart editing framework focus on business customization.  专注于业务自定义的流程图编辑框架，支持实现脑图、ER图、UML、工作流等各种图编辑场景。
+
+*   [OI-wiki/OI-wiki](https://github.com/OI-wiki/OI-wiki) - :star2: Wiki of OI / ICPC for everyone. （某大型游戏线上攻略，内含炫酷算术魔法）
+
+*   [microsoft/fluentui](https://github.com/microsoft/fluentui) - Fluent UI web represents a collection of utilities, React components, and web components for building web applications.
+
+*   [strapi/strapi](https://github.com/strapi/strapi) - 🚀 Strapi is the leading open-source headless CMS. It’s 100% JavaScript/TypeScript, fully customizable, and developer-first.
+
+*   [onejs/one](https://github.com/onejs/one) - ❶ One is a new React framework - target web and native with a single Vite plugin and fully shared code, so you can ship cross-platform nearly as easy as single-platform.
+
+*   [AykutSarac/jsoncrack.com](https://github.com/AykutSarac/jsoncrack.com) - ✨ Innovative and open-source visualization application that transforms various data formats, such as JSON, YAML, XML, CSV and more, into interactive graphs.
+
+*   [wasp-lang/open-saas](https://github.com/wasp-lang/open-saas) - A free, open-source SaaS app starter for React & Node.js with superpowers. Full-featured. Community-driven.
+
+*   [mattiapomelli/reweb-template](https://github.com/mattiapomelli/reweb-template) - The template that Reweb projects are based on
+
+*   [assistant-ui/assistant-ui](https://github.com/assistant-ui/assistant-ui) - Typescript/React Library for AI Chat💬🚀
+
+*   [xstnet/react-admin-template](https://github.com/xstnet/react-admin-template) - react-admin-template(React 后台管理模板)
+
+*   [vercel/nextjs-subscription-payments](https://github.com/vercel/nextjs-subscription-payments) - Clone, deploy, and fully customize a SaaS subscription application with Next.js.
+
+*   [mohitchandel/ebook-heaven](https://github.com/mohitchandel/ebook-heaven) - This is a web app where authors can upload their ebooks and readers can download it for free.
+
+*   [Tomilola-ng/LazyReader](https://github.com/Tomilola-ng/LazyReader) - An Ebook Summarizer with audio read functionalities.
+
+*   [Tomilola-ng/nextjs14](https://github.com/Tomilola-ng/nextjs14) - My NextJS Template, curved to taste.
+
+*   [yhdgms1/novely](https://github.com/yhdgms1/novely) - Create interactive stories with ease
+
+*   [ixartz/Next-js-Boilerplate](https://github.com/ixartz/Next-js-Boilerplate) - 🚀🎉📚 Boilerplate and Starter for Next.js 15 with App Router and Page Router support, Tailwind CSS 4 and TypeScript ⚡️ Made with developer experience first: Next.js + TypeScript + ESLint + Prettier + Drizzle ORM + Husky + Lint-Staged + Vitest + Testing Library + Playwright + Storybook + Commitlint + VSCode + Sentry + PostCSS + Tailwind CSS ✨
+
+*   [yournextstore/yournextstore](https://github.com/yournextstore/yournextstore) - Your Next Store: Modern Commerce with Next.js and Stripe as the backend.
+
+*   [continuedev/continue](https://github.com/continuedev/continue) - ⏩ Create, share, and use custom AI code assistants with our open-source IDE extensions and hub of rules, tools, and models
+
+*   [nocodb/nocodb](https://github.com/nocodb/nocodb) - 🔥 🔥 🔥 Open Source Airtable Alternative
+
+*   [readlite/readlite-plugin](https://github.com/readlite/readlite-plugin) - Transform cluttered web pages into clean, distraction-free reading experiences with customizable themes, fonts and multilingual support.
+
+*   [teableio/teable](https://github.com/teableio/teable) - ✨ The Next Gen Airtable Alternative: No-Code Postgres
+
+*   [cool-team-official/cool-admin-midway](https://github.com/cool-team-official/cool-admin-midway) - 🔥 cool-admin(midway版)一个很酷的后台权限管理框架，Ai编码、流程编排、模块化、插件化、CRUD极速开发，永久开源免费，基于nodejs、typescript、typeorm、mysql、jwt、vue3、vite、element-ui等构建
+
+*   [excalidraw/excalidraw](https://github.com/excalidraw/excalidraw) - Virtual whiteboard for sketching hand-drawn like diagrams
+
+*   [nextauthjs/next-auth](https://github.com/nextauthjs/next-auth) - Authentication for the Web.
+
+*   [miurla/morphic](https://github.com/miurla/morphic) - An AI-powered search engine with a generative UI
+
+*   [ueberdosis/tiptap](https://github.com/ueberdosis/tiptap) - The headless rich text editor framework for web artisans.
+
+*   [aieditor-team/AiEditor](https://github.com/aieditor-team/AiEditor) - AiEditor is a next-generation rich text editor for AI.
+
+*   [pacexy/flow](https://github.com/pacexy/flow) - Browser-based ePub reader
+
+*   [mediar-ai/screenpipe](https://github.com/mediar-ai/screenpipe) - AI app store powered by 24/7 desktop history.  open source | 100% local | dev friendly | 24/7 screen, mic recording
+
+*   [ItzCrazyKns/Perplexica](https://github.com/ItzCrazyKns/Perplexica) - Perplexica is an AI-powered search engine. It is an Open source alternative to Perplexity AI
+
+*   [kaarthik108/snowBrain](https://github.com/kaarthik108/snowBrain) - snowBrain - AI-Driven Insights with Snowflake (New version-  https://github.com/kaarthik108/snowbrain-AGUI)
+
+*   [actualbudget/actual](https://github.com/actualbudget/actual) - A local-first personal finance app
+
+*   [mermaid-js/mermaid](https://github.com/mermaid-js/mermaid) - Generation of diagrams like flowcharts or sequence diagrams from text in a similar manner as markdown
+
+*   [ComposioHQ/composio](https://github.com/ComposioHQ/composio) - Composio equips your AI agents & LLMs with 100+ high-quality integrations via function calling
+
+*   [nuxt/nuxt](https://github.com/nuxt/nuxt) - The Intuitive Vue Framework.
+
+*   [run-llama/llama\_cloud\_services](https://github.com/run-llama/llama_cloud_services) - Knowledge Agents and Management in the Cloud
+
+*   [6677-ai/tap4-ai-webui](https://github.com/6677-ai/tap4-ai-webui) - One-click to deploy your own ai tools directory with the open source web-ui
+
+*   [amplication/amplication](https://github.com/amplication/amplication) - Amplication brings order to the chaos of large-scale software development by creating Golden Paths for developers - streamlined workflows that drive consistency, enable high-quality code practices, simplify onboarding, and accelerate standardized delivery across teams.
+
+*   [omnivore-app/omnivore](https://github.com/omnivore-app/omnivore) - Omnivore is a complete, open source read-it-later solution for people who like reading.
+
+*   [wasp-lang/wasp](https://github.com/wasp-lang/wasp) - The fastest way to develop full-stack web apps with React & Node.js.
+
+*   [Canner/WrenAI](https://github.com/Canner/WrenAI) - ⚡️Wren AI is your GenBI Agent, that you can query any database with natural language, get accurate SQL(Text-to-SQL), charts(Text-to-Charts) & AI-generated insights in seconds.
+
+*   [outline/outline](https://github.com/outline/outline) - The fastest knowledge base for growing teams. Beautiful, realtime collaborative, feature packed, and markdown compatible.
+
+*   [wojtekmaj/react-pdf](https://github.com/wojtekmaj/react-pdf) - Display PDFs in your React app as easily as if they were images.
+
+*   [alan2207/bulletproof-react](https://github.com/alan2207/bulletproof-react) - 🛡️ ⚛️ A simple, scalable, and powerful architecture for building production ready React applications.
+
+*   [lyswhut/lx-music-desktop](https://github.com/lyswhut/lx-music-desktop) - 一个基于 electron 的音乐软件
+
+*   [tailwindlabs/tailwindcss](https://github.com/tailwindlabs/tailwindcss) - A utility-first CSS framework for rapid UI development.
+
+*   [idootop/mi-gpt](https://github.com/idootop/mi-gpt) - 🏠 将小爱音箱接入 ChatGPT 和豆包，改造成你的专属语音助手。
+
+*   [documenso/documenso](https://github.com/documenso/documenso) - The Open Source DocuSign Alternative.
+
+*   [mlc-ai/web-llm](https://github.com/mlc-ai/web-llm) - High-performance In-browser LLM Inference Engine
+
+*   [rashadphz/farfalle](https://github.com/rashadphz/farfalle) - 🔍 AI search engine - self-host with local or cloud LLMs
+
+*   [mazzasaverio/nextjs-fastapi-your-chat](https://github.com/mazzasaverio/nextjs-fastapi-your-chat) - Chat with any website using FastAPI, Next.js, and the latest LangChain version for seamless integration.
+
+*   [udecode/plate](https://github.com/udecode/plate) - Rich-text editor with AI, MCP, and shadcn/ui
+
+*   [slab/quill](https://github.com/slab/quill) - Quill is a modern WYSIWYG editor built for compatibility and extensibility
+
+*   [koishijs/koishi](https://github.com/koishijs/koishi) - Cross-platform chatbot framework made with love
+
+*   [Bistard/nota](https://github.com/Bistard/nota) - 📕Next-Gen AI-powered markdown note-taking application.
+
+*   [chatboxai/chatbox](https://github.com/chatboxai/chatbox) - User-friendly Desktop Client App for AI Models/LLMs (GPT, Claude, Gemini, Ollama...)
+
+*   [mckaywrigley/chatbot-ui](https://github.com/mckaywrigley/chatbot-ui) - AI chat for any model.
+
+*   [run-llama/sec-insights](https://github.com/run-llama/sec-insights) - A real world full-stack application using LlamaIndex
+
+*   [InternLM/OpenAOE](https://github.com/InternLM/OpenAOE) - LLM Group Chat Framework: chat with multiple LLMs at the same time.      大模型群聊框架：同时与多个大语言模型聊天。
+
+*   [xcatliu/chatgpt-next](https://github.com/xcatliu/chatgpt-next) - 微信风格的 ChatGPT，使用 Next.js 构建，私有化部署的最佳选择！
+
+*   [withastro/astro](https://github.com/withastro/astro) - The web framework for content-driven websites. ⭐️ Star to support our work!
+
+*   [electron-react-boilerplate/electron-react-boilerplate](https://github.com/electron-react-boilerplate/electron-react-boilerplate) - A Foundation for Scalable Cross-Platform Apps
+
+*   [zzzgydi/clash-verge](https://github.com/zzzgydi/clash-verge) - A Clash GUI based on tauri. Supports Windows, macOS and Linux.
+
+*   [mantinedev/mantine](https://github.com/mantinedev/mantine) - A fully featured React components library
+
+*   [mendableai/firecrawl](https://github.com/mendableai/firecrawl) - 🔥 Turn entire websites into LLM-ready markdown or structured data. Scrape, crawl and extract with a single API.
+
+*   [burnchi/nextjs-contentlayer-course](https://github.com/burnchi/nextjs-contentlayer-course) -
+
+*   [po8rewq/tuto-blog-nextjs-supabase](https://github.com/po8rewq/tuto-blog-nextjs-supabase) - Source code for the 5 part tutorial on how to create a blog using next.js and supabase
+
+*   [bobvinch/comfy-server](https://github.com/bobvinch/comfy-server) - comfyui server to use comfyui API as easy as send a message
+
+*   [maotoumao/MusicFree](https://github.com/maotoumao/MusicFree) - 插件化、定制化、无广告的免费音乐播放器
+
+*   [siyuan-note/siyuan](https://github.com/siyuan-note/siyuan) - A privacy-first, self-hosted, fully open source personal knowledge management software, written in typescript and golang.
+
+*   [danny-avila/LibreChat](https://github.com/danny-avila/LibreChat) - Enhanced ChatGPT Clone: Features Agents, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-4o, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching, message search, Code Interpreter, langchain, DALL-E-3, OpenAPI Actions, Functions, Secure Multi-User Auth, Presets, open-source for self-hosting. Active project.
+
+*   [google-gemini/deprecated-generative-ai-js](https://github.com/google-gemini/deprecated-generative-ai-js) - This SDK is now deprecated, use the new unified Google GenAI SDK.
+
+*   [supabase/supabase](https://github.com/supabase/supabase) - The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.
+
+*   [TanStack/table](https://github.com/TanStack/table) - 🤖 Headless UI for building powerful tables & datagrids for TS/JS -  React-Table, Vue-Table, Solid-Table, Svelte-Table
+
+*   [mishushakov/llm-scraper](https://github.com/mishushakov/llm-scraper) - Turn any webpage into structured data using LLMs
+
+*   [LLM-Red-Team/kimi-free-api](https://github.com/LLM-Red-Team/kimi-free-api) - 🚀 KIMI AI 长文本大模型逆向API【特长：长文本解读整理】，支持高速流式输出、智能体对话、联网搜索、探索版、K1思考模型、长文档解读、图像解析、多轮对话，零配置部署，多路token支持，自动清理会话痕迹，仅供测试，如需商用请前往官方开放平台。
+
+*   [replicate/replicate-javascript](https://github.com/replicate/replicate-javascript) - Node.js client for Replicate
+
+*   [pondorasti/emojis](https://github.com/pondorasti/emojis) - Turn your ideas into emojis in seconds. Generate your favorite Slack emojis with just one click.
+
+*   [ascorbic/daneel](https://github.com/ascorbic/daneel) - Template for an OpenAI chat bot app, built with React, Tailwind and TypeScript
+
+*   [soybeanjs/soybean-admin](https://github.com/soybeanjs/soybean-admin) - A clean, elegant, beautiful and powerful admin template, based on Vue3, Vite7, TypeScript, Pinia, NaiveUI and UnoCSS. 一个清新优雅、高颜值且功能强大的后台管理模板，基于最新的前端技术栈，包括 Vue3, Vite7, TypeScript, Pinia, NaiveUI 和 UnoCSS。
+
+*   [ztjhz/BetterChatGPT](https://github.com/ztjhz/BetterChatGPT) - An amazing UI for OpenAI's ChatGPT (Website + Windows + MacOS + Linux)
+
+*   [mwskwong/mwskwong.com](https://github.com/mwskwong/mwskwong.com) - The personal website and blog of Matthew Kwong
+
+*   [yd-915/digipen](https://github.com/yd-915/digipen) - Scribbly is a web application built with Next.js and Prisma that allows users to create and manage their digital journal. With a user-friendly interface powered by Radix UI and Shadcn/UI components, Scribbly makes journaling a breeze. It includes features such as customizable reminders, secure user authentication with Clerk, and a subscription plan
+
+*   [aifuxi/fuxiaochen](https://github.com/aifuxi/fuxiaochen) - 🌈 一个简单的个人站，使用 Next.js 构建
+
+*   [timlrx/tailwind-nextjs-starter-blog](https://github.com/timlrx/tailwind-nextjs-starter-blog) - This is a Next.js, Tailwind CSS blogging starter template. Comes out of the box configured with the latest technologies to make technical writing a breeze. Easily configurable and customizable. Perfect as a replacement to existing Jekyll and Hugo individual blogs.
+
+*   [adrianhajdin/zoom-clone](https://github.com/adrianhajdin/zoom-clone) - Learn to develop a professional enterprise-ready video conferencing app in hours using Next.js 14, Stream, and Tailwind CSS.
+
+*   [wandb/openui](https://github.com/wandb/openui) - OpenUI let's you describe UI using your imagination, then see it rendered live.
+
+*   [developersdigest/llm-answer-engine](https://github.com/developersdigest/llm-answer-engine) - Build a Perplexity-Inspired Answer Engine Using Next.js, Groq, Llama-3, Langchain, OpenAI, Upstash, Brave & Serper
+
+*   [reactjs/react.dev](https://github.com/reactjs/react.dev) - The React documentation website
+
+*   [umijs/qiankun](https://github.com/umijs/qiankun) - 📦 🚀 Blazing fast, simple and complete solution for micro frontends.
+
+*   [remix-run/remix](https://github.com/remix-run/remix) - Build Better Websites. Create modern, resilient user experiences with web fundamentals.
+
+*   [weijunext/smart-excel-ai](https://github.com/weijunext/smart-excel-ai) - Generate the Excel formulas you need in seconds using ChatGPT.
+
+*   [aidenybai/million](https://github.com/aidenybai/million) - Optimizing compiler for React
+
+*   [fastapi/full-stack-fastapi-template](https://github.com/fastapi/full-stack-fastapi-template) - Full stack, modern web application template. Using FastAPI, React, SQLModel, PostgreSQL, Docker, GitHub Actions, automatic HTTPS and more.
+
+*   [GPTGenius/chatgpt-vercel](https://github.com/GPTGenius/chatgpt-vercel) - Create a private chatgpt website via vercel
+
+*   [Portkey-AI/gateway](https://github.com/Portkey-AI/gateway) - A blazing fast AI Gateway with integrated guardrails. Route to 200+ LLMs, 50+ AI Guardrails with 1 fast & friendly API.
+
+*   [wwog/wechat-pay-v3-sdk](https://github.com/wwog/wechat-pay-v3-sdk) - typescript编写,类型完备,架构完整的微信支付sdk
+
+*   [IndieKKY/bilibili-subtitle](https://github.com/IndieKKY/bilibili-subtitle) - 哔哔君 - 哔哩哔哩字幕列表浏览器扩展，功能包括点击跳转，下载字幕，总结字幕，翻译字幕等。
+
+*   [mrzachnugent/react-native-reusables](https://github.com/mrzachnugent/react-native-reusables) - Bringing shadcn/ui to React Native. Beautifully crafted components with Nativewind, open source, and almost as easy to use.
+
+*   [baidu/amis](https://github.com/baidu/amis) - 前端低代码框架，通过 JSON 配置就能生成各种页面。
+
+*   [microsoft/azurechat](https://github.com/microsoft/azurechat) - 🤖 💼  Azure Chat Solution Accelerator powered by Azure Open AI Service
+
+*   [leptonai/search\_with\_lepton](https://github.com/leptonai/search_with_lepton) - Building a quick conversation-based search demo with Lepton AI.
+
+*   [panaverse/learn-typescript](https://github.com/panaverse/learn-typescript) - Learning TypeScript in Baby Steps
+
+*   [appwrite/appwrite](https://github.com/appwrite/appwrite) - Build like a team of hundreds\_
+
+*   [SoraWebui/FakeSoraAPI](https://github.com/SoraWebui/FakeSoraAPI) - Fake Sora API is an open-source project that simulates the yet-to-be-released OpenAI Sora API, enabling developers to prepare and test their applications in advance.
+
+*   [SoraWebui/SoraWebui](https://github.com/SoraWebui/SoraWebui) - SoraWebui is an open-source Sora web client, enabling users to easily create videos from text with OpenAI's Sora model.
+
+*   [backstage/backstage](https://github.com/backstage/backstage) - Backstage is an open framework for building developer portals
+
+*   [CopilotKit/CopilotKit](https://github.com/CopilotKit/CopilotKit) - React UI + elegant infrastructure for AI Copilots, AI chatbots, and in-app AI agents. The Agentic last-mile 🪁
+
+*   [total-typescript/total-typescript-book](https://github.com/total-typescript/total-typescript-book) - The companion repo for the upcoming Total TypeScript book
+
+*   [vuejs/core](https://github.com/vuejs/core) - 🖖 Vue.js is a progressive, incrementally-adoptable JavaScript framework for building UI on the web.
+
+*   [mattermost/mattermost](https://github.com/mattermost/mattermost) - Mattermost is an open source platform for secure collaboration across the entire software development lifecycle..
+
+*   [adrianhajdin/ai\_saas\_app](https://github.com/adrianhajdin/ai_saas_app) - Build a REAL Software-as-a-Service app with AI features and payments & credits system that you might even turn into a side income or business idea using Next.js 14, Clerk, MongoDB, Cloudinary AI, and Stripe.
+
+*   [reactjs/zh-hans.react.dev](https://github.com/reactjs/zh-hans.react.dev) - React documentation website in Simplified Chinese
+
+*   [TanStack/router](https://github.com/TanStack/router) - 🤖 Fully typesafe Router for React (and friends) w/ built-in caching, 1st class search-param APIs, client-side cache integration and isomorphic rendering.
+
+*   [Expensify/App](https://github.com/Expensify/App) - Welcome to New Expensify: a complete re-imagination of financial collaboration, centered around chat. Help us build the next generation of Expensify by sharing feedback and contributing to the code.
+
+*   [felipemotarocha/fullstackweek-barber](https://github.com/felipemotarocha/fullstackweek-barber) -
+
+*   [virattt/chat\_app](https://github.com/virattt/chat_app) - An LLM-powered chat application that uses Django, React, and LangChain.
+
+*   [Nutlope/pdftochat](https://github.com/Nutlope/pdftochat) - Chat with your PDFs with AI
+
+*   [openchatai/copilot](https://github.com/openchatai/copilot) -
+
+*   [shreyaskarnik/DistiLlama](https://github.com/shreyaskarnik/DistiLlama) - Chrome Extension to Summarize or Chat with Web Pages/Local Documents Using locally running LLMs. Keep all of your data and conversations private. 🔐
+
+*   [BuilderIO/gpt-crawler](https://github.com/BuilderIO/gpt-crawler) - Crawl a site to generate knowledge files to create your own custom GPT from a URL
+
+*   [enricoros/big-AGI](https://github.com/enricoros/big-AGI) - AI suite powered by state-of-the-art models and providing advanced AI/AGI functions. It features AI personas, AGI functions, multi-model chats, text-to-image, voice, response streaming, code highlighting and execution, PDF import, presets for developers, much more. Deploy on-prem or in the cloud.
+
+*   [lobehub/lobe-chat](https://github.com/lobehub/lobe-chat) - 🤯 Lobe Chat - an open-source, modern design AI chat framework. Supports multiple AI providers (OpenAI / Claude 4 / Gemini / DeepSeek / Ollama / Qwen), Knowledge Base (file upload / RAG ), one click install MCP Marketplace and Artifacts / Thinking. One-click FREE deployment of your private AI Agent application.
+
+*   [SawyerHood/draw-a-ui](https://github.com/SawyerHood/draw-a-ui) - Draw a mockup and generate html for it
+
+*   [neurogen-dev/NeuroAPI](https://github.com/neurogen-dev/NeuroAPI) - Free ChatGPT 3.5 / Cheap ChatGPT 4o API / Бесплатный ChatGPT 3.5 Turbo / Дешевый СhatGPT 4o
+
+*   [langchain-ai/chat-langchain](https://github.com/langchain-ai/chat-langchain) -
+
+*   [BuilderIO/ai-shell](https://github.com/BuilderIO/ai-shell) - A CLI that converts natural language to shell commands.
+
+*   [demattosanthony/audio2text](https://github.com/demattosanthony/audio2text) -
+
+*   [wechaty/wechaty](https://github.com/wechaty/wechaty) - Conversational RPA SDK for Chatbot Makers. Join our Discord: https://discord.gg/7q8NBZbQzt
+
+*   [dataelement/bisheng](https://github.com/dataelement/bisheng) - BISHENG is an open LLM devops platform for next generation Enterprise AI applications. Powerful and comprehensive features include: GenAI workflow, RAG, Agent, Unified model management, Evaluation, SFT, Dataset Management, Enterprise-level System Management, Observability and more.
+
+*   [Chainlit/chainlit](https://github.com/Chainlit/chainlit) - Build Conversational AI in minutes ⚡️
+
+*   [labring/FastGPT](https://github.com/labring/FastGPT) - FastGPT is a knowledge-based platform built on the LLMs, offers a comprehensive suite of out-of-the-box capabilities such as data processing, RAG retrieval, and visual AI workflow orchestration, letting you easily develop and deploy complex question-answering systems without the need for extensive setup or configuration.
+
+*   [akshata29/entaoai](https://github.com/akshata29/entaoai) - Chat and Ask on your own data.  Accelerator to quickly upload your own enterprise data and use OpenAI services to chat to that uploaded data and ask questions
+
+*   [microsoft/TypeChat](https://github.com/microsoft/TypeChat) - TypeChat is a library that makes it easy to build natural language interfaces using types.
+
+*   [twentyhq/twenty](https://github.com/twentyhq/twenty) - Building a modern alternative to Salesforce, powered by the community.
+
+*   [a16z-infra/companion-app](https://github.com/a16z-infra/companion-app) - AI companions with memory: a lightweight stack to create and host your own AI companions
+
+*   [baptisteArno/typebot.io](https://github.com/baptisteArno/typebot.io) - 💬 Typebot is a powerful chatbot builder that you can self-host.
+
+*   [Lissy93/web-check](https://github.com/Lissy93/web-check) - 🕵️‍♂️ All-in-one OSINT tool for analysing any website
+
+*   [discordjs/discord.js](https://github.com/discordjs/discord.js) - A powerful JavaScript library for interacting with the Discord API
+
+*   [laurent22/joplin](https://github.com/laurent22/joplin) - Joplin - the privacy-focused note taking app with sync capabilities for Windows, macOS, Linux, Android and iOS.
+
+*   [expo/expo](https://github.com/expo/expo) - An open-source framework for making universal native apps with React. Expo runs on Android, iOS, and the web.
+
+*   [aeharding/voyager](https://github.com/aeharding/voyager) - Voyager — a beautiful app for Lemmy
+
+*   [felipemotarocha/fullstackweek-trips](https://github.com/felipemotarocha/fullstackweek-trips) -
+
+*   [vercel/platforms](https://github.com/vercel/platforms) - A full-stack Next.js app with multi-tenancy.
+
+*   [junhoyeo/threads-api](https://github.com/junhoyeo/threads-api) - Unofficial, Reverse-Engineered Node.js/TypeScript client for Meta's Threads. Web UI Included.
+
+*   [TensoRaws/Final2x](https://github.com/TensoRaws/Final2x) - 2^x Image Super-Resolution
+
+*   [bacen/pilotord-kit-onboarding](https://github.com/bacen/pilotord-kit-onboarding) - Documentação e arquivos de configuração para participação no Piloto do Real Digital
+
+*   [misskey-dev/misskey](https://github.com/misskey-dev/misskey) - 🌎 A completely free and open interplanetary microblogging platform 🚀
+
+*   [apitable/apitable](https://github.com/apitable/apitable) - 🚀🎉📚 APITable, an API-oriented low-code platform for building collaborative apps and better than all other Airtable open-source alternatives.
+
+*   [noodle-run/noodle](https://github.com/noodle-run/noodle) - Rethinking Student Productivity
+
+*   [hepengwei/visualization-collection](https://github.com/hepengwei/visualization-collection) - 🌈 一个专注于前端视觉效果的集合应用，包含CSS动效、Canvas动画、Three.js3D、人工智能应用等上百个案例（持续更新）
+
+*   [buqiyuan/vue3-antdv-admin](https://github.com/buqiyuan/vue3-antdv-admin) - 基于 vite5.x + vue3.x + ant-design-vue4.x + typescript hooks 的基础后台管理系统  RBAC的权限系统, JSON Schema动态表单,动态表格,锁屏界面
+
+*   [imgly/background-removal-js](https://github.com/imgly/background-removal-js) - Remove backgrounds from images directly in the browser environment with ease and no additional costs or privacy concerns. Explore an interactive demo.
+
+*   [toeverything/AFFiNE](https://github.com/toeverything/AFFiNE) - There can be more than Notion and Miro. AFFiNE(pronounced \[ə‘fain]) is a next-gen knowledge base that brings planning, sorting and creating all together. Privacy first, open-source, customizable and ready to use.
+
+*   [unkeyed/unkey](https://github.com/unkeyed/unkey) - The Developer Platform for Modern APIs
+
+*   [superagent-ai/superagent](https://github.com/superagent-ai/superagent) - 🥷 Run AI-agents with an API
+
+*   [openapi-ts/openapi-typescript](https://github.com/openapi-ts/openapi-typescript) - Generate TypeScript types from OpenAPI 3 specs
+
+*   [xitanggg/open-resume](https://github.com/xitanggg/open-resume) - OpenResume is a powerful open-source resume builder and resume parser. https://open-resume.com/
+
+*   [steven-tey/chathn](https://github.com/steven-tey/chathn) - Chat with Hacker News using natural language. Built with OpenAI Functions and Vercel AI SDK.
+
+*   [heyverse/hey](https://github.com/heyverse/hey) - Hey is a decentralized and permissionless social media app built with Lens Protocol 🌿
+
+*   [adrianhajdin/project\_nextjs13\_flexibble](https://github.com/adrianhajdin/project_nextjs13_flexibble) -
+
+*   [github/docs](https://github.com/github/docs) - The open-source repo for docs.github.com
+
+*   [invoke-ai/InvokeAI](https://github.com/invoke-ai/InvokeAI) - Invoke is a leading creative engine for Stable Diffusion models, empowering professionals, artists, and enthusiasts to generate and create visual media using the latest AI-driven technologies. The solution offers an industry leading WebUI, and serves as the foundation for multiple commercial products.
+
+*   [sadmann7/skateshop](https://github.com/sadmann7/skateshop) - An open source e-commerce skateshop build with everything new in Next.js.
+
+*   [shadcn-ui/ui](https://github.com/shadcn-ui/ui) - A set of beautifully-designed, accessible components and a code distribution platform. Works with your favorite frameworks. Open Source. Open Code.
+
+*   [refinedev/refine](https://github.com/refinedev/refine) - A React Framework for building  internal tools, admin panels, dashboards & B2B apps with unmatched flexibility.
+
+*   [prisma/prisma](https://github.com/prisma/prisma) - Next-generation ORM for Node.js & TypeScript | PostgreSQL, MySQL, MariaDB, SQL Server, SQLite, MongoDB and CockroachDB
+
+*   [a16z-infra/ai-getting-started](https://github.com/a16z-infra/ai-getting-started) - A Javascript AI getting started stack for weekend projects, including image/text models, vector stores, auth, and deployment configs
+
+*   [figma/plugin-samples](https://github.com/figma/plugin-samples) - 🔌 Sample Figma plugins.
+
+*   [angular/angular](https://github.com/angular/angular) - Deliver web apps with confidence 🚀
+
+*   [spacedriveapp/spacedrive](https://github.com/spacedriveapp/spacedrive) - Spacedrive is an open source cross-platform file explorer, powered by a virtual distributed filesystem written in Rust.
+
+*   [Blazity/next-enterprise](https://github.com/Blazity/next-enterprise) - 💼 An enterprise-grade Next.js boilerplate for high-performance, maintainable apps. Packed with features like Tailwind CSS, TypeScript, ESLint, Prettier, testing tools, and more to accelerate your development.
+
+*   [Eugeny/tabby](https://github.com/Eugeny/tabby) - A terminal for a more modern age
+
+*   [desktop/desktop](https://github.com/desktop/desktop) - Focus on what matters instead of fighting with Git.
+
+*   [devfullcycle/imersao13](https://github.com/devfullcycle/imersao13) -
+
+*   [ONEARMY/community-platform](https://github.com/ONEARMY/community-platform) - A platform to build useful communities that aim to tackle global problems
+
+*   [sst/sst](https://github.com/sst/sst) - Build full-stack apps on your own infrastructure.
+
+*   [Linen-dev/linen.dev](https://github.com/Linen-dev/linen.dev) - Lightweight Google-searchable Slack alternative for Communities
+
+*   [vercel/ai-chatbot](https://github.com/vercel/ai-chatbot) - A full-featured, hackable Next.js AI chatbot built by Vercel
+
+*   [79E/ChatGpt-Web](https://github.com/79E/ChatGpt-Web) - A commercially-viable ChatGpt web application built with React. 使用React搭建的一款可商业化的ChatGpt Web应用。
+
+*   [ChatAnyTeam/ChatAny](https://github.com/ChatAnyTeam/ChatAny) - 🌻 一键拥有你自己的 ChatGPT+众多AI 网页服务 | One click access to your own ChatGPT+Many AI web services
+
+*   [immich-app/immich](https://github.com/immich-app/immich) - High performance self-hosted photo and video management solution.
+
+*   [chakra-ui/panda](https://github.com/chakra-ui/panda) - 🐼 Universal, Type-Safe, CSS-in-JS Framework for Design Systems ⚡️
+
+*   [vercel/ai](https://github.com/vercel/ai) - The AI Toolkit for TypeScript. From the creators of Next.js, the AI SDK is a free open-source library for building AI-powered applications and agents
+
+*   [erictik/midjourney-api](https://github.com/erictik/midjourney-api) - MidJourney client. Unofficial Node.js client
+
+*   [josStorer/RWKV-Runner](https://github.com/josStorer/RWKV-Runner) - A RWKV management and startup tool, full automation, only 8MB. And provides an interface compatible with the OpenAI API. RWKV is a large language model that is fully open source and available for commercial use.
+
+*   [steven-tey/novel](https://github.com/steven-tey/novel) - Notion-style WYSIWYG editor with AI-powered autocompletion.
+
+*   [makeplane/plane](https://github.com/makeplane/plane) - 🔥 🔥 🔥 Open Source JIRA, Linear, Monday, and Asana Alternative. Plane helps you track your issues, epics, and cycles the easiest way on the planet.
+
+*   [xiangsx/gpt4free-ts](https://github.com/xiangsx/gpt4free-ts) - Providing a free OpenAI GPT-4 API !   This is a replication project for the typescript version of xtekky/gpt4free
+
+*   [huggingface/chat-ui](https://github.com/huggingface/chat-ui) - Open source codebase powering the HuggingChat app
+
+*   [Stability-AI/StableStudio](https://github.com/Stability-AI/StableStudio) - Community interface for generative AI
+
+*   [LokerL/tts-vue](https://github.com/LokerL/tts-vue) - 🎤 微软语音合成工具，使用 Electron + Vue + ElementPlus + Vite 构建。
+
+*   [langgenius/dify](https://github.com/langgenius/dify) - Production-ready platform for agentic workflow development.
+
+*   [FlowiseAI/Flowise](https://github.com/FlowiseAI/Flowise) - Build AI Agents, Visually
+
+*   [ChatGPTNextWeb/NextChat](https://github.com/ChatGPTNextWeb/NextChat) - ✨ Light and Fast AI Assistant. Support: Web | iOS | MacOS | Android |  Linux | Windows
+
+*   [bhaskatripathi/Text2Diagram](https://github.com/bhaskatripathi/Text2Diagram) - Text2Diagram is an AI based diagramming tool that uses Natural language text to create diagrams.
+
+*   [guangzhengli/ChatFiles](https://github.com/guangzhengli/ChatFiles) - Document Chatbot — multiple files. Powered by GPT / Embedding.
+
+*   [shadcn-ui/taxonomy](https://github.com/shadcn-ui/taxonomy) - An open source application built using the new router, server components and everything new in Next.js 13.
+
+*   [ohmplatform/FreedomGPT](https://github.com/ohmplatform/FreedomGPT) - This codebase is for a React and Electron-based app that executes the FreedomGPT LLM locally (offline and private) on Mac and Windows using a chat-based interface
+
+*   [reworkd/AgentGPT](https://github.com/reworkd/AgentGPT) - 🤖 Assemble, configure, and deploy autonomous AI Agents in your browser.
+
+*   [chatchat-space/Langchain-Chatchat](https://github.com/chatchat-space/Langchain-Chatchat) - Langchain-Chatchat（原Langchain-ChatGLM）基于 Langchain 与 ChatGLM, Qwen 与 Llama 等语言模型的 RAG 与 Agent 应用 | Langchain-Chatchat (formerly langchain-ChatGLM), local knowledge based LLM (like ChatGLM, Qwen and Llama) RAG and Agent app with langchain
+
+*   [mayooear/ai-pdf-chatbot-langchain](https://github.com/mayooear/ai-pdf-chatbot-langchain) - AI PDF chatbot agent built with LangChain & LangGraph
+
+*   [mckaywrigley/ai-code-translator](https://github.com/mckaywrigley/ai-code-translator) - Use AI to translate code from one language to another.
+
+*   [hunkimForks/chatgpt-arxiv-extension](https://github.com/hunkimForks/chatgpt-arxiv-extension) - A browser extension that enhance search engines with ChatGPT
+
+*   [arc53/DocsGPT](https://github.com/arc53/DocsGPT) - DocsGPT is an open-source genAI tool that helps users get reliable answers from knowledge source, while avoiding hallucinations. It enables private and reliable information retrieval, with tooling and agentic system capability built in.
+
+*   [TheAlgorithms/website](https://github.com/TheAlgorithms/website) - The Algorithms website providing GitHub's largest open-source algorithm library.
+
+*   [openai-translator/openai-translator](https://github.com/openai-translator/openai-translator) - 基于 ChatGPT API 的划词翻译浏览器插件和跨平台桌面端应用    -    Browser extension and cross-platform desktop application for translation based on ChatGPT API.
+
+*   [JimmyLv/BibiGPT-v1](https://github.com/JimmyLv/BibiGPT-v1) - BibiGPT v1 · one-Click AI Summary for Audio/Video & Chat with Learning Content: Bilibili | YouTube | Tweet丨TikTok丨Dropbox丨Google Drive丨Local files | Websites丨Podcasts | Meetings | Lectures, etc. 音视频内容 AI 一键总结 & 对话：哔哩哔哩丨YouTube丨推特丨小红书丨抖音丨快手丨百度网盘丨阿里云盘丨网页丨播客丨会议丨本地文件等 (原 BiliGPT 省流神器 & AI课代表)
+
+*   [mpociot/chatgpt-vscode](https://github.com/mpociot/chatgpt-vscode) - A VSCode extension that allows you to use ChatGPT
+
+*   [wong2/chatgpt-google-extension](https://github.com/wong2/chatgpt-google-extension) - This project is deprecated. Check my new project ChatHub:
+
+*   [fuergaosi233/wechat-chatgpt](https://github.com/fuergaosi233/wechat-chatgpt) - Use ChatGPT On Wechat via wechaty
 
 ## Go
 
-*   [jesseduffield/lazygit](https://github.com/jesseduffield/lazygit) - simple terminal UI for git commands
+*   [danielsobrado/ainovelprompter](https://github.com/danielsobrado/ainovelprompter) - Create the prompts you need to write your Novel using AI
 
-*   [nicoxiang/geektime-downloader](https://github.com/nicoxiang/geektime-downloader) - 极客时间课程下载器，支持下载极客时间专栏/视频课/每日一课/大厂实践/训练营视频
+*   [SagerNet/sing-box](https://github.com/SagerNet/sing-box) - The universal proxy platform
 
-*   [cli/cli](https://github.com/cli/cli) - GitHub’s official command line tool
+*   [opencode-ai/opencode](https://github.com/opencode-ai/opencode) - A powerful AI coding agent. Built for the terminal.
 
-*   [junegunn/fzf](https://github.com/junegunn/fzf) - :cherry\_blossom: A command-line fuzzy finder
+*   [QuantumNous/new-api](https://github.com/QuantumNous/new-api) - AI模型接口管理与分发系统，支持将多种大模型转为统一格式调用，支持OpenAI、Claude等格式，可供个人或者企业内部管理与分发渠道使用，本项目基于One API二次开发。🍥 The next-generation LLM gateway and AI asset management system supports multiple languages.
 
-*   [mmcgrana/gobyexample](https://github.com/mmcgrana/gobyexample) - Go by Example
+*   [Veloera/Veloera](https://github.com/Veloera/Veloera) -
 
-*   [jimeh/tmux-themepack](https://github.com/jimeh/tmux-themepack) - A pack of various Tmux themes.
+*   [casdoor/casdoor](https://github.com/casdoor/casdoor) - An open-source UI-first Identity and Access Management (IAM) / Single-Sign-On (SSO) platform with web UI supporting OAuth 2.0, OIDC, SAML, CAS, LDAP, SCIM, WebAuthn, TOTP, MFA, Face ID, RADIUS, Google Workspace, Active Directory and Kerberos
 
-*   [avelino/awesome-go](https://github.com/avelino/awesome-go) - A curated list of awesome Go frameworks, libraries and software
+*   [JohannesKaufmann/html-to-markdown](https://github.com/JohannesKaufmann/html-to-markdown) - ⚙️ Convert HTML to Markdown. Even works with entire websites and can be extended through rules.
 
-*   [talkgo/read](https://github.com/talkgo/read) - Go 学习之路：Go 开发者博客、Go 微信公众号、Go 学习资料（文档、书籍、视频）
+*   [VoAPI/VoAPI](https://github.com/VoAPI/VoAPI) - 全新的高颜值/高性能的AI模型接口管理与分发系统，仅供个人学习使用，请勿用于任何商业用途。（全新独立架构版本VoAPI v1.0正在积极开发中，敬请期待）
 
-## Java
+*   [mudler/LocalAI](https://github.com/mudler/LocalAI) - :robot: The free, Open Source alternative to OpenAI, Claude and others. Self-hosted and local-first. Drop-in replacement for OpenAI,  running on consumer-grade hardware. No GPU required. Runs gguf, transformers, diffusers and many more models architectures. Features: Generate Text, Audio, Video, Images, Voice Cloning, Distributed, P2P inference
 
-*   [winterbe/java8-tutorial](https://github.com/winterbe/java8-tutorial) - Modern Java - A Guide to Java 8
+*   [casibase/casibase](https://github.com/casibase/casibase) - ⚡️AI Cloud OS: Open-source enterprise-level AI knowledge base and MCP (model-context-protocol)/A2A (agent-to-agent) management platform with admin UI, user management and Single-Sign-On⚡️, supports ChatGPT, Claude, Llama, Ollama, HuggingFace, etc., chat bot demo: https://ai.casibase.com, admin UI demo: https://ai-admin.casibase.com
 
-*   [ddd-by-examples/factory](https://github.com/ddd-by-examples/factory) - The missing, complete example of Domain-Driven Design enterprise application backed by Spring stack
+*   [appleboy/CodeGPT](https://github.com/appleboy/CodeGPT) - A CLI written in Go language that writes git commit messages or do a code review brief for you using ChatGPT AI (gpt-4.1, gpt-4o model) and automatically installs a git prepare-commit-msg hook.
 
-*   [dromara/dynamic-tp](https://github.com/dromara/dynamic-tp) - 🔥🔥🔥轻量级动态线程池，内置监控告警功能，集成三方中间件线程池管理，基于主流配置中心（已支持Nacos、Apollo，Zookeeper、Consul、Etcd，可通过SPI自定义实现）。Lightweight dynamic threadpool, with monitoring and alarming functions, base on popular config centers (already support Nacos、Apollo、Zookeeper、Consul, can be customized through SPI).
+*   [ollama/ollama](https://github.com/ollama/ollama) - Get up and running with Llama 3.3, DeepSeek-R1, Phi-4, Gemma 3, Mistral Small 3.1 and other large language models.
 
-*   [wuyouzhuguli/SpringAll](https://github.com/wuyouzhuguli/SpringAll) - 循序渐进，学习Spring Boot、Spring Boot & Shiro、Spring Batch、Spring Cloud、Spring Cloud Alibaba、Spring Security & Spring Security OAuth2，博客Spring系列源码：https://mrbird.cc
+*   [acheong08/ChatGPT-to-API](https://github.com/acheong08/ChatGPT-to-API) - Scalable unofficial ChatGPT API for production.
 
-*   [seaswalker/spring-analysis](https://github.com/seaswalker/spring-analysis) - Spring源码阅读
+*   [usememos/memos](https://github.com/usememos/memos) - A modern, open-source, self-hosted knowledge management and note-taking platform designed for privacy-conscious users and organizations.
 
-*   [projectlombok/lombok](https://github.com/projectlombok/lombok) - Very spicy additions to the Java programming language.
+*   [jetify-com/devbox](https://github.com/jetify-com/devbox) - Instant, easy, and predictable development environments
 
-*   [spring-projects/spring-boot](https://github.com/spring-projects/spring-boot) - Spring Boot helps you to create Spring-powered, production-grade applications and services with absolute minimum fuss.
+*   [teslamotors/fleet-telemetry](https://github.com/teslamotors/fleet-telemetry) -
 
-*   [plantuml/plantuml](https://github.com/plantuml/plantuml) - Generate diagrams from textual description
+*   [jetify-com/typeid](https://github.com/jetify-com/typeid) - Type-safe, K-sortable, globally unique identifier inspired by Stripe IDs
 
-*   [doocs/source-code-hunter](https://github.com/doocs/source-code-hunter) - 😱 从源码层面，剖析挖掘互联网行业主流技术的底层实现原理，为广大开发者 “提升技术深度” 提供便利。目前开放 Spring 全家桶，Mybatis、Netty、Dubbo 框架，及 Redis、Tomcat 中间件等
+*   [ehang-io/nps](https://github.com/ehang-io/nps) - 一款轻量级、高性能、功能强大的内网穿透代理服务器。支持tcp、udp、socks5、http等几乎所有流量转发，可用来访问内网网站、本地支付接口调试、ssh访问、远程桌面，内网dns解析、内网socks5代理等等……，并带有功能强大的web管理端。a lightweight, high-performance, powerful intranet penetration proxy server, with a powerful web management terminal.
 
-*   [v2er-app/Android](https://github.com/v2er-app/Android) - The source of V2er.Android
+*   [sourcegraph/sourcegraph-public-snapshot](https://github.com/sourcegraph/sourcegraph-public-snapshot) - Code AI platform with Code Search & Cody
 
-*   [killme2008/aviatorscript](https://github.com/killme2008/aviatorscript) - A high performance scripting language hosted on the JVM.
+*   [loft-sh/devpod](https://github.com/loft-sh/devpod) - Codespaces but open-source, client-only and unopinionated: Works with any IDE and lets you use any cloud, kubernetes or just localhost docker.
 
-*   [banq/jdonframework](https://github.com/banq/jdonframework) - Domain-Driven-Design Pub/Sub Domain-Events  framework
+*   [1Panel-dev/1Panel](https://github.com/1Panel-dev/1Panel) - 🔥 1Panel provides an intuitive web interface and MCP Server to manage websites, files, containers, databases, and LLMs on a Linux server.
 
-*   [banq/jivejdon](https://github.com/banq/jivejdon) - Jivejdon is a Domain Driven Design appication with CQRS/ES/Clean/Hexagonal architecture
+*   [milvus-io/milvus](https://github.com/milvus-io/milvus) - Milvus is a high-performance, cloud-native vector database built for scalable vector ANN search
 
-*   [xuchengsheng/spring-reading](https://github.com/xuchengsheng/spring-reading) - 涵盖了 Spring 框架的核心概念和关键功能，包括控制反转（IOC）容器的使用，面向切面编程（AOP）的原理与实践，事务管理的方式与实现，Spring MVC 的流程与控制器工作机制，以及 Spring 中数据访问、安全、Boot 自动配置等方面的深入研究。此外，它还包含了 Spring 事件机制的应用、高级主题如缓存抽象和响应式编程，以及对 Spring 源码的编程风格与设计模式的深入探讨。
+*   [ConnectAI-E/feishu-openai](https://github.com/ConnectAI-E/feishu-openai) - 🎒 飞书  ×（GPT-4 + GPT-4V + DALL·E-3 + Whisper）=  飞一般的工作体验  🚀 语音对话、角色扮演、多话题讨论、图片创作、表格分析、文档导出 🚀
 
-*   [kangjianwei/LearningJDK](https://github.com/kangjianwei/LearningJDK) - JDK源码阅读笔记
+## miscellaneous
 
-*   [wupeixuan/JDKSourceCode1.8](https://github.com/wupeixuan/JDKSourceCode1.8) - Jdk1.8源码解析
+*   [PaulFriatshu/character-ai-alternatives](https://github.com/PaulFriatshu/character-ai-alternatives) - List of Character AI Alternatives in 2025
 
-*   [chinabugotech/hutool](https://github.com/chinabugotech/hutool) - 🍬A set of tools that keep Java sweet.
+*   [kirodotdev/Kiro](https://github.com/kirodotdev/Kiro) - Kiro is an agentic IDE that works alongside you from prototype to production.
 
-*   [Jackson0714/PassJava-Platform](https://github.com/Jackson0714/PassJava-Platform) - 一款面试刷题的 Spring Cloud 开源系统。零碎时间利用小程序查看常见面试题，夯实Java基础。 该项目可以教会你如何搭建SpringBoot项目，Spring Cloud项目。 采用流行的技术，如 SpringBoot、MyBatis、Redis、 MySql、 MongoDB、 RabbitMQ、Elasticsearch，采用Docker容器化部署。
+*   [chika0801/sing-box-examples](https://github.com/chika0801/sing-box-examples) - sing-box 配置示例
 
-*   [giscafer/FinalScheduler](https://github.com/giscafer/FinalScheduler) - :calendar: 终极排班管理、考勤系统
+*   [Loyalsoldier/v2ray-rules-dat](https://github.com/Loyalsoldier/v2ray-rules-dat) - 🦄 🎃 👻 V2Ray 路由规则文件加强版，可代替 V2Ray 官方 geoip.dat 和 geosite.dat，适用于 V2Ray、Xray-core、mihomo(Clash-Meta)、hysteria、Trojan-Go 和 leaf。Enhanced edition of V2Ray rules dat files, applicable to V2Ray, Xray-core, mihomo(Clash-Meta), hysteria, Trojan-Go and leaf.
 
-*   [Byron4j/CookBook](https://github.com/Byron4j/CookBook) - 🎉🎉🎉JAVA高级架构师技术栈==任何技能通过 “刻意练习” 都可以达到融会贯通的境界，就像烹饪一样，这里有一份JAVA开发技术手册，只需要增加自己练习的次数。🏃🏃🏃
+*   [JeredBlu/custom-instructions](https://github.com/JeredBlu/custom-instructions) -
 
-*   [tonngw/community](https://github.com/tonngw/community) - 一个仿照牛客网实现的讨论社区，不仅实现了基本的注册，登录，发帖，评论，点赞，回复功能，同时使用前缀树实现敏感词过滤，使用wkhtmltopdf生成长图和pdf，实现网站UV和DAU统计，并将用户头像等信息存于七牛云服务器。
+*   [kleosr/cursorkleosr](https://github.com/kleosr/cursorkleosr) - Make AI Development Feel Natural in Cursor
 
-*   [jogeen/StopCoding](https://github.com/jogeen/StopCoding) - Idea防沉迷插件，关爱程序员健康。设置每工作多少分钟，强制休息。Idea anti addiction plug-in, care for the health of programmers. Set the number of minutes per work and force the rest.
+*   [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) - A collection of MCP servers.
 
-*   [Snailclimb/JavaGuide](https://github.com/Snailclimb/JavaGuide) - 「Java学习+面试指南」一份涵盖大部分 Java 程序员所需要掌握的核心知识。准备 Java 面试，首选 JavaGuide！
+*   [valcho/cursor-rules-docs-template](https://github.com/valcho/cursor-rules-docs-template) - A repository collecting different useful cursor rules folder templates with docs folder to keep up with the plan
 
-*   [cosen1024/community](https://github.com/cosen1024/community) - 一个仿照牛客网实现的讨论社区，不仅实现了基本的注册，登录，发帖，评论，点赞，回复功能，同时使用前缀树实现敏感词过滤，使用wkhtmltopdf生成长图和pdf，实现网站UV和DAU统计，并将用户头像等信息存于七牛云服务器。
+*   [deepseek-ai/DeepSeek-R1](https://github.com/deepseek-ai/DeepSeek-R1) -
 
-*   [lyrric/seckill](https://github.com/lyrric/seckill) - 苗苗 约苗 九价 秒杀 脚本
+*   [IBM/wxflows](https://github.com/IBM/wxflows) - Examples and tutorials for building AI applications with watsonx.ai Flows Engine
 
-*   [dunwu/java-tutorial](https://github.com/dunwu/java-tutorial) - :coffee: 老司机在 Java 技术领域的十年积累。
+*   [obre10off/cursor\_prd\_example](https://github.com/obre10off/cursor_prd_example) - Example Cursor PRD File Strcuture to give Cursor maximum context about your project
 
-## CSS
+*   [bleedline/aimoneyhunter](https://github.com/bleedline/aimoneyhunter) - ai副业赚钱大集合，教你如何利用ai做一些副业项目，赚取更多额外收益。The Ultimate Guide to Making Money with AI Side Hustles: Learn how to leverage AI for some cool side gigs and rake in some extra cash. Check out the English version for more insights.
 
-*   [spring-projects/spring-petclinic](https://github.com/spring-projects/spring-petclinic) - A sample Spring-based application
+*   [bestailist/awesome-nsfw-ai-list](https://github.com/bestailist/awesome-nsfw-ai-list) - A curated list of NSFW AI tools and resources, including AI girlfriend and other NSFW artificial intelligence applications. This list aims to provide an overview of cutting-edge NSFW AI technologies for developers, researchers, and enthusiasts interested in this emerging field.
 
-*   [BingyanStudio/LapisCV](https://github.com/BingyanStudio/LapisCV) - 📄 Easily create your resume with Markdown on VSCode / Typora / Obsidian
+*   [trungdq88/Awesome-Black-Friday-Cyber-Monday](https://github.com/trungdq88/Awesome-Black-Friday-Cyber-Monday) - Awesome deals on Black Friday: Apps, SaaS, Books, Courses, etc.
 
-*   [missing-semester/missing-semester](https://github.com/missing-semester/missing-semester) - The Missing Semester of Your CS Education 📚
+*   [litter-coder/midjourney-proxy-plus](https://github.com/litter-coder/midjourney-proxy-plus) - midjourney-proxy的先行版
 
-*   [thinkingjimmy/Learning-Prompt](https://github.com/thinkingjimmy/Learning-Prompt) - Free prompt engineering online course. ChatGPT and Midjourney tutorials are now included!
+*   [lich0821/WeChatRobot](https://github.com/lich0821/WeChatRobot) - 微信机器人，接入Gemini、ChatGPT、ChatGLM、讯飞星火、Tigerbot；成语接龙、天气预报、新闻摘要、定时任务。
 
-*   [BNDong/Cnblogs-Theme-SimpleMemory](https://github.com/BNDong/Cnblogs-Theme-SimpleMemory) - 🍭　Cnblogs theme \_ Basic theme :  SimpleMemory
+*   [ml-tooling/best-of-web-python](https://github.com/ml-tooling/best-of-web-python) - 🏆  A ranked list of awesome python libraries for web development. Updated weekly.
+
+*   [fengyunzaidushi/chatgpt-history-search](https://github.com/fengyunzaidushi/chatgpt-history-search) - A Python-based search engine for OpenAI's ChatGPT conversation history, enabling efficient semantic search and interactive engagement with archived chats using text embeddings
+
+*   [ngc660sec/NGCBot](https://github.com/ngc660sec/NGCBot) - 一个基于✨HOOK机制的微信机器人，支持🌱安全新闻定时推送【FreeBuf，先知，安全客，奇安信攻防社区】，👯Kfc文案，⚡漏洞查询，⚡手机号归属地查询，⚡知识库查询，🎉星座查询，⚡天气查询，🌱摸鱼日历，⚡微步威胁情报查询， 🐛视频，⚡图片，👯帮助菜单。📫 支持积分功能，⚡支持自动拉人，，🌱自动群发，👯Ai回复（国内主流AI模型，扣子，FastGpt，Dify全面支持！），⚡视频号解析，😄自定义程度丰富，小白也可轻松上手！
+
+*   [axiba053/ChatGPT-airport-tizi-fanqiang](https://github.com/axiba053/ChatGPT-airport-tizi-fanqiang) - ChatGPT，科学上网，梯子，机场推荐，vpn，Clash，V2rayN
+
+*   [rockbenben/LearnData](https://github.com/rockbenben/LearnData) - 开源工具、效率方法、心理学探索的自我提升笔记
+
+*   [sindresorhus/awesome-electron](https://github.com/sindresorhus/awesome-electron) - Useful resources for creating apps with Electron
+
+*   [jwasham/coding-interview-university](https://github.com/jwasham/coding-interview-university) - A complete computer science study plan to become a software engineer.
+
+*   [OndrejSulc/Linux\_cheatsheet](https://github.com/OndrejSulc/Linux_cheatsheet) - Markdown and PDF versions of my Linux cheatsheet
+
+*   [Makememo/MemoAI](https://github.com/Makememo/MemoAI) - MemoAI Video to translated text, subtitles and notes made easy.
+
+*   [weijunext/indie-hacker-tools](https://github.com/weijunext/indie-hacker-tools) - 收录独立开发者出海技术栈和工具
+
+*   [microsoft/AI-Chat-App-Hack](https://github.com/microsoft/AI-Chat-App-Hack) - HackTogether: The Microsoft Python Chatbot Hack | Register, Hack, Win
+
+*   [LC044/WeChatMsg](https://github.com/LC044/WeChatMsg) -
+
+*   [HumanAIGC/AnimateAnyone](https://github.com/HumanAIGC/AnimateAnyone) - Animate Anyone: Consistent and Controllable Image-to-Video Synthesis for Character Animation
+
+*   [ayanamist/JetBrainsRuntime-for-fcitx](https://github.com/ayanamist/JetBrainsRuntime-for-fcitx) - Semi-auto build of https://github.com/JetBrains/JetBrainsRuntime
+
+*   [linexjlin/GPTs](https://github.com/linexjlin/GPTs) - leaked prompts of GPTs
+
+*   [Anil-matcha/Awesome-GPT-Store](https://github.com/Anil-matcha/Awesome-GPT-Store) - Custom GPT Store - A collection of major GPTS available in public
+
+*   [fr0gger/Awesome-GPT-Agents](https://github.com/fr0gger/Awesome-GPT-Agents) - A curated list of GPT agents for cybersecurity
+
+*   [Aaron-Plugins/chatgpt-plugins](https://github.com/Aaron-Plugins/chatgpt-plugins) - Official ChatGPT Plugins🧩
+
+*   [Loyalsoldier/clash-rules](https://github.com/Loyalsoldier/clash-rules) - 🦄️ 🎃 👻 Clash Premium 规则集(RULE-SET)，兼容 ClashX Pro、Clash for Windows 等基于 Clash Premium 内核的客户端。
+
+*   [dreamshao/chromedriver](https://github.com/dreamshao/chromedriver) - chromedriver  138.0.7204.49,137.0.7151.68,136.0.7103.49,135.0.7049.42,134.0.6998.35,133.0.6943.53,132.0.6834.83,131.0.6778.69,130.0.6723.58,129.0.6668.58,128.0.6613.84,127.0.6533.72,126.0.6478.126,123.0.6312.58,122.0.6261.94,119.0.6045.105,117.0.5938.88,115.0.5790.110  version webdriver download 下载
+
+*   [Mooler0410/LLMsPracticalGuide](https://github.com/Mooler0410/LLMsPracticalGuide) - A curated list of practical guide resources of LLMs (LLMs Tree, Examples, Papers)
+
+*   [wangdoc/typescript-tutorial](https://github.com/wangdoc/typescript-tutorial) - TypeScript 教程
+
+*   [joonspk-research/generative\_agents](https://github.com/joonspk-research/generative_agents) - Generative Agents: Interactive Simulacra of Human Behavior
+
+*   [kyrolabs/awesome-langchain](https://github.com/kyrolabs/awesome-langchain) - 😎 Awesome list of tools and projects with the awesome LangChain framework
+
+*   [gmpetrov/databerry](https://github.com/gmpetrov/databerry) - The no-code platform for building custom LLM Agents
+
+*   [thunlp/ToolLearningPapers](https://github.com/thunlp/ToolLearningPapers) -
+
+*   [iamseancheney/python\_for\_data\_analysis\_2nd\_chinese\_version](https://github.com/iamseancheney/python_for_data_analysis_2nd_chinese_version) - 《利用Python进行数据分析·第2版》
+
+*   [forthespada/CS-Books](https://github.com/forthespada/CS-Books) - 🔥🔥超过1000本的计算机经典书籍、个人笔记资料以及本人在各平台发表文章中所涉及的资源等。书籍资源包括C/C++、Java、Python、Go语言、数据结构与算法、操作系统、后端架构、计算机系统知识、数据库、计算机网络、设计模式、前端、汇编以及校招社招各种面经~
+
+*   [andongBlue/SoLargeLM](https://github.com/andongBlue/SoLargeLM) -
+
+*   [google-research/tuning\_playbook](https://github.com/google-research/tuning_playbook) - A playbook for systematically maximizing the performance of deep learning models.
+
+*   [HqWu-HITCS/Awesome-Chinese-LLM](https://github.com/HqWu-HITCS/Awesome-Chinese-LLM) - 整理开源的中文大语言模型，以规模较小、可私有化部署、训练成本较低的模型为主，包括底座模型，垂直领域微调及应用，数据集与教程等。
+
+*   [easychen/lean-side-bussiness](https://github.com/easychen/lean-side-bussiness) - 精益副业：程序员如何优雅地做副业
+
+*   [SkalskiP/awesome-chatgpt-code-interpreter-experiments](https://github.com/SkalskiP/awesome-chatgpt-code-interpreter-experiments) - Awesome things you can do with ChatGPT + Code Interpreter combo 🔥
+
+*   [intel/intel-one-mono](https://github.com/intel/intel-one-mono) - Intel One Mono font repository
+
+*   [Developer-Y/cs-video-courses](https://github.com/Developer-Y/cs-video-courses) - List of Computer Science courses with video lectures.
+
+*   [austinsonger/Incident-Playbook](https://github.com/austinsonger/Incident-Playbook) - GOAL: Incident Response Playbooks Mapped to MITRE Attack Tactics and Techniques. \[Contributors Friendly]
+
+*   [dttung2905/kafka-in-production](https://github.com/dttung2905/kafka-in-production) - :books: Tech blogs & talks by companies that run Kafka in production
+
+*   [majinqiawa/xxn](https://github.com/majinqiawa/xxn) - 非正常人类研究中心 存储中国大陆各类非正常女性所为的非正常案件，欢迎补充
+
+*   [PKU-YuanGroup/ChatLaw](https://github.com/PKU-YuanGroup/ChatLaw) - ChatLaw：A Powerful LLM Tailored for Chinese Legal. 中文法律大模型
+
+*   [ruanyf/weekly](https://github.com/ruanyf/weekly) - 科技爱好者周刊，每周五发布
+
+*   [ddy-ddy/cs-408](https://github.com/ddy-ddy/cs-408) - 计算机考研专业课程408相关的复习经验，资源和OneNote笔记
+
+*   [1c7/chinese-independent-developer](https://github.com/1c7/chinese-independent-developer) - 👩🏿‍💻👨🏾‍💻👩🏼‍💻👨🏽‍💻👩🏻‍💻中国独立开发者项目列表 -- 分享大家都在做什么
+
+*   [abhisheknaiidu/awesome-github-profile-readme](https://github.com/abhisheknaiidu/awesome-github-profile-readme) - 😎 A curated list of awesome GitHub Profile which updates in real time
+
+*   [Ebazhanov/linkedin-skill-assessments-quizzes](https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes) - Full reference of LinkedIn answers 2024 for skill assessments (aws-lambda, rest-api, javascript, react, git, html, jquery, mongodb, java, Go, python, machine-learning, power-point) linkedin excel test lösungen, linkedin machine learning test LinkedIn test questions and answers
+
+*   [OpenDriveLab/End-to-end-Autonomous-Driving](https://github.com/OpenDriveLab/End-to-end-Autonomous-Driving) - \[IEEE T-PAMI 2024] All you need for End-to-end Autonomous Driving
+
+*   [abacaj/awesome-transformers](https://github.com/abacaj/awesome-transformers) - A curated list of awesome transformer models.
+
+*   [WeMakeDevs/open-source-course](https://github.com/WeMakeDevs/open-source-course) -
+
+*   [sohamkamani/javascript-design-patterns-for-humans](https://github.com/sohamkamani/javascript-design-patterns-for-humans) - An ultra-simplified explanation of design patterns implemented in javascript
+
+*   [opsre/Thanks-Mirror](https://github.com/opsre/Thanks-Mirror) - 整理记录各个包管理器，系统镜像，以及常用软件的好用镜像，Thanks Mirror。     走过路过，如觉不错，麻烦点个赞👆🌟
+
+*   [li-jia-nan/Learning-notes](https://github.com/li-jia-nan/Learning-notes) - 前端学习笔记 & 踩坑日记 & 冷知识，记录一些工作中遇到的问题，长期更新
+
+*   [wgwang/awesome-LLMs-In-China](https://github.com/wgwang/awesome-LLMs-In-China) - 中国大模型
+
+*   [zksync/credo](https://github.com/zksync/credo) -
+
+*   [firstcontributions/first-contributions](https://github.com/firstcontributions/first-contributions) - 🚀✨ Help beginners to contribute to open source projects
+
+*   [sindresorhus/awesome](https://github.com/sindresorhus/awesome) - 😎 Awesome lists about all kinds of interesting topics
+
+*   [996icu/996.ICU](https://github.com/996icu/996.ICU) - Repo for counting stars and contributing. Press F to pay respect to glorious developers.
+
+*   [TodePond/GulfOfMexico](https://github.com/TodePond/GulfOfMexico) - perfect programming language
+
+*   [openai/openai-openapi](https://github.com/openai/openai-openapi) - OpenAPI specification for the OpenAI API
+
+*   [BradyFU/Awesome-Multimodal-Large-Language-Models](https://github.com/BradyFU/Awesome-Multimodal-Large-Language-Models) - :sparkles::sparkles:Latest Advances on Multimodal Large Language Models
+
+*   [JushBJJ/Mr.-Ranedeer-AI-Tutor](https://github.com/JushBJJ/Mr.-Ranedeer-AI-Tutor) - A GPT-4 AI Tutor Prompt for customizable personalized learning experiences.
+
+*   [openlm-research/open\_llama](https://github.com/openlm-research/open_llama) - OpenLLaMA, a permissively licensed open source reproduction of Meta AI’s LLaMA 7B trained on the RedPajama dataset
+
+*   [alibaba/ali-dbhub](https://github.com/alibaba/ali-dbhub) - 已迁移新仓库，此版本将不再维护
+
+*   [practical-tutorials/project-based-learning](https://github.com/practical-tutorials/project-based-learning) - Curated list of project-based tutorials
+
+*   [fengyunzaidushi/chatgpt-comparison-detection](https://github.com/fengyunzaidushi/chatgpt-comparison-detection) - Human ChatGPT Comparison Corpus (HC3), Detectors, and more! 🔥
+
+*   [ray-project/llm-numbers](https://github.com/ray-project/llm-numbers) - Numbers every LLM developer should know
+
+*   [km1994/LLMsNineStoryDemonTower](https://github.com/km1994/LLMsNineStoryDemonTower) - 【LLMs九层妖塔】分享 LLMs在自然语言处理（ChatGLM、Chinese-LLaMA-Alpaca、小羊驼 Vicuna、LLaMA、GPT4ALL等）、信息检索（langchain）、语言合成、语言识别、多模态等领域（Stable Diffusion、MiniGPT-4、VisualGLM-6B、Ziya-Visual等）等 实战与经验。
+
+*   [eugeneyan/open-llms](https://github.com/eugeneyan/open-llms) - 📋 A list of open LLMs available for commercial use.
+
+*   [sindresorhus/awesome-chatgpt](https://github.com/sindresorhus/awesome-chatgpt) - 🤖 Awesome list for ChatGPT — an artificial intelligence chatbot developed by OpenAI
+
+*   [cursor/cursor](https://github.com/cursor/cursor) - The AI Code Editor
+
+*   [shobrook/adrenaline](https://github.com/shobrook/adrenaline) - Chat with (and visualize) your codebase
+
+*   [dair-ai/ML-Papers-of-the-Week](https://github.com/dair-ai/ML-Papers-of-the-Week) - 🔥Highlighting the top ML papers every week.
+
+*   [immersive-translate/immersive-translate](https://github.com/immersive-translate/immersive-translate) - 沉浸式双语网页翻译扩展 , 支持输入框翻译， 鼠标悬停翻译， PDF, Epub, 字幕文件, TXT 文件翻译 - Immersive Dual Web Page Translation Extension
+
+*   [GitHubDaily/GitHubDaily](https://github.com/GitHubDaily/GitHubDaily) - 坚持分享 GitHub 上高质量、有趣实用的开源技术教程、开发者工具、编程网站、技术资讯。A list cool, interesting projects of GitHub.
+
+*   [xx025/carrot](https://github.com/xx025/carrot) - Free ChatGPT Site List 这儿为你准备了众多免费好用的ChatGPT镜像站点
+
+*   [postor/chatpdf-minimal-demo](https://github.com/postor/chatpdf-minimal-demo) - a minimal viable project of chatpdf
+
+*   [PlexPt/awesome-chatgpt-prompts-zh](https://github.com/PlexPt/awesome-chatgpt-prompts-zh) - ChatGPT 中文调教指南。各种场景使用指南。学习怎么让它听你的话。
+
+*   [datawhalechina/team-learning](https://github.com/datawhalechina/team-learning) - 主要展示Datawhale的组队学习计划。
+
+*   [ShameCom/ShameCom](https://github.com/ShameCom/ShameCom) - 收集校招污点公司或组织，帮助学弟学妹避雷。互联网不曾遗忘！
+
+*   [perkfly/reverse-interview-zh](https://github.com/perkfly/reverse-interview-zh) - 技术面试最后反问面试官的话
+
+*   [hellotransformers/Natural\_Language\_Processing\_with\_Transformers](https://github.com/hellotransformers/Natural_Language_Processing_with_Transformers) - Natural Language Processing with Transformers 中译本，最权威Transformers教程
+
+*   [zhpmatrix/nlp-competitions-list-review](https://github.com/zhpmatrix/nlp-competitions-list-review) - 复盘所有NLP比赛的TOP方案，只关注NLP比赛，持续更新中！
 
 ## Rust
 
-*   [rcore-os/rCore](https://github.com/rcore-os/rCore) - Rust version of THU uCore OS. Linux compatible.
+*   [idootop/open-xiaoai](https://github.com/idootop/open-xiaoai) - 让小爱音箱「听见你的声音」，解锁无限可能。
 
-*   [agentcodee/cursor-free-everyday](https://github.com/agentcodee/cursor-free-everyday) - 完全免费, 自动获取新账号,一键重置新额度,  解决机器码问题, 自动满额度
-
-*   [mainmatter/100-exercises-to-learn-rust](https://github.com/mainmatter/100-exercises-to-learn-rust) - A self-paced course to learn Rust, one exercise at a time.
-
-*   [sxyazi/yazi](https://github.com/sxyazi/yazi) - 💥 Blazing fast terminal file manager written in Rust, based on async I/O.
-
-*   [sharkdp/fd](https://github.com/sharkdp/fd) - A simple, fast and user-friendly alternative to 'find'
-
-*   [google/comprehensive-rust](https://github.com/google/comprehensive-rust) - This is the Rust course used by the Android team at Google. It provides you the material to quickly teach Rust.
-
-*   [sunface/rust-course](https://github.com/sunface/rust-course) - “连续八年成为全世界最受喜爱的语言，无 GC 也无需手动内存管理、极高的性能和安全性、过程/OO/函数式编程、优秀的包管理、JS 未来基石" — 工作之余的第二语言来试试 Rust 吧。本书拥有全面且深入的讲解、生动贴切的示例、德芙般丝滑的内容，这可能是目前最用心的 Rust 中文学习教程 / Book
+*   [smallcloudai/refact](https://github.com/smallcloudai/refact) - AI Agent that handles engineering tasks end-to-end: integrates with developers’ tools, plans, executes, and iterates until it achieves a successful result.
 
 *   [tw93/Pake](https://github.com/tw93/Pake) - 🤱🏻 Turn any webpage into a desktop app with Rust.  🤱🏻 利用 Rust 轻松构建轻量级多端桌面应用
 
-*   [rust-unofficial/awesome-rust](https://github.com/rust-unofficial/awesome-rust) - A curated list of Rust code and resources.
+*   [spider-rs/spider](https://github.com/spider-rs/spider) - Web crawler and scraper for Rust
 
-*   [lencx/nofwl](https://github.com/lencx/nofwl) - NoFWL Desktop Application
+*   [zed-industries/zed](https://github.com/zed-industries/zed) - Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.
+
+*   [ajeetdsouza/zoxide](https://github.com/ajeetdsouza/zoxide) - A smarter cd command. Supports all major shells.
+
+*   [ogham/exa](https://github.com/ogham/exa) - A modern replacement for ‘ls’.
+
+*   [apache/opendal](https://github.com/apache/opendal) - Apache OpenDAL: One Layer, All Storage.
+
+*   [pleisto/flappy](https://github.com/pleisto/flappy) - Production-Ready LLM Agent SDK for Every Developer
+
+*   [spyglass-search/spyglass](https://github.com/spyglass-search/spyglass) - A personal search engine:  Create a searchable library from your personal documents, interests, and more!
+
+*   [huggingface/candle](https://github.com/huggingface/candle) - Minimalist ML framework for Rust
+
+*   [leptos-rs/leptos](https://github.com/leptos-rs/leptos) - Build fast web applications with Rust.
+
+*   [tree-sitter/tree-sitter](https://github.com/tree-sitter/tree-sitter) - An incremental parsing system for programming tools
+
+*   [phodal/aigc](https://github.com/phodal/aigc) - 《构筑大语言模型应用：应用开发与架构设计》一本关于 LLM 在真实世界应用的开源电子书，介绍了大语言模型的基础知识和应用，以及如何构建自己的模型。其中包括Prompt的编写、开发和管理，探索最好的大语言模型能带来什么，以及LLM应用开发的模式和架构设计。
+
+*   [rust-lang/mdBook](https://github.com/rust-lang/mdBook) - Create book from markdown files. Like Gitbook but implemented in Rust
+
+*   [joamag/boytacean](https://github.com/joamag/boytacean) - A GB emulator that is written in Rust 🦀!
+
+*   [Priler/jarvis](https://github.com/Priler/jarvis) - Voice assistant made as an experiment using neural networks for things like STT/TTS/Wake Word/NLU etc.
+
+*   [LemmyNet/lemmy](https://github.com/LemmyNet/lemmy) - 🐀 A link aggregator and forum for the fediverse
+
+*   [paradigmxyz/reth](https://github.com/paradigmxyz/reth) - Modular, contributor-friendly and blazing-fast implementation of the Ethereum protocol, in Rust
+
+*   [google/comprehensive-rust](https://github.com/google/comprehensive-rust) - This is the Rust course used by the Android team at Google. It provides you the material to quickly teach Rust.
+
+*   [zellij-org/zellij](https://github.com/zellij-org/zellij) - A terminal workspace with batteries included
+
+*   [openobserve/openobserve](https://github.com/openobserve/openobserve) - 🚀 10x easier, 🚀 140x lower storage cost, 🚀 high performance,  🚀 petabyte scale - Elasticsearch/Splunk/Datadog alternative for 🚀 (logs, metrics, traces, RUM, Error tracking, Session replay).
+
+*   [BloopAI/bloop](https://github.com/BloopAI/bloop) - bloop is a fast code search engine written in Rust.
+
+*   [tauri-apps/tauri](https://github.com/tauri-apps/tauri) - Build smaller, faster, and more secure desktop and mobile applications with a web frontend.
+
+*   [TabbyML/tabby](https://github.com/TabbyML/tabby) - Self-hosted AI coding assistant
+
+*   [Cormanz/smartgpt](https://github.com/Cormanz/smartgpt) - A program that provides LLMs with the ability to complete complex tasks using plugins.
+
+*   [qdrant/qdrant](https://github.com/qdrant/qdrant) - Qdrant - High-performance, massive-scale Vector Database and Vector Search Engine for the next generation of AI. Also available in the cloud https://cloud.qdrant.io/
+
+*   [chroma-core/chroma](https://github.com/chroma-core/chroma) - Open-source search and retrieval database for AI applications.
 
 ## Jupyter Notebook
 
-*   [anthropics/courses](https://github.com/anthropics/courses) - Anthropic's educational courses
+*   [dylanhogg/gptauthor](https://github.com/dylanhogg/gptauthor) - GPTAuthor is an AI tool for writing long form, multi-chapter stories given a story prompt.
 
-*   [anthropics/prompt-eng-interactive-tutorial](https://github.com/anthropics/prompt-eng-interactive-tutorial) - Anthropic's Interactive Prompt Engineering Tutorial
+*   [google-gemini/gemini-fullstack-langgraph-quickstart](https://github.com/google-gemini/gemini-fullstack-langgraph-quickstart) - Get started with building Fullstack Agents using Gemini 2.5 and LangGraph
 
-*   [datawhalechina/handy-ollama](https://github.com/datawhalechina/handy-ollama) - 动手学Ollama，CPU玩转大模型部署，在线阅读地址：https://datawhalechina.github.io/handy-ollama/
+*   [mshumer/OpenDeepResearcher](https://github.com/mshumer/OpenDeepResearcher) -
 
-*   [datawhalechina/llm-cookbook](https://github.com/datawhalechina/llm-cookbook) - 面向开发者的 LLM 入门教程，吴恩达大模型系列课程中文版
+*   [NirDiamant/GenAI\_Agents](https://github.com/NirDiamant/GenAI_Agents) - This repository provides tutorials and implementations for various Generative AI Agent techniques, from basic to advanced. It serves as a comprehensive guide for building intelligent, interactive AI systems.
+
+*   [aburkov/theLMbook](https://github.com/aburkov/theLMbook) - This is the official repository for The Hundred-Page Language Models Book by Andriy Burkov
 
 *   [langgptai/LangGPT](https://github.com/langgptai/LangGPT) - LangGPT: Empowering everyone to become a prompt expert!🚀  Structured Prompt，Language of GPT, 结构化提示词，结构化Prompt, Created by 「云中江树」
 
-*   [microsoft/generative-ai-for-beginners](https://github.com/microsoft/generative-ai-for-beginners) - 21 Lessons, Get Started Building with Generative AI  🔗 https://microsoft.github.io/generative-ai-for-beginners/
+*   [datawhalechina/wow-fullstack](https://github.com/datawhalechina/wow-fullstack) - wow-fullstack，令人惊叹的全栈开发教程
 
-*   [eai2x/Face-Recognition-Class-Attendance-System](https://github.com/eai2x/Face-Recognition-Class-Attendance-System) - class attendance software
+*   [datawhalechina/wow-rag](https://github.com/datawhalechina/wow-rag) - A simple and trans-platform rag framework and tutorial
 
-*   [datawhalechina/team-learning-program](https://github.com/datawhalechina/team-learning-program) - 主要存储Datawhale组队学习中“编程、数据结构与算法”方向的资料。
+*   [datawhalechina/wow-agent](https://github.com/datawhalechina/wow-agent) - A simple and trans-platform agent framework and tutorial
 
-*   [datawhalechina/team-learning-cv](https://github.com/datawhalechina/team-learning-cv) - 主要存储Datawhale组队学习中“计算机视觉”方向的资料。
+*   [OpenBMB/MiniCPM](https://github.com/OpenBMB/MiniCPM) - MiniCPM4: Ultra-Efficient LLMs on End Devices, achieving 5+ speedup on typical end-side chips
 
-## Swift
+*   [anthropics/anthropic-cookbook](https://github.com/anthropics/anthropic-cookbook) - A collection of notebooks/recipes showcasing some fun and effective ways of using Claude.
 
-*   [milanvarady/Applite](https://github.com/milanvarady/Applite) - User-friendly GUI macOS application for Homebrew Casks
+*   [sweepai/sweep](https://github.com/sweepai/sweep) - Sweep: AI coding assistant for JetBrains
 
-*   [jordanbaird/Ice](https://github.com/jordanbaird/Ice) - Powerful menu bar manager for macOS
+*   [SakanaAI/AI-Scientist](https://github.com/SakanaAI/AI-Scientist) - The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery 🧑‍🔬
 
-*   [nikitabobko/AeroSpace](https://github.com/nikitabobko/AeroSpace) - AeroSpace is an i3-like tiling window manager for macOS
+*   [NirDiamant/RAG\_Techniques](https://github.com/NirDiamant/RAG_Techniques) - This repository showcases various advanced techniques for Retrieval-Augmented Generation (RAG) systems. RAG systems combine information retrieval with generative models to provide accurate and contextually rich responses.
 
-*   [ianyh/Amethyst](https://github.com/ianyh/Amethyst) - Automatic tiling window manager for macOS à la xmonad.
+*   [alexfazio/crewAI-quickstart](https://github.com/alexfazio/crewAI-quickstart) - A collection of notebooks, cookbooks, and recipes showcasing fun and effective ways to use CrewAI's agentic workflow implementations and tools.
 
-*   [dwarvesf/hidden](https://github.com/dwarvesf/hidden) - An ultra-light MacOS utility that helps hide menu bar icons
+*   [basedanarki/AI-Illustrator](https://github.com/basedanarki/AI-Illustrator) -
 
-*   [jacklandrin/OnlySwitch](https://github.com/jacklandrin/OnlySwitch) - ⚙️ All-in-One menu bar app, hide 💻MacBook Pro's notch, dark mode, AirPods, Shortcuts
+*   [neo4j-labs/llm-graph-builder](https://github.com/neo4j-labs/llm-graph-builder) - Neo4j graph construction from unstructured data using LLMs
 
-*   [exelban/stats](https://github.com/exelban/stats) - macOS system monitor in your menu bar
+*   [blakejwc/chatgpt-as-obsidian-vault](https://github.com/blakejwc/chatgpt-as-obsidian-vault) - Parse and extract content from exports of OpenAI's ChatGPT conversations into Markdown for an Obsidian vault.
 
-*   [Mortennn/Dozer](https://github.com/Mortennn/Dozer) - Hide menu bar icons on macOS
+*   [cohere-ai/notebooks](https://github.com/cohere-ai/notebooks) - Code examples and jupyter notebooks for the Cohere Platform
 
-*   [Caldis/Mos](https://github.com/Caldis/Mos) - 一个用于在 macOS 上平滑你的鼠标滚动效果或单独设置滚动方向的小工具, 让你的滚轮爽如触控板  |  A lightweight tool used to smooth scrolling and set scroll direction independently for your mouse on macOS
+*   [datawhalechina/tiny-universe](https://github.com/datawhalechina/tiny-universe) - 《大模型白盒子构建指南》：一个全手搓的Tiny-Universe
 
-## MDX
+*   [HVision-NKU/StoryDiffusion](https://github.com/HVision-NKU/StoryDiffusion) - Accepted as \[NeurIPS 2024] Spotlight Presentation Paper
 
-*   [dair-ai/Prompt-Engineering-Guide](https://github.com/dair-ai/Prompt-Engineering-Guide) - 🐙 Guides, papers, lecture, notebooks and resources for prompt engineering
+*   [Coding-Crashkurse/RAPTOR---Advanced-Retrieval](https://github.com/Coding-Crashkurse/RAPTOR---Advanced-Retrieval) -
 
-*   [trigaten/Learn\_Prompting](https://github.com/trigaten/Learn_Prompting) - Prompt Engineering, Generative AI, and LLM Guide by Learn Prompting | Join our discord for the largest Prompt Engineering learning community
+*   [crewAIInc/crewAI-examples](https://github.com/crewAIInc/crewAI-examples) - A collection of examples that show how to use CrewAI framework to automate workflows.
 
-## Vue
+*   [efriis/langchain-perplexaty](https://github.com/efriis/langchain-perplexaty) -
 
-*   [tonngw/jdmall-demo](https://github.com/tonngw/jdmall-demo) - This a jdmall app demo application.
+*   [liteli1987gmail/full\_course\_langchain](https://github.com/liteli1987gmail/full_course_langchain) -
 
-*   [zyyzyykk/kkTerminal](https://github.com/zyyzyykk/kkTerminal) - A terminal for Web SSH connection
+*   [benman1/generative\_ai\_with\_langchain](https://github.com/benman1/generative_ai_with_langchain) - Build large language model (LLM) apps with Python, ChatGPT and other models. This is the companion repository for the book on generative AI with LangChain.
 
-*   [wechat-article/wechat-article-exporter](https://github.com/wechat-article/wechat-article-exporter) - 一个在线的微信公众号文章批量下载工具，支持下载阅读量与评论数据，支持私有化部署，通过浏览器进行使用，无需进行安装
+*   [milvus-io/bootcamp](https://github.com/milvus-io/bootcamp) - Dealing with all unstructured data, such as reverse image search, audio search, molecular search, video analysis, question and answer systems, NLP, etc.
 
-*   [zyronon/douyin](https://github.com/zyronon/douyin) -  Vue3 + Pinia 仿抖音，Vue 在移动端的最佳实践 .  Imitate TikTok ，Vue Best practices on Mobile
+*   [bstraehle/ai-ml-dl](https://github.com/bstraehle/ai-ml-dl) - AI/ML/DL & GenAI resources & projects. DeepLearning.AI, Hugging Face, OpenAI, Amazon Bedrock, Google Vertex AI, and more.
 
-*   [CorentinTh/it-tools](https://github.com/CorentinTh/it-tools) - Collection of handy online tools for developers, with great UX.
+*   [jackfrued/Python-100-Days](https://github.com/jackfrued/Python-100-Days) - Python - 100天从新手到大师
 
-*   [forrestchang/programmer-soft-skills](https://github.com/forrestchang/programmer-soft-skills) - 程序员的软技能
+*   [google-deepmind/materials\_discovery](https://github.com/google-deepmind/materials_discovery) -
 
-*   [DeepSourceCorp/good-first-issue](https://github.com/DeepSourceCorp/good-first-issue) - Make your first open-source contribution.
+*   [Vaibhavs10/insanely-fast-whisper](https://github.com/Vaibhavs10/insanely-fast-whisper) -
 
-*   [Chanzhaoyu/chatgpt-web](https://github.com/Chanzhaoyu/chatgpt-web) - 用 Express 和  Vue3 搭建的 ChatGPT 演示网页
+*   [sudarshan-koirala/youtube-stuffs](https://github.com/sudarshan-koirala/youtube-stuffs) - This repository contains most of the python codes that is presented in my youtube videos.
 
-*   [vuepress-reco/vuepress-theme-reco-1.x](https://github.com/vuepress-reco/vuepress-theme-reco-1.x) - 🎨 This is the repo for vuepress-theme-reco 1.
+*   [DjangoPeng/openai-quickstart](https://github.com/DjangoPeng/openai-quickstart) - A comprehensive guide to understanding and implementing large language models with hands-on examples using LangChain for GenAI applications.
 
-*   [xugaoyi/vuepress-theme-vdoing](https://github.com/xugaoyi/vuepress-theme-vdoing) - 🚀一款简洁高效的VuePress知识管理&博客(blog)主题
+*   [genlayerlabs/genworlds](https://github.com/genlayerlabs/genworlds) - A framework for event based autonomous multi-agent systems.
 
-## Assembly
+*   [01-ai/Yi](https://github.com/01-ai/Yi) - A series of large language models trained from scratch by developers @01-ai
 
-*   [mytechnotalent/Reverse-Engineering](https://github.com/mytechnotalent/Reverse-Engineering) - A FREE comprehensive reverse engineering tutorial covering x86, x64, 32-bit/64-bit ARM, 8-bit AVR and 32-bit RISC-V architectures.
+*   [Timaos123/SQLQA\_chatglm](https://github.com/Timaos123/SQLQA_chatglm) - self\_try
 
-## Lua
+*   [sugarforever/LangChain-Advanced](https://github.com/sugarforever/LangChain-Advanced) -
 
-*   [josean-dev/dev-environment-files](https://github.com/josean-dev/dev-environment-files) -
+*   [AnkushMulkar/layout-pdf-reader-RAG](https://github.com/AnkushMulkar/layout-pdf-reader-RAG) -
 
-*   [gbprod/yanky.nvim](https://github.com/gbprod/yanky.nvim) - Improved Yank and Put functionalities for Neovim
+*   [tigerlab-ai/tiger](https://github.com/tigerlab-ai/tiger) - Open Source LLM toolkit to build trustworthy LLM applications. TigerArmor (AI safety), TigerRAG (embedding, RAG), TigerTune (fine-tuning)
 
-*   [mason-org/mason.nvim](https://github.com/mason-org/mason.nvim) - Portable package manager for Neovim that runs everywhere Neovim runs. Easily install and manage LSP servers, DAP servers, linters, and formatters.
+*   [zyds/transformers-code](https://github.com/zyds/transformers-code) - 手把手带你实战 Huggingface Transformers 课程视频同步更新在B站与YouTube
 
-*   [catppuccin/nvim](https://github.com/catppuccin/nvim) - 🍨 Soothing pastel theme for (Neo)vim
+*   [lewangdev/autotranslate](https://github.com/lewangdev/autotranslate) - Videos Transcription and Translation with Faster Whisper and ChatGPT
 
-*   [hrsh7th/nvim-cmp](https://github.com/hrsh7th/nvim-cmp) - A completion plugin for neovim coded in Lua.
+*   [FasterDecoding/Medusa](https://github.com/FasterDecoding/Medusa) - Medusa: Simple Framework for Accelerating LLM Generation with Multiple Decoding Heads
 
-*   [simrat39/symbols-outline.nvim](https://github.com/simrat39/symbols-outline.nvim) - A tree like view for symbols in Neovim using the Language Server Protocol. Supports all your favourite languages.
+*   [modelscope/facechain](https://github.com/modelscope/facechain) - FaceChain is a deep-learning toolchain for generating your Digital-Twin.
 
-*   [nshen/learn-neovim-lua](https://github.com/nshen/learn-neovim-lua) - Neovim 配置实战：从 0 到 1 打造自己的 IDE
+*   [facebookresearch/seamless\_communication](https://github.com/facebookresearch/seamless_communication) - Foundational Models for State-of-the-Art Speech and Text Translation
 
-*   [goolord/alpha-nvim](https://github.com/goolord/alpha-nvim) - a lua powered greeter like vim-startify / dashboard-nvim
+*   [camenduru/text-generation-webui-colab](https://github.com/camenduru/text-generation-webui-colab) - A colab gradio web UI for running Large Language Models
 
-*   [nvim-telescope/telescope-file-browser.nvim](https://github.com/nvim-telescope/telescope-file-browser.nvim) - File Browser extension for telescope.nvim
+*   [liltom-eth/llama2-webui](https://github.com/liltom-eth/llama2-webui) - Run any Llama 2 locally with gradio UI on GPU or CPU from anywhere (Linux/Windows/Mac). Use `llama2-wrapper` as your local llama2 backend for Generative Agents/Apps.
 
-*   [hamvocke/dotfiles](https://github.com/hamvocke/dotfiles) - A collection of my personal dotfiles
+*   [zhulei227/ML\_Notes](https://github.com/zhulei227/ML_Notes) - 机器学习算法的公式推导以及numpy实现
 
-*   [neanias/everforest-nvim](https://github.com/neanias/everforest-nvim) - A Lua port of the Everforest colour scheme
+*   [meta-llama/llama-cookbook](https://github.com/meta-llama/llama-cookbook) - Welcome to the Llama Cookbook! This is your go to guide for Building with Llama: Getting started with Inference, Fine-Tuning, RAG. We also show you how to solve end to end problems using Llama model family and using them on various provider services
 
-*   [kawre/leetcode.nvim](https://github.com/kawre/leetcode.nvim) - A Neovim plugin enabling you to solve LeetCode problems.
+*   [KevinWang676/Bark-Voice-Cloning](https://github.com/KevinWang676/Bark-Voice-Cloning) - Bark Voice Cloning and Voice Cloning for Chinese Speech
 
-*   [LunarVim/LunarVim](https://github.com/LunarVim/LunarVim) - 🌙 LunarVim is an IDE layer for Neovim. Completely free and community driven.
+*   [suno-ai/bark](https://github.com/suno-ai/bark) - 🔊 Text-Prompted Generative Audio Model
 
-*   [AstroNvim/AstroNvim](https://github.com/AstroNvim/AstroNvim) - AstroNvim is an aesthetic and feature-rich neovim config that is extensible and easy to use with a great set of plugins
+*   [ECNU-ICALK/EduChat](https://github.com/ECNU-ICALK/EduChat) - An open-source educational chat model from ICALK, East China Normal University. 开源中英教育对话大模型。(通用基座模型，GPU部署，数据清理) 致敬: LLaMA, MOSS, BELLE, Ziya, vLLM
 
-*   [folke/tokyonight.nvim](https://github.com/folke/tokyonight.nvim) - 🏙  A clean, dark Neovim theme written in Lua, with support for lsp, treesitter and lots of plugins. Includes additional themes for Kitty, Alacritty, iTerm and Fish.
+*   [pyannote/pyannote-audio](https://github.com/pyannote/pyannote-audio) - Neural building blocks for speaker diarization: speech activity detection, speaker change detection, overlapped speech detection, speaker embedding
 
-*   [LazyVim/LazyVim](https://github.com/LazyVim/LazyVim) - Neovim config for the lazy
+*   [mshumer/gpt-prompt-engineer](https://github.com/mshumer/gpt-prompt-engineer) -
 
-*   [NvChad/NvChad](https://github.com/NvChad/NvChad) - Blazing fast Neovim framework providing solid defaults and a beautiful UI, enhancing your neovim experience.
+*   [hikariming/chat-dataset-baseline](https://github.com/hikariming/chat-dataset-baseline) - 人工精调的中文对话数据集和一段chatglm的微调代码
 
-*   [ellisonleao/gruvbox.nvim](https://github.com/ellisonleao/gruvbox.nvim) - Lua port of the most famous vim colorscheme
+*   [unlearning-challenge/starting-kit](https://github.com/unlearning-challenge/starting-kit) - Starting kit for the NeurIPS 2023 unlearning challenge
 
-*   [bryant-video/neovim-tutorial](https://github.com/bryant-video/neovim-tutorial) -
+*   [Visualize-ML/Book5\_Essentials-of-Probability-and-Statistics](https://github.com/Visualize-ML/Book5_Essentials-of-Probability-and-Statistics) - Book\_5\_《统计至简》 |   鸢尾花书：从加减乘除到机器学习；上架！
 
-*   [bitterteasweetorange/nvim](https://github.com/bitterteasweetorange/nvim) - Neovim 0.9 configuration for coding React, TypeScript and Rust
+*   [ChaoningZhang/MobileSAM](https://github.com/ChaoningZhang/MobileSAM) - This is the official code for MobileSAM project that makes SAM lightweight for mobile applications and beyond!
 
-*   [LunarVim/Neovim-from-scratch](https://github.com/LunarVim/Neovim-from-scratch) - 📚 A Neovim config designed from scratch to be understandable
+*   [Visualize-ML/Book4\_Power-of-Matrix](https://github.com/Visualize-ML/Book4_Power-of-Matrix) - Book\_4\_《矩阵力量》 |   鸢尾花书：从加减乘除到机器学习；上架！
 
-## Ruby
+*   [stefan-jansen/machine-learning-for-trading](https://github.com/stefan-jansen/machine-learning-for-trading) - Code for Machine Learning for Algorithmic Trading, 2nd edition.
 
-*   [asciidoctor/asciidoctor](https://github.com/asciidoctor/asciidoctor) - :gem: A fast, open source text processor and publishing toolchain, written in Ruby, for converting AsciiDoc content to HTML 5, DocBook 5, and other formats.
+*   [GoogleCloudPlatform/generative-ai](https://github.com/GoogleCloudPlatform/generative-ai) - Sample code and notebooks for Generative AI on Google Cloud, with Gemini on Vertex AI
 
-*   [Homebrew/homebrew-cask](https://github.com/Homebrew/homebrew-cask) - 🍻 A CLI workflow for the administration of macOS applications distributed as binaries
+*   [AI4Finance-Foundation/FinRL](https://github.com/AI4Finance-Foundation/FinRL) - FinRL®:  Financial Reinforcement Learning. 🔥
 
-## Kotlin
+*   [AI4Finance-Foundation/FinNLP](https://github.com/AI4Finance-Foundation/FinNLP) - Democratizing Internet-scale financial data.
 
-*   [JetBrains/ideavim](https://github.com/JetBrains/ideavim) - IdeaVim – A Vim engine for JetBrains IDEs
+*   [threestudio-project/threestudio](https://github.com/threestudio-project/threestudio) - A unified framework for 3D content generation.
 
-## Vim Script
+*   [AI4Finance-Foundation/FinGPT](https://github.com/AI4Finance-Foundation/FinGPT) - FinGPT: Open-Source Financial Large Language Models!  Revolutionize 🔥    We release the trained model on HuggingFace.
 
-*   [vim/vim](https://github.com/vim/vim) - The official Vim repository
+*   [lyogavin/airllm](https://github.com/lyogavin/airllm) - AirLLM 70B inference with single 4GB GPU
 
-*   [justinmk/vim-sneak](https://github.com/justinmk/vim-sneak) - The missing motion for Vim :athletic\_shoe:
+*   [open-mmlab/mmagic](https://github.com/open-mmlab/mmagic) - OpenMMLab Multimodal Advanced, Generative, and Intelligent Creation Toolbox. Unlock the magic 🪄: Generative-AI (AIGC), easy-to-use APIs, awsome model zoo, diffusion models, for text-to-image generation, image/video restoration/enhancement, etc.
 
-*   [simnalamburt/vim-mundo](https://github.com/simnalamburt/vim-mundo) - :christmas\_tree: Vim undo tree visualizer
+*   [datawhalechina/llm-cookbook](https://github.com/datawhalechina/llm-cookbook) - 面向开发者的 LLM 入门教程，吴恩达大模型系列课程中文版
 
-*   [sainnhe/everforest](https://github.com/sainnhe/everforest) - 🌲 Comfortable & Pleasant Color Scheme for Vim
+*   [facebookresearch/audiocraft](https://github.com/facebookresearch/audiocraft) - Audiocraft is a library for audio processing and generation with deep learning. It features the state-of-the-art EnCodec audio compressor / tokenizer, along with MusicGen, a simple and controllable music generation LM with textual and melodic conditioning.
 
-*   [christoomey/vim-tmux-navigator](https://github.com/christoomey/vim-tmux-navigator) - Seamless navigation between tmux panes and vim splits
+*   [microsoft/AI-For-Beginners](https://github.com/microsoft/AI-For-Beginners) - 12 Weeks, 24 Lessons, AI for All!
 
-*   [wsdjeg/SpaceVim](https://github.com/wsdjeg/SpaceVim) - A modular configuration of Vim and Neovim
+*   [xinyu1205/recognize-anything](https://github.com/xinyu1205/recognize-anything) - Open-source and strong foundation image recognition models.
 
-*   [overmind1980/oeasy-vim-tutorial](https://github.com/overmind1980/oeasy-vim-tutorial) - 这是oeasy制作的的一套关于vim的教程 可以做实验 本教程从0基础开始，到精通vim配置，和高级命令。希望能让vim是你的开发更高效。
+*   [FlyZhangY/-OpenCV-](https://github.com/FlyZhangY/-OpenCV-) - 本项目是基于OpenCV的人脸识别技术，将一个完整的视频中自己想要了解的某个具体的人物片段，通过将视频分割成帧并且训练需要提取人物的面部特征，通过主成分分析算法进行人脸模型清洗并通过特征脸算法进行人脸识别，将该人物从视频中识别出来并将他的片段提取出来，组合成专属个人的视频剪辑，项目完成后，本产品可以使人们节省大量的时间从大量的视频片段中快速的了解自己想要了解的人物，还可以应用在监控的锁定人物中，就如《速度与激情》影片中通过天眼来快速找到某人的效果一样，快速的查找到某个人在一段时间内的全部活动。 ———————————————— 版权声明：本文为CSDN博主「CSDNFly1」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。
 
-*   [theniceboy/nvim](https://github.com/theniceboy/nvim) - The Ultimate NeoVim Config for Colemak Users
+*   [prateekvishnu/LangChain-for-LLM-Application-Development](https://github.com/prateekvishnu/LangChain-for-LLM-Application-Development) -
 
-*   [neovim/neovim](https://github.com/neovim/neovim) - Vim-fork focused on extensibility and usability
+*   [artidoro/qlora](https://github.com/artidoro/qlora) - QLoRA: Efficient Finetuning of Quantized LLMs
 
-## C++
+*   [LC1332/Chat-Haruhi-Suzumiya](https://github.com/LC1332/Chat-Haruhi-Suzumiya) - Chat凉宫春日, An open sourced Role-Playing chatbot Cheng Li, Ziang Leng, and others.
 
-*   [pqrs-org/Karabiner-Elements](https://github.com/pqrs-org/Karabiner-Elements) - Karabiner-Elements is a powerful tool for customizing keyboards on macOS
+*   [datawhalechina/hugging-llm](https://github.com/datawhalechina/hugging-llm) - HuggingLLM, Hugging Future.
 
-*   [ShiqiYu/libfacedetection](https://github.com/ShiqiYu/libfacedetection) - An open source library for face detection in images. The face detection speed can reach 1000FPS.
+*   [lablab-ai/Whisper-transcription\_and\_diarization-speaker-identification-](https://github.com/lablab-ai/Whisper-transcription_and_diarization-speaker-identification-) - How to use OpenAIs Whisper to transcribe and diarize audio files
 
-## TeX
+*   [guidance-ai/guidance](https://github.com/guidance-ai/guidance) - A guidance language for controlling large language models.
 
-*   [wuzhouhui/awk](https://github.com/wuzhouhui/awk) - The AWK Programming Language (AWK 程序设计语言, awkbook) 中文翻译, LaTeX 排版
+*   [UranusSeven/llama\_generative\_agent](https://github.com/UranusSeven/llama_generative_agent) - A generative agent implementation for LLaMA based models, derived from langchain's implementation.
 
-## Vim script
+*   [tloen/alpaca-lora](https://github.com/tloen/alpaca-lora) - Instruct-tune LLaMA on consumer hardware
 
-*   [junegunn/vim-peekaboo](https://github.com/junegunn/vim-peekaboo) - :eyes: " / @ / CTRL-R
+*   [CLUEbenchmark/pCLUE](https://github.com/CLUEbenchmark/pCLUE) - pCLUE: 1000000+多任务提示学习数据集
 
-## Objective-C
+*   [gkamradt/langchain-tutorials](https://github.com/gkamradt/langchain-tutorials) - Overview and tutorial of the LangChain Library
 
-*   [tisfeng/Easydict](https://github.com/tisfeng/Easydict) - 一个简洁优雅的词典翻译 macOS App。开箱即用，支持离线 OCR 识别，支持有道词典，🍎 苹果系统词典，🍎 苹果系统翻译，OpenAI，Gemini，DeepL，Google，Bing，腾讯，百度，阿里，小牛，彩云和火山翻译。A concise and elegant Dictionary and Translator macOS App for looking up words and translating text.
+*   [MOOC-TensorFlow/TensorFlow](https://github.com/MOOC-TensorFlow/TensorFlow) -
 
-## Astro
+*   [langchain-ai/langchain](https://github.com/langchain-ai/langchain) - 🦜🔗 Build context-aware reasoning applications
 
-*   [pseudoyu/yu-tools](https://github.com/pseudoyu/yu-tools) - 我的个人工具箱 (设备, macOS 软件, iOS Apps...)
+*   [aymericdamien/TensorFlow-Examples](https://github.com/aymericdamien/TensorFlow-Examples) - TensorFlow Tutorial and Examples for Beginners (support TF v1 & v2)
 
-## Tree-sitter Query
+*   [snowkylin/tensorflow-handbook](https://github.com/snowkylin/tensorflow-handbook) - 简单粗暴 TensorFlow 2 | A Concise Handbook of TensorFlow 2 | 一本简明的 TensorFlow 2 入门指导教程
 
-*   [nvim-treesitter/nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter) - Nvim Treesitter configurations and abstraction layer
+*   [tensorflow/docs-l10n](https://github.com/tensorflow/docs-l10n) - Translations of TensorFlow documentation
 
-## VimL
+*   [paperswithcode/galai](https://github.com/paperswithcode/galai) - Model API for GALACTICA
 
-*   [spf13/spf13-vim](https://github.com/spf13/spf13-vim) - The ultimate vim distribution
+*   [lankning/bilibili](https://github.com/lankning/bilibili) - 哔哩哔哩视频的程序文档
 
-## Markdown
+*   [Wumg3000/feiguyunai](https://github.com/Wumg3000/feiguyunai) -
 
-*   [Schweinepriester/github-profile-achievements](https://github.com/Schweinepriester/github-profile-achievements) - A collection listing all Achievements available on the GitHub profile 🏆
+*   [MLEveryday/100-Days-Of-ML-Code](https://github.com/MLEveryday/100-Days-Of-ML-Code) - 100-Days-Of-ML-Code中文版
 
-*   [drknzz/GitHub-Achievements](https://github.com/drknzz/GitHub-Achievements) - 🔥 A Complete List of GitHub Profile Badges and Achievements 🔥
+*   [zergtant/pytorch-handbook](https://github.com/zergtant/pytorch-handbook) - pytorch handbook是一本开源的书籍，目标是帮助那些希望和使用PyTorch进行深度学习开发和研究的朋友快速入门，其中包含的Pytorch教程全部通过测试保证可以成功运行
 
-*   [adambard/learnxinyminutes-docs](https://github.com/adambard/learnxinyminutes-docs) - Code documentation written as code! How novel and totally my idea!
+*   [ageron/handson-ml2](https://github.com/ageron/handson-ml2) - A series of Jupyter notebooks that walk you through the fundamentals of Machine Learning and Deep Learning in Python using Scikit-Learn, Keras and TensorFlow 2.
 
-## Svelte
+*   [github/CodeSearchNet](https://github.com/github/CodeSearchNet) - Datasets, tools, and benchmarks for representation learning of code.
 
-*   [EddieHubCommunity/good-first-issue-finder](https://github.com/EddieHubCommunity/good-first-issue-finder) - Issue-Crawler for GitHub based on Sveltekit
+*   [dair-ai/ML-Notebooks](https://github.com/dair-ai/ML-Notebooks) - :fire: Machine Learning Notebooks
+
+*   [makcedward/nlpaug](https://github.com/makcedward/nlpaug) - Data augmentation for NLP
+
+*   [fastai/fastai](https://github.com/fastai/fastai) - The fastai deep learning library
+
+*   [nlp-with-transformers/notebooks](https://github.com/nlp-with-transformers/notebooks) - Jupyter notebooks for the Natural Language Processing with Transformers book
+
+*   [TingsongYu/PyTorch-Tutorial-2nd](https://github.com/TingsongYu/PyTorch-Tutorial-2nd) - 《Pytorch实用教程》（第二版）无论是零基础入门，还是CV、NLP、LLM项目应用，或是进阶工程化部署落地，在这里都有。相信在本书的帮助下，读者将能够轻松掌握 PyTorch 的使用，成为一名优秀的深度学习工程师。
+
+*   [Visualize-ML/Book3\_Elements-of-Mathematics](https://github.com/Visualize-ML/Book3_Elements-of-Mathematics) - Book\_3\_《数学要素》 |   鸢尾花书：从加减乘除到机器学习；上架；欢迎继续纠错，纠错多的同学还会有赠书！
+
+*   [percent4/huggingface\_translation\_model](https://github.com/percent4/huggingface_translation_model) - 使用HuggingFace翻译模型的一次尝试
+
+*   [qingyujean/Magic-NLPer](https://github.com/qingyujean/Magic-NLPer) - 关于机器学习，深度学习，自然语言处理等各种算法的实现、示例，与博客文章配套，论文复现等
+
+*   [wmathor/nlp-tutorial](https://github.com/wmathor/nlp-tutorial) - Natural Language Processing Tutorial for Deep Learning Researchers
+
+*   [PacktPublishing/Transformers-for-Natural-Language-Processing](https://github.com/PacktPublishing/Transformers-for-Natural-Language-Processing) - Transformers for Natural Language Processing, published by Packt
+
+*   [graykode/nlp-tutorial](https://github.com/graykode/nlp-tutorial) - Natural Language Processing Tutorial for Deep Learning Researchers
+
+*   [lansinuote/Huggingface\_Toturials](https://github.com/lansinuote/Huggingface_Toturials) - bert-base-chinese example
 
 ## PHP
 
+*   [assimon/dujiaoka](https://github.com/assimon/dujiaoka) - 🦄独角数卡(自动售货系统)-开源站长自动化售货解决方案、高效、稳定、快速！🚀🚀🎉🎉
+
+*   [Decodo/Social-Media-Scraping-API](https://github.com/Decodo/Social-Media-Scraping-API) - Social Media Scraping API code examples for Python, PHP and Node.js
+
 *   [gptlink/gptlink](https://github.com/gptlink/gptlink) - 10分钟搭建可免费商用的AI对话环境，搭建简单，包含用户，订单，任务，付费等功能
+
+*   [sebastianbergmann/phpunit](https://github.com/sebastianbergmann/phpunit) - The PHP Unit Testing framework.
+
+*   [coollabsio/coolify](https://github.com/coollabsio/coolify) - An open-source & self-hostable Heroku / Netlify / Vercel alternative.
+
+*   [nextcloud/server](https://github.com/nextcloud/server) - ☁️ Nextcloud server, a safe home for all your data
+
+## C++
+
+*   [asdlokj1qpi233/subconverter](https://github.com/asdlokj1qpi233/subconverter) - About Utility to convert between various subscription format.Support anytls、mieru、hy2、hy and vless for singbox and clash meta.original git: https://github.com/asdlokj1qpi23/subconverter
+
+*   [Zackriya-Solutions/meeting-minutes](https://github.com/Zackriya-Solutions/meeting-minutes) - A free and open source, self hosted Ai based live meeting note taker and minutes summary generator that can completely run in your Local device (Mac OS and windows OS Support added. Working on adding linux support soon) https://meetily.zackriya.com/
+
+*   [Mozilla-Ocho/llamafile](https://github.com/Mozilla-Ocho/llamafile) - Distribute and run LLMs with a single file.
+
+*   [k2-fsa/sherpa-onnx](https://github.com/k2-fsa/sherpa-onnx) - Speech-to-text, text-to-speech, speaker diarization, speech enhancement, source separation, and VAD using next-gen Kaldi with onnxruntime without Internet connection. Support embedded systems, Android, iOS, HarmonyOS, Raspberry Pi, RISC-V, x86\_64 servers, websocket server/client, support 12 programming languages
+
+*   [zrax/pycdc](https://github.com/zrax/pycdc) - C++ python bytecode disassembler and decompiler
+
+*   [electron/electron](https://github.com/electron/electron) - :electron: Build cross-platform desktop apps with JavaScript, HTML, and CSS
+
+*   [nomic-ai/gpt4all](https://github.com/nomic-ai/gpt4all) - GPT4All: Run Local LLMs on Any Device. Open-source and available for commercial use.
+
+*   [manticoresoftware/manticoresearch](https://github.com/manticoresoftware/manticoresearch) - Easy to use open source fast database for search | Good alternative to Elasticsearch now | Drop-in replacement for E in the ELK stack
+
+*   [cxasm/notepad--](https://github.com/cxasm/notepad--) - 一个支持windows/linux/mac的文本编辑器，目标是做中国人自己的编辑器，来自中国。
+
+*   [aarnphm/whispercpp](https://github.com/aarnphm/whispercpp) - Pybind11 bindings for Whisper.cpp
+
+*   [facebook/igl](https://github.com/facebook/igl) - Intermediate Graphics Library (IGL) is a cross-platform library that commands the GPU. It provides a single low-level cross-platform interface on top of various graphics APIs (e.g. OpenGL, Metal and Vulkan).
+
+*   [stenzek/duckstation](https://github.com/stenzek/duckstation) - Fast PlayStation 1 emulator for x86-64/AArch32/AArch64/RV64
+
+*   [official-stockfish/Stockfish](https://github.com/official-stockfish/Stockfish) - A free and strong UCI chess engine
+
+*   [RPCSX/rpcsx](https://github.com/RPCSX/rpcsx) -
+
+*   [li-plus/chatglm.cpp](https://github.com/li-plus/chatglm.cpp) - C++ implementation of ChatGLM-6B & ChatGLM2-6B & ChatGLM3 & GLM4(V)
+
+*   [StrongPC123/Far-Cry-1-Source-Full](https://github.com/StrongPC123/Far-Cry-1-Source-Full) - Far Cry 1 Full Source (Developed by CryTek). For NON COMMERCIAL Purposes only. Leaked.
+
+*   [diasurgical/DevilutionX](https://github.com/diasurgical/DevilutionX) - Diablo build for modern operating systems
+
+*   [dragonflydb/dragonfly](https://github.com/dragonflydb/dragonfly) - A modern replacement for Redis and Memcached
+
+*   [qgis/QGIS](https://github.com/qgis/QGIS) - QGIS is a free, open source, cross platform (lin/win/mac) geographical information system (GIS)
+
+*   [facebook/folly](https://github.com/facebook/folly) - An open-source C++ library developed and used at Facebook.
+
+*   [UMSKT/UMSKT](https://github.com/UMSKT/UMSKT) - An open source toolkit designed to generate licence keys for MS products circa 1998 - 2006
+
+*   [sb-ocr/diy-spacemouse](https://github.com/sb-ocr/diy-spacemouse) - A DIY navigation device for Fusion360
+
+*   [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) - LLM inference in C/C++
+
+*   [PCSX2/pcsx2](https://github.com/PCSX2/pcsx2) - PCSX2 - The Playstation 2 Emulator
+
+*   [SerenityOS/serenity](https://github.com/SerenityOS/serenity) - The Serenity Operating System 🐞
+
+*   [google/googletest](https://github.com/google/googletest) - GoogleTest - Google Testing and Mocking Framework
+
+*   [ggml-org/ggml](https://github.com/ggml-org/ggml) - Tensor library for machine learning
+
+*   [mozilla/DeepSpeech](https://github.com/mozilla/DeepSpeech) - DeepSpeech is an open source embedded (offline, on-device) speech-to-text engine which can run in real time on devices ranging from a Raspberry Pi 4 to high power GPU servers.
+
+*   [Const-me/Whisper](https://github.com/Const-me/Whisper) - High-performance GPGPU inference of OpenAI's Whisper automatic speech recognition (ASR) model
+
+*   [ravenscroftj/turbopilot](https://github.com/ravenscroftj/turbopilot) - Turbopilot is an open source large-language-model based code completion engine that runs locally on CPU
+
+*   [facebookresearch/faiss](https://github.com/facebookresearch/faiss) - A library for efficient similarity search and clustering of dense vectors.
+
+*   [NVIDIA/tensorflow](https://github.com/NVIDIA/tensorflow) - An Open Source Machine Learning Framework for Everyone
+
+*   [LagPixelLOL/ChatGPTCLIBot](https://github.com/LagPixelLOL/ChatGPTCLIBot) - ChatGPT Bot in CLI with long term memory support using Embeddings.
+
+*   [google/sentencepiece](https://github.com/google/sentencepiece) - Unsupervised text tokenizer for Neural Network-based text generation.
+
+*   [tensorflow/tensorflow](https://github.com/tensorflow/tensorflow) - An Open Source Machine Learning Framework for Everyone
+
+## Java
+
+*   [justauth/JustAuth](https://github.com/justauth/JustAuth) - 🏆Gitee 最有价值开源项目 🚀:100: 小而全而美的第三方登录开源组件。目前已支持Github、Gitee、微博、钉钉、百度、Coding、腾讯云开发者平台、OSChina、支付宝、QQ、微信、淘宝、Google、Facebook、抖音、领英、小米、微软、今日头条、Teambition、StackOverflow、Pinterest、人人、华为、企业微信、酷家乐、Gitlab、美团、饿了么、推特、飞书、京东、阿里云、喜马拉雅、Amazon、Slack和 Line 等第三方平台的授权登录。 Login, so easy!
+
+*   [ageerle/ruoyi-ai](https://github.com/ageerle/ruoyi-ai) - RuoYi AI 是一个全栈式 AI 开发平台，旨在帮助开发者快速构建和部署个性化的 AI 应用。
+
+*   [Tencent/APIJSON](https://github.com/Tencent/APIJSON) - 🏆 实时 零代码、全功能、强安全 ORM 库 🚀 后端接口和文档零代码，前端(客户端) 定制返回 JSON 的数据和结构 🏆 Real-Time coding-free, powerful and secure ORM 🚀  providing APIs and Docs without coding by Backend, and the returned JSON of API can be customized by Frontend(Client) users
+
+*   [tencentmusic/supersonic](https://github.com/tencentmusic/supersonic) - SuperSonic is the next-generation AI+BI platform that unifies Chat BI (powered by LLM) and Headless BI (powered by semantic layer) paradigms.
+
+*   [201206030/novel-plus](https://github.com/201206030/novel-plus) - novel-plus 是一个多端（PC、WAP）阅读 、功能完善的小说 CMS 系统。包括小说推荐、小说检索、小说排行、小说阅读、小说书架、小说评论、小说爬虫、会员中心、作家专区、充值订阅、新闻发布等功能。
+
+*   [Stirling-Tools/Stirling-PDF](https://github.com/Stirling-Tools/Stirling-PDF) - #1 Locally hosted web application that allows you to perform various operations on PDF files
+
+*   [asleepyfish/chatgpt](https://github.com/asleepyfish/chatgpt) - 实现可连续对话和流式输出的ChatGPT API（基于SpringBoot和Vue实现流式输出）
+
+*   [dadoonet/fscrawler](https://github.com/dadoonet/fscrawler) - Elasticsearch File System Crawler (FS Crawler)
+
+*   [apache/hive](https://github.com/apache/hive) - Apache Hive
+
+*   [languagetool-org/languagetool](https://github.com/languagetool-org/languagetool) - Style and Grammar Checker for 25+ Languages
+
+*   [GrowingGit/GitHub-Chinese-Top-Charts](https://github.com/GrowingGit/GitHub-Chinese-Top-Charts) - :cn: GitHub中文排行榜，各语言分设「软件 | 资料」榜单，精准定位中文好项目。各取所需，高效学习。
+
+*   [apache/seatunnel-datasource-sdk](https://github.com/apache/seatunnel-datasource-sdk) - SeaTunnel is a distributed, high-performance data integration platform for the synchronization and transformation of massive data (offline & real-time).
+
+*   [Grasscutters/Grasscutter](https://github.com/Grasscutters/Grasscutter) - A server software reimplementation for a certain anime game.
+
+*   [Docile-Alligator/Infinity-For-Reddit](https://github.com/Docile-Alligator/Infinity-For-Reddit) - A Reddit client for Android
+
+*   [jeecgboot/JeecgBoot](https://github.com/jeecgboot/JeecgBoot) - 🔥企业级低代码平台集成了AI应用平台，帮助企业快速实现低代码开发和构建AI应用！前后端分离架构 SpringBoot，SpringCloud、Mybatis，Ant Design4、 Vue3.0、TS+vite！强大的代码生成器让前后端代码一键生成，无需写任何代码! 引领AI低代码开发模式: AI生成->OnlineCoding-> 代码生成-> 手工MERGE，显著的提高效率，又不失灵活~
+
+*   [alibaba/DataX](https://github.com/alibaba/DataX) - DataX是阿里云DataWorks数据集成的开源版本。
+
+*   [questdb/questdb](https://github.com/questdb/questdb) - QuestDB is a high performance, open-source, time-series database
+
+*   [nayuki/QR-Code-generator](https://github.com/nayuki/QR-Code-generator) - High-quality QR Code generator library in Java, TypeScript/JavaScript, Python, Rust, C++, C.
+
+*   [CodePhiliaX/Chat2DB](https://github.com/CodePhiliaX/Chat2DB) - 🔥🔥🔥AI-driven database tool and SQL client, The hottest GUI client, supporting MySQL, Oracle, PostgreSQL, DB2, SQL Server, DB2, SQLite, H2, ClickHouse, and more.
+
+*   [NationalSecurityAgency/ghidra](https://github.com/NationalSecurityAgency/ghidra) - Ghidra is a software reverse engineering (SRE) framework
+
+*   [linux-china/chatgpt-spring-boot-starter](https://github.com/linux-china/chatgpt-spring-boot-starter) - Spring Boot ChatGPT Starter
+
+*   [novicezk/midjourney-proxy](https://github.com/novicezk/midjourney-proxy) - 代理 MidJourney 的discord频道，实现api形式调用AI绘图
+
+*   [IreneSSSL/algorithms](https://github.com/IreneSSSL/algorithms) -
 
 ## C\#
 
-*   [AnyListen/YaVipCore](https://github.com/AnyListen/YaVipCore) - Net Core Music Interface
+*   [RayWangQvQ/BiliBiliToolPro](https://github.com/RayWangQvQ/BiliBiliToolPro) - B 站（bilibili）自动任务工具，支持docker、青龙、k8s等多种部署方式。敏感肌也能用。
 
-*   [wmjordan/PDFPatcher](https://github.com/wmjordan/PDFPatcher) - PDF补丁丁——PDF工具箱，可以编辑书签、剪裁旋转页面、解除限制、提取或合并文档，探查文档结构，提取图片、转成图片等等
+*   [jynew/jynew](https://github.com/jynew/jynew) - JinYongLegend-like RPG Game Framework with full Modding support and 10+ hours playable samples of game.
+
+*   [Azure-Samples/cognitive-services-speech-sdk](https://github.com/Azure-Samples/cognitive-services-speech-sdk) - Sample code for the Microsoft Cognitive Services Speech SDK
+
+*   [CoderAllan/GitCommitsAnalysis](https://github.com/CoderAllan/GitCommitsAnalysis) - Tool for analysing commits in a Git repository
+
+*   [SebLague/Chess-Challenge](https://github.com/SebLague/Chess-Challenge) - Create your own tiny chess bot!
+
+*   [AvaloniaUI/Avalonia](https://github.com/AvaloniaUI/Avalonia) - Develop Desktop, Embedded, Mobile and WebAssembly apps with C# and XAML. The most popular .NET UI client technology
+
+*   [fudiwei/DotNetCore.SKIT.FlurlHttpClient.Wechat](https://github.com/fudiwei/DotNetCore.SKIT.FlurlHttpClient.Wechat) - 可能是全网最完整的 C# 版微信 SDK，封装全部已知的微信 OpenAPI，包含微信公众平台（订阅号+服务号+小程序+小游戏+小商店+视频号）、微信开放平台、微信商户平台（微信支付+微企付）、企业微信、微信广告平台、微信智能对话开放平台等模块，可跨平台。持续随官方更新，欢迎 Star/Fork/PR。QQ 交流群 875580418【满】、930461548【满】、611974621。
+
+*   [dotnet-architecture/eShopOnContainers](https://github.com/dotnet-architecture/eShopOnContainers) - Cross-platform .NET sample microservices and container based application that runs on Linux Windows and macOS. Powered by .NET 7, Docker Containers and Azure Kubernetes Services. Supports Visual Studio, VS for Mac and CLI based environments with Docker CLI, dotnet CLI, VS Code or any other code editor. Moved to https://github.com/dotnet/eShop.
+
+*   [PowerShell/PowerShell](https://github.com/PowerShell/PowerShell) - PowerShell for every system!
+
+*   [files-community/Files](https://github.com/files-community/Files) - A modern file manager that helps users organize their files and folders.
+
+*   [DevToys-app/DevToys](https://github.com/DevToys-app/DevToys) - A Swiss Army knife for developers.
+
+*   [Jessecar96/SteamDesktopAuthenticator](https://github.com/Jessecar96/SteamDesktopAuthenticator) - Desktop implementation of Steam's mobile authenticator app
+
+*   [microsoft/semantic-kernel](https://github.com/microsoft/semantic-kernel) - Integrate cutting-edge LLM technology quickly and easily into your apps
+
+## Dart
+
+*   [daodao97/chatmcp](https://github.com/daodao97/chatmcp) - ChatMCP is an AI chat client implementing the Model Context Protocol (MCP).
+
+*   [AppFlowy-IO/AppFlowy](https://github.com/AppFlowy-IO/AppFlowy) - Bring projects, wikis, and teams together with AI. AppFlowy is the AI collaborative workspace where you achieve more without losing control of your data. The leading open source Notion alternative.
+
+*   [GopeedLab/gopeed](https://github.com/GopeedLab/gopeed) - A modern download manager that supports all platforms.  Built with Golang and Flutter.
+
+## MDX
+
+*   [PatrickJS/awesome-cursorrules](https://github.com/PatrickJS/awesome-cursorrules) - 📄  Configuration files that enhance Cursor AI editor experience with custom rules and behaviors
+
+*   [6174/comflowy](https://github.com/6174/comflowy) - Unleash endless possibilities with ComfyUI and Stable Diffusion, committed to crafting refined AI-Gen tools and cultivating a vibrant community for both developers and users.
+
+*   [PxlSyl/tailwind-nextjs-starter-blog-i18n](https://github.com/PxlSyl/tailwind-nextjs-starter-blog-i18n) - This is a Next.js, i18n and Tailwind CSS blogging starter template. Comes out of the box configured with the latest technologies to make technical writing a breeze. Easily configurable and customizable. Perfect as a replacement to existing Jekyll and Hugo individual blogs.
+
+*   [Ssoon-m/ssoon.blog](https://github.com/Ssoon-m/ssoon.blog) - ian tech blog
+
+*   [JohnBra/jebraat.com](https://github.com/JohnBra/jebraat.com) - 🚀 My personal website and blog - Nextjs, TailwindCSS, Supabase and Typescript
+
+*   [gileorn/gileorn.com](https://github.com/gileorn/gileorn.com) - Personal dev blog built with React, Next.js, Tailwind, Contentlayer and Supabase
+
+*   [hackclub/putting-the-you-in-cpu](https://github.com/hackclub/putting-the-you-in-cpu) - A technical explainer by @kognise of how your computer runs programs, from start to finish.
+
+*   [dair-ai/Prompt-Engineering-Guide](https://github.com/dair-ai/Prompt-Engineering-Guide) - 🐙 Guides, papers, lecture, notebooks and resources for prompt engineering
+
+*   [openai/openai-cookbook](https://github.com/openai/openai-cookbook) - Examples and guides for using the OpenAI API
+
+## HTML
+
+*   [qiye45/wechatDownload](https://github.com/qiye45/wechatDownload) - 微信公众号文章批量下载工具，支持评论、合集下载，支持保存html/mhtml/md/pdf/docx文件，保存文章内图片、视频、音频文件
+
+*   [roy-tian/learning-area](https://github.com/roy-tian/learning-area) - MDN 学习区示例中文版
+
+*   [thisarakaushan/Reinforcement-Learning-From-Human-Feedback](https://github.com/thisarakaushan/Reinforcement-Learning-From-Human-Feedback) - Understanding of Reinforcement Learning from Human Feedback (RLHF) and fine-tune the Llama 2 model using RLHF with the open source Google Cloud Pipeline Components Library.
+
+*   [LouisShark/chatgpt\_system\_prompt](https://github.com/LouisShark/chatgpt_system_prompt) - A collection of GPT system prompts and various prompt injection/leaking knowledge.
+
+*   [yogeshojha/rengine](https://github.com/yogeshojha/rengine) - reNgine is an automated reconnaissance framework for web applications with a focus on highly configurable streamlined recon process via Engines, recon data correlation and organization, continuous monitoring, backed by a database, and simple yet intuitive User Interface. reNgine makes it easy for penetration testers to gather reconnaissance with minimal configuration and with the help of reNgine's correlation, it just makes recon effortless.
+
+*   [MetaGLM/FinGLM](https://github.com/MetaGLM/FinGLM) - FinGLM: 致力于构建一个开放的、公益的、持久的金融大模型项目，利用开源开放来促进「AI+金融」。
+
+*   [mouredev/python-web](https://github.com/mouredev/python-web) - Curso para aprender desarrollo frontend Web con Python puro desde cero. Elaborado durante las emisiones en directo desde Twitch de MoureDev.
+
+*   [facebookresearch/fastText](https://github.com/facebookresearch/fastText) - Library for fast text representation and classification.
+
+*   [euiyounghwang/semantic-search-elasticsearch-openai-langchain](https://github.com/euiyounghwang/semantic-search-elasticsearch-openai-langchain) -
+
+*   [nirmals-workspace/Langchain-Story-and-Review-Generation](https://github.com/nirmals-workspace/Langchain-Story-and-Review-Generation) - Generating story using a model and reviewing the same using another model by leveraging Langchain's state-of-the-art techniques.
+
+*   [kuafuai/DevOpsGPT](https://github.com/kuafuai/DevOpsGPT) - Multi agent system for AI-driven software development. Combine LLM with DevOps tools to convert natural language requirements into working software. Supports any development language and extends the existing code.
+
+*   [LianjiaTech/BELLE](https://github.com/LianjiaTech/BELLE) - BELLE: Be Everyone's Large Language model Engine（开源中文对话大模型）
+
+*   [L-M-Sherlock/sm18-lazy-package](https://github.com/L-M-Sherlock/sm18-lazy-package) - SuperMemo 18 中文懒人包
+
+*   [microsoft/ML-For-Beginners](https://github.com/microsoft/ML-For-Beginners) - 12 weeks, 26 lessons, 52 quizzes, classic Machine Learning for all
+
+*   [ripienaar/free-for-dev](https://github.com/ripienaar/free-for-dev) - A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev
+
+*   [adams549659584/go-proxy-bingai](https://github.com/adams549659584/go-proxy-bingai) - 用 Vue3 和 Go 搭建的微软 New Bing 演示站点，拥有一致的 UI 体验，支持 ChatGPT 提示词，国内可用。
+
+*   [ossu/computer-science](https://github.com/ossu/computer-science) - 🎓 Path to a free self-taught education in Computer Science!
+
+*   [jncraton/languagemodels](https://github.com/jncraton/languagemodels) - Explore large language models in 512MB of RAM
+
+*   [deanmalmgren/textract](https://github.com/deanmalmgren/textract) - extract text from any document. no muss. no fuss.
+
+*   [Instruction-Tuning-with-GPT-4/GPT-4-LLM](https://github.com/Instruction-Tuning-with-GPT-4/GPT-4-LLM) - Instruction Tuning with GPT-4
+
+*   [Unstructured-IO/unstructured](https://github.com/Unstructured-IO/unstructured) - Convert documents to structured data effortlessly. Unstructured is open-source ETL solution for transforming complex documents into clean, structured formats for language models.  Visit our website to learn more about our enterprise grade Platform product for production grade workflows, partitioning, enrichments, chunking and embedding.
+
+*   [shengqiangzhang/examples-of-web-crawlers](https://github.com/shengqiangzhang/examples-of-web-crawlers) - 一些非常有趣的python爬虫例子,对新手比较友好,主要爬取淘宝、天猫、微信、微信读书、豆瓣、QQ等网站。(Some interesting examples of python crawlers that are friendly to beginners. )
+
+*   [kmario23/deep-learning-drizzle](https://github.com/kmario23/deep-learning-drizzle) - Drench yourself in Deep Learning, Reinforcement Learning, Machine Learning, Computer Vision, and NLP by learning from these exciting lectures!!
+
+*   [nndl/nndl.github.io](https://github.com/nndl/nndl.github.io) - 《神经网络与深度学习》 邱锡鹏著 Neural Network and Deep Learning
+
+*   [fengdu78/deeplearning\_ai\_books](https://github.com/fengdu78/deeplearning_ai_books) - deeplearning.ai（吴恩达老师的深度学习课程笔记及资源）
+
+## Batchfile
+
+*   [SillyTavern/SillyTavern-Launcher](https://github.com/SillyTavern/SillyTavern-Launcher) - Launcher scripts for SillyTavern and ST-Extras.
+
+## CSS
+
+*   [fengyunzaidushi/ai-coding-prediction](https://github.com/fengyunzaidushi/ai-coding-prediction) -  🚀 AI编程能力演进时间线 (2024-2035) | 响应式设计的互动可视化展示，带有优雅的滚动动画效果。展现AI编程技术从全栈开发到脑机接口的跨时代演进预测。
+
+*   [prognoveljs/prognovel-app](https://github.com/prognoveljs/prognovel-app) - Next-generation webnovel Progressive Web App.
+
+*   [hehonghui/awesome-english-ebooks](https://github.com/hehonghui/awesome-english-ebooks) - 经济学人(含音频)、纽约客、卫报、连线、大西洋月刊等英语杂志免费下载,支持epub、mobi、pdf格式, 每周更新
+
+*   [cocktailpeanut/dalai](https://github.com/cocktailpeanut/dalai) - The simplest way to run LLaMA on your local machine
+
+*   [connorferster/handcalcs](https://github.com/connorferster/handcalcs) - Python library for converting Python calculations into rendered latex.
+
+*   [apachecn/sklearn-doc-zh](https://github.com/apachecn/sklearn-doc-zh) - :book: \[译] scikit-learn（sklearn） 中文文档
+
+## Vue
+
+*   [replicate/green-screen-creator](https://github.com/replicate/green-screen-creator) - Track an object in a video and add a green screen to the background.
+
+*   [amin2312/AI-Image-Generator](https://github.com/amin2312/AI-Image-Generator) - AI Image Generator and Search, unleash your Creativity
+
+*   [mizhexiaoxiao/vue-fastapi-admin](https://github.com/mizhexiaoxiao/vue-fastapi-admin) - ⭐️ 基于 FastAPI+Vue3+Naive UI 的现代化轻量管理平台 A modern and lightweight management platform based on FastAPI, Vue3, and Naive UI.
+
+*   [aigcbilibili/aigcbilibili](https://github.com/aigcbilibili/aigcbilibili) - 仿bilibili前后端实现
+
+*   [Hunlongyu/ZY-Player](https://github.com/Hunlongyu/ZY-Player) - ▶️ 跨平台桌面端视频资源播放器.简洁无广告.免费高颜值. 🎞
+
+*   [qier222/YesPlayMusic](https://github.com/qier222/YesPlayMusic) - 高颜值的第三方网易云播放器，支持 Windows / macOS / Linux :electron:
+
+*   [cool-team-official/cool-admin-vue](https://github.com/cool-team-official/cool-admin-vue) - 🔥 cool-admin一个很酷的后台权限管理框架，模块化、插件化、CRUD极速开发，永久开源免费，基于vue3、element-plus、pinia、vite、tailwindcss、i18n等构建
+
+*   [auto-novel/auto-novel](https://github.com/auto-novel/auto-novel) - 轻小说机翻网站，支持网络小说/文库小说/本地小说
+
+*   [chatpire/chatgpt-web-share](https://github.com/chatpire/chatgpt-web-share) - ChatGPT Plus 共享方案。ChatGPT Plus / OpenAI API sharing solution.
+
+*   [epicmaxco/vuestic-admin](https://github.com/epicmaxco/vuestic-admin) - Vuestic Admin is an open-source, ready-to-use admin template suite designed for rapid development, easy maintenance, and high accessibility. Built on Vuestic UI, Vue 3, Vite, Pinia, and Tailwind CSS. Maintained by Epicmax (@epicmaxco).
+
+*   [aehyok/video2blog](https://github.com/aehyok/video2blog) - 视频转图文 AI跨平台客户端（win mac linux）
+
+*   [pure-admin/vue-pure-admin](https://github.com/pure-admin/vue-pure-admin) - 全面ESM+Vue3+Vite+Element-Plus+TypeScript编写的一款后台管理系统（兼容移动端）
+
+*   [xugaoyi/vuepress-theme-vdoing](https://github.com/xugaoyi/vuepress-theme-vdoing) - 🚀一款简洁高效的VuePress知识管理&博客(blog)主题
+
+*   [Aomferni/chatTests](https://github.com/Aomferni/chatTests) - DataWhale 5月 GPT应用开发Hackathon比赛TOP1项目， 拿到107.5/120的最高分！ 斩获最佳创新奖和最佳应用奖两个最佳奖项！
+
+*   [CareyWang/sub-web](https://github.com/CareyWang/sub-web) -
+
+*   [Moonvy/OpenPromptStudio](https://github.com/Moonvy/OpenPromptStudio) - 🥣 AIGC 提示词可视化编辑器  | OPS | Open Prompt Studio
+
+## C
+
+*   [TEN-framework/ten-framework](https://github.com/TEN-framework/ten-framework) -  Open-source framework for conversational voice AI agents.
+
+*   [asg017/sqlite-vec](https://github.com/asg017/sqlite-vec) - A vector search SQLite extension that runs anywhere!
+
+*   [marella/ctransformers](https://github.com/marella/ctransformers) - Python bindings for the Transformer models implemented in C/C++ using GGML library.
+
+*   [karpathy/llama2.c](https://github.com/karpathy/llama2.c) - Inference Llama 2 in one file of pure C
+
+*   [orioledb/orioledb](https://github.com/orioledb/orioledb) - OrioleDB – building a modern cloud-native storage engine (... and solving some PostgreSQL wicked problems)
+
+*   [UberGuidoZ/Flipper](https://github.com/UberGuidoZ/Flipper) - Playground (and dump) of stuff I make or modify for the Flipper Zero
+
+*   [floooh/sokol](https://github.com/floooh/sokol) - minimal cross-platform standalone C headers
+
+*   [acidanthera/OpenCorePkg](https://github.com/acidanthera/OpenCorePkg) - OpenCore bootloader
+
+*   [ventoy/Ventoy](https://github.com/ventoy/Ventoy) - A new bootable USB solution.
+
+*   [Facico/Chinese-Vicuna](https://github.com/Facico/Chinese-Vicuna) - Chinese-Vicuna: A Chinese Instruction-following LLaMA-based Model —— 一个中文低资源的llama+lora方案，结构参考alpaca
+
+*   [cboxdoerfer/fsearch](https://github.com/cboxdoerfer/fsearch) - A fast file search utility for Unix-like systems based on GTK3
+
+## Ruby
+
+*   [basecamp/kamal](https://github.com/basecamp/kamal) - Deploy web apps anywhere.
+
+*   [maybe-finance/maybe](https://github.com/maybe-finance/maybe) - The personal finance app for everyone
+
+*   [mastodon/mastodon](https://github.com/mastodon/mastodon) - Your self-hosted, globally interconnected microblogging community
+
+## EJS
+
+*   [Ovi/DummyJSON](https://github.com/Ovi/DummyJSON) - DummyJSON.com provides different types of REST Endpoints filled with JSON data which you can use in developing the frontend with your favorite framework and library without worrying about writing a backend.
+
+## Svelte
+
+*   [reid41/QA-Pilot](https://github.com/reid41/QA-Pilot) - QA-Pilot is an interactive chat project that leverages online/local LLM for rapid understanding and navigation of GitHub code repository.
+
+*   [Niek/chatgpt-web](https://github.com/Niek/chatgpt-web) - ChatGPT web interface using the OpenAI API
+
+## Fluent
+
+*   [janeczku/calibre-web](https://github.com/janeczku/calibre-web) - :books: Web app for browsing, reading and downloading eBooks stored in a Calibre database
+
+## Common Lisp
+
+*   [dalong0514/dalong.ITstudy](https://github.com/dalong0514/dalong.ITstudy) - computer study
+
+## Kotlin
+
+*   [jing332/tts-server-android](https://github.com/jing332/tts-server-android) - 这是一个Android系统TTS应用，内置微软演示接口，可自定义HTTP请求，可导入其他本地TTS引擎，以及根据中文双引号的简单旁白/对话识别朗读 ，还有自动重试，备用配置，文本替换等更多功能。
+
+*   [gedoor/legado](https://github.com/gedoor/legado) - Legado 3.0 Book Reader with powerful controls & full functions❤️阅读3.0, 阅读是一款可以自定义来源阅读网络内容的工具，为广大网络文学爱好者提供一种方便、快捷舒适的试读体验。
+
+*   [tiann/KernelSU](https://github.com/tiann/KernelSU) - A Kernel based root solution for Android
+
+*   [YiiGuxing/TranslationPlugin](https://github.com/YiiGuxing/TranslationPlugin) - Translation plugin for IntelliJ-based IDEs/Android Studio.
+
+## Bicep
+
+*   [pamelafox/rag-on-postgres](https://github.com/pamelafox/rag-on-postgres) - This repo has moved! See new URL in README or below
+
+*   [jasontaylordev/CleanArchitecture](https://github.com/jasontaylordev/CleanArchitecture) - Clean Architecture Solution Template for ASP.NET Core
+
+## Shell
+
+*   [haoel/haoel.github.io](https://github.com/haoel/haoel.github.io) -
+
+*   [chronolaw/k8s\_study](https://github.com/chronolaw/k8s_study) - Follow me to study Docker/Kubernetes
+
+*   [binpash/try](https://github.com/binpash/try) - Inspect a command's effects before modifying your live system
+
+*   [papers-we-love/papers-we-love](https://github.com/papers-we-love/papers-we-love) - Papers from the computer science community to read and discuss.
+
+*   [howl-anderson/unlocking-the-power-of-llms](https://github.com/howl-anderson/unlocking-the-power-of-llms) - 使用 Prompts 和 Chains 让 ChatGPT 成为神奇的生产力工具！Unlocking the power of LLMs.
+
+*   [xiaopeng163/docker.tips](https://github.com/xiaopeng163/docker.tips) - Docker notes
+
+*   [youngyangyang04/leetcode-master](https://github.com/youngyangyang04/leetcode-master) - 《代码随想录》LeetCode 刷题攻略：200道经典题目刷题顺序，共60w字的详细图解，视频难点剖析，50余张思维导图，支持C++，Java，Python，Go，JavaScript等多语言版本，从此算法学习不再迷茫！🔥🔥 来看看，你会发现相见恨晚！🚀
+
+## TeX
+
+*   [ysymyth/awesome-language-agents](https://github.com/ysymyth/awesome-language-agents) - List of language agents based on paper "Cognitive Architectures for Language Agents"
+
+*   [wangshusen/DeepLearning](https://github.com/wangshusen/DeepLearning) -
+
+## Rich Text Format
+
+*   [langchain-ai/opengpts](https://github.com/langchain-ai/opengpts) -
+
+## Mojo
+
+*   [tairov/llama2.mojo](https://github.com/tairov/llama2.mojo) - Inference Llama 2 in one file of pure 🔥
+
+## PowerShell
+
+*   [JoelGMSec/HTTP-Shell](https://github.com/JoelGMSec/HTTP-Shell) - MultiPlatform HTTP Reverse Shell
+
+*   [freeline55/LLM-Video-Sense](https://github.com/freeline55/LLM-Video-Sense) -
+
+## Scala
+
+*   [twitter/the-algorithm](https://github.com/twitter/the-algorithm) - Source code for Twitter's Recommendation Algorithm
+
+## Clojure
+
+*   [metabase/metabase](https://github.com/metabase/metabase) - The easy-to-use open source Business Intelligence and Embedded Analytics tool that lets everyone work with data :bar\_chart:
+
+## Swift
+
+*   [mazzzystar/Queryable](https://github.com/mazzzystar/Queryable) - Run OpenAI's CLIP and Apple's MobileCLIP model on iOS to search photos.
+
+*   [apple/swift-openapi-generator](https://github.com/apple/swift-openapi-generator) - Generate Swift client and server code from an OpenAPI document.
+
+*   [CodeEditApp/CodeEdit](https://github.com/CodeEditApp/CodeEdit) - 📝 CodeEdit App for macOS – Elevate your code editing experience. Open source, free forever.
+
+*   [Whisky-App/Whisky](https://github.com/Whisky-App/Whisky) - A modern Wine wrapper for macOS built with SwiftUI
+
+## Objective-C
+
+*   [EthanArbuckle/Apollo-CustomApiCredentials](https://github.com/EthanArbuckle/Apollo-CustomApiCredentials) - Tweak to use your own reddit API credentials in Apollo
+
+## PostScript
+
+*   [kenjihiranabe/The-Art-of-Linear-Algebra](https://github.com/kenjihiranabe/The-Art-of-Linear-Algebra) - Graphic notes on Gilbert Strang's "Linear Algebra for Everyone"
 
 ## Dockerfile
 
-*   [jaywcjlove/reference](https://github.com/jaywcjlove/reference) - 为开发人员分享快速参考备忘清单(速查表)
+*   [Anduin2017/HowToCook](https://github.com/Anduin2017/HowToCook) - 程序员在家做饭方法指南。Programmer's guide about how to cook at home (Simplified Chinese only).
 
-## Roff
+*   [easychen/chatchan-dist](https://github.com/easychen/chatchan-dist) - Chat酱独立部署版，docker方案自带代理
 
-*   [metaphysis/Code](https://github.com/metaphysis/Code) - Solutions for UVa Online Judge and Programming Challeges. Sample code in my Book.
+## Jinja
+
+*   [easzlab/kubeasz](https://github.com/easzlab/kubeasz) - 使用Ansible脚本安装K8S集群，介绍组件交互原理，方便直接，不受国内网络环境影响
+
+## Markdown
+
+*   [jaywcjlove/linux-command](https://github.com/jaywcjlove/linux-command) - Linux命令大全搜索工具，内容包含Linux命令手册、详解、学习、搜集。https://git.io/linux
+
+*   [codecrafters-io/build-your-own-x](https://github.com/codecrafters-io/build-your-own-x) - Master programming by recreating your favorite technologies from scratch.
+
+## LLVM
+
+*   [llvm/llvm-project](https://github.com/llvm/llvm-project) - The LLVM Project is a collection of modular and reusable compiler and toolchain technologies.
+
+## HCL
+
+*   [terraform-aws-modules/terraform-aws-eks](https://github.com/terraform-aws-modules/terraform-aws-eks) - Terraform module to create Amazon Elastic Kubernetes (EKS) resources 🇺🇦
+
+## Crystal
+
+*   [iv-org/invidious](https://github.com/iv-org/invidious) - Invidious is an alternative front-end to YouTube
+
+## Solidity
+
+*   [Uniswap/v4-core](https://github.com/Uniswap/v4-core) - 🦄 🦄 🦄 🦄 Core smart contracts of Uniswap v4
+
+## Perl
+
+*   [so-fancy/diff-so-fancy](https://github.com/so-fancy/diff-so-fancy) - Good-lookin' diffs. Actually… nah… The best-lookin' diffs. :tada:
+
+## Lua
+
+*   [tumuyan/video-shuffler-for-aegisub](https://github.com/tumuyan/video-shuffler-for-aegisub) - Script for Aegisub to cut video and voice files | 在Aegisub中用字幕切割视频和音频文件
+
+## Macaulay2
+
+*   [awasthiabhijeet/PIE](https://github.com/awasthiabhijeet/PIE) - Fast + Non-Autoregressive Grammatical Error Correction using BERT. Code and Pre-trained models for paper "Parallel Iterative Edit Models for Local Sequence Transduction": www.aclweb.org/anthology/D19-1435.pdf (EMNLP-IJCNLP 2019)
+
+## Haskell
+
+*   [jgm/pandoc](https://github.com/jgm/pandoc) - Universal markup converter
+
+## Matlab
+
+*   [lmthang/nmt.hybrid](https://github.com/lmthang/nmt.hybrid) - State-of-the-art Neural Machine Translation Codebase including Hybrid Word-character Models
