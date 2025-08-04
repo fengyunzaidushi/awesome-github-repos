@@ -52,6 +52,8 @@
 
 ## TypeScript
 
+*   [ryoppippi/ccusage](https://github.com/ryoppippi/ccusage) - A CLI tool for analyzing Claude Code usage from local JSONL files.
+
 *   [zNoMercy/notesify](https://github.com/zNoMercy/notesify) - A cross-platform, AI-powered note taking app. An open source alternative to NotebookLM.
 
 *   [metaloozee/backpack](https://github.com/metaloozee/backpack) - \[UNDER DEV] An open-sourced alternative to NotebookLM
@@ -340,7 +342,7 @@
 
 *   [wasp-lang/wasp](https://github.com/wasp-lang/wasp) - The fastest way to develop full-stack web apps with React & Node.js.
 
-*   [Canner/WrenAI](https://github.com/Canner/WrenAI) - AI-powered Generative Business Intelligence (GenBI) — Query any database in natural language, generate accurate SQL (Text-to-SQL), charts (Text-to-chart), and insights in seconds.
+*   [Canner/WrenAI](https://github.com/Canner/WrenAI) - ⚡️ AI-powered Business Intelligence (GenBI - Generative BI) — Query any database in natural language, generate accurate SQL (Text-to-SQL), charts (Text-to-chart), and insights in seconds.
 
 *   [outline/outline](https://github.com/outline/outline) - The fastest knowledge base for growing teams. Beautiful, realtime collaborative, feature packed, and markdown compatible.
 
@@ -3449,8 +3451,6 @@
 ## TeX
 
 *   [ysymyth/awesome-language-agents](https://github.com/ysymyth/awesome-language-agents) - List of language agents based on paper "Cognitive Architectures for Language Agents"
-
-*   [wangshusen/DeepLearning](https://github.com/wangshusen/DeepLearning) -
 
 ## Rich Text Format
 
