@@ -424,8 +424,6 @@
 
 *   [X-T-E-R/GPT-SoVITS-Inference](https://github.com/X-T-E-R/GPT-SoVITS-Inference) - Inference Specialization
 
-*   [infiniflow/ragflow](https://github.com/infiniflow/ragflow) - RAGFlow is an open-source RAG (Retrieval-Augmented Generation) engine based on deep document understanding.
-
 *   [lancedb/lancedb](https://github.com/lancedb/lancedb) - Developer-friendly, embedded retrieval engine for multimodal AI. Search More; Manage Less.
 
 *   [dnhkng/GLaDOS](https://github.com/dnhkng/GLaDOS) - This is the Personality Core for GLaDOS, the first steps towards a real-life implementation of the AI from the Portal series by Valve.
@@ -588,7 +586,7 @@
 
 *   [QiushiSun/Corex](https://github.com/QiushiSun/Corex) - \[COLM'24] Corex: Pushing the Boundaries of Complex Reasoning through Multi-Model Collaboration
 
-*   [pytorch-labs/gpt-fast](https://github.com/pytorch-labs/gpt-fast) - Simple and efficient pytorch-native transformer text generation in <1000 LOC of python.
+*   [meta-pytorch/gpt-fast](https://github.com/meta-pytorch/gpt-fast) - Simple and efficient pytorch-native transformer text generation in <1000 LOC of python.
 
 *   [open-mmlab/Amphion](https://github.com/open-mmlab/Amphion) - Amphion (/æmˈfaɪən/) is a toolkit for Audio, Music, and Speech Generation. Its purpose is to support reproducible research and help junior researchers and engineers get started in the field of audio, music, and speech generation research and development.
 
@@ -628,7 +626,7 @@
 
 *   [flowtyone/flowty-realtime-lcm-canvas](https://github.com/flowtyone/flowty-realtime-lcm-canvas) - A realtime sketch to image demo using LCM and the gradio library.
 
-*   [pytorch-labs/segment-anything-fast](https://github.com/pytorch-labs/segment-anything-fast) - A batched offline inference oriented version of segment-anything
+*   [meta-pytorch/segment-anything-fast](https://github.com/meta-pytorch/segment-anything-fast) - A batched offline inference oriented version of segment-anything
 
 *   [Lightning-AI/pytorch-lightning](https://github.com/Lightning-AI/pytorch-lightning) - Pretrain, finetune ANY AI model of ANY size on multiple GPUs, TPUs with zero code changes.
 
@@ -2222,7 +2220,7 @@
 
 *   [wasp-lang/wasp](https://github.com/wasp-lang/wasp) - The fastest way to develop full-stack web apps with React & Node.js.
 
-*   [Canner/WrenAI](https://github.com/Canner/WrenAI) - ⚡️ AI-powered Business Intelligence (GenBI - Generative BI) — Query any database in natural language, generate accurate SQL (Text-to-SQL), charts (Text-to-chart), and insights in seconds.
+*   [Canner/WrenAI](https://github.com/Canner/WrenAI) - ⚡️ AI-powered Business Intelligence (GenBI - Generative BI) query any database in natural language, generate accurate SQL (Text-to-SQL), charts (Text-to-chart), and insights in seconds.
 
 *   [outline/outline](https://github.com/outline/outline) - The fastest knowledge base for growing teams. Beautiful, realtime collaborative, feature packed, and markdown compatible.
 
@@ -2267,6 +2265,8 @@
 *   [electron-react-boilerplate/electron-react-boilerplate](https://github.com/electron-react-boilerplate/electron-react-boilerplate) - A Foundation for Scalable Cross-Platform Apps
 
 *   [zzzgydi/clash-verge](https://github.com/zzzgydi/clash-verge) - A Clash GUI based on tauri. Supports Windows, macOS and Linux.
+
+*   [infiniflow/ragflow](https://github.com/infiniflow/ragflow) - RAGFlow is an open-source RAG (Retrieval-Augmented Generation) engine based on deep document understanding.
 
 *   [mantinedev/mantine](https://github.com/mantinedev/mantine) - A fully featured React components library
 
@@ -2684,7 +2684,7 @@
 
 *   [Loyalsoldier/clash-rules](https://github.com/Loyalsoldier/clash-rules) - 🦄️ 🎃 👻 Clash Premium 规则集(RULE-SET)，兼容 ClashX Pro、Clash for Windows 等基于 Clash Premium 内核的客户端。
 
-*   [dreamshao/chromedriver](https://github.com/dreamshao/chromedriver) - chromedriver  138.0.7204.49,137.0.7151.68,136.0.7103.49,135.0.7049.42,134.0.6998.35,133.0.6943.53,132.0.6834.83,131.0.6778.69,130.0.6723.58,129.0.6668.58,128.0.6613.84,127.0.6533.72,126.0.6478.126,123.0.6312.58,122.0.6261.94,119.0.6045.105,117.0.5938.88,115.0.5790.110  version webdriver download 下载
+*   [dreamshao/chromedriver](https://github.com/dreamshao/chromedriver) - chromedriver    139.0.7258.66 ,138.0.7204.49,137.0.7151.68,136.0.7103.49,135.0.7049.42,134.0.6998.35,133.0.6943.53,132.0.6834.83,131.0.6778.69,130.0.6723.58,129.0.6668.58,128.0.6613.84,127.0.6533.72,126.0.6478.126,123.0.6312.58,122.0.6261.94,119.0.6045.105,117.0.5938.88,115.0.5790.110  version webdriver download 下载
 
 *   [Mooler0410/LLMsPracticalGuide](https://github.com/Mooler0410/LLMsPracticalGuide) - A curated list of practical guide resources of LLMs (LLMs Tree, Examples, Papers)
 
@@ -3094,7 +3094,7 @@
 
 *   [asdlokj1qpi233/subconverter](https://github.com/asdlokj1qpi233/subconverter) - About Utility to convert between various subscription format.Support anytls、mieru、hy2、hy and vless for singbox and clash meta.original git: https://github.com/asdlokj1qpi23/subconverter
 
-*   [Zackriya-Solutions/meeting-minutes](https://github.com/Zackriya-Solutions/meeting-minutes) - A free and open source, self hosted Ai based live meeting note taker and minutes summary generator that can completely run in your Local device (Mac OS and windows OS Support added. Working on adding linux support soon) https://meetily.zackriya.com/
+*   [Zackriya-Solutions/meeting-minutes](https://github.com/Zackriya-Solutions/meeting-minutes) - A free and open source, self hosted Ai based live meeting note taker and minutes summary generator that can completely run in your Local device (Mac OS and windows OS Support added. Working on adding linux support soon) https://meetily.zackriya.com/ is meetly ai
 
 *   [Mozilla-Ocho/llamafile](https://github.com/Mozilla-Ocho/llamafile) - Distribute and run LLMs with a single file.
 
