@@ -53,13 +53,19 @@
 
 ## TypeScript
 
+*   [QwenLM/qwen-code](https://github.com/QwenLM/qwen-code) - qwen-code is a coding agent that lives in digital world.
+
+*   [pzehrel/vscode-comment-translate-openrouter](https://github.com/pzehrel/vscode-comment-translate-openrouter) -
+
+*   [rockbenben/md-translator](https://github.com/rockbenben/md-translator) - Translate Markdown effortlessly—fast, accurate, and multilingual!
+
 *   [nextify-limited/libra](https://github.com/nextify-limited/libra) - The open-source V0/Lovable alternative
 
 *   [instructa/browser-echo](https://github.com/instructa/browser-echo) - ⚡ Stream browser logs to terminal, zero setup, perfect for Ai Agents
 
 *   [joseferben/hands-please](https://github.com/joseferben/hands-please) - Run Claude Code or OpenAI Codex in the background
 
-*   [dream-num/univer](https://github.com/dream-num/univer) - Build AI-native spreadsheets. Univer is a full-stack framework for creating and editing spreadsheets on both web and server. With Univer MCP, Univer spreadsheet is driven directly through natural language.
+*   [dream-num/univer](https://github.com/dream-num/univer) - Build AI-native spreadsheets. Univer is a full-stack framework for creating and editing spreadsheets on both web and server. With Univer MCP, Univer Spreadsheets is driven directly through natural language.
 
 *   [aooiuu/any-reader](https://github.com/aooiuu/any-reader) - 📘开源的多平台自定义源资源聚合工具。支持小说、漫画阅读、视频播放、聚合搜索、分类排行等, 也支持本地资源TXT、EPUB
 
@@ -2619,8 +2625,6 @@
 
 *   [huggingface/trl](https://github.com/huggingface/trl) - Train transformer language models with reinforcement learning.
 
-*   [Embedding/Chinese-Word-Vectors](https://github.com/Embedding/Chinese-Word-Vectors) - 100+ Chinese Word Vectors 上百种预训练中文词向量
-
 ## PHP
 
 *   [dtyq/magic](https://github.com/dtyq/magic) - Super Magic. The first open-source all-in-one AI productivity platform (Generalist AI Agent + Workflow Engine + IM + Online collaborative office system)
@@ -2880,8 +2884,6 @@
 *   [PlexPt/awesome-chatgpt-prompts-zh](https://github.com/PlexPt/awesome-chatgpt-prompts-zh) - ChatGPT 中文调教指南。各种场景使用指南。学习怎么让它听你的话。
 
 *   [datawhalechina/team-learning](https://github.com/datawhalechina/team-learning) - 主要展示Datawhale的组队学习计划。
-
-*   [ShameCom/ShameCom](https://github.com/ShameCom/ShameCom) - 收集校招污点公司或组织，帮助学弟学妹避雷。互联网不曾遗忘！
 
 ## Go
 
@@ -3210,8 +3212,6 @@
 *   [dair-ai/ML-Notebooks](https://github.com/dair-ai/ML-Notebooks) - :fire: Machine Learning Notebooks
 
 *   [makcedward/nlpaug](https://github.com/makcedward/nlpaug) - Data augmentation for NLP
-
-*   [fastai/fastai](https://github.com/fastai/fastai) - The fastai deep learning library
 
 ## C++
 
