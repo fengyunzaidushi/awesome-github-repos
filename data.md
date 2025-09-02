@@ -2,6 +2,7 @@
 
 ## Table of Contents
 
+*   [Shell](#shell)
 *   [JavaScript](#javascript)
 *   [Rust](#rust)
 *   [TypeScript](#typescript)
@@ -10,7 +11,6 @@
 *   [Java](#java)
 *   [PHP](#php)
 *   [Vue](#vue)
-*   [Shell](#shell)
 *   [miscellaneous](#miscellaneous)
 *   [Go](#go)
 *   [C](#c)
@@ -50,6 +50,22 @@
 *   [Macaulay2](#macaulay2)
 *   [Haskell](#haskell)
 *   [Matlab](#matlab)
+
+## Shell
+
+*   [iflow-ai/iflow-cli](https://github.com/iflow-ai/iflow-cli) - iFlow cli is a comprehensive command-line intelligence that embeds in your terminal, analyzes your repositories, does coding tasks, interprets your needs across contexts, and boosts efficiency by performing tasks from simple file operations to complex workflow automation.
+
+*   [wasabeef/claude-code-cookbook](https://github.com/wasabeef/claude-code-cookbook) - A collection of settings to make Claude Code more useful.
+
+*   [haoel/haoel.github.io](https://github.com/haoel/haoel.github.io) -
+
+*   [chronolaw/k8s\_study](https://github.com/chronolaw/k8s_study) - Follow me to study Docker/Kubernetes
+
+*   [binpash/try](https://github.com/binpash/try) - Inspect a command's effects before modifying your live system
+
+*   [papers-we-love/papers-we-love](https://github.com/papers-we-love/papers-we-love) - Papers from the computer science community to read and discuss.
+
+*   [howl-anderson/unlocking-the-power-of-llms](https://github.com/howl-anderson/unlocking-the-power-of-llms) - 使用 Prompts 和 Chains 让 ChatGPT 成为神奇的生产力工具！Unlocking the power of LLMs.
 
 ## JavaScript
 
@@ -2647,8 +2663,6 @@
 
 *   [davidsbatista/BREDS](https://github.com/davidsbatista/BREDS) - "Bootstrapping Relationship Extractors with Distributional Semantics" (Batista et al., 2015) in EMNLP'15 - Python implementation
 
-*   [zjunlp/DeepKE](https://github.com/zjunlp/DeepKE) - \[EMNLP 2022] An Open Toolkit for Knowledge Graph Extraction and Construction
-
 ## MDX
 
 *   [e2b-dev/E2B](https://github.com/e2b-dev/E2B) - Open-source, secure environment with real-world tools for enterprise-grade agents.
@@ -2772,20 +2786,6 @@
 *   [CareyWang/sub-web](https://github.com/CareyWang/sub-web) -
 
 *   [Moonvy/OpenPromptStudio](https://github.com/Moonvy/OpenPromptStudio) - 🥣 AIGC 提示词可视化编辑器  | OPS | Open Prompt Studio
-
-## Shell
-
-*   [wasabeef/claude-code-cookbook](https://github.com/wasabeef/claude-code-cookbook) - A collection of settings to make Claude Code more useful.
-
-*   [haoel/haoel.github.io](https://github.com/haoel/haoel.github.io) -
-
-*   [chronolaw/k8s\_study](https://github.com/chronolaw/k8s_study) - Follow me to study Docker/Kubernetes
-
-*   [binpash/try](https://github.com/binpash/try) - Inspect a command's effects before modifying your live system
-
-*   [papers-we-love/papers-we-love](https://github.com/papers-we-love/papers-we-love) - Papers from the computer science community to read and discuss.
-
-*   [howl-anderson/unlocking-the-power-of-llms](https://github.com/howl-anderson/unlocking-the-power-of-llms) - 使用 Prompts 和 Chains 让 ChatGPT 成为神奇的生产力工具！Unlocking the power of LLMs.
 
 ## miscellaneous
 
