@@ -84,7 +84,7 @@
 
 *   [Minidoracat/mcp-feedback-enhanced](https://github.com/Minidoracat/mcp-feedback-enhanced) - Enhanced MCP server for interactive user feedback and command execution in AI-assisted development, featuring dual interface support (Web UI and Desktop Application) with intelligent environment detection and cross-platform compatibility.
 
-*   [QuantumNous/new-api](https://github.com/QuantumNous/new-api) - AI模型接口管理与分发系统，支持将多种大模型转为统一格式调用，支持OpenAI、Claude、Gemini等格式，可供个人或者企业内部管理与分发渠道使用，本项目基于One API二次开发。🍥 The next-generation LLM gateway and AI asset management system supports multiple languages.
+*   [QuantumNous/new-api](https://github.com/QuantumNous/new-api) - AI模型聚合管理分发系统，支持将多种大模型转为统一格式调用，支持OpenAI、Claude、Gemini等格式，可供个人或者企业内部管理与分发渠道使用，本项目基于One API二次开发。🍥 The next-generation LLM gateway and AI asset management system supports multiple languages.
 
 *   [TheNorthMemory/wechatpay-axios-plugin](https://github.com/TheNorthMemory/wechatpay-axios-plugin) - 微信支付 WeChatPay OpenAPI v2\&v3' SDK，以命令行方式与接口交互，play the openapi requests over command line
 
@@ -1222,7 +1222,7 @@
 
 *   [Zipstack/unstract](https://github.com/Zipstack/unstract) - No-code LLM Platform to launch APIs and ETL Pipelines to structure unstructured documents
 
-*   [AgentEra/Agently](https://github.com/AgentEra/Agently) - \[GenAI Application Development Framework]  🚀 Build GenAI application quick and easy 💬 Easy to interact with GenAI agent in code using structure data and chained-calls syntax 🧩 Use Agently Workflow to manage complex GenAI working logic 🔀 Switch to any model without rewrite application code
+*   [AgentEra/Agently](https://github.com/AgentEra/Agently) - \[GenAI Application Development Framework]  🚀 Build GenAI application quick and easy 💬 Easy to interact with GenAI agent in code using structure data and chained-calls syntax 🧩 Use Event-Driven Flow *TriggerFlow* to manage complex GenAI working logic 🔀 Switch to any model without rewrite application code
 
 *   [MLSysOps/MLE-agent](https://github.com/MLSysOps/MLE-agent) - 🤖 MLE-Agent: Your intelligent companion for seamless AI engineering and research. 🔍 Integrate with arxiv and paper with code to provide better code/research plans 🧰 OpenAI, Anthropic, Gemini, Ollama, etc supported. :fireworks: Code RAG
 
