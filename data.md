@@ -1975,7 +1975,7 @@
 
 *   [mhohamad/Deep-Research-AI-Agent](https://github.com/mhohamad/Deep-Research-AI-Agent) - Build a powerful Deep Research AI agent like Gemini or ChatGPT. Using Next.js, Vercel AI SDK, and Exa Search API, An intelligent system that generates follow-up questions, crafts optimal search queries, and compiles comprehensive research reports.
 
-*   [ryoppippi/ccusage](https://github.com/ryoppippi/ccusage) - A CLI tool for analyzing Claude Code usage from local JSONL files.
+*   [ryoppippi/ccusage](https://github.com/ryoppippi/ccusage) - A CLI tool for analyzing Claude Code/Codex CLI usage from local JSONL files.
 
 *   [zNoMercy/notesify](https://github.com/zNoMercy/notesify) - A cross-platform, AI-powered note taking app. An open source alternative to NotebookLM.
 
