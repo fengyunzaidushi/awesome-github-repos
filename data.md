@@ -655,7 +655,7 @@
 
 *   [vkbo/novelWriter](https://github.com/vkbo/novelWriter) - novelWriter is an open source plain text editor designed for writing novels.
 
-*   [vintasoftware/django-react-boilerplate](https://github.com/vintasoftware/django-react-boilerplate) - Django 5, React, Bootstrap 5 with Python 3 and Webpack project boilerplate
+*   [vintasoftware/django-react-boilerplate](https://github.com/vintasoftware/django-react-boilerplate) - Django 5, React, Tailwind 4 with Python 3 and Webpack project boilerplate
 
 *   [yuruotong1/autoMate](https://github.com/yuruotong1/autoMate) - Like Manus, Computer Use Agent(CUA) and Omniparser, we are computer-using agents.AI-driven local automation assistant that uses natural language to make computers work by themselves
 
@@ -1734,6 +1734,8 @@
 *   [kaixindelele/ChatPaper](https://github.com/kaixindelele/ChatPaper) - Use ChatGPT to summarize the arXiv papers. 全流程加速科研，利用chatgpt进行论文全文总结+专业翻译+润色+审稿+审稿回复
 
 *   [yihong0618/xiaogpt](https://github.com/yihong0618/xiaogpt) - Play ChatGPT and other LLM with Xiaomi AI Speaker
+
+*   [langchain-ai/langchain](https://github.com/langchain-ai/langchain) - 🦜🔗 Build context-aware reasoning applications
 
 *   [chenfei-wu/TaskMatrix](https://github.com/chenfei-wu/TaskMatrix) -
 
@@ -3023,7 +3025,7 @@
 
 *   [JohannesKaufmann/html-to-markdown](https://github.com/JohannesKaufmann/html-to-markdown) - ⚙️ Convert HTML to Markdown. Even works with entire websites and can be extended through rules.
 
-*   [VoAPI/VoAPI](https://github.com/VoAPI/VoAPI) - 全新的高颜、高性能、高扩展的AI模型API管理与分发系统
+*   [VoAPI/VoAPI](https://github.com/VoAPI/VoAPI) - 🎉 全新下一代高颜值、高性能、高扩展的智能AI大模型API聚合分发系统
 
 *   [mudler/LocalAI](https://github.com/mudler/LocalAI) - :robot: The free, Open Source alternative to OpenAI, Claude and others. Self-hosted and local-first. Drop-in replacement for OpenAI,  running on consumer-grade hardware. No GPU required. Runs gguf, transformers, diffusers and many more. Features: Generate Text, Audio, Video, Images, Voice Cloning, Distributed, P2P and decentralized inference
 
@@ -3224,8 +3226,6 @@
 *   [terrier-org/pyterrier](https://github.com/terrier-org/pyterrier) - A Python framework for performing information retrieval experiments, building on http://terrier.org/
 
 *   [MOOC-TensorFlow/TensorFlow](https://github.com/MOOC-TensorFlow/TensorFlow) -
-
-*   [langchain-ai/langchain](https://github.com/langchain-ai/langchain) - 🦜🔗 Build context-aware reasoning applications
 
 *   [aymericdamien/TensorFlow-Examples](https://github.com/aymericdamien/TensorFlow-Examples) - TensorFlow Tutorial and Examples for Beginners (support TF v1 & v2)
 
