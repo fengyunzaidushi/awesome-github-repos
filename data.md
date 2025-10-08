@@ -1903,6 +1903,8 @@
 
 *   [luhua-rain/MRC\_Competition\_Dureader](https://github.com/luhua-rain/MRC_Competition_Dureader) - 机器阅读理解 冠军/亚军代码及中文预训练MRC模型
 
+*   [ymcui/expmrc](https://github.com/ymcui/expmrc) - ExpMRC: Explainability Evaluation for Machine Reading Comprehension
+
 ## TypeScript
 
 *   [morsoli/aimangastudio](https://github.com/morsoli/aimangastudio) - 一个利用 AI 制作漫画的工具，支持脚本创作、分镜设计和角色风格控制。
@@ -1990,8 +1992,6 @@
 *   [Narratium/Narratium.ai](https://github.com/Narratium/Narratium.ai) - Open-source platform for AI-driven storytelling, worldbuilding, and immersive roleplay
 
 *   [shreyashsng/MewMoji](https://github.com/shreyashsng/MewMoji) - Modern uncensored AI character chat platform. A free alternative to character.ai
-
-*   [bobcoi03/opencharacter](https://github.com/bobcoi03/opencharacter) - Open Source Alternative to Character.AI - Create your own characters uncensored no filters
 
 *   [semperai/amica](https://github.com/semperai/amica) - Amica is an open source interface for interactive communication with 3D characters with voice synthesis and speech recognition.
 
@@ -3025,7 +3025,7 @@
 
 *   [JohannesKaufmann/html-to-markdown](https://github.com/JohannesKaufmann/html-to-markdown) - ⚙️ Convert HTML to Markdown. Even works with entire websites and can be extended through rules.
 
-*   [VoAPI/VoAPI](https://github.com/VoAPI/VoAPI) - 🎉 全新下一代高颜值、高性能、高扩展的智能AI大模型API聚合分发系统
+*   [VoAPI/VoAPI](https://github.com/VoAPI/VoAPI) - 🎉 全新下一代高颜值、高性能、高扩展的智能AI大模型API聚合分发系统 | A new next-generation high-value, high-performance, and highly scalable intelligent AI large-model API aggregation and distribution
 
 *   [mudler/LocalAI](https://github.com/mudler/LocalAI) - :robot: The free, Open Source alternative to OpenAI, Claude and others. Self-hosted and local-first. Drop-in replacement for OpenAI,  running on consumer-grade hardware. No GPU required. Runs gguf, transformers, diffusers and many more. Features: Generate Text, Audio, Video, Images, Voice Cloning, Distributed, P2P and decentralized inference
 
