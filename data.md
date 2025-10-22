@@ -89,7 +89,7 @@
 
 ## JavaScript
 
-*   [lioensky/VCPToolBox](https://github.com/lioensky/VCPToolBox) - 一个全新的，强大的AI-API-工具交互范式工具箱。独立Agent封装，非线性超异步工作流，交叉记忆网络，五大插件协议，完整Websocket和WebDav功能，支持分布式部署和算力均衡！
+*   [lioensky/VCPToolBox](https://github.com/lioensky/VCPToolBox) - 一个全新的，强大的AI-API-工具交互范式AGI社群系统。独立多Agent封装，非线性超异步工作流，交叉记忆网络，六大插件协议，完整Websocket和WebDav功能，支持分布式部署和算力均衡！
 
 *   [davila7/claude-code-templates](https://github.com/davila7/claude-code-templates) - CLI tool for configuring and monitoring Claude Code
 
@@ -683,7 +683,7 @@
 
 *   [omnivore-app/omnivore](https://github.com/omnivore-app/omnivore) - Omnivore is a complete, open source read-it-later solution for people who like reading.
 
-*   [Canner/WrenAI](https://github.com/Canner/WrenAI) - ⚡️ GenBI (Generative BI) queries any database in natural language, generates accurate SQL (Text-to-SQL), charts (Text-to-Chart), and AI-powered insights in seconds.
+*   [Canner/WrenAI](https://github.com/Canner/WrenAI) - ⚡️ GenBI (Generative BI) queries any database in natural language, generates accurate SQL (Text-to-SQL), charts (Text-to-Chart), and AI-powered business intelligence in seconds.
 
 *   [outline/outline](https://github.com/outline/outline) - The fastest knowledge base for growing teams. Beautiful, realtime collaborative, feature packed, and markdown compatible.
 
@@ -831,7 +831,7 @@
 
 *   [reactjs/zh-hans.react.dev](https://github.com/reactjs/zh-hans.react.dev) - React documentation website in Simplified Chinese
 
-*   [TanStack/router](https://github.com/TanStack/router) - 🤖 Fully typesafe Router for React (and friends) w/ built-in caching, 1st class search-param APIs, client-side cache integration and isomorphic rendering.
+*   [TanStack/router](https://github.com/TanStack/router) - 🤖 A client-first, server-capable, fully type-safe router and full-stack framework for the web (React and more).
 
 *   [Expensify/App](https://github.com/Expensify/App) - Welcome to New Expensify: a complete re-imagination of financial collaboration, centered around chat. Help us build the next generation of Expensify by sharing feedback and contributing to the code.
 
@@ -1053,7 +1053,7 @@
 
 *   [zhinianboke/xianyu-auto-reply](https://github.com/zhinianboke/xianyu-auto-reply) - 闲鱼自动回复管理系统是一个基于 Python + FastAPI 开发的自动化客服系统，专为闲鱼平台设计。系统通过 WebSocket 连接闲鱼服务器，实时接收和处理消息，提供智能化的自动回复服务。
 
-*   [sansan0/TrendRadar](https://github.com/sansan0/TrendRadar) - 🎯 告别信息过载，只看真正关心的新闻 - 多平台热点聚合工具，趋势分析工具，一键监控抖音、知乎、哔哩哔哩、今日头条、百度热搜、贴吧、微博、华尔街见闻、财联社等35个平台，智能关键词筛选，自动生成热点分析报告。支持企业微信、飞书、钉钉、Telegram、邮件、ntfy推送，30秒网页部署，1分钟手机通知，无需编程基础。也支持docker私人部署⭐ 让算法为你服务，而非被算法绑架
+*   [sansan0/TrendRadar](https://github.com/sansan0/TrendRadar) - 🎯 告别信息过载，AI 助你看懂热点 - 多平台热点聚合+AI智能分析工具。监控35个平台（抖音、知乎、B站、微博等），智能筛选+自动推送+AI对话分析（用自然语言深度挖掘新闻：趋势追踪、情感分析、相似检索等13种工具）。支持企业微信/飞书/钉钉/Telegram/邮件/ntfy推送，30秒网页部署，1分钟手机通知，无需编程。支持Docker部署⭐ 让算法为你服务，用AI理解热点
 
 *   [jackaduma/Recurrent-LLM](https://github.com/jackaduma/Recurrent-LLM) - The open-source LLM  implementation of paper: RecurrentGPT: Interactive Generation of (Arbitrarily) Long Text.  AI 写小说，AI写作
 
