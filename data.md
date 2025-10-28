@@ -663,7 +663,7 @@
 
 *   [mediar-ai/screenpipe](https://github.com/mediar-ai/screenpipe) - AI app store powered by 24/7 desktop history.  open source | 100% local | dev friendly | 24/7 screen, mic recording
 
-*   [ItzCrazyKns/Perplexica](https://github.com/ItzCrazyKns/Perplexica) - Perplexica is an AI-powered search engine. It is an Open source alternative to Perplexity AI
+*   [ItzCrazyKns/Perplexica](https://github.com/ItzCrazyKns/Perplexica) - Perplexica is an AI-powered answering engine. It is an Open source alternative to Perplexity AI
 
 *   [kaarthik108/snowBrain](https://github.com/kaarthik108/snowBrain) - snowBrain - AI-Driven Insights with Snowflake (New version-  https://github.com/kaarthik108/snowbrain-AGUI)
 
@@ -2107,8 +2107,6 @@
 
 *   [yeyupiaoling/AudioClassification-PaddlePaddle](https://github.com/yeyupiaoling/AudioClassification-PaddlePaddle) - 基于PaddlePaddle实现的音频分类，支持EcapaTdnn、PANNS、TDNN、Res2Net、ResNetSE等各种模型，还有多种预处理方法
 
-*   [deepset-ai/haystack](https://github.com/deepset-ai/haystack) - AI orchestration framework to build customizable, production-ready LLM applications. Connect components (models, vector DBs, file converters) to pipelines or agents that can interact with your data. With advanced retrieval methods, it's best suited for building RAG, question answering, semantic search or conversational agent chatbots.
-
 *   [bazingagin/npc\_gzip](https://github.com/bazingagin/npc_gzip) - Code for Paper: “Low-Resource” Text Classification: A Parameter-Free Classification Method with Compressors
 
 *   [OpenLMLab/MOSS-RLHF](https://github.com/OpenLMLab/MOSS-RLHF) - Secrets of RLHF in Large Language Models Part I: PPO
@@ -2545,7 +2543,7 @@
 
 *   [LAION-AI/Open-Assistant](https://github.com/LAION-AI/Open-Assistant) - OpenAssistant is a chat-based assistant that understands tasks, can interact with third-party systems, and retrieve information dynamically to do so.
 
-*   [mindsdb/mindsdb](https://github.com/mindsdb/mindsdb) - AI Analytics and Knowledge Engine for RAG over large-scale, heterogeneous data. - The only MCP Server you'll ever need
+*   [mindsdb/mindsdb](https://github.com/mindsdb/mindsdb) - Federated query engine for AI - The only MCP Server you'll ever need
 
 *   [mlfoundations/open\_clip](https://github.com/mlfoundations/open_clip) - An open source implementation of CLIP.
 
@@ -2730,6 +2728,8 @@
 *   [gileorn/gileorn.com](https://github.com/gileorn/gileorn.com) - Personal dev blog built with React, Next.js, Tailwind, Contentlayer and Supabase
 
 *   [hackclub/putting-the-you-in-cpu](https://github.com/hackclub/putting-the-you-in-cpu) - A technical explainer by @kognise of how your computer runs programs, from start to finish.
+
+*   [deepset-ai/haystack](https://github.com/deepset-ai/haystack) - AI orchestration framework to build customizable, production-ready LLM applications. Connect components (models, vector DBs, file converters) to pipelines or agents that can interact with your data. With advanced retrieval methods, it's best suited for building RAG, question answering, semantic search or conversational agent chatbots.
 
 *   [dair-ai/Prompt-Engineering-Guide](https://github.com/dair-ai/Prompt-Engineering-Guide) - 🐙 Guides, papers, lessons, notebooks and resources for prompt engineering, context engineering, RAG, and AI Agents.
 
@@ -3043,7 +3043,7 @@
 
 *   [acheong08/ChatGPT-to-API](https://github.com/acheong08/ChatGPT-to-API) - Scalable unofficial ChatGPT API for production.
 
-*   [usememos/memos](https://github.com/usememos/memos) - An open-source, self-hosted alternative to cloud note-taking services. No tracking, no ads, no subscription fees — just a clean, fast way to capture and organize your ideas.
+*   [usememos/memos](https://github.com/usememos/memos) - An open-source, self-hosted note-taking service. Your thoughts, your data, your control — no tracking, no ads, no subscription fees.
 
 *   [jetify-com/devbox](https://github.com/jetify-com/devbox) - Instant, easy, and predictable development environments
 
