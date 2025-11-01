@@ -157,7 +157,7 @@
 
 *   [simstudioai/sim](https://github.com/simstudioai/sim) - Open-source platform to build and deploy AI agent workflows.
 
-*   [superdesigndev/superdesign](https://github.com/superdesigndev/superdesign) - Cursor for design - Open Source
+*   [superdesigndev/superdesign](https://github.com/superdesigndev/superdesign) - AI Product Design Agent - Open Source
 
 *   [nearmetips/DailiCode](https://github.com/nearmetips/DailiCode) - AI agent that is compatible with multiple LLM models
 
@@ -171,7 +171,7 @@
 
 *   [CharlieLZ/flux-kontext-template](https://github.com/CharlieLZ/flux-kontext-template) - 生财有术特供，flux-kontext开源仓库，套壳模板
 
-*   [RSSNext/Folo](https://github.com/RSSNext/Folo) - 🧡 Follow everything in one place
+*   [RSSNext/Folo](https://github.com/RSSNext/Folo) - 🧡 Folo is the AI Reader
 
 *   [Mail-0/Zero](https://github.com/Mail-0/Zero) - Experience email the way you want with Mail0 – the first open source email app that puts your privacy and safety first. Join the discord: https://mail0.link/discord
 
@@ -1143,7 +1143,7 @@
 
 *   [docling-project/docling](https://github.com/docling-project/docling) - Get your documents ready for gen AI
 
-*   [Lesterpaintstheworld/terminal-velocity](https://github.com/Lesterpaintstheworld/terminal-velocity) - A novel created autonomously by a team of 10 AI agents
+*   [mind-protocol/terminal-velocity](https://github.com/mind-protocol/terminal-velocity) - A novel created autonomously by a team of 10 AI agents
 
 *   [datalab-to/surya](https://github.com/datalab-to/surya) - OCR, layout analysis, reading order, table recognition in 90+ languages
 
