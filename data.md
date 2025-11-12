@@ -290,7 +290,7 @@
 
 *   [opactorai/Claudable](https://github.com/opactorai/Claudable) - Claudable is an open-source web builder that leverages local CLI agents, such as Claude Code, Codex, Gemini CLI, Qwen Code, and Cursor Agent, to build and deploy products effortlessly.
 
-*   [wechat-article/wechat-article-exporter](https://github.com/wechat-article/wechat-article-exporter) - 一款在线的 微信公众号文章批量下载 工具，支持导出阅读量与评论数据，无需搭建任何环境，可通过 在线网站(https://exporter.wxdown.online) 使用，同时也支持 docker 私有化部署和 Cloudflare 部署。  支持下载各种文件格式，其中 HTML 格式可100%还原文章排版与样式。
+*   [wechat-article/wechat-article-exporter](https://github.com/wechat-article/wechat-article-exporter) - 一款在线的 微信公众号文章批量下载 工具，支持导出阅读量与评论数据，无需搭建任何环境，可通过 在线网站(https://down.mptext.top) 使用，同时也支持 docker 私有化部署和 Cloudflare 部署。  支持下载各种文件格式，其中 HTML 格式可100%还原文章排版与样式。
 
 *   [chaitin/PandaWiki](https://github.com/chaitin/PandaWiki) - PandaWiki 是一款 AI 大模型驱动的开源知识库搭建系统，帮助你快速构建智能化的 产品文档、技术文档、FAQ、博客系统，借助大模型的力量为你提供 AI 创作、AI 问答、AI 搜索等能力。
 
@@ -792,7 +792,7 @@
 
 *   [panaverse/learn-typescript](https://github.com/panaverse/learn-typescript) - Learning TypeScript in Baby Steps
 
-*   [appwrite/appwrite](https://github.com/appwrite/appwrite) - Build like a team of hundreds\_
+*   [appwrite/appwrite](https://github.com/appwrite/appwrite) - The developers' cloud
 
 *   [SoraWebui/FakeSoraAPI](https://github.com/SoraWebui/FakeSoraAPI) - Fake Sora API is an open-source project that simulates the yet-to-be-released OpenAI Sora API, enabling developers to prepare and test their applications in advance.
 
@@ -1203,6 +1203,8 @@
 *   [zhpmatrix/nlp-competitions-list-review](https://github.com/zhpmatrix/nlp-competitions-list-review) - 复盘所有NLP比赛的TOP方案，只关注NLP比赛，持续更新中！
 
 *   [lcylmhlcy/Awesome-algorithm-interview](https://github.com/lcylmhlcy/Awesome-algorithm-interview) - 算法工程师(人工智能CV方向)面试问题及相关资料
+
+*   [elviswf/DeepLearningBookQA\_cn](https://github.com/elviswf/DeepLearningBookQA_cn) - 深度学习面试问题 回答对应的DeepLearning中文版页码
 
 ## Go
 
@@ -2992,7 +2994,7 @@
 
 *   [spider-rs/spider](https://github.com/spider-rs/spider) - Web crawler and scraper for Rust
 
-*   [lancedb/lancedb](https://github.com/lancedb/lancedb) - Developer-friendly, embedded retrieval engine for multimodal AI. Search More; Manage Less.
+*   [lancedb/lancedb](https://github.com/lancedb/lancedb) - Developer-friendly OSS embedded retrieval library for multimodal AI. Search More; Manage Less.
 
 *   [zed-industries/zed](https://github.com/zed-industries/zed) - Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.
 
@@ -3098,7 +3100,7 @@
 
 *   [Docile-Alligator/Infinity-For-Reddit](https://github.com/Docile-Alligator/Infinity-For-Reddit) - A Reddit client for Android
 
-*   [jeecgboot/JeecgBoot](https://github.com/jeecgboot/JeecgBoot) - 🔥AI低代码平台，助力企业快速实现低代码开发和构建AI应用！前后端分离架构 SpringBoot3，SpringCloud、MybatisPlus，Ant Design\&Vue3、TS+vite！强大代码生成器实现前后端一键生成，无需手写代码! 引领AI低代码开发模式：AI生成→在线编码→代码生成→手工合并，解决Java项目80%重复工作，提升效率，节省成本，兼顾灵活性~
+*   [jeecgboot/JeecgBoot](https://github.com/jeecgboot/JeecgBoot) - 🔥AI低代码平台，助力企业快速实现低代码开发和构建AI应用！ 集成一套完整AI应用平台：涵盖AI应用、AI模型、AI聊天助手、知识库、AI流程编排等，兼容多种大模型；提供强大代码生成器：实现前后端一键生成，无需手写代码! 引领AI开发模式：AI生成→在线配置→代码生成→手工合并，解决Java项目80%重复工作，提升效率节省成本，又不失灵活~
 
 *   [alibaba/DataX](https://github.com/alibaba/DataX) - DataX是阿里云DataWorks数据集成的开源版本。
 
@@ -3121,8 +3123,6 @@
 *   [dtyq/magic](https://github.com/dtyq/magic) - Super Magic. The first open-source all-in-one AI productivity platform (Generalist AI Agent + Workflow Engine + IM + Online collaborative office system)
 
 *   [assimon/dujiaoka](https://github.com/assimon/dujiaoka) - 🦄独角数卡(自动售货系统)-开源站长自动化售货解决方案、高效、稳定、快速！🚀🚀🎉🎉
-
-*   [Decodo/Social-Media-Scraping-API](https://github.com/Decodo/Social-Media-Scraping-API) - Social Media Scraping API code examples for Python, PHP and Node.js
 
 *   [gptlink/gptlink](https://github.com/gptlink/gptlink) - 10分钟搭建可免费商用的AI对话环境，搭建简单，包含用户，订单，任务，付费等功能
 
