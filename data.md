@@ -78,7 +78,7 @@
 
 *   [tonngw/awesome-github-repos](https://github.com/tonngw/awesome-github-repos) - 🚀 A curated collection of awesome GitHub repositories, organized by language and topic from my starred projects. Modern, elegant platform for showcasing your starred GitHub repositories.
 
-*   [vasanthv/ahey](https://github.com/vasanthv/ahey) - Free group video call for the web. No signups. No downloads.
+*   [vasanthv/hello](https://github.com/vasanthv/hello) - Free group video call for the web. No signups. No downloads.
 
 *   [TavernAI/TavernAI](https://github.com/TavernAI/TavernAI) - Atmospheric adventure chat for AI language models (KoboldAI, NovelAI, Pygmalion, OpenAI chatgpt, gpt-4)
 
@@ -1020,8 +1020,6 @@
 
 *   [kleosr/cursorkleosr](https://github.com/kleosr/cursorkleosr) - Make AI Development Feel Natural in Cursor
 
-*   [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) - A collection of MCP servers.
-
 *   [valcho/cursor-rules-docs-template](https://github.com/valcho/cursor-rules-docs-template) - A repository collecting different useful cursor rules folder templates with docs folder to keep up with the plan
 
 *   [deepseek-ai/DeepSeek-R1](https://github.com/deepseek-ai/DeepSeek-R1) -
@@ -1206,6 +1204,8 @@
 
 *   [elviswf/DeepLearningBookQA\_cn](https://github.com/elviswf/DeepLearningBookQA_cn) - 深度学习面试问题 回答对应的DeepLearning中文版页码
 
+*   [ShanghaiTechAIClub/DLInterview](https://github.com/ShanghaiTechAIClub/DLInterview) - Deep Learning Interview 深度学习面试题目汇总
+
 ## Go
 
 *   [steveyegge/beads](https://github.com/steveyegge/beads) - Beads - A memory upgrade for your coding agent
@@ -1278,7 +1278,7 @@
 
 ## Python
 
-*   [NevaMind-AI/memU](https://github.com/NevaMind-AI/memU) - MemU is an open-source memory framework for AI companions
+*   [NevaMind-AI/memU](https://github.com/NevaMind-AI/memU) - Memory infrastructure for LLMs and AI agents
 
 *   [CodeLeaf-Fudan/OpenClaudeCode](https://github.com/CodeLeaf-Fudan/OpenClaudeCode) - This is an open-source repository for the Python implementation of Claude Code. It implements basic tools and Agents functionality.
 
@@ -1380,7 +1380,7 @@
 
 *   [index-tts/index-tts](https://github.com/index-tts/index-tts) - An Industrial-Level Controllable and Efficient Zero-Shot Text-To-Speech System
 
-*   [Kiln-AI/Kiln](https://github.com/Kiln-AI/Kiln) - The easiest tool for fine-tuning LLM models, synthetic data generation, and collaborating on datasets.
+*   [Kiln-AI/Kiln](https://github.com/Kiln-AI/Kiln) - Easily build AI systems with Evals, RAG, Agents, fine-tuning, synthetic data, and more.
 
 *   [KelvinQiu802/cursor-mcp-demo](https://github.com/KelvinQiu802/cursor-mcp-demo) - Cursor MCP
 
