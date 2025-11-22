@@ -1758,9 +1758,9 @@
 
 *   [sansan0/useful-userscripts](https://github.com/sansan0/useful-userscripts) - 📤 Claude 对话导出工具、📊 Mermaid 图表查看器、🎬 B站UP主过滤器、⏱️ 网站时长统计和🎛️ 视频播放控制器等多种实用 Tampermonkey 脚本，提升你的网页浏览体验。 ⭐ 如果这个项目对你有帮助，请点个 Star！
 
-*   [sansan0/mao-map](https://github.com/sansan0/mao-map) - 📍 毛主席足迹地图 - 交互式动态展示1893-1976年完整轨迹，时间轴播放+背景音乐+隐藏彩蛋。底部为网友整理的毛泽东年谱，欢迎协作完善数据。星星之火在哪里
+*   [sansan0/mao-map](https://github.com/sansan0/mao-map) - 📍 毛主席足迹地图 - 交互式动态展示1893-1976年完整轨迹，时间轴播放+背景音乐+隐藏彩蛋。底部为网友整理的毛泽东年谱，欢迎协作完善数据。星星之火，可以燎原 / A single spark can start a prairie fire
 
-*   [heshengtao/super-agent-party](https://github.com/heshengtao/super-agent-party) - ⭐零门槛的3D桌面伴侣！支持接入QQ、B站直播、RAG、联网、长期记忆、 酒馆角色卡、claude code 、浏览器控制、Dify、 Home Assistant、MCP、A2A、Comfyui、数字人口播等功能！⭐ A 3D desktop companion with zero barriers! Supports integration with QQ, Bilibili live, RAG, web search, long-term memory, sillyTavern Card, claude code, browser control, HA, Dify, MCP, A2A, ComfyUI,Digital Human broadcast,more!
+*   [heshengtao/super-agent-party](https://github.com/heshengtao/super-agent-party) - ⭐零门槛的桌面伴侣！支持接入QQ、B站直播、RAG、联网、长期记忆、 酒馆角色卡、claude code 、浏览器控制、Dify、 Home Assistant、MCP、A2A、Comfyui、数字人口播等功能！⭐ A desktop companion with zero barriers! Supports integration with QQ, Bilibili live, RAG, web search, long-term memory, sillyTavern Card, claude code, browser control, HA, Dify, MCP, A2A, ComfyUI,Digital Human broadcast,more!
 
 *   [lioensky/VCPToolBox](https://github.com/lioensky/VCPToolBox) - 一个全新的，强大的AI-API-工具交互范式AGI社群系统。独立多Agent封装，非线性超异步工作流，交叉记忆网络，六大插件协议，完整Websocket和WebDav功能，支持分布式部署和算力均衡！
 
@@ -2720,6 +2720,8 @@
 
 *   [kleosr/cursorkleosr](https://github.com/kleosr/cursorkleosr) - Make AI Development Feel Natural in Cursor
 
+*   [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) - A collection of MCP servers.
+
 *   [valcho/cursor-rules-docs-template](https://github.com/valcho/cursor-rules-docs-template) - A repository collecting different useful cursor rules folder templates with docs folder to keep up with the plan
 
 *   [deepseek-ai/DeepSeek-R1](https://github.com/deepseek-ai/DeepSeek-R1) -
@@ -2901,8 +2903,6 @@
 *   [zhpmatrix/nlp-competitions-list-review](https://github.com/zhpmatrix/nlp-competitions-list-review) - 复盘所有NLP比赛的TOP方案，只关注NLP比赛，持续更新中！
 
 *   [lcylmhlcy/Awesome-algorithm-interview](https://github.com/lcylmhlcy/Awesome-algorithm-interview) - 算法工程师(人工智能CV方向)面试问题及相关资料
-
-*   [elviswf/DeepLearningBookQA\_cn](https://github.com/elviswf/DeepLearningBookQA_cn) - 深度学习面试问题 回答对应的DeepLearning中文版页码
 
 ## Go
 
