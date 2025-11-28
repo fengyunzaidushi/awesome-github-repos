@@ -758,7 +758,7 @@
 
 *   [567-labs/instructor](https://github.com/567-labs/instructor) - structured outputs for llms
 
-*   [jianchang512/pyvideotrans](https://github.com/jianchang512/pyvideotrans) - Translate the video from one language to another and add dubbing.
+*   [jianchang512/pyvideotrans](https://github.com/jianchang512/pyvideotrans) - Translate the video from one language to another and embed dubbing & subtitles.
 
 *   [shadowsocks/shadowsocks](https://github.com/shadowsocks/shadowsocks) -
 
