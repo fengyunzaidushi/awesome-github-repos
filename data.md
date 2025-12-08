@@ -108,8 +108,6 @@
 
 *   [CodeLeaf-Fudan/OpenClaudeCode](https://github.com/CodeLeaf-Fudan/OpenClaudeCode) - This is an open-source repository for the Python implementation of Claude Code. It implements basic tools and Agents functionality.
 
-*   [doobidoo/mcp-memory-service](https://github.com/doobidoo/mcp-memory-service) -  Universal MCP memory service with semantic search, multi-client support, and autonomous consolidation for Claude Desktop, VS Code, and 13+ AI   applications
-
 *   [linyqh/NarratoAI](https://github.com/linyqh/NarratoAI) - 利用AI大模型，一键解说并剪辑视频； Using AI models to automatically provide commentary and edit videos with a single click.
 
 *   [kele-tao/AI\_Novel](https://github.com/kele-tao/AI_Novel) - 基于大模型的AI小说创作系统，支持小说和课程内容的智能生成，包含世界观设定、思维库、任务管理等完整功能。
@@ -2024,6 +2022,8 @@
 
 *   [wenda-LLM/wenda](https://github.com/wenda-LLM/wenda) - 闻达：一个LLM调用平台。目标为针对特定环境的高效内容生成，同时考虑个人和中小企业的计算资源局限性，以及知识安全和私密性问题
 
+*   [CareyWang/sub-web](https://github.com/CareyWang/sub-web) -
+
 *   [f/awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts) - This repo includes ChatGPT prompt curation to use ChatGPT and other LLM tools better.
 
 *   [gragland/chatgpt-chrome-extension](https://github.com/gragland/chatgpt-chrome-extension) - A ChatGPT Chrome extension. Integrates ChatGPT into every text box on the internet.
@@ -2952,6 +2952,8 @@
 
 *   [lcylmhlcy/Awesome-algorithm-interview](https://github.com/lcylmhlcy/Awesome-algorithm-interview) - 算法工程师(人工智能CV方向)面试问题及相关资料
 
+*   [elviswf/DeepLearningBookQA\_cn](https://github.com/elviswf/DeepLearningBookQA_cn) - 深度学习面试问题 回答对应的DeepLearning中文版页码
+
 ## Shell
 
 *   [wordflowlab/novel-writer](https://github.com/wordflowlab/novel-writer) - 参考Spec-kit 实现小说撰写工具
@@ -3165,8 +3167,6 @@
 *   [xugaoyi/vuepress-theme-vdoing](https://github.com/xugaoyi/vuepress-theme-vdoing) - 🚀一款简洁高效的VuePress知识管理&博客(blog)主题
 
 *   [Aomferni/chatTests](https://github.com/Aomferni/chatTests) - DataWhale 5月 GPT应用开发Hackathon比赛TOP1项目， 拿到107.5/120的最高分！ 斩获最佳创新奖和最佳应用奖两个最佳奖项！
-
-*   [CareyWang/sub-web](https://github.com/CareyWang/sub-web) -
 
 *   [Moonvy/OpenPromptStudio](https://github.com/Moonvy/OpenPromptStudio) - 🥣 AIGC 提示词可视化编辑器  | OPS | Open Prompt Studio
 
