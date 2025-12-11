@@ -394,7 +394,7 @@
 
 *   [fishaudio/fish-speech](https://github.com/fishaudio/fish-speech) - SOTA Open Source TTS
 
-*   [AJaySi/ALwrity](https://github.com/AJaySi/ALwrity) - ALwrity - AI Digital Marketing Platform. AI-first Copilot, personalization on connected website, social platforms. RAG, SERP Factual, SEO optimization & multilingual support. Open Source, AI Content plan, Generate, Publish, Engage, Analyze, ReMarket. (WIP)
+*   [AJaySi/ALwrity](https://github.com/AJaySi/ALwrity) - ALwrity - AI Digital Marketing Platform. AI-first personalization. RAG, SERP Factual, SEO & multilingual support. AI Content Plan, Generate, Publish, Engage, Analyze, ReMarket. (WIP)
 
 *   [cjyyx/AI\_Gen\_Novel](https://github.com/cjyyx/AI_Gen_Novel) - 基于大语言模型(LLM)和多智能体(Multi-Agent)，探究AI写小说能力的边界
 
@@ -508,7 +508,7 @@
 
 *   [Doriandarko/maestro](https://github.com/Doriandarko/maestro) - A framework for Claude Opus to intelligently orchestrate subagents.
 
-*   [agno-agi/agno](https://github.com/agno-agi/agno) - The unified stack for building, running and managing multi-agent systems.
+*   [agno-agi/agno](https://github.com/agno-agi/agno) - The unified stack for multi-agent systems.
 
 *   [SWE-bench/SWE-bench](https://github.com/SWE-bench/SWE-bench) - SWE-bench: Can Language Models Resolve Real-world Github Issues?
 
