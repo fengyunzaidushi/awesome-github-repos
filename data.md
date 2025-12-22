@@ -2258,7 +2258,7 @@
 
 *   [daltonmenezes/opendocs](https://github.com/daltonmenezes/opendocs) - 🎉 Next.js beautifully designed template that you can use for your projects for free with site, blog and docs support. Accessible. Customizable. Open Source with i18n support.
 
-*   [blefnk/relivator](https://github.com/blefnk/relivator) - 🏬 relivator: next.js 15 react 19 ecommerce template ▲ better-auth polar shadcn/ui tailwind drizzle orm typescript ts radix, postgres neon, app router saas commerce ecommerce shop pricing payments dark mode full stack free ⭐ more stars 👉 more features
+*   [reliverse/relivator](https://github.com/reliverse/relivator) - 🏬 relivator: next.js 15 react 19 ecommerce template ▲ better-auth polar shadcn/ui tailwind drizzle orm typescript ts radix, postgres neon, app router saas commerce ecommerce shop pricing payments dark mode full stack free ⭐ more stars 👉 more features
 
 *   [nisabmohd/Aria-Docs](https://github.com/nisabmohd/Aria-Docs) - This open-source template offers a clean design for comprehensive documentation and engaging blog content.
 
