@@ -510,7 +510,7 @@
 
 *   [Doriandarko/maestro](https://github.com/Doriandarko/maestro) - A framework for Claude Opus to intelligently orchestrate subagents.
 
-*   [agno-agi/agno](https://github.com/agno-agi/agno) - The unified stack for multi-agent systems.
+*   [agno-agi/agno](https://github.com/agno-agi/agno) - The multi-agent toolkit: framework, runtime, and control plane.
 
 *   [SWE-bench/SWE-bench](https://github.com/SWE-bench/SWE-bench) - SWE-bench: Can Language Models Resolve Real-world Github Issues?
 
@@ -1810,7 +1810,7 @@
 
 *   [sansan0/mao-map](https://github.com/sansan0/mao-map) - 📍 毛主席足迹地图 | Chairman Mao's Footprints Map - 交互式动态展示1893-1976年完整轨迹 | Interactive map showcasing Mao Zedong's journey (1893-1976). 星星之火，可以燎原 / A single spark can start a prairie fire.。底部为网友整理的毛泽东年谱，欢迎协作完善数据。
 
-*   [heshengtao/super-agent-party](https://github.com/heshengtao/super-agent-party) - ⭐无处不在的AI桌面女友！可接入QQ、飞书、telegram、discord、b站、YouTube、twitch、Dify、 Home Assistant、MCP、A2A、Comfyui、酒馆角色卡、Cluade code等生态！⭐ AI Desktop Girlfriend Everywhere! Compatible with QQ, Feishu, Telegram, Discord, Bilibili, YouTube, Twitch, Dify, Home Assistant, MCP, A2A, ComfyUI, Tavern Character Cards, Cluade code, and more ecosystems!
+*   [heshengtao/super-agent-party](https://github.com/heshengtao/super-agent-party) - ⭐All-in-one AI client!  AI Desktop Companion + AI Virtual Streamer + AI Social App Bot + AI Interactive UI Interface + Digital Human Broadcasting + AI Games  and all the features you can imagine! ⭐全能型AI客户端！AI桌面女友 + AI虚拟主播 + AI社交APP机器人 + AI交互式UI界面 + 数字人播报 + AI游戏 等你能想到的一切功能！
 
 *   [lioensky/VCPToolBox](https://github.com/lioensky/VCPToolBox) - 一个全新的，强大的AI-API-工具交互范式AGI社群系统。独立多Agent封装，非线性超异步工作流，交叉记忆网络，六大插件协议，完整Websocket和WebDav功能，支持分布式部署和算力均衡！
 
@@ -2684,6 +2684,8 @@
 
 *   [79E/ChatGpt-Web](https://github.com/79E/ChatGpt-Web) - A commercially-viable ChatGpt web application built with React. 使用React搭建的一款可商业化的ChatGpt Web应用。
 
+*   [openobserve/openobserve](https://github.com/openobserve/openobserve) - Modern observability platform: 10x easier, 140x lower storage cost, petabyte scale. Open-source alternative to Elasticsearch/Splunk/Datadog for logs, metrics, traces, RUM, and more.
+
 *   [ChatAnyTeam/ChatAny](https://github.com/ChatAnyTeam/ChatAny) - 🌻 一键拥有你自己的 ChatGPT+众多AI 网页服务 | One click access to your own ChatGPT+Many AI web services
 
 *   [immich-app/immich](https://github.com/immich-app/immich) - High performance self-hosted photo and video management solution.
@@ -2803,8 +2805,6 @@
 *   [google/comprehensive-rust](https://github.com/google/comprehensive-rust) - This is the Rust course used by the Android team at Google. It provides you the material to quickly teach Rust.
 
 *   [zellij-org/zellij](https://github.com/zellij-org/zellij) - A terminal workspace with batteries included
-
-*   [openobserve/openobserve](https://github.com/openobserve/openobserve) - Modern observability platform: 10x easier, 140x lower storage cost, petabyte scale. Open-source alternative to Elasticsearch/Splunk/Datadog for logs, metrics, traces, RUM, and more.
 
 *   [BloopAI/bloop](https://github.com/BloopAI/bloop) - bloop is a fast code search engine written in Rust.
 
