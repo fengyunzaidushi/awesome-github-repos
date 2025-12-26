@@ -374,8 +374,6 @@
 
 *   [apify/crawlee-python](https://github.com/apify/crawlee-python) - Crawlee—A web scraping and browser automation library for Python to build reliable crawlers. Extract data for AI, LLMs, RAG, or GPTs. Download HTML, PDF, JPG, PNG, and other files from websites. Works with BeautifulSoup, Playwright, and raw HTTP. Both headful and headless mode. With proxy rotation.
 
-*   [ManimCommunity/manim](https://github.com/ManimCommunity/manim) - A community-maintained Python framework for creating mathematical animations.
-
 *   [stanford-oval/storm](https://github.com/stanford-oval/storm) - An LLM-powered knowledge curation system that researches a topic and generates a full-length report with citations.
 
 *   [yuntianhe2014/Easy-RAG](https://github.com/yuntianhe2014/Easy-RAG) - 一个适合学习、使用、自主扩展的RAG【检索增强生成】系统！可联网做AI搜索
@@ -1804,13 +1802,15 @@
 
 *   [aimi-cn/AILearners](https://github.com/aimi-cn/AILearners) - 机器学习、深度学习、自然语言处理、计算机视觉、各种算法等AI领域相关技术的路线、教程、干货分享。笔记有：机器学习实战、剑指Offer、cs231n、cs131、吴恩达机器学习、cs224n、python自然语言处理实战
 
+*   [striver-ing/wechat-spider](https://github.com/striver-ing/wechat-spider) - 开源微信爬虫：爬取公众号所有 文章、阅读量、点赞量和评论内容。易部署。持续维护！！！
+
 ## JavaScript
 
 *   [sansan0/useful-userscripts](https://github.com/sansan0/useful-userscripts) - 📤 Claude 对话导出工具、📊 Mermaid 图表查看器、🎬 B站UP主过滤器、⏱️ 网站时长统计和🎛️ 视频播放控制器等多种实用 Tampermonkey 脚本，提升你的网页浏览体验。 ⭐ 如果这个项目对你有帮助，请点个 Star！
 
 *   [sansan0/mao-map](https://github.com/sansan0/mao-map) - 📍 毛主席足迹地图 | Chairman Mao's Footprints Map - 交互式动态展示1893-1976年完整轨迹 | Interactive map showcasing Mao Zedong's journey (1893-1976). 星星之火，可以燎原 / A single spark can start a prairie fire.。底部为网友整理的毛泽东年谱，欢迎协作完善数据。
 
-*   [heshengtao/super-agent-party](https://github.com/heshengtao/super-agent-party) - ⭐All-in-one AI client!  AI Desktop Companion + AI Virtual Streamer + AI Social App Bot + AI Interactive UI Interface + Digital Human Broadcasting + AI Games  and all the features you can imagine! ⭐全能型AI客户端！AI桌面女友 + AI虚拟主播 + AI社交APP机器人 + AI交互式UI界面 + 数字人播报 + AI游戏 等你能想到的一切功能！
+*   [heshengtao/super-agent-party](https://github.com/heshengtao/super-agent-party) - ⭐All-in-one AI bot!  AI Desktop Companion + AI Virtual Streamer + AI Social App Bot + AI Interactive UI Interface + Digital Human Broadcasting + AI Games  and all the features you can imagine! ⭐全能型AI机器人！AI桌面女友 + AI虚拟主播 + AI社交APP机器人 + AI交互式UI界面 + 数字人播报 + AI游戏 等你能想到的一切功能！
 
 *   [lioensky/VCPToolBox](https://github.com/lioensky/VCPToolBox) - 一个全新的，强大的AI-API-工具交互范式AGI社群系统。独立多Agent封装，非线性超异步工作流，交叉记忆网络，六大插件协议，完整Websocket和WebDav功能，支持分布式部署和算力均衡！
 
@@ -2115,6 +2115,8 @@
 *   [microsoft/poml](https://github.com/microsoft/poml) - Prompt Orchestration Markup Language
 
 *   [dyad-sh/dyad](https://github.com/dyad-sh/dyad) - Free, local, open-source AI app builder ✨ v0 / lovable / Bolt alternative 🌟 Star if you like it!
+
+*   [moeru-ai/airi](https://github.com/moeru-ai/airi) - 💖🧸 Self hosted, you owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported.
 
 *   [WilliamFontaine/nuxt-boilerplate](https://github.com/WilliamFontaine/nuxt-boilerplate) - A modern Nuxt 4 boilerplate with TypeScript, authentication, Prisma ORM, and PostgreSQL. Features internationalization, security middleware, testing suite, and shared utilities architecture for rapid development.
 
@@ -2698,7 +2700,7 @@
 
 *   [steven-tey/novel](https://github.com/steven-tey/novel) - Notion-style WYSIWYG editor with AI-powered autocompletion.
 
-*   [makeplane/plane](https://github.com/makeplane/plane) - 🔥 🔥 🔥 Open Source JIRA, Linear, Monday, and Asana Alternative. Plane helps you track your issues, epics, and cycles the easiest way on the planet.
+*   [makeplane/plane](https://github.com/makeplane/plane) - 🔥🔥🔥 Open-source Jira, Linear, Monday, and ClickUp alternative. Plane is a modern project management platform to manage tasks, sprints, docs, and triage.
 
 *   [xiangsx/gpt4free-ts](https://github.com/xiangsx/gpt4free-ts) - Providing a free OpenAI GPT-4 API !   This is a replication project for the typescript version of xtekky/gpt4free
 
@@ -3135,8 +3137,6 @@
 *   [nextcloud/server](https://github.com/nextcloud/server) - ☁️ Nextcloud server, a safe home for all your data
 
 ## Vue
-
-*   [moeru-ai/airi](https://github.com/moeru-ai/airi) - 💖🧸 Self hosted, you owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported.
 
 *   [ponysb/91Writing](https://github.com/ponysb/91Writing) - 一个基于 Vue 3 + Element Plus 的智能Ai小说创作工具，集成多种 AI 模型，助力作者高效创作
 
