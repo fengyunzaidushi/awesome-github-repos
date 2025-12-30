@@ -6,9 +6,9 @@
 *   [Python](#python)
 *   [JavaScript](#javascript)
 *   [TypeScript](#typescript)
+*   [Rust](#rust)
 *   [miscellaneous](#miscellaneous)
 *   [Shell](#shell)
-*   [Rust](#rust)
 *   [MDX](#mdx)
 *   [Java](#java)
 *   [PHP](#php)
@@ -118,7 +118,7 @@
 
 *   [zhinianboke/xianyu-auto-reply](https://github.com/zhinianboke/xianyu-auto-reply) - 闲鱼自动回复管理系统是一个基于 Python + FastAPI 开发的自动化客服系统，专为闲鱼平台设计。系统通过 WebSocket 连接闲鱼服务器，实时接收和处理消息，提供智能化的自动回复服务。
 
-*   [sansan0/TrendRadar](https://github.com/sansan0/TrendRadar) - 🎯 告别信息过载，AI 助你看懂新闻资讯热点，简单的舆情监控分析 - 多平台热点聚合+基于 MCP 的AI分析工具。监控35个平台（抖音、知乎、B站、华尔街见闻、财联社等），智能筛选+自动推送+AI对话分析（用自然语言深度挖掘新闻：趋势追踪、情感分析、相似检索等13种工具）。支持企业微信/个人微信/飞书/钉钉/Telegram/邮件/ntfy/bark/slack 推送，1分钟手机通知，无需编程。支持Docker部署，支持数据远程云存储⭐ 让算法为你服务，用AI理解热点
+*   [sansan0/TrendRadar](https://github.com/sansan0/TrendRadar) - 🎯 告别信息过载，AI 助你看懂新闻资讯热点，支持 RSS 订阅，简单的舆情监控分析 - 多平台热点聚合+基于 MCP 的AI分析工具。监控35个平台（抖音、知乎、B站、华尔街见闻、财联社等），智能筛选+自动推送+AI对话分析（用自然语言深度挖掘新闻：趋势追踪、情感分析、相似检索等20种工具）。支持企业微信/个人微信/飞书/钉钉/Telegram/邮件/ntfy/bark/slack 推送，30秒快速部署，1分钟手机通知，无需编程。支持Docker部署，支持数据远程云存储⭐ 让算法为你服务，用AI理解热点
 
 *   [jackaduma/Recurrent-LLM](https://github.com/jackaduma/Recurrent-LLM) - The open-source LLM  implementation of paper: RecurrentGPT: Interactive Generation of (Arbitrarily) Long Text.  AI 写小说，AI写作
 
@@ -718,7 +718,7 @@
 
 *   [huggingface/distil-whisper](https://github.com/huggingface/distil-whisper) - Distilled variant of Whisper for speech recognition. 6x faster, 50% smaller, within 1% word error rate.
 
-*   [GreyDGL/PentestGPT](https://github.com/GreyDGL/PentestGPT) - A GPT-empowered penetration testing tool
+*   [GreyDGL/PentestGPT](https://github.com/GreyDGL/PentestGPT) - Automated Penetration Testing Agentic Framework Powered by Large Language Models
 
 *   [Alb-310/Geogramint](https://github.com/Alb-310/Geogramint) - An OSINT Geolocalization tool for Telegram that find nearby users and groups 📡🌍🔍
 
@@ -748,7 +748,7 @@
 
 *   [HITsz-TMG/Multi-agent-peer-review](https://github.com/HITsz-TMG/Multi-agent-peer-review) - Official implementation of our paper "Towards Reasoning in Large Language Models via Multi-Agent Peer Review Collaboration".
 
-*   [qodo-ai/pr-agent](https://github.com/qodo-ai/pr-agent) - 🚀 PR Agent — The Original Open-Source PR Reviewer This repo is not the Qodo free tier. Try the free version on our website.
+*   [qodo-ai/pr-agent](https://github.com/qodo-ai/pr-agent) - 🚀 PR Agent - The Original Open-Source PR Reviewer, This repo is not the Qodo free tier! Try the free version on our website.
 
 *   [docker/genai-stack](https://github.com/docker/genai-stack) - Langchain + Docker + Neo4j + Ollama
 
@@ -1426,6 +1426,8 @@
 
 *   [QuivrHQ/quivr](https://github.com/QuivrHQ/quivr) - Opiniated RAG for integrating GenAI in your apps 🧠   Focus on your product rather than the RAG. Easy integration in existing products with customisation!  Any LLM: GPT4, Groq, Llama. Any Vectorstore: PGVector, Faiss. Any Files. Anyway you want.
 
+*   [langgenius/dify](https://github.com/langgenius/dify) - Production-ready platform for agentic workflow development.
+
 *   [WangRongsheng/MedQA-ChatGLM](https://github.com/WangRongsheng/MedQA-ChatGLM) - 🛰️ 基于真实医疗对话数据在ChatGLM上进行LoRA、P-Tuning V2、Freeze、RLHF等微调，我们的眼光不止于医疗问答
 
 *   [zejunwang1/chatglm\_tuning](https://github.com/zejunwang1/chatglm_tuning) - 基于 LoRA 和 P-Tuning v2 的 ChatGLM-6B 高效参数微调
@@ -2035,8 +2037,6 @@
 *   [get-convex/chef](https://github.com/get-convex/chef) - The only AI app builder that knows backend
 
 *   [mg-chao/snow-shot](https://github.com/mg-chao/snow-shot) - 超好用的截图工具
-
-*   [farion1231/cc-switch](https://github.com/farion1231/cc-switch) - A cross-platform desktop All-in-One assistant tool for Claude Code, Codex & Gemini CLI.
 
 *   [opactorai/Claudable](https://github.com/opactorai/Claudable) - Claudable is an open-source web builder that leverages local CLI agents, such as Claude Code, Codex, Gemini CLI, Qwen Code, and Cursor Agent, to build and deploy products effortlessly.
 
@@ -2712,8 +2712,6 @@
 
 *   [LokerL/tts-vue](https://github.com/LokerL/tts-vue) - 🎤 微软语音合成工具，使用 Electron + Vue + ElementPlus + Vite 构建。
 
-*   [langgenius/dify](https://github.com/langgenius/dify) - Production-ready platform for agentic workflow development.
-
 *   [FlowiseAI/Flowise](https://github.com/FlowiseAI/Flowise) - Build AI Agents, Visually
 
 *   [ChatGPTNextWeb/NextChat](https://github.com/ChatGPTNextWeb/NextChat) - ✨ Light and Fast AI Assistant. Support: Web | iOS | MacOS | Android |  Linux | Windows
@@ -2747,6 +2745,78 @@
 *   [wong2/chatgpt-google-extension](https://github.com/wong2/chatgpt-google-extension) - This project is deprecated. Check my new project ChatHub:
 
 *   [fuergaosi233/wechat-chatgpt](https://github.com/fuergaosi233/wechat-chatgpt) - Use ChatGPT On Wechat via wechaty
+
+## Rust
+
+*   [farion1231/cc-switch](https://github.com/farion1231/cc-switch) - A cross-platform desktop All-in-One assistant tool for Claude Code, Codex & Gemini CLI.
+
+*   [juspay/hyperswitch](https://github.com/juspay/hyperswitch) - An open source payments switch written in Rust to make payments fast, reliable and affordable
+
+*   [mediar-ai/terminator](https://github.com/mediar-ai/terminator) - playwright for windows computer use
+
+*   [openai/codex](https://github.com/openai/codex) - Lightweight coding agent that runs in your terminal
+
+*   [idootop/open-xiaoai](https://github.com/idootop/open-xiaoai) - 🔊 让小爱音箱「听见你的声音」，解锁无限可能。
+
+*   [smallcloudai/refact](https://github.com/smallcloudai/refact) - AI Agent that handles engineering tasks end-to-end: integrates with developers’ tools, plans, executes, and iterates until it achieves a successful result.
+
+*   [Zackriya-Solutions/meeting-minutes](https://github.com/Zackriya-Solutions/meeting-minutes) -  Open-source Rust based AI meeting assistant with 4x faster Parakeet/Whisper live transcription, speaker diarization, and Ollama summarization. 100% local processing. no cloud required. Meetily (Meetly Ai - https://meetily.ai) is the #1 Self-hosted Ai meeting note taker for macOS & Windows.
+
+*   [tw93/Pake](https://github.com/tw93/Pake) - 🤱🏻 Turn any webpage into a desktop app with one command.
+
+*   [spider-rs/spider](https://github.com/spider-rs/spider) - Web crawler and scraper for Rust
+
+*   [lancedb/lancedb](https://github.com/lancedb/lancedb) - Developer-friendly OSS embedded retrieval library for multimodal AI. Search More; Manage Less.
+
+*   [zed-industries/zed](https://github.com/zed-industries/zed) - Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.
+
+*   [ajeetdsouza/zoxide](https://github.com/ajeetdsouza/zoxide) - A smarter cd command. Supports all major shells.
+
+*   [ogham/exa](https://github.com/ogham/exa) - A modern replacement for ‘ls’.
+
+*   [apache/opendal](https://github.com/apache/opendal) - Apache OpenDAL: One Layer, All Storage.
+
+*   [pleisto/flappy](https://github.com/pleisto/flappy) - Production-Ready LLM Agent SDK for Every Developer
+
+*   [spyglass-search/spyglass](https://github.com/spyglass-search/spyglass) - A personal search engine:  Create a searchable library from your personal documents, interests, and more!
+
+*   [huggingface/candle](https://github.com/huggingface/candle) - Minimalist ML framework for Rust
+
+*   [leptos-rs/leptos](https://github.com/leptos-rs/leptos) - Build fast web applications with Rust.
+
+*   [tree-sitter/tree-sitter](https://github.com/tree-sitter/tree-sitter) - An incremental parsing system for programming tools
+
+*   [phodal/aigc](https://github.com/phodal/aigc) - 《构筑大语言模型应用：应用开发与架构设计》一本关于 LLM 在真实世界应用的开源电子书，介绍了大语言模型的基础知识和应用，以及如何构建自己的模型。其中包括Prompt的编写、开发和管理，探索最好的大语言模型能带来什么，以及LLM应用开发的模式和架构设计。
+
+*   [rust-lang/mdBook](https://github.com/rust-lang/mdBook) - Create book from markdown files. Like Gitbook but implemented in Rust
+
+*   [superagent-ai/superagent](https://github.com/superagent-ai/superagent) - Superagent provides purpose-trained guardrails that make AI-agents secure and compliant.
+
+*   [joamag/boytacean](https://github.com/joamag/boytacean) - A GB emulator that is written in Rust 🦀!
+
+*   [Priler/jarvis](https://github.com/Priler/jarvis) - Voice assistant made as an experiment using neural networks for things like STT/TTS/Wake Word/NLU etc.
+
+*   [spacedriveapp/spacedrive](https://github.com/spacedriveapp/spacedrive) - Spacedrive is an open source cross-platform file explorer, powered by a virtual distributed filesystem written in Rust.
+
+*   [LemmyNet/lemmy](https://github.com/LemmyNet/lemmy) - 🐀 A link aggregator and forum for the fediverse
+
+*   [paradigmxyz/reth](https://github.com/paradigmxyz/reth) - Modular, contributor-friendly and blazing-fast implementation of the Ethereum protocol, in Rust
+
+*   [google/comprehensive-rust](https://github.com/google/comprehensive-rust) - This is the Rust course used by the Android team at Google. It provides you the material to quickly teach Rust.
+
+*   [zellij-org/zellij](https://github.com/zellij-org/zellij) - A terminal workspace with batteries included
+
+*   [BloopAI/bloop](https://github.com/BloopAI/bloop) - bloop is a fast code search engine written in Rust.
+
+*   [tauri-apps/tauri](https://github.com/tauri-apps/tauri) - Build smaller, faster, and more secure desktop and mobile applications with a web frontend.
+
+*   [TabbyML/tabby](https://github.com/TabbyML/tabby) - Self-hosted AI coding assistant
+
+*   [Cormanz/smartgpt](https://github.com/Cormanz/smartgpt) - A program that provides LLMs with the ability to complete complex tasks using plugins.
+
+*   [qdrant/qdrant](https://github.com/qdrant/qdrant) - Qdrant - High-performance, massive-scale Vector Database and Vector Search Engine for the next generation of AI. Also available in the cloud https://cloud.qdrant.io/
+
+*   [chroma-core/chroma](https://github.com/chroma-core/chroma) - Open-source search and retrieval database for AI applications.
 
 ## miscellaneous
 
@@ -2979,76 +3049,6 @@
 *   [xiaopeng163/docker.tips](https://github.com/xiaopeng163/docker.tips) - Docker notes
 
 *   [youngyangyang04/leetcode-master](https://github.com/youngyangyang04/leetcode-master) - 《代码随想录》LeetCode 刷题攻略：200道经典题目刷题顺序，共60w字的详细图解，视频难点剖析，50余张思维导图，支持C++，Java，Python，Go，JavaScript等多语言版本，从此算法学习不再迷茫！🔥🔥 来看看，你会发现相见恨晚！🚀
-
-## Rust
-
-*   [juspay/hyperswitch](https://github.com/juspay/hyperswitch) - An open source payments switch written in Rust to make payments fast, reliable and affordable
-
-*   [mediar-ai/terminator](https://github.com/mediar-ai/terminator) - playwright for windows computer use
-
-*   [openai/codex](https://github.com/openai/codex) - Lightweight coding agent that runs in your terminal
-
-*   [idootop/open-xiaoai](https://github.com/idootop/open-xiaoai) - 🔊 让小爱音箱「听见你的声音」，解锁无限可能。
-
-*   [smallcloudai/refact](https://github.com/smallcloudai/refact) - AI Agent that handles engineering tasks end-to-end: integrates with developers’ tools, plans, executes, and iterates until it achieves a successful result.
-
-*   [Zackriya-Solutions/meeting-minutes](https://github.com/Zackriya-Solutions/meeting-minutes) -  Open-source Rust based AI meeting assistant with 4x faster Parakeet/Whisper live transcription, speaker diarization, and Ollama summarization. 100% local processing. no cloud required. Meetily (Meetly Ai - https://meetily.ai) is the #1 Self-hosted Ai meeting note taker for macOS & Windows.
-
-*   [tw93/Pake](https://github.com/tw93/Pake) - 🤱🏻 Turn any webpage into a desktop app with one command.
-
-*   [spider-rs/spider](https://github.com/spider-rs/spider) - Web crawler and scraper for Rust
-
-*   [lancedb/lancedb](https://github.com/lancedb/lancedb) - Developer-friendly OSS embedded retrieval library for multimodal AI. Search More; Manage Less.
-
-*   [zed-industries/zed](https://github.com/zed-industries/zed) - Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.
-
-*   [ajeetdsouza/zoxide](https://github.com/ajeetdsouza/zoxide) - A smarter cd command. Supports all major shells.
-
-*   [ogham/exa](https://github.com/ogham/exa) - A modern replacement for ‘ls’.
-
-*   [apache/opendal](https://github.com/apache/opendal) - Apache OpenDAL: One Layer, All Storage.
-
-*   [pleisto/flappy](https://github.com/pleisto/flappy) - Production-Ready LLM Agent SDK for Every Developer
-
-*   [spyglass-search/spyglass](https://github.com/spyglass-search/spyglass) - A personal search engine:  Create a searchable library from your personal documents, interests, and more!
-
-*   [huggingface/candle](https://github.com/huggingface/candle) - Minimalist ML framework for Rust
-
-*   [leptos-rs/leptos](https://github.com/leptos-rs/leptos) - Build fast web applications with Rust.
-
-*   [tree-sitter/tree-sitter](https://github.com/tree-sitter/tree-sitter) - An incremental parsing system for programming tools
-
-*   [phodal/aigc](https://github.com/phodal/aigc) - 《构筑大语言模型应用：应用开发与架构设计》一本关于 LLM 在真实世界应用的开源电子书，介绍了大语言模型的基础知识和应用，以及如何构建自己的模型。其中包括Prompt的编写、开发和管理，探索最好的大语言模型能带来什么，以及LLM应用开发的模式和架构设计。
-
-*   [rust-lang/mdBook](https://github.com/rust-lang/mdBook) - Create book from markdown files. Like Gitbook but implemented in Rust
-
-*   [superagent-ai/superagent](https://github.com/superagent-ai/superagent) - Superagent provides purpose-trained guardrails that make AI-agents secure and compliant.
-
-*   [joamag/boytacean](https://github.com/joamag/boytacean) - A GB emulator that is written in Rust 🦀!
-
-*   [Priler/jarvis](https://github.com/Priler/jarvis) - Voice assistant made as an experiment using neural networks for things like STT/TTS/Wake Word/NLU etc.
-
-*   [spacedriveapp/spacedrive](https://github.com/spacedriveapp/spacedrive) - Spacedrive is an open source cross-platform file explorer, powered by a virtual distributed filesystem written in Rust.
-
-*   [LemmyNet/lemmy](https://github.com/LemmyNet/lemmy) - 🐀 A link aggregator and forum for the fediverse
-
-*   [paradigmxyz/reth](https://github.com/paradigmxyz/reth) - Modular, contributor-friendly and blazing-fast implementation of the Ethereum protocol, in Rust
-
-*   [google/comprehensive-rust](https://github.com/google/comprehensive-rust) - This is the Rust course used by the Android team at Google. It provides you the material to quickly teach Rust.
-
-*   [zellij-org/zellij](https://github.com/zellij-org/zellij) - A terminal workspace with batteries included
-
-*   [BloopAI/bloop](https://github.com/BloopAI/bloop) - bloop is a fast code search engine written in Rust.
-
-*   [tauri-apps/tauri](https://github.com/tauri-apps/tauri) - Build smaller, faster, and more secure desktop and mobile applications with a web frontend.
-
-*   [TabbyML/tabby](https://github.com/TabbyML/tabby) - Self-hosted AI coding assistant
-
-*   [Cormanz/smartgpt](https://github.com/Cormanz/smartgpt) - A program that provides LLMs with the ability to complete complex tasks using plugins.
-
-*   [qdrant/qdrant](https://github.com/qdrant/qdrant) - Qdrant - High-performance, massive-scale Vector Database and Vector Search Engine for the next generation of AI. Also available in the cloud https://cloud.qdrant.io/
-
-*   [chroma-core/chroma](https://github.com/chroma-core/chroma) - Open-source search and retrieval database for AI applications.
 
 ## MDX
 
