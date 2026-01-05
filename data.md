@@ -826,7 +826,7 @@
 
 *   [Azure/azure-sdk-for-python](https://github.com/Azure/azure-sdk-for-python) - This repository is for active development of the Azure SDK for Python. For consumers of the SDK we recommend visiting our public developer docs at https://learn.microsoft.com/python/azure/ or our versioned developer docs at https://azure.github.io/azure-sdk-for-python.
 
-*   [dvlab-research/LongLoRA](https://github.com/dvlab-research/LongLoRA) - Code and documents of LongLoRA and LongAlpaca (ICLR 2024 Oral)
+*   [JIA-Lab-research/LongLoRA](https://github.com/JIA-Lab-research/LongLoRA) - Code and documents of LongLoRA and LongAlpaca (ICLR 2024 Oral)
 
 *   [leptonai/leptonai](https://github.com/leptonai/leptonai) - A Pythonic framework to simplify AI service building
 
@@ -1000,7 +1000,7 @@
 
 *   [sybrenjansen/mpire](https://github.com/sybrenjansen/mpire) - A Python package for easy multiprocessing, but faster than multiprocessing
 
-*   [dvlab-research/LISA](https://github.com/dvlab-research/LISA) - Project Page for "LISA: Reasoning Segmentation via Large Language Model"
+*   [JIA-Lab-research/LISA](https://github.com/JIA-Lab-research/LISA) - Project Page for "LISA: Reasoning Segmentation via Large Language Model"
 
 *   [ytdl-org/youtube-dl](https://github.com/ytdl-org/youtube-dl) - Command-line program to download videos from YouTube.com and other video sites
 
@@ -2092,7 +2092,7 @@
 
 *   [pzehrel/vscode-comment-translate-openrouter](https://github.com/pzehrel/vscode-comment-translate-openrouter) -
 
-*   [rockbenben/md-translator](https://github.com/rockbenben/md-translator) - Translate Markdown effortlessly—fast, accurate, and multilingual!
+*   [rockbenben/md-translator](https://github.com/rockbenben/md-translator) - ⚡️ Translate Markdown & preserve formatting — headings, code blocks, LaTeX, all intact  保留MD标题、代码块、LaTeX 等所有格式
 
 *   [nextify-limited/libra](https://github.com/nextify-limited/libra) - The open-source V0/Lovable alternative
 
