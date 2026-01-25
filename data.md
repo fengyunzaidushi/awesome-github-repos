@@ -80,7 +80,7 @@
 
 *   [appleboy/CodeGPT](https://github.com/appleboy/CodeGPT) - A CLI written in Go language that writes git commit messages or do a code review brief for you using ChatGPT AI (gpt-4.1, gpt-4o model) and automatically installs a git prepare-commit-msg hook.
 
-*   [ollama/ollama](https://github.com/ollama/ollama) - Get up and running with OpenAI gpt-oss, DeepSeek-R1, Gemma 3 and other models.
+*   [ollama/ollama](https://github.com/ollama/ollama) - Get up and running with OpenAI GLM-4.7, DeepSeek, gpt-oss, Qwen, Gemma and other models.
 
 *   [acheong08/ChatGPT-to-API](https://github.com/acheong08/ChatGPT-to-API) - Scalable unofficial ChatGPT API for production.
 
