@@ -644,7 +644,7 @@
 
 *   [zyddnys/manga-image-translator](https://github.com/zyddnys/manga-image-translator) - Translate manga/image 一键翻译各类图片内文字 https://cotrans.touhou.ai/ (no longer working)
 
-*   [marqo-ai/marqo](https://github.com/marqo-ai/marqo) - Unified embedding generation and search engine. Also available on cloud - cloud.marqo.ai
+*   [marqo-ai/marqo](https://github.com/marqo-ai/marqo) - Ecommerce Search and Discovery - marqo.ai
 
 *   [TaskingAI/TaskingAI](https://github.com/TaskingAI/TaskingAI) - The open source platform for AI-native application development.
 
@@ -2146,7 +2146,7 @@
 
 *   [blinkospace/blinko](https://github.com/blinkospace/blinko) - An open-source, self-hosted personal AI note tool prioritizing privacy, built using TypeScript .
 
-*   [Narratium/Narratium.ai](https://github.com/Narratium/Narratium.ai) - Open-source platform for AI-driven storytelling, worldbuilding, and immersive roleplay
+*   [aichat-momo/AI-Chat](https://github.com/aichat-momo/AI-Chat) - Open-source platform for AI-driven storytelling, worldbuilding, and immersive roleplay
 
 *   [shreyashsng/MewMoji](https://github.com/shreyashsng/MewMoji) - Modern uncensored AI character chat platform. A free alternative to character.ai
 
@@ -2194,7 +2194,7 @@
 
 *   [mcp-use/mcp-use](https://github.com/mcp-use/mcp-use) - mcp-use is the easiest way to interact with mcp servers with custom agents
 
-*   [refly-ai/refly](https://github.com/refly-ai/refly) - The first open-source agent skills builder. 🦞
+*   [refly-ai/refly](https://github.com/refly-ai/refly) - The first open-source agent skills builder. Define skills by vibe workflow, run on Claude Code, Cursor, Codex & more. Build Clawdbot 🦞· APIs for Lovable · Bots for Slack & Lark/Feishu · Skills are infrastructure, not prompts.
 
 *   [luohy15/y-gui](https://github.com/luohy15/y-gui) - A Tiny Web Chat App for AI Models with MCP Client Support
 
@@ -2383,8 +2383,6 @@
 *   [continuedev/continue](https://github.com/continuedev/continue) - ⏩ Ship faster with Continuous AI. Open-source CLI that can be used in Headless mode to run async cloud agents or TUI mode as an in sync coding agent
 
 *   [nocodb/nocodb](https://github.com/nocodb/nocodb) - 🔥 🔥 🔥 A Free & Self-hostable Airtable Alternative
-
-*   [zhongyiio/readlite-plugin](https://github.com/zhongyiio/readlite-plugin) - Transform cluttered web pages into clean, distraction-free reading experiences with customizable themes, fonts and multilingual support.
 
 *   [teableio/teable](https://github.com/teableio/teable) - ✨ The Next Gen Airtable Alternative: No-Code Postgres
 
@@ -2784,7 +2782,7 @@
 
 *   [wasabeef/claude-code-cookbook](https://github.com/wasabeef/claude-code-cookbook) - A collection of settings to make Claude Code more useful.
 
-*   [a2aproject/A2A](https://github.com/a2aproject/A2A) - An open protocol enabling communication and interoperability between opaque agentic applications.
+*   [a2aproject/A2A](https://github.com/a2aproject/A2A) - Agent2Agent (A2A) is an open protocol enabling communication and interoperability between opaque agentic applications.
 
 *   [haoel/haoel.github.io](https://github.com/haoel/haoel.github.io) -
 
@@ -3431,6 +3429,8 @@
 *   [graykode/nlp-tutorial](https://github.com/graykode/nlp-tutorial) - Natural Language Processing Tutorial for Deep Learning Researchers
 
 *   [lansinuote/Huggingface\_Toturials](https://github.com/lansinuote/Huggingface_Toturials) - bert-base-chinese example
+
+*   [fengdu78/lihang-code](https://github.com/fengdu78/lihang-code) - 《统计学习方法》的代码实现
 
 ## C++
 
