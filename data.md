@@ -490,8 +490,6 @@
 
 *   [xcatliu/chatgpt-next](https://github.com/xcatliu/chatgpt-next) - 微信风格的 ChatGPT，使用 Next.js 构建，私有化部署的最佳选择！
 
-*   [rockbenben/LearnData](https://github.com/rockbenben/LearnData) - 开源笔记模板，一键部署个人知识库和博客 | 开源工具、效率方法、心理学探索的自我提升笔记
-
 *   [withastro/astro](https://github.com/withastro/astro) - The web framework for content-driven websites. ⭐️ Star to support our work!
 
 *   [electron-react-boilerplate/electron-react-boilerplate](https://github.com/electron-react-boilerplate/electron-react-boilerplate) - A Foundation for Scalable Cross-Platform Apps
@@ -2196,7 +2194,7 @@
 
 *   [GaiZhenbiao/ChuanhuChatGPT](https://github.com/GaiZhenbiao/ChuanhuChatGPT) - GUI for ChatGPT API and many LLMs. Supports agents, file-based QA, GPT finetuning and query with web search. All with a neat UI.
 
-*   [oobabooga/text-generation-webui](https://github.com/oobabooga/text-generation-webui) - The definitive Web UI for local AI, with powerful features and easy setup.
+*   [oobabooga/text-generation-webui](https://github.com/oobabooga/text-generation-webui) - The best local UI for large language models, with easy setup and powerful features. 100% offline.
 
 *   [MikeGu721/EasyLLM](https://github.com/MikeGu721/EasyLLM) - make LLM easier to use
 
@@ -2641,6 +2639,8 @@
 *   [plasma-umass/scalene](https://github.com/plasma-umass/scalene) - Scalene: a high-performance, high-precision CPU, GPU, and memory profiler for Python with AI-powered optimization proposals
 
 *   [MikeGu721/CS\_arxiv\_everyweek](https://github.com/MikeGu721/CS_arxiv_everyweek) - Weekly update the Computer Science Paper upload to arxiv.
+
+*   [rockbenben/LearnData](https://github.com/rockbenben/LearnData) - 开源笔记模板，一键部署个人知识库和博客 | 开源工具、效率方法、心理学探索的自我提升笔记
 
 *   [amandakelake/blog](https://github.com/amandakelake/blog) - think more！learn more!
 
