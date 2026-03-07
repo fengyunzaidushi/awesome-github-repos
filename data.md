@@ -2,6 +2,7 @@
 
 ## Table of Contents
 
+*   [Ruby](#ruby)
 *   [TypeScript](#typescript)
 *   [Python](#python)
 *   [Shell](#shell)
@@ -21,7 +22,6 @@
 *   [C#](#c-2)
 *   [Batchfile](#batchfile)
 *   [CSS](#css)
-*   [Ruby](#ruby)
 *   [EJS](#ejs)
 *   [Svelte](#svelte)
 *   [Fluent](#fluent)
@@ -49,6 +49,16 @@
 *   [Macaulay2](#macaulay2)
 *   [Haskell](#haskell)
 *   [Matlab](#matlab)
+
+## Ruby
+
+*   [blackopsrepl/elphame](https://github.com/blackopsrepl/elphame) - A 4chan-style imageboard for humans and bots
+
+*   [basecamp/kamal](https://github.com/basecamp/kamal) - Deploy web apps anywhere.
+
+*   [maybe-finance/maybe](https://github.com/maybe-finance/maybe) - The personal finance app for everyone
+
+*   [mastodon/mastodon](https://github.com/mastodon/mastodon) - Your self-hosted, globally interconnected microblogging community
 
 ## TypeScript
 
@@ -192,7 +202,7 @@
 
 *   [kirodotdev/Kiro](https://github.com/kirodotdev/Kiro) - Kiro is an agentic IDE that works alongside you from prototype to production.
 
-*   [Kilo-Org/kilocode](https://github.com/Kilo-Org/kilocode) - Kilo is the all-in-one agentic engineering platform. Build, ship, and iterate faster with the most popular open source coding agent. #1 on OpenRouter. 1.5M+ Kilo Coders. 25T+ tokens processed
+*   [Kilo-Org/kilocode](https://github.com/Kilo-Org/kilocode) - Kilo is the all-in-one agentic engineering platform. Build, ship, and iterate faster with the most popular open source coding agent. #1 coding agent on OpenRouter. 1.5M+ Kilo Coders. 25T+ tokens processed
 
 *   [humanlayer/12-factor-agents](https://github.com/humanlayer/12-factor-agents) - What are the principles we can use to build LLM-powered software that is actually good enough to put in the hands of production customers?
 
@@ -2720,7 +2730,7 @@
 
 *   [ykdojo/kaguya](https://github.com/ykdojo/kaguya) - A ChatGPT plugin that allows you to load and edit your local files in a controlled way, as well as run any Python, JavaScript, and bash script. (No longer active - check https://github.com/ykdojo/safeclaw/)
 
-*   [Mintplex-Labs/anything-llm](https://github.com/Mintplex-Labs/anything-llm) - The all-in-one Desktop & Docker AI application with built-in RAG, AI agents, No-code agent builder, MCP compatibility,  and more.
+*   [Mintplex-Labs/anything-llm](https://github.com/Mintplex-Labs/anything-llm) - The all-in-one AI productivity accelerator. On device and privacy first with no annoying setup or configration.
 
 *   [fanmingming/live](https://github.com/fanmingming/live) - ✯ 可直连访问的电视/广播图标库与相关工具项目 ✯ 🔕 永久免费 直连访问 完整开源 不断完善的台标 支持IPv4/IPv6双栈访问 🔕
 
@@ -2888,7 +2898,7 @@
 
 *   [Loyalsoldier/clash-rules](https://github.com/Loyalsoldier/clash-rules) - 🦄️ 🎃 👻 Clash Premium 规则集(RULE-SET)，兼容 ClashX Pro、Clash for Windows 等基于 Clash Premium 内核的客户端。
 
-*   [dreamshao/chromedriver](https://github.com/dreamshao/chromedriver) - 145.0.7632.26,144.0.7559.96,143.0.7499.40,142.0.7444.59,141.0.7390.65, 140.0.7339.80 ,139.0.7258.66 ,138.0.7204.49,137.0.7151.68,136.0.7103.49,135.0.7049.42,134.0.6998.35,133.0.6943.53,132.0.6834.83,131.0.6778.69,130.0.6723.58,129.0.6668.58,128.0.6613.84,127.0.6533.72,126.0.6478.126,123.0.6312.58,122.0.6261.94 version webdriver download 下载
+*   [dreamshao/chromedriver](https://github.com/dreamshao/chromedriver) - 146.0.7680.66,145.0.7632.26,144.0.7559.96,143.0.7499.40,142.0.7444.59,141.0.7390.65, 140.0.7339.80 ,139.0.7258.66 ,138.0.7204.49,137.0.7151.68,136.0.7103.49,135.0.7049.42,134.0.6998.35,133.0.6943.53,132.0.6834.83,131.0.6778.69,130.0.6723.58,129.0.6668.58,128.0.6613.84,127.0.6533.72,126.0.6478.126,123.0.6312.58 version webdriver download 下载
 
 *   [Mooler0410/LLMsPracticalGuide](https://github.com/Mooler0410/LLMsPracticalGuide) - A curated list of practical guide resources of LLMs (LLMs Tree, Examples, Papers)
 
@@ -3110,7 +3120,7 @@
 
 *   [justauth/JustAuth](https://github.com/justauth/JustAuth) - 🏆Gitee 最有价值开源项目 🚀:100: 小而全而美的第三方登录开源组件。目前已支持Github、Gitee、微博、钉钉、百度、Coding、腾讯云开发者平台、OSChina、支付宝、QQ、微信、淘宝、Google、Facebook、抖音、领英、小米、微软、今日头条、Teambition、StackOverflow、Pinterest、人人、华为、企业微信、酷家乐、Gitlab、美团、饿了么、推特、飞书、京东、阿里云、喜马拉雅、Amazon、Slack和 Line 等第三方平台的授权登录。 Login, so easy!
 
-*   [ageerle/ruoyi-ai](https://github.com/ageerle/ruoyi-ai) - RuoYi AI 是一个全栈式 AI 开发平台，旨在帮助开发者快速构建和部署个性化的 AI 应用。
+*   [ageerle/ruoyi-ai](https://github.com/ageerle/ruoyi-ai) - 面向企业级市场的一站式AI应用开发框架，支持多厂商大模型统一接入与管理，具备安全可控的企业知识库与高精度检索优化能力，提供可视化流程编排、自主决策智能体与多智能体协同调度，兼容主流 Agent Skill 协议，同时支持微信生态扩展，帮助企业与开发者零门槛快速构建安全、高效、可落地的AI智能体应用与行业解决方案。
 
 *   [Tencent/APIJSON](https://github.com/Tencent/APIJSON) - 🏆 Real-Time no-code, powerful and secure ORM 🚀  providing APIs and Docs without coding by Backend, and Frontend(Client) can customize response JSONs 🏆 实时 零代码、全功能、强安全 ORM 库 🚀 后端接口和文档零代码，前端(客户端) 定制返回 JSON 的数据和结构
 
@@ -3603,16 +3613,6 @@
 *   [cocktailpeanut/dalai](https://github.com/cocktailpeanut/dalai) - The simplest way to run LLaMA on your local machine
 
 *   [connorferster/handcalcs](https://github.com/connorferster/handcalcs) - Python library for converting Python calculations into rendered latex.
-
-*   [apachecn/sklearn-doc-zh](https://github.com/apachecn/sklearn-doc-zh) - :book: \[译] scikit-learn（sklearn） 中文文档
-
-## Ruby
-
-*   [basecamp/kamal](https://github.com/basecamp/kamal) - Deploy web apps anywhere.
-
-*   [maybe-finance/maybe](https://github.com/maybe-finance/maybe) - The personal finance app for everyone
-
-*   [mastodon/mastodon](https://github.com/mastodon/mastodon) - Your self-hosted, globally interconnected microblogging community
 
 ## EJS
 
