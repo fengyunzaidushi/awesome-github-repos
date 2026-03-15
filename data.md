@@ -1364,7 +1364,7 @@
 
 *   [lifan-yuan/CRAFT](https://github.com/lifan-yuan/CRAFT) - Code for ICLR 2024 paper "CRAFT: Customizing LLMs by Creating and Retrieving from Specialized Toolsets"
 
-*   [HowieHwong/MetaTool](https://github.com/HowieHwong/MetaTool) - \[ICLR 2024] MetaTool Benchmark for Large Language Models: Deciding Whether to Use Tools and Which to Use
+*   [HowieHwong/MetaTool](https://github.com/HowieHwong/MetaTool) - \[ICLR'24] MetaTool Benchmark for Large Language Models: Deciding Whether to Use Tools and Which to Use
 
 *   [CR-Gjx/Suspicion-Agent](https://github.com/CR-Gjx/Suspicion-Agent) - The implementation of "Suspicion-Agent: Playing Imperfect Information Games with Theory of Mind Aware GPT-4"
 
