@@ -62,7 +62,7 @@
 
 *   [iOfficeAI/AionUi](https://github.com/iOfficeAI/AionUi) - Free, local, open-source 24/7 Cowork app and OpenClaw for Gemini CLI, Claude Code, Codex, OpenCode, Qwen Code, Goose CLI, Auggie, and more | 🌟 Star if you like it!
 
-*   [scalar/scalar](https://github.com/scalar/scalar) - Scalar is an open-source API platform:　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　🌐 Modern Rest API Client　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　📖 Beautiful API References　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　✨ 1st-Class OpenAPI/Swagger Support
+*   [scalar/scalar](https://github.com/scalar/scalar) - Scalar is an open-source API platform:　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　🌐 Modern REST API Client　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　📖 Beautiful API References　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　✨ 1st-Class OpenAPI/Swagger Support
 
 *   [getmaxun/maxun](https://github.com/getmaxun/maxun) - 🔥 The open-source no-code platform for web scraping, crawling, search and AI data extraction • Turn websites into structured APIs in minutes 🔥
 
@@ -75,6 +75,8 @@
 *   [remotion-dev/remotion](https://github.com/remotion-dev/remotion) - 🎥      Make videos programmatically with React
 
 *   [breaking-brake/cc-wf-studio](https://github.com/breaking-brake/cc-wf-studio) - CC Workflow Studio
+
+*   [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) - A Claude Code plugin that automatically captures everything Claude does during your coding sessions, compresses it with AI (using Claude's agent-sdk), and injects relevant context back into future sessions.
 
 *   [get-convex/chef](https://github.com/get-convex/chef) - The only AI app builder that knows backend
 
@@ -2636,8 +2638,6 @@
 
 *   [Ceeon/videocut-skills](https://github.com/Ceeon/videocut-skills) - 用 Claude Code Skills 做的视频剪辑 Agent
 
-*   [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) - A Claude Code plugin that automatically captures everything Claude does during your coding sessions, compresses it with AI (using Claude's agent-sdk), and injects relevant context back into future sessions.
-
 *   [sansan0/useful-userscripts](https://github.com/sansan0/useful-userscripts) - 📤 Claude 对话导出工具、📊 Mermaid 图表查看器、🎬 B站UP主过滤器、⏱️ 网站时长统计和🎛️ 视频播放控制器等多种实用 Tampermonkey 脚本，提升你的网页浏览体验。 ⭐ 如果这个项目对你有帮助，请点个 Star！
 
 *   [sansan0/mao-map](https://github.com/sansan0/mao-map) - 📍 毛主席足迹地图 | Chairman Mao's Footprints Map - 交互式动态展示1893-1976年完整轨迹 | Interactive map showcasing Mao Zedong's journey (1893-1976). 星星之火，可以燎原 / A single spark can start a prairie fire.。底部为网友整理的毛泽东年谱，欢迎协作完善数据。
@@ -3106,7 +3106,7 @@
 
 *   [GitHubDaily/GitHubDaily](https://github.com/GitHubDaily/GitHubDaily) - 坚持分享 GitHub 上高质量、有趣实用的开源技术教程、开发者工具、编程网站、技术资讯。A list cool, interesting projects of GitHub.
 
-*   [xx025/carrot](https://github.com/xx025/carrot) - Free ChatGPT Site List 这儿为你准备了众多免费好用的ChatGPT镜像站点
+*   [xx025/carrot](https://github.com/xx025/carrot) - AI 工具导航大全，帮你快速筛选免费、实用、高效的网站资源
 
 *   [postor/chatpdf-minimal-demo](https://github.com/postor/chatpdf-minimal-demo) - a minimal viable project of chatpdf
 
@@ -3570,6 +3570,8 @@
 
 *   [files-community/Files](https://github.com/files-community/Files) - A modern file manager that helps users organize their files and folders.
 
+*   [jasontaylordev/CleanArchitecture](https://github.com/jasontaylordev/CleanArchitecture) - Clean Architecture Solution Template for ASP.NET Core
+
 *   [DevToys-app/DevToys](https://github.com/DevToys-app/DevToys) - A Swiss Army knife for developers.
 
 *   [Jessecar96/SteamDesktopAuthenticator](https://github.com/Jessecar96/SteamDesktopAuthenticator) - Desktop implementation of Steam's mobile authenticator app
@@ -3643,8 +3645,6 @@
 ## Bicep
 
 *   [pamelafox/rag-on-postgres](https://github.com/pamelafox/rag-on-postgres) - This repo has moved! See new URL in README or below
-
-*   [jasontaylordev/CleanArchitecture](https://github.com/jasontaylordev/CleanArchitecture) - Clean Architecture Solution Template for ASP.NET Core
 
 ## TeX
 
