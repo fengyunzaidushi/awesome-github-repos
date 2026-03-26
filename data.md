@@ -96,7 +96,7 @@
 
 *   [jackaduma/Recurrent-LLM](https://github.com/jackaduma/Recurrent-LLM) - The open-source LLM  implementation of paper: RecurrentGPT: Interactive Generation of (Arbitrarily) Long Text.  AI 写小说，AI写作
 
-*   [wenjiazhu/OCNovel](https://github.com/wenjiazhu/OCNovel) - 基于Gemini大模型的超长篇小说生成器！AI一键生成百万字网络小说！小白文终结者！
+*   [wenjiazhu/OCNovel](https://github.com/wenjiazhu/OCNovel) - 基于Gemini/GPT大模型的超长篇小说生成器！AI一键生成百万字网络小说！小白文终结者！
 
 *   [YILING0013/AI\_NovelGenerator](https://github.com/YILING0013/AI_NovelGenerator) - 使用ai生成多章节的长篇小说，自动衔接上下文、伏笔
 
@@ -1754,6 +1754,10 @@
 
 *   [rsennrich/subword-nmt](https://github.com/rsennrich/subword-nmt) - Unsupervised Word Segmentation for Neural Machine Translation and Text Generation
 
+*   [DengBoCong/nlp-paper](https://github.com/DengBoCong/nlp-paper) - 自然语言处理领域下的相关论文（附阅读笔记），复现模型以及数据处理等（代码含TensorFlow和PyTorch两版本）
+
+*   [lancopku/SGM](https://github.com/lancopku/SGM) - Sequence Generation Model for Multi-label Classification (COLING 2018)
+
 ## TypeScript
 
 *   [jackwener/opencli](https://github.com/jackwener/opencli) - Make Any Website & Tool Your CLI. A universal CLI Hub and AI-native runtime. Transform any website, Electron app, or local binary into a standardized command-line interface. Built for AI Agents to discover, learn, and execute tools seamlessly via a unified AGENT.md integration.
@@ -2512,7 +2516,7 @@
 
 *   [tw93/Pake](https://github.com/tw93/Pake) - 🤱🏻 Turn any webpage into a desktop app with one command.
 
-*   [screenpipe/screenpipe](https://github.com/screenpipe/screenpipe) - screenpipe turns your computer into a personal AI that knows everything you've done. record. search. automate. all local, all private, all yours.
+*   [screenpipe/screenpipe](https://github.com/screenpipe/screenpipe) - run agents that work for you in the background based on what you do
 
 *   [spider-rs/spider](https://github.com/spider-rs/spider) - Web crawler and scraper for Rust
 
@@ -2683,8 +2687,6 @@
 *   [gradio-app/fastrtc](https://github.com/gradio-app/fastrtc) - The python library for real-time communication
 
 *   [justinjaeger/Awards-Predictions-App](https://github.com/justinjaeger/Awards-Predictions-App) - A Next.js (React + Node) application built with secure authentication, session persistence and follower/following relationships between users. Includes ability to set / upload profile photos
-
-*   [yukiarimo/yuna-ai](https://github.com/yukiarimo/yuna-ai) - Yuna Ai is a companion who joins me on the life-long journey of the Yuki Story project, and now travels with me as I explore the mysteries of this world and beyond.
 
 *   [AgentDeskAI/browser-tools-mcp](https://github.com/AgentDeskAI/browser-tools-mcp) - Monitor browser logs directly from Cursor and other MCP compatible IDEs.
 
@@ -2941,8 +2943,6 @@
 *   [JeredBlu/custom-instructions](https://github.com/JeredBlu/custom-instructions) -
 
 *   [kleosr/cursorkleosr](https://github.com/kleosr/cursorkleosr) - Make AI Development Feel Natural in Cursor
-
-*   [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) - A collection of MCP servers.
 
 *   [valcho/cursor-rules-docs-template](https://github.com/valcho/cursor-rules-docs-template) - A repository collecting different useful cursor rules folder templates with docs folder to keep up with the plan
 
