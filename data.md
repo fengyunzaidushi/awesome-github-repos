@@ -96,7 +96,7 @@
 
 *   [jackaduma/Recurrent-LLM](https://github.com/jackaduma/Recurrent-LLM) - The open-source LLM  implementation of paper: RecurrentGPT: Interactive Generation of (Arbitrarily) Long Text.  AI 写小说，AI写作
 
-*   [wenjiazhu/OCNovel](https://github.com/wenjiazhu/OCNovel) - 基于Gemini/GPT大模型的超长篇小说生成器！AI一键生成百万字网络小说！小白文终结者！
+*   [wenjiazhu/OCNovel](https://github.com/wenjiazhu/OCNovel) - 基于Gemini/GPT大模型的超长篇小说生成器！AI一键生成百万字网络小说！小白文终结者！更新 GUI + macOS APP！
 
 *   [YILING0013/AI\_NovelGenerator](https://github.com/YILING0013/AI_NovelGenerator) - 使用ai生成多章节的长篇小说，自动衔接上下文、伏笔
 
@@ -265,8 +265,6 @@
 *   [Lightning-AI/LitServe](https://github.com/Lightning-AI/LitServe) - A minimal Python framework for building custom AI inference servers with full control over logic, batching, and scaling.
 
 *   [jod35/fastapi-beyond-CRUD](https://github.com/jod35/fastapi-beyond-CRUD) - This is source code for a series where we talk about the concepts of FastAPI API development beyond the CRUD stuff
-
-*   [goauthentik/authentik](https://github.com/goauthentik/authentik) - The authentication glue you need.
 
 *   [HRI-EU/tulip\_agent](https://github.com/HRI-EU/tulip_agent) - autonomous agent with access to a tool library
 
@@ -1926,7 +1924,7 @@
 
 *   [cloudflare/agents](https://github.com/cloudflare/agents) - Build and deploy AI Agents on Cloudflare
 
-*   [kortix-ai/suna](https://github.com/kortix-ai/suna) - Kortix – build, manage and train AI Agents.
+*   [kortix-ai/suna](https://github.com/kortix-ai/suna) -
 
 *   [klover2/wechatpay-node-v3-ts](https://github.com/klover2/wechatpay-node-v3-ts) - 微信支付v3
 
@@ -1960,7 +1958,7 @@
 
 *   [nanobrowser/nanobrowser](https://github.com/nanobrowser/nanobrowser) - Open-Source Chrome extension for AI-powered web automation. Run multi-agent workflows using your own LLM API key. Alternative to OpenAI Operator.
 
-*   [pages-cms/pages-cms](https://github.com/pages-cms/pages-cms) - The simplest CMS you'll ever need. Manage content and media right in your GitHub repository.
+*   [pagescms/pagescms](https://github.com/pagescms/pagescms) - The simplest CMS you'll ever need. Manage content and media right in your GitHub repository.
 
 *   [browserbase/stagehand](https://github.com/browserbase/stagehand) - The AI Browser Automation Framework
 
@@ -2119,6 +2117,8 @@
 *   [nocodb/nocodb](https://github.com/nocodb/nocodb) - 🔥 🔥 🔥 A Free & Self-hostable Airtable Alternative
 
 *   [teableio/teable](https://github.com/teableio/teable) - ✨ The Next Gen Airtable Alternative: No-Code Postgres
+
+*   [goauthentik/authentik](https://github.com/goauthentik/authentik) - The authentication glue you need.
 
 *   [cool-team-official/cool-admin-midway](https://github.com/cool-team-official/cool-admin-midway) - 🔥 cool-admin(midway版)一个很酷的后台权限管理框架，Ai编码、流程编排、模块化、插件化、CRUD极速开发，永久开源免费，基于nodejs、typescript、typeorm、mysql、jwt、vue3、vite、element-ui等构建
 
@@ -2998,7 +2998,7 @@
 
 *   [Loyalsoldier/clash-rules](https://github.com/Loyalsoldier/clash-rules) - 🦄️ 🎃 👻 Clash Premium 规则集(RULE-SET)，兼容 ClashX Pro、Clash for Windows 等基于 Clash Premium 内核的客户端。
 
-*   [dreamshao/chromedriver](https://github.com/dreamshao/chromedriver) - 146.0.7680.66,145.0.7632.26,144.0.7559.96,143.0.7499.40,142.0.7444.59,141.0.7390.65, 140.0.7339.80 ,139.0.7258.66 ,138.0.7204.49,137.0.7151.68,136.0.7103.49,135.0.7049.42,134.0.6998.35,133.0.6943.53,132.0.6834.83,131.0.6778.69,130.0.6723.58,129.0.6668.58,128.0.6613.84,127.0.6533.72,126.0.6478.126,123.0.6312.58 version webdriver download 下载
+*   [dreamshao/chromedriver](https://github.com/dreamshao/chromedriver) -  147.0.7727.24,146.0.7680.66,145.0.7632.26,144.0.7559.96,143.0.7499.40,142.0.7444.59,141.0.7390.65, 140.0.7339.80 ,139.0.7258.66 ,138.0.7204.49,137.0.7151.68,136.0.7103.49,135.0.7049.42,134.0.6998.35,133.0.6943.53,132.0.6834.83,131.0.6778.69,130.0.6723.58,129.0.6668.58,128.0.6613.84,127.0.6533.72,126.0.6478.126 version webdriver download 下载
 
 *   [Mooler0410/LLMsPracticalGuide](https://github.com/Mooler0410/LLMsPracticalGuide) - A curated list of practical guide resources of LLMs (LLMs Tree, Examples, Papers)
 
