@@ -1164,7 +1164,7 @@
 
 *   [viyiviyi/ChatGLM-6B\_Api\_kaggle](https://github.com/viyiviyi/ChatGLM-6B_Api_kaggle) - 在kaggle部署ChatGLM API，和ChatGPT api使用相同的调用方式
 
-*   [CrazyMayfly/Free-Markdown-Translator](https://github.com/CrazyMayfly/Free-Markdown-Translator) - Free Markdown Translator是一款基于 Translators 的免费、开源的Markdown文档翻译器，能够将你的Markdown文档翻译成任意种语言。Free Markdown Translator is a free, open source Markdown document translator based on Translators that can translate your Markdown documents into any language.
+*   [CrazyMayfly/Free-Markdown-Translator](https://github.com/CrazyMayfly/Free-Markdown-Translator) - Free Markdown Translator 是一个基于 AI Agent 流水线的 Markdown 文档翻译工具，能够实现不破坏Markdown原有格式和最大程度保证语义连贯性。
 
 *   [imoneoi/openchat](https://github.com/imoneoi/openchat) - OpenChat: Advancing Open-source Language Models with Imperfect Data
 
