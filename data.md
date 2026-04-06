@@ -912,7 +912,7 @@
 
 *   [jackaduma/Recurrent-LLM](https://github.com/jackaduma/Recurrent-LLM) - The open-source LLM  implementation of paper: RecurrentGPT: Interactive Generation of (Arbitrarily) Long Text.  AI 写小说，AI写作
 
-*   [wenjiazhu/OCNovel](https://github.com/wenjiazhu/OCNovel) - 基于Gemini/GPT大模型的超长篇小说生成器！AI一键生成百万字网络小说！小白文终结者！更新 GUI + macOS APP！
+*   [wenjiazhu/OCNovel](https://github.com/wenjiazhu/OCNovel) - 🤖 AI长篇网文生成器 | 支持Gemini/GPT/Claude | GUI桌面应用 | 番茄/起点风格 | 百万字自动续写 | macOS & Windows
 
 *   [YILING0013/AI\_NovelGenerator](https://github.com/YILING0013/AI_NovelGenerator) - 使用ai生成多章节的长篇小说，自动衔接上下文、伏笔
 
@@ -3140,7 +3140,7 @@
 
 *   [MHSanaei/3x-ui](https://github.com/MHSanaei/3x-ui) - Xray panel supporting multi-protocol multi-user expire day & traffic & IP limit (Vmess, Vless, Trojan, ShadowSocks, Wireguard, Tunnel, Mixed, HTTP, Tun)
 
-*   [qiye45/wechatDownload](https://github.com/qiye45/wechatDownload) - 微信公众号文章批量下载工具，支持评论、合集下载，支持保存html/mhtml/md/pdf/docx/csv表格文件，保存文章内图片、视频、音频文件
+*   [qiye45/wechatDownload](https://github.com/qiye45/wechatDownload) - 微信公众号文章批量下载工具，支持评论、合集下载，支持保存html/mhtml/md/pdf/docx/csv文件，保存文章内图片、视频、音频文件，支持MCP/Skill调用
 
 *   [lancedb/lancedb](https://github.com/lancedb/lancedb) - Developer-friendly OSS embedded retrieval library for multimodal AI. Search More; Manage Less.
 
