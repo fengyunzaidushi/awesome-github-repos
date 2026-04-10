@@ -96,6 +96,8 @@
 
 *   [kele-tao/AI\_Novel](https://github.com/kele-tao/AI_Novel) - 基于大模型的AI小说创作系统，支持小说和课程内容的智能生成，包含世界观设定、思维库、任务管理等完整功能。
 
+*   [zhinianboke/xianyu-auto-reply](https://github.com/zhinianboke/xianyu-auto-reply) - 闲鱼自动回复管理系统是一个基于 Python + FastAPI 开发的自动化客服系统，专为闲鱼平台设计。系统通过 WebSocket 连接闲鱼服务器，实时接收和处理消息，提供智能化的自动回复服务。
+
 *   [sansan0/TrendRadar](https://github.com/sansan0/TrendRadar) - ⭐AI-driven public opinion & trend monitor with multi-platform aggregation, RSS, and smart alerts.🎯 告别信息过载，你的 AI 舆情监控助手与热点筛选工具！聚合多平台热点 +  RSS 订阅，支持关键词精准筛选。AI 智能筛选新闻 + AI 翻译 +  AI 分析简报直推手机，也支持接入 MCP 架构，赋能 AI 自然语言对话分析、情感洞察与趋势预测等。支持 Docker ，数据本地/云端自持。集成微信/飞书/钉钉/Telegram/邮件/ntfy/bark/slack 等渠道智能推送。
 
 *   [jackaduma/Recurrent-LLM](https://github.com/jackaduma/Recurrent-LLM) - The open-source LLM  implementation of paper: RecurrentGPT: Interactive Generation of (Arbitrarily) Long Text.  AI 写小说，AI写作
@@ -1754,8 +1756,6 @@
 
 *   [dropreg/R-Drop](https://github.com/dropreg/R-Drop) -
 
-*   [rjk-git/bert2transformer\_on\_NMT](https://github.com/rjk-git/bert2transformer_on_NMT) - BERT微调在机器翻译上的应用，哎哟，效果贼好。
-
 ## TypeScript
 
 *   [huangzijian888/GeekFaka](https://github.com/huangzijian888/GeekFaka) -  GeekFaka 是一个专为独立开发者和创作者打造的 Headless 自动发卡系统。基于 Next.js + React 18 + Prisma 构建，拥有极致的深色极客   UI、Markdown 渲染、多渠道易支付（RSA/MD5）集成以及 Docker 一键部署能力。抛弃繁琐，让数字商品售卖回归简单与优雅。
@@ -2780,7 +2780,7 @@
 
 *   [TryGhost/Ghost](https://github.com/TryGhost/Ghost) - Independent technology for modern publishing, memberships, subscriptions and newsletters.
 
-*   [ToolJet/ToolJet](https://github.com/ToolJet/ToolJet) - ToolJet is the open-source foundation of ToolJet AI - the AI-native platform for building internal tools, dashboard, business applications, workflows and AI agents 🚀
+*   [ToolJet/ToolJet](https://github.com/ToolJet/ToolJet) - ToolJet is the open-source foundation of ToolJet AI - the enterprise app generation platform for building internal tools, dashboard, business applications, workflows and AI agents 🚀
 
 *   [rupinderdevs/nextJS-static-blog](https://github.com/rupinderdevs/nextJS-static-blog) - This Next.js static blog website, powered by MDX, offers 13+ pre-designed pages including Home, About, Contact, Author, Categories, Tags, and more. With Google Page Speed Score 100 and custom logo support, it ensures optimal performance and branding flexibility for seamless user experience and content organization.
 
