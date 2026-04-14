@@ -1040,8 +1040,6 @@
 
 *   [charlesbel/Microsoft-Rewards-Farmer](https://github.com/charlesbel/Microsoft-Rewards-Farmer) - A simple bot that uses selenium to farm Microsoft Rewards written in Python
 
-*   [henry-richard7/Browser-password-stealer](https://github.com/henry-richard7/Browser-password-stealer) - This python program gets all the saved passwords, credit cards and bookmarks from chromium based browsers supports chromium 80 and above!
-
 *   [theodo-group/GenossGPT](https://github.com/theodo-group/GenossGPT) - One API for all LLMs either Private or Public (Anthropic, Llama V2, GPT 3.5/4, Vertex, GPT4ALL, HuggingFace ...) 🌈🐂  Replace OpenAI GPT with any LLMs in your app with one line.
 
 *   [feast-dev/feast](https://github.com/feast-dev/feast) - The Open Source Feature Store for AI/ML
@@ -1470,7 +1468,7 @@
 
 *   [GaiZhenbiao/ChuanhuChatGPT](https://github.com/GaiZhenbiao/ChuanhuChatGPT) - GUI for ChatGPT API and many LLMs. Supports agents, file-based QA, GPT finetuning and query with web search. All with a neat UI.
 
-*   [oobabooga/text-generation-webui](https://github.com/oobabooga/text-generation-webui) - The original local LLM interface. Text, vision, tool-calling, training, and more. 100% offline.
+*   [oobabooga/textgen](https://github.com/oobabooga/textgen) - The original local LLM interface. Text, vision, tool-calling, training. UI + API, 100% offline and private.
 
 *   [MikeGu721/EasyLLM](https://github.com/MikeGu721/EasyLLM) - make LLM easier to use
 
@@ -2516,7 +2514,7 @@
 
 *   [Veloera/Veloera](https://github.com/Veloera/Veloera) -
 
-*   [casdoor/casdoor](https://github.com/casdoor/casdoor) - An open-source AI-first Identity and Access Management (IAM) /AI MCP & agent gateway and auth server with web UI supporting OpenClaw, MCP, OAuth, OIDC, SAML, CAS, LDAP, SCIM, WebAuthn, TOTP, MFA, Face ID, Google Workspace, Azure AD
+*   [casdoor/casdoor](https://github.com/casdoor/casdoor) - An open-source Agent-first Identity and Access Management (IAM) /LLM MCP & agent gateway and auth server with web UI supporting OpenClaw, MCP, OAuth, OIDC, SAML, CAS, LDAP, SCIM, WebAuthn, TOTP, MFA, Face ID, Google Workspace, Azure AD
 
 *   [JohannesKaufmann/html-to-markdown](https://github.com/JohannesKaufmann/html-to-markdown) - ⚙️ Convert HTML to Markdown. Even works with entire websites and can be extended through rules.
 
@@ -3477,6 +3475,8 @@
 *   [TingsongYu/PyTorch-Tutorial-2nd](https://github.com/TingsongYu/PyTorch-Tutorial-2nd) - 《Pytorch实用教程》（第二版）无论是零基础入门，还是CV、NLP、LLM项目应用，或是进阶工程化部署落地，在这里都有。相信在本书的帮助下，读者将能够轻松掌握 PyTorch 的使用，成为一名优秀的深度学习工程师。
 
 *   [Visualize-ML/Book3\_Elements-of-Mathematics](https://github.com/Visualize-ML/Book3_Elements-of-Mathematics) - Book\_3\_《数学要素》 |   鸢尾花书：从加减乘除到机器学习；上架；欢迎继续纠错，纠错多的同学还会有赠书！
+
+*   [percent4/huggingface\_translation\_model](https://github.com/percent4/huggingface_translation_model) - 使用HuggingFace翻译模型的一次尝试
 
 ## C++
 
