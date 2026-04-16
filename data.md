@@ -726,7 +726,7 @@
 
 *   [HITsz-TMG/Multi-agent-peer-review](https://github.com/HITsz-TMG/Multi-agent-peer-review) - Official implementation of our paper "Towards Reasoning in Large Language Models via Multi-Agent Peer Review Collaboration".
 
-*   [qodo-ai/pr-agent](https://github.com/qodo-ai/pr-agent) - 🚀 PR Agent - The Original Open-Source PR Reviewer. This repo is not the Qodo free tier! Try the free version on our website.
+*   [The-PR-Agent/pr-agent](https://github.com/The-PR-Agent/pr-agent) - 🚀 PR Agent: The Original Open-Source PR Reviewer.  | This repo is not the Qodo free tier! Try Qodo free tier, click the link
 
 *   [docker/genai-stack](https://github.com/docker/genai-stack) - Langchain + Docker + Neo4j + Ollama
 
