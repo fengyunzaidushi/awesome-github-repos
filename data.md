@@ -60,7 +60,7 @@
 
 *   [p-e-w/heretic](https://github.com/p-e-w/heretic) - Fully automatic censorship removal for language models
 
-*   [CodeWiki-AI/CodeWiki](https://github.com/CodeWiki-AI/CodeWiki) - \[ACL 2026] Open-source framework for holistic, structured repository-level documentation across multilingual codebases
+*   [FSoft-AI4Code/CodeWiki](https://github.com/FSoft-AI4Code/CodeWiki) - \[ACL 2026] Open-source framework for holistic, structured repository-level documentation across multilingual codebases
 
 *   [wshobson/agents](https://github.com/wshobson/agents) - Intelligent automation and multi-agent orchestration for Claude Code
 
@@ -342,7 +342,7 @@
 
 *   [mealie-recipes/mealie](https://github.com/mealie-recipes/mealie) - Mealie is a self hosted recipe manager and meal planner with a RestAPI backend and a reactive frontend application built in Vue for a pleasant user experience for the whole family. Easily add recipes into your database by providing the url and mealie will automatically import the relevant data or add a family recipe with the UI editor
 
-*   [opendatalab/MinerU](https://github.com/opendatalab/MinerU) - Transforms complex documents like PDFs into LLM-ready markdown/JSON for your Agentic workflows.
+*   [opendatalab/MinerU](https://github.com/opendatalab/MinerU) - Transforms complex documents like PDFs and Office docs into LLM-ready markdown/JSON for your Agentic workflows.
 
 *   [g1879/DrissionPage](https://github.com/g1879/DrissionPage) - Python based web automation tool. Powerful and elegant.
 
@@ -3478,6 +3478,8 @@
 
 *   [Visualize-ML/Book3\_Elements-of-Mathematics](https://github.com/Visualize-ML/Book3_Elements-of-Mathematics) - Book\_3\_《数学要素》 |   鸢尾花书：从加减乘除到机器学习；上架；欢迎继续纠错，纠错多的同学还会有赠书！
 
+*   [percent4/huggingface\_translation\_model](https://github.com/percent4/huggingface_translation_model) - 使用HuggingFace翻译模型的一次尝试
+
 ## C++
 
 *   [asdlokj1qpi233/subconverter](https://github.com/asdlokj1qpi233/subconverter) - About Utility to convert between various subscription format.Support anytls、mieru、hy2、hy and vless for singbox and clash meta.original git: https://github.com/asdlokj1qpi23/subconverter
@@ -3607,8 +3609,6 @@
 ## CSS
 
 *   [fengyunzaidushi/ai-coding-prediction](https://github.com/fengyunzaidushi/ai-coding-prediction) -  🚀 AI编程能力演进时间线 (2024-2035) | 响应式设计的互动可视化展示，带有优雅的滚动动画效果。展现AI编程技术从全栈开发到脑机接口的跨时代演进预测。
-
-*   [prognoveljs/prognovel-app](https://github.com/prognoveljs/prognovel-app) - Next-generation webnovel Progressive Web App.
 
 *   [hehonghui/awesome-english-ebooks](https://github.com/hehonghui/awesome-english-ebooks) - 经济学人(含音频)、纽约客、卫报、连线、大西洋月刊等英语杂志免费下载,支持epub、mobi、pdf格式, 每周更新
 
