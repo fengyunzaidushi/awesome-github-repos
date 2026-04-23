@@ -150,7 +150,7 @@
 
 *   [davila7/claude-code-templates](https://github.com/davila7/claude-code-templates) - CLI tool for configuring and monitoring Claude Code
 
-*   [NevaMind-AI/memU](https://github.com/NevaMind-AI/memU) - Memory for 24/7 proactive agents like openclaw (moltbot, clawdbot).
+*   [NevaMind-AI/memU](https://github.com/NevaMind-AI/memU) - Memory for 24/7 proactive agents like OpenClaw.
 
 *   [CodeLeaf-Fudan/OpenClaudeCode](https://github.com/CodeLeaf-Fudan/OpenClaudeCode) - This is an open-source repository for the Python implementation of Claude Code. It implements basic tools and Agents functionality.
 
@@ -184,7 +184,7 @@
 
 *   [kyutai-labs/delayed-streams-modeling](https://github.com/kyutai-labs/delayed-streams-modeling) - Kyutai's Speech-To-Text and Text-To-Speech models based on the Delayed Streams Modeling framework.
 
-*   [MODSetter/SurfSense](https://github.com/MODSetter/SurfSense) - An open source, privacy focused alternative to NotebookLM for teams with no data limit's. Join our Discord: https://discord.gg/ejRNvftDp9
+*   [MODSetter/SurfSense](https://github.com/MODSetter/SurfSense) - An open source, privacy focused alternative to NotebookLM for teams with no data limits. Join our Discord: https://discord.gg/ejRNvftDp9
 
 *   [joelgrus/snowmeth](https://github.com/joelgrus/snowmeth) - use AI to write a novel using the snowflake method
 
@@ -1966,7 +1966,7 @@
 
 *   [kirodotdev/Kiro](https://github.com/kirodotdev/Kiro) - Kiro is an agentic IDE that works alongside you from prototype to production.
 
-*   [Kilo-Org/kilocode](https://github.com/Kilo-Org/kilocode) - Kilo is the all-in-one agentic engineering platform. Build, ship, and iterate faster with the most popular open source coding agent. #1 coding agent on OpenRouter. 1.5M+ Kilo Coders. 25T+ tokens processed
+*   [Kilo-Org/kilocode](https://github.com/Kilo-Org/kilocode) - Kilo is the all-in-one agentic engineering platform. Build, ship, and iterate faster with the most popular open source coding agent.
 
 *   [humanlayer/12-factor-agents](https://github.com/humanlayer/12-factor-agents) - What are the principles we can use to build LLM-powered software that is actually good enough to put in the hands of production customers?
 
